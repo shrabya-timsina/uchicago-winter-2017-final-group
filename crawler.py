@@ -35,7 +35,7 @@ def crawler(starting_url):
             continue
         else:
             soup = convert_to_soup(request)
-            tag_list = soup.find_all("div","avatar-holder")[:-2]
+            tag_list = soup.find_all("div","avatar-holder")[:-2] #last two dont contain user links
             for user in tag_list:
                 user_url = user.find('a').get('href')
                 absolute_user_url = convert_if_relative_url(beer_url, user_url)
