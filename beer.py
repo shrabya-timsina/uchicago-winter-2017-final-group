@@ -3,7 +3,6 @@
 # Sandeep Malladi
 
 import sys
-import util
 
 class beer(object):
     def _init_(self, name, abv, brewery, style, avg_rating):

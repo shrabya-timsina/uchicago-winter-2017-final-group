@@ -3,8 +3,7 @@
 # Sandeep Malladi
 
 import sys
-import util
-import beer.py as beer
+import beer
 
 
 class user(object):

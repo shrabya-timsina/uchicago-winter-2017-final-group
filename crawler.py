@@ -2,47 +2,96 @@ import queue
 import bs4
 import requests
 import urllib.parse
+import user
 
 
 def crawler(starting_url):
     '''
-    Crawl the college catalog and generate a dictionary with course 
-    identifiers mapped to words as key-value pairs
 
-    Inputs:
-        starting_url: string, the first url to visit, given
-        limiting_domain: string, the limiting_domain of all urls
-        course_map_filename: a json file
-    Outputs:
-        index_dictionary: dictionary, with course identifiers mapped to
-                        words as key-value pairs
     '''
-    
+    #need to fix method of extracting counts - currently only extracting single digits
     user_beers_url = starting_url + "/beers"
     request = get_request(user_beers_url)
     soup = convert_to_soup(request)
     tag_list = soup.find_all("p", "name")
+
+    user_dict = {}
+    user_dict["styles"] = {}
+    user_dict["countries"] = {}
+    user_dict["breweries"] = {}
+    user_dict["beers"] = {}
     beers_urls_list = []
+    users_to_crawl = []
+
+    user_dict["name"] = soup.find("div", "box user_mini").find("div", "info").h1.string
+    user_dict["username"] = soup.find("div", "box user_mini").find("div", "info").find("span", "username").string
+
+    styles_list = soup.find("select", id="style_picker").find_all("option")
+    for tag in styles_list:
+        style_string = tag.string
+        if style_string != "All Styles":
+            style = style_string[:-4]
+            count = style_string[-2:-1]
+            user_dict["styles"][style] = count
+    
+    country_list = soup.find("select", id="country_picker").find_all("option")
+    for tag in country_list:
+        country_string = tag.string
+        if country_string != "All Countries":
+            country = country_string[:-4]
+            count = country_string[-2:-1]
+            user_dict["countries"][country] = count
+
+    brewery_list = soup.find("select", id="brewery_picker").find_all("option")
+    for tag in brewery_list:
+        brewery_string = tag.string
+        if brewery_string != "All Breweries":
+            brewery = brewery_string[:-4]
+            count = brewery_string[-2:-1]
+            user_dict["breweries"][brewery] = count
+
+    beer_list = soup.find("div", "distinct-list-list").find_all("div", "beer-item")
+    for tag in beer_list:
+        beer_id = tag.get("data-bid")
+        beer_name = tag.find("p", "name").get_text(" ", strip=True)
+        beer_brewery = tag.find("p", "brewery").string
+        beer_style = tag.find("p", "style").string
+        beer_rating_unprocessed = tag.find("div", "ratings").p.string
+        beer_rating_processed = beer_rating_unprocessed[-5:-1]
+        beer_abv_str = tag.find("p", "abv").get_text(" ", strip=True)
+        if beer_abv_str != "No ABV":
+            beer_abv_num = float(beer_abv_str[:-5]) * 0.01
+        else: 
+            beer_abv_num = 0
+        beer_count = tag.find("p", "check-ins").string.strip()[7:]
+        user_dict["beers"][beer_name] = {}
+        user_dict["beers"][beer_name]["beer id"] = beer_id
+        user_dict["beers"][beer_name]["brewery name"] = beer_brewery
+        user_dict["beers"][beer_name]["beer style"] = beer_style
+        user_dict["beers"][beer_name]["beer rating"] = beer_rating_processed
+        user_dict["beers"][beer_name]["abv"] = beer_abv_num
+        user_dict["beers"][beer_name]["count"] = beer_count
+
     for tag in tag_list:
         beer_url = tag.contents[0].get('href')
         absolute_beer_url = convert_if_relative_url(user_beers_url, beer_url)
         beers_urls_list.append(absolute_beer_url)
 
-    users_to_crawl = []
     for beer_url in beers_urls_list:
         request = get_request(beer_url)
         if request == None:
             continue
         else:
             soup = convert_to_soup(request)
+
+            #pull user information
             tag_list = soup.find_all("div","avatar-holder")[:-2] #last two dont contain user links
             for user in tag_list:
                 user_url = user.find('a').get('href')
                 absolute_user_url = convert_if_relative_url(beer_url, user_url)
                 if (absolute_user_url != starting_url) and (absolute_user_url not in users_to_crawl):
                     users_to_crawl.append(absolute_user_url)
-
-    return users_to_crawl
+    return user_dict, users_to_crawl
 
 
 
