@@ -3,9 +3,10 @@ import bs4
 import requests
 import urllib.parse
 import user
+import string
 
 
-def crawler(starting_url):
+def user_crawler(starting_url):
     '''
 
     '''
@@ -14,63 +15,10 @@ def crawler(starting_url):
     request = get_request(user_beers_url)
     soup = convert_to_soup(request)
     tag_list = soup.find_all("p", "name")
+    user_dict = profile_scraper(soup)
 
-    user_dict = {}
-    user_dict["styles"] = {}
-    user_dict["countries"] = {}
-    user_dict["breweries"] = {}
-    user_dict["beers"] = {}
     beers_urls_list = []
     users_to_crawl = []
-
-    user_dict["name"] = soup.find("div", "box user_mini").find("div", "info").h1.string
-    user_dict["username"] = soup.find("div", "box user_mini").find("div", "info").find("span", "username").string
-
-    styles_list = soup.find("select", id="style_picker").find_all("option")
-    for tag in styles_list:
-        style_string = tag.string
-        if style_string != "All Styles":
-            style = style_string[:-4]
-            count = style_string[-2:-1]
-            user_dict["styles"][style] = count
-    
-    country_list = soup.find("select", id="country_picker").find_all("option")
-    for tag in country_list:
-        country_string = tag.string
-        if country_string != "All Countries":
-            country = country_string[:-4]
-            count = country_string[-2:-1]
-            user_dict["countries"][country] = count
-
-    brewery_list = soup.find("select", id="brewery_picker").find_all("option")
-    for tag in brewery_list:
-        brewery_string = tag.string
-        if brewery_string != "All Breweries":
-            brewery = brewery_string[:-4]
-            count = brewery_string[-2:-1]
-            user_dict["breweries"][brewery] = count
-
-    beer_list = soup.find("div", "distinct-list-list").find_all("div", "beer-item")
-    for tag in beer_list:
-        beer_id = tag.get("data-bid")
-        beer_name = tag.find("p", "name").get_text(" ", strip=True)
-        beer_brewery = tag.find("p", "brewery").string
-        beer_style = tag.find("p", "style").string
-        beer_rating_unprocessed = tag.find("div", "ratings").p.string
-        beer_rating_processed = beer_rating_unprocessed[-5:-1]
-        beer_abv_str = tag.find("p", "abv").get_text(" ", strip=True)
-        if beer_abv_str != "No ABV":
-            beer_abv_num = float(beer_abv_str[:-5]) * 0.01
-        else: 
-            beer_abv_num = 0
-        beer_count = tag.find("p", "check-ins").string.strip()[7:]
-        user_dict["beers"][beer_name] = {}
-        user_dict["beers"][beer_name]["beer id"] = beer_id
-        user_dict["beers"][beer_name]["brewery name"] = beer_brewery
-        user_dict["beers"][beer_name]["beer style"] = beer_style
-        user_dict["beers"][beer_name]["beer rating"] = beer_rating_processed
-        user_dict["beers"][beer_name]["abv"] = beer_abv_num
-        user_dict["beers"][beer_name]["count"] = beer_count
 
     for tag in tag_list:
         beer_url = tag.contents[0].get('href')
@@ -83,7 +31,10 @@ def crawler(starting_url):
             continue
         else:
             soup = convert_to_soup(request)
+            beer_words = beer_words_collector(soup)
 
+            beer_name = soup.find("div", "box b_info").find("div", "name").h1.get_text(" ", strip=True)
+            user_dict["beers"][beer_name]["beer words"] = beer_words 
             #pull user information
             tag_list = soup.find_all("div","avatar-holder")[:-2] #last two dont contain user links
             for user in tag_list:
@@ -91,7 +42,100 @@ def crawler(starting_url):
                 absolute_user_url = convert_if_relative_url(beer_url, user_url)
                 if (absolute_user_url != starting_url) and (absolute_user_url not in users_to_crawl):
                     users_to_crawl.append(absolute_user_url)
+    
     return user_dict, users_to_crawl
+
+
+def beer_words_collector(soup):
+    '''
+    '''
+    beer_words = []
+    beer_desc = soup.find("div", "beer-descrption-read-less").get_text(" ", strip=True)
+    beer_desc = ''.join(word.strip(string.punctuation) for word in beer_desc)
+    [beer_words.append(word.lower()) for word in beer_desc.split()]
+
+    beer_comments = soup.find_all("p", "checkin-comment")
+    for comment in beer_comments:
+        comment_tag = comment.find("span")
+        if comment_tag != None:
+            comment_text = str(comment_tag.previousSibling).strip()
+        if comment_text != "":
+            comment_text = ''.join(word.strip(string.punctuation) for word in comment_text)
+            [beer_words.append(word.lower()) for word in comment_text.split()]
+    
+    return beer_words
+
+
+def profile_scraper(starting_object, soup_object=1):
+    '''
+    '''
+    if soup_object == 0:
+        user_beers_url = starting_url + "/beers"
+        request = get_request(user_beers_url)
+        soup = convert_to_soup(request)
+    else: 
+        soup = starting_object
+
+    user_dict = {}
+    user_dict["styles"] = {}
+    user_dict["countries"] = {}
+    user_dict["breweries"] = {}
+    user_dict["beers"] = {}
+
+    user_dict["name"] = soup.find("div", "box user_mini").find("div", "info").h1.string
+    user_dict["username"] = soup.find("div", "box user_mini").find("div", "info").find("span", "username").string
+
+    styles_list = soup.find("select", id="style_picker").find_all("option")
+    for tag in styles_list:
+        style_string = tag.string
+        if style_string != "All Styles":
+            style = style_string[:style_string.find("(") - 1]
+            count = style_string[style_string.find("(")+1:style_string.find(")")]
+            user_dict["styles"][style] = count
+    
+    country_list = soup.find("select", id="country_picker").find_all("option")
+    for tag in country_list:
+        country_string = tag.string
+        if country_string != "All Countries":
+            country = country_string[:country_string.find("(") - 1]
+            count = country_string[country_string.find("(")+1:country_string.find(")")]
+            user_dict["countries"][country] = count
+
+    brewery_list = soup.find("select", id="brewery_picker").find_all("option")
+    for tag in brewery_list:
+        brewery_string = tag.string
+        if brewery_string != "All Breweries":
+            brewery = brewery_string[:brewery_string.find("(") - 1]
+            count = brewery_string[brewery_string.find("(")+1:brewery_string.find(")")]
+            user_dict["breweries"][brewery] = count
+
+    beer_list = soup.find("div", "distinct-list-list").find_all("div", "beer-item")
+    for tag in beer_list:
+        beer_id = tag.get("data-bid")
+        beer_name = tag.find("p", "name").get_text(" ", strip=True)
+        beer_brewery = tag.find("p", "brewery").string
+        beer_style = tag.find("p", "style").string
+        beer_rating_unprocessed = tag.find("div", "ratings").p.string
+        beer_rating_processed = beer_rating_unprocessed[-5:-1]
+        beer_abv_str = tag.find("p", "abv").get_text(" ", strip=True)
+        
+        if beer_abv_str != "No ABV":
+            beer_abv_num = float(beer_abv_str[:-5]) * 0.01
+        else: 
+            beer_abv_num = 0
+        
+        beer_count = tag.find("p", "check-ins").string.strip()[7:]
+        user_dict["beers"][beer_name] = {}
+        user_dict["beers"][beer_name]["beer id"] = beer_id
+        user_dict["beers"][beer_name]["brewery name"] = beer_brewery
+        user_dict["beers"][beer_name]["beer style"] = beer_style
+        user_dict["beers"][beer_name]["beer rating"] = beer_rating_processed
+        user_dict["beers"][beer_name]["abv"] = beer_abv_num
+        user_dict["beers"][beer_name]["count"] = beer_count
+
+    return user_dict
+
+
 
 
 
