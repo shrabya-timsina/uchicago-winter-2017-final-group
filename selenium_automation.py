@@ -3,16 +3,18 @@
 # password: csproject
 #
 
-
+#on terminal: export PATH=$PATH:/home/shrabya/team-cs122-project
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
-
+user_url = 'https://untappd.com/user/Em11'
 def get_full_page_from_user_url(user_url):
     '''
     automate clicking through "show more" button on user profile feed
     '''
-    browser = webdriver.Firefox()
+    binary = FirefoxBinary('/home/shrabya/team-cs122-project')
+    browser = webdriver.Firefox(firefox_binary=binary)
     browser.get(user_url)
     # login
     browser.execute_script("document.getElementsByClassName('sign_in track-click')[0].click()")
