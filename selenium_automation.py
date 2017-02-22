@@ -21,6 +21,8 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
+from  bs4 import BeautifulSoup
+
 user_url = 'https://untappd.com/user/Em11'
 
 
@@ -68,8 +70,9 @@ def get_full_page_from_user_url(user_url):
         # code from http://stackoverflow.com/questions/36987006/how-to-click-a-javascript-button-with-selenium
         browser.execute_script("document.getElementsByClassName('yellow button more_checkins more_checkins_logged track-click')[0].click()")
         x += 1
-
-    return browser.page_source
+    
+    soup = BeautifulSoup(browser.page_source, "html.parser")
+    return soup
 
 
 
