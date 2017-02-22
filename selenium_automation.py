@@ -20,58 +20,52 @@ chmod +x firefox-bin
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 from time import sleep
 from  bs4 import BeautifulSoup
 
-user_url = 'https://untappd.com/user/Em11'
+user_beers_url = 'https://untappd.com/user/Em11/beers'
 
-
-def go():
-    browser = webdriver.Firefox()
-    browser.get(user_url)
+def login_to_untapped(browser):
+    home_page = 'https://untappd.com/'
+    browser.get(home_page)
+    delay = 10
     browser.find_element_by_link_text('Sign In').click()
-    sleep(1)
-
+    element_present = EC.presence_of_element_located((By.ID, 'username'))
+    WebDriverWait(browser, delay).until(element_present)
     username = browser.find_element_by_id("username")
     password = browser.find_element_by_id("password")
     username.send_keys("cs122")
     password.send_keys("csproject")
     password.submit()
 
-
-def get_full_page_from_user_url(user_url):
+def get_full_page_from_user_url(user_beers_url, ):
     '''
     automate clicking through "show more" button on user profile feed
     '''
     browser = webdriver.Firefox()
-    browser.get(user_url)
-    # login
-    browser.find_element_by_link_text('Sign In').click()
-    # next 5 lines from http://stackoverflow.com/questions/21186327/fill-username-and-password-using-selenium-in-python
-    sleep(1)
-    username = browser.find_element_by_id("username")
-    password = browser.find_element_by_id("password")
-    username.send_keys("cs122")
-    password.send_keys("csproject")
-    password.submit()
-    sleep(1)
+    login_to_untapped(browser)
+    browser.get(user_beers_url)
+    delay = 10
     
-    # after login, browser redirects to user_url page -- need to see if selenium prevents that somehow
-    #update: works fine
-    # click on show more until the full feed is visible
     
     x = 0
     # temporary hard code loop until dynamic loop in place
     # even when show more button no longer appears in browser, the button still exists in html (see page source)
     # so no problem with running the loop too many times
     while x < 15:
-        print("step",x)
-        sleep(1)
+        element_present = EC.presence_of_element_located((By.LINK_TEXT, 'Show More'))
+        WebDriverWait(browser, delay).until(element_present)
         # code from http://stackoverflow.com/questions/36987006/how-to-click-a-javascript-button-with-selenium
-        browser.execute_script("document.getElementsByClassName('yellow button more_checkins more_checkins_logged track-click')[0].click()")
+        browser.execute_script("document.getElementsByClassName('button yellow more more_beers track-click')[0].click()")
+        print("step",x)
+
         x += 1
     
     soup = BeautifulSoup(browser.page_source, "html.parser")
+    browser.quit()
     return soup
 
 
