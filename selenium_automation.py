@@ -2,6 +2,14 @@
 # username: cs122
 # password: csproject
 #
+"""
+sudo apt-update
+sudo apt-upgrade
+chmod +x firefox
+chmod +x firefox-bin
+./firefox
+
+"""
 
 #on terminal: export PATH=$PATH:/home/shrabya/team-cs122-project
 from selenium import webdriver
@@ -9,11 +17,21 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
 user_url = 'https://untappd.com/user/Em11'
+
+
+def go():
+    #binary = FirefoxBinary('/home/student/team-cs122-project/firefox')
+    #bin = FirefoxBinary('/usr/bin')
+    browser = webdriver.Firefox()
+
+
+
 def get_full_page_from_user_url(user_url):
     '''
     automate clicking through "show more" button on user profile feed
     '''
-    binary = FirefoxBinary('/home/shrabya/team-cs122-project')
+    binary = FirefoxBinary('/home/student/team-cs122-project/firefox')
+    bin = FirefoxBinary('/usr/bin')
     browser = webdriver.Firefox(firefox_binary=binary)
     browser.get(user_url)
     # login
