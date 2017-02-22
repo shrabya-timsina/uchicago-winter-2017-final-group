@@ -35,7 +35,7 @@ def user_dict_and_crawl_list(starting_url):
             beer_words = beer_words_collector(soup)
 
             beer_name = soup.find("div", "box b_info").find("div", "name").h1.get_text(" ", strip=True)
-            user_dict["beers"][beer_name]["beer words"] = beer_words 
+            user_dict["beer wods"][beer_name] = beer_words 
             #pull user information
             tag_list = soup.find_all("div","avatar-holder")[:-2] #last two dont contain user links
             for user in tag_list:
@@ -102,9 +102,10 @@ def beer_words_collector(soup):
 
 def profile_scraper(starting_object, soup_object=1):
     '''
+    starting_object - either a url or a soup object
     '''
     if soup_object == 0:
-        user_beers_url = starting_url + "/beers"
+        user_beers_url = starting_object + "/beers"
         request = get_request(user_beers_url)
         soup = convert_to_soup(request)
     else: 
@@ -115,6 +116,7 @@ def profile_scraper(starting_object, soup_object=1):
     user_dict["countries"] = {}
     user_dict["breweries"] = {}
     user_dict["beers"] = {}
+    user_dict["beer words"] = {}
 
     user_dict["name"] = soup.find("div", "box user_mini").find("div", "info").h1.string
     user_dict["username"] = soup.find("div", "box user_mini").find("div", "info").find("span", "username").string
