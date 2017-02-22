@@ -28,6 +28,10 @@ from  bs4 import BeautifulSoup
 
 user_beers_url = 'https://untappd.com/user/Em11/beers'
 
+def open_browser():
+    browser = webdriver.Firefox()
+    return browser
+
 def login_to_untapped(browser):
     home_page = 'https://untappd.com/'
     browser.get(home_page)
@@ -41,12 +45,12 @@ def login_to_untapped(browser):
     password.send_keys("csproject")
     password.submit()
 
-def get_full_page_from_user_url(user_beers_url, ):
+def get_full_page_from_user_url(user_beers_url, browser):
     '''
     automate clicking through "show more" button on user profile feed
     '''
-    browser = webdriver.Firefox()
-    login_to_untapped(browser)
+    #browser = webdriver.Firefox()
+    #login_to_untapped(browser)
     browser.get(user_beers_url)
     delay = 10
     
@@ -65,7 +69,34 @@ def get_full_page_from_user_url(user_beers_url, ):
         x += 1
     
     soup = BeautifulSoup(browser.page_source, "html.parser")
-    browser.quit()
+    #browser.quit()
+    return soup
+
+def get_full_page_from_beer_url(user_beers_url, browser):
+    '''
+    automate clicking through "show more" button on user profile feed
+    '''
+    #browser = webdriver.Firefox()
+    #login_to_untapped(browser)
+    browser.get(user_beers_url)
+    delay = 10
+    
+    
+    x = 0
+    # temporary hard code loop until dynamic loop in place
+    # even when show more button no longer appears in browser, the button still exists in html (see page source)
+    # so no problem with running the loop too many times
+    while x < 15:
+        element_present = EC.presence_of_element_located((By.LINK_TEXT, 'Show More'))
+        WebDriverWait(browser, delay).until(element_present)
+        # code from http://stackoverflow.com/questions/36987006/how-to-click-a-javascript-button-with-selenium
+        browser.execute_script("document.getElementsByClassName('button yellow more more_beers track-click')[0].click()")
+        print("step",x)
+
+        x += 1
+    
+    soup = BeautifulSoup(browser.page_source, "html.parser")
+    #browser.quit()
     return soup
 
 
