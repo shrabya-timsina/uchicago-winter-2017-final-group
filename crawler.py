@@ -4,9 +4,10 @@ import requests
 import urllib.parse
 import user
 import string
+import queue
 
 
-def user_crawler(starting_url):
+def user_dict_and_crawl_list(starting_url):
     '''
 
     '''
@@ -44,6 +45,39 @@ def user_crawler(starting_url):
                     users_to_crawl.append(absolute_user_url)
     
     return user_dict, users_to_crawl
+
+
+def get_user_dicts_list(starting_url, max_links_num):
+    '''
+    use priority queue to generate and process x number of profiles and corresponding x user dictionaries
+    return list of user dictionaries
+    '''
+    # iniailize list of all user dicts
+    all_user_dicts = []
+    #keep track of already visited user profiles
+    processed_links = []
+
+    first_user_dict, users_to_crawl_list = user_dict_and_crawl_list(starting_url)
+    all_user_dicts.append(first_user_dict)
+    
+    user_queue = queue.Queue()
+    for link in users_to_crawl_list:
+            if link not in processed_links:
+                processed_links.append(link)
+                user_queue.put(link)
+
+    while (len(all_user_dicts) < max_links_num) and (not user_queue.empty()):
+        current_link = user_queue.get()
+        processed_links.append(current_link)
+        current_user_dict, current_user_link_branches = user_dict_and_crawl_list(current_link)
+        all_user_dicts.append(current_user_dict)
+        for link in current_user_link_branches:
+            if link not in processed_links:
+                processed_links.append(link)
+                user_queue.put(link)
+
+    return all_user_dicts
+
 
 
 def beer_words_collector(soup):
