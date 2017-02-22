@@ -69,6 +69,8 @@ def get_full_page_from_user_url(user_url):
         browser.execute_script("document.getElementsByClassName('yellow button more_checkins more_checkins_logged track-click')[0].click()")
         x += 1
 
+    return browser.page_source
+
 
 
 
