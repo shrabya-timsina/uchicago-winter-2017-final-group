@@ -143,7 +143,7 @@ def profile_scraper(starting_object, soup_object=1):
         country_string = tag.string
         if country_string != "All Countries":
             country = country_string[:country_string.find("(") - 1]
-            count = country_string[country_string.find("(")+1:country_string.find(")")]
+            count = country_string[country_string.rfind("(")+1:country_string.rfind(")")]
             user_dict["countries"][country] = count
 
     brewery_list = soup.find("select", id="brewery_picker").find_all("option")
@@ -161,7 +161,7 @@ def profile_scraper(starting_object, soup_object=1):
         beer_brewery = tag.find("p", "brewery").string
         beer_style = tag.find("p", "style").string
         beer_rating_unprocessed = tag.find("div", "ratings").p.string
-        beer_rating_processed = beer_rating_unprocessed[-5:-1]
+        beer_rating_processed = beer_rating_unprocessed[beer_rating_unprocessed.find("(")+1:beer_rating_unprocessed.find(")")]
         beer_abv_str = tag.find("p", "abv").get_text(" ", strip=True)
         
         if beer_abv_str != "No ABV":
