@@ -1,14 +1,20 @@
 # cs122 project 
 #
-# Sandeep Malladi
+# Data Processing File
 
 import sys
 import crawler
 import pandas as pd
-
+import json
 
 #temp_dict_list = crawler.get_user_dicts_list('https://untappd.com/user/madwood1', 5)
-    
+
+# get json file that has 100 user dictionaries branching from https://untappd.com/user/madwood1
+json_dict_file = open('beer_dict.json')
+json_file_str = json_dict_file.read()
+json_dict_list = json.loads(json_file_str)
+
+
 def get_total_df(dict_list):
     '''
     '''
@@ -16,9 +22,9 @@ def get_total_df(dict_list):
 
     for user_dict in dict_list:
     	username = user_dict["username"]
-    	styles = user_dict["styles"].keys()
-    	breweries = user_dict["breweries"].keys()
-    	brewery_counts = user_dict["breweries"].values()
+    	styles = list(user_dict["styles"].keys())
+    	breweries = list(user_dict["breweries"].keys())
+    	brewery_counts = list(user_dict["breweries"].values())
     	beers = user_dict["beers"].keys()
     	countries = user_dict["countries"].keys()
     	country_counts = user_dict["countries"].values()
@@ -185,16 +191,18 @@ def user_beer_id_matrix(dict_list):
  
     for user_dict in dict_list:
         for beer in user_dict["beers"].keys():
-            concat_user_beer = string(user_dict["username"]) + "|" + string(user_dict["beers"][beer]["beer id"])
+            concat_user_beer = str(user_dict["username"]) + "|" + str(user_dict["beers"][beer]["beer id"])
             username = user_dict["username"]
             beer_id = user_dict["beers"][beer]["beer id"]
             rating = user_dict["beers"][beer]["beer rating"]
             count = user_dict["beers"][beer]["count"]
-            user_row = [user_beer_key, username, beer_id, rating, count] 
+            user_row = [concat_user_beer, username, beer_id, rating, count] 
             user_matrix.append(user_row)
-           
-            abv = user_dict["beers"][beer]["abv"]
-            style = user_dict["beers"][beer]["style"]
+            
+            if not user_dict["beers"][beer]["abv"]:
+                abv = user_dict["beers"][beer]["abv"]
+            if not user_dict["beers"][beer]["style"]:
+                style = user_dict["beers"][beer]["style"]
             brewery = user_dict["beers"][beer]["brewery"]
             beer_row = [beer_id, abv, style, brewery]
             if beer_row not in beer_matrix:
@@ -207,19 +215,23 @@ def user_beer_id_matrix(dict_list):
 
 
 def dict_list_to_db(dict_list):
-	'''
-	'''
+    '''
+    '''
     total_df = get_total_df(dict_list)
-	brewery_counts_df = get_brewery_counts_df(dict_list)
-	style_counts_df = get_style_counts_df(dict_list)
-	country_counts_df = get_country_counts_df(dict_list)
-	word_counts_df = get_word_counts_df(dict_list)
+    brewery_counts_df = get_brewery_counts_df(dict_list)
+    style_counts_df = get_style_counts_df(dict_list)
+    country_counts_df = get_country_counts_df(dict_list)
+    word_counts_df = get_word_counts_df(dict_list)
+    user_matrix_df, beer_matrix_df = user_beer_id_matrix(dict_list)
+    
 
-	# write everything to own csv
-	total_df.to_csv('/total.csv')
-	brewery_counts_df.to_csv('/brewery_counts.csv')
-	style_counts_df.to_csv('/style_counts.csv')
-	country_counts_df.to_csv('/country_counts.csv')
-	word_counts_df.to_csv('/word_counts.csv')
+    # write everything to own csv
+    total_df.to_csv('total.csv')
+    brewery_counts_df.to_csv('brewery_counts.csv')
+    style_counts_df.to_csv('style_counts.csv')
+    country_counts_df.to_csv('country_counts.csv')
+    word_counts_df.to_csv('word_counts.csv')
+    user_matrix_df.to_csv('user_beer_info.csv')
+    beer_matrix_df.to_csv('general_beer_info.csv')
 
-	return None
+    return None
