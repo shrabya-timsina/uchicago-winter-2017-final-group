@@ -4,7 +4,6 @@ import requests
 import urllib.parse
 import user
 import string
-import queue
 import selenium_automation as sel
 
 
