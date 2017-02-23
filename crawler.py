@@ -4,7 +4,7 @@ import requests
 import urllib.parse
 import user
 import string
-import queue
+import selenium_automation as sel
 
 
 def user_dict_and_crawl_list(starting_url):
@@ -13,8 +13,14 @@ def user_dict_and_crawl_list(starting_url):
     '''
     #need to fix method of extracting counts - currently only extracting single digits
     user_beers_url = starting_url + "/beers"
-    request = get_request(user_beers_url)
-    soup = convert_to_soup(request)
+
+    browser = sel.open_browser()
+    sel.login_to_untapped(browser)
+
+    soup = sel.get_full_page_from_user_url(user_beers_url, browser)
+
+    #request = get_request(user_beers_url)
+    #soup = convert_to_soup(request)
     tag_list = soup.find_all("p", "name")
     user_dict = profile_scraper(soup)
 
