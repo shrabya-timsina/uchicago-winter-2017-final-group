@@ -168,6 +168,7 @@ def profile_scraper(starting_object, soup_object=1):
         beer_name = tag.find("p", "name").get_text(" ", strip=True)
         beer_brewery = tag.find("p", "brewery").string
         beer_style = tag.find("p", "style").string
+        beer_timestamp = tag.find("abbr", "date-time").string
         beer_rating_unprocessed = tag.find("div", "ratings").p.string
         beer_rating_processed = beer_rating_unprocessed[beer_rating_unprocessed.find("(")+1:beer_rating_unprocessed.find(")")]
         beer_abv_str = tag.find("p", "abv").get_text(" ", strip=True)
@@ -182,6 +183,7 @@ def profile_scraper(starting_object, soup_object=1):
         user_dict["beers"][beer_name]["beer id"] = beer_id
         user_dict["beers"][beer_name]["brewery name"] = beer_brewery
         user_dict["beers"][beer_name]["beer style"] = beer_style
+        user_dict["beers"][beer_name]["beer timestamp"] = beer_timestamp
         user_dict["beers"][beer_name]["beer rating"] = beer_rating_processed
         user_dict["beers"][beer_name]["abv"] = beer_abv_num
         user_dict["beers"][beer_name]["count"] = beer_count
