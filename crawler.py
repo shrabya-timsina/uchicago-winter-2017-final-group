@@ -24,6 +24,8 @@ def user_dict_and_crawl_list(starting_url):
 
     request = get_request(user_beers_url)
     soup = convert_to_soup(request)
+    if soup == None: 
+        print("fuck")
     tag_list = soup.find_all("p", "name")
     user_dict = profile_scraper(soup)
 
@@ -75,9 +77,11 @@ def get_user_dicts_list(starting_url, max_links_num):
     processed_links = []
 
     first_user_dict, users_to_crawl_list = user_dict_and_crawl_list(starting_url)
+    print(len(users_to_crawl_list))
     all_user_dicts.append(first_user_dict)
     
     user_queue = queue.Queue()
+    i = 0
     for link in users_to_crawl_list:
             if link not in processed_links:
                 processed_links.append(link)
@@ -88,6 +92,8 @@ def get_user_dicts_list(starting_url, max_links_num):
         processed_links.append(current_link)
         current_user_dict, current_user_link_branches = user_dict_and_crawl_list(current_link)
         all_user_dicts.append(current_user_dict)
+        i += 1
+        print(i)
         for link in current_user_link_branches:
             if link not in processed_links:
                 processed_links.append(link)
