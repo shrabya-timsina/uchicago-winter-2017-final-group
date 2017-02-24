@@ -22,16 +22,16 @@ def get_total_df(dict_list):
     user_rows = []
 
     for user_dict in dict_list:
-    	username = user_dict["username"]
-    	styles = list(user_dict["styles"].keys())
-    	breweries = list(user_dict["breweries"].keys())
-    	brewery_counts = list(user_dict["breweries"].values())
-    	beers = user_dict["beers"].keys()
-    	countries = user_dict["countries"].keys()
-    	country_counts = user_dict["countries"].values()
-    	beer_words = user_dict["beer words"]
+        username = user_dict["username"]
+        styles = list(user_dict["styles"].keys())
+        breweries = list(user_dict["breweries"].keys())
+        brewery_counts = list(user_dict["breweries"].values())
+        beers = user_dict["beers"].keys()
+        countries = user_dict["countries"].keys()
+        country_counts = user_dict["countries"].values()
+        beer_words = user_dict["beer words"]
 
-    	user_rows.append([username, styles, breweries, brewery_counts, beers, countries, country_counts, beer_words])
+        user_rows.append([username, styles, breweries, brewery_counts, beers, countries, country_counts, beer_words])
 
     headers = ["username", "styles", "breweries", "brewery counts", "beers", "countries", "country counts", "beer words"]
     df = pd.DataFrame(user_rows, columns=headers)
@@ -44,10 +44,10 @@ def gen_countries_list(dict_list):
     '''
     country_list = []
     for user_dict in dict_list:
-    	countries = user_dict["countries"].keys()
-    	for country in countries:
-    		if country not in country_list:
-    			country_list.append(country)
+        countries = user_dict["countries"].keys()
+        for country in countries:
+            if country not in country_list:
+                country_list.append(country)
 
     return country_list
 
@@ -55,7 +55,7 @@ def gen_countries_list(dict_list):
 def get_country_counts_df(dict_list):
     '''
     '''
-    country_list = gen_countries_list(dict_list)
+    #country_list = gen_countries_list(dict_list)
     '''
     country_list = ['Bahamas', 'Dominican Republic', 'United States', 'Finland', 'Hong Kong', 'Ireland', 'Kenya',
                     'Norway', 'Canada', 'Switzerland', 'Brazil', 'Belgium', 'Sri Lanka', 'Portugal', 'France', 'Jamaica',
@@ -64,18 +64,34 @@ def get_country_counts_df(dict_list):
                     'Australia', 'Sweden', 'Denmark', 'Thailand', 'Wales', 'Cyprus', 'Japan', 'Germany', 'Vietnam', 'Scotland',
                     'Mexico', 'Spain', 'Czech Republic']
     '''
-    headers = ["username"] + country_list
-    user_rows = []
+    #headers = ["username"] + country_list
+    #user_row = []
+
+
+    headers = ["username", "country", "count"]
+    user_country_rows = []
 
     for user_dict in dict_list:
-    	username = user_dict["username"]
-    	counts = [0] * len(country_list)
-    	for country in country_list:
-    		if country in user_dict["countries"].keys():
-    			counts[country_list.index(country)] = user_dict["countries"][country]
-    	user_rows.append([username] + counts)
 
-    country_counts_df = pd.DataFrame(user_rows, columns=headers)
+        username = user_dict["username"]
+
+        """
+        counts = [0] * len(country_list)
+        for country in country_list:
+            if country in user_dict["countries"].keys():
+                counts[country_list.index(country)] = user_dict["countries"][country]
+        user_rows.append([username] + counts)
+        """
+
+        for country, count in user_dict["countries"].items():
+
+           user_country_rows.append([username] + [country] + [count])
+       
+
+        
+    #country_counts_df = pd.DataFrame(user_row, columns=headers)
+
+    country_counts_df = pd.DataFrame(user_country_rows, columns=headers)
 
     return country_counts_df
 
@@ -83,12 +99,13 @@ def get_country_counts_df(dict_list):
 def gen_style_list(dict_list):
     '''
     '''
+
     style_list = []
     for user_dict in dict_list:
-    	styles = user_dict["styles"].keys()
-    	for style in styles:
-    		if style not in style_list:
-    			style_list.append(style)
+        styles = user_dict["styles"].keys()
+        for style in styles:
+            if style not in style_list:
+                style_list.append(style)
 
     return style_list
 
@@ -96,20 +113,31 @@ def gen_style_list(dict_list):
 def get_style_counts_df(dict_list):
     '''
     '''
-    styles_list = gen_style_list(dict_list)
-    headers = ["username"] + styles_list
-    user_rows = []
+    #styles_list = gen_style_list(dict_list)
+    #headers = ["username"] + styles_list
+    #user_rows = []
+
+    
+    headers = ["username", "style", "count"]
+    user_style_rows = []
+
 
     for user_dict in dict_list:
-    	username = user_dict["username"]
-    	counts = [0] * len(styles_list)
-    	for style in styles_list:
-    		if style in user_dict["styles"].keys():
-    			counts[styles_list.index(style)] = user_dict["styles"][style]
-    	user_rows.append([username] + counts)
+        username = user_dict["username"]
+        '''
+        counts = [0] * len(styles_list)
+        for style in styles_list:
+            if style in user_dict["styles"].keys():
+                counts[styles_list.index(style)] = user_dict["styles"][style]
+        user_rows.append([username] + counts)
+        '''
+        for style, count in user_dict["styles"].items():
 
+            user_style_rows.append([username] + [style] + [count])
+        
     #print(user_rows)
-    style_counts_df = pd.DataFrame(user_rows, columns=headers)
+    #style_counts_df = pd.DataFrame(user_rows, columns=headers)
+    style_counts_df = pd.DataFrame(user_style_rows, columns=headers)
 
     return style_counts_df
 
@@ -119,10 +147,10 @@ def gen_breweries_list(dict_list):
     '''
     brewery_list = []
     for user_dict in dict_list:
-    	breweries = user_dict["breweries"].keys()
-    	for brewery in breweries:
-    		if brewery not in brewery_list:
-    			brewery_list.append(brewery)
+        breweries = user_dict["breweries"].keys()
+        for brewery in breweries:
+            if brewery not in brewery_list:
+                brewery_list.append(brewery)
 
     return brewery_list
 
@@ -130,19 +158,30 @@ def gen_breweries_list(dict_list):
 def get_brewery_counts_df(dict_list):
     '''
     '''
+    """
     breweries_list = gen_breweries_list(dict_list)
     headers = ["username"] + breweries_list
     user_rows = []
+    """
+    headers = ["username", "brewery", "count"]
+    user_brewery_rows = []
 
     for user_dict in dict_list:
-    	username = user_dict["username"]
-    	counts = [0] * len(breweries_list)
-    	for brewery in breweries_list:
-    		if brewery in user_dict["breweries"].keys():
-    			counts[breweries_list.index(brewery)] = user_dict["breweries"][brewery]
-    	user_rows.append([username] + counts)
+        username = user_dict["username"]
+        """
+        counts = [0] * len(breweries_list)
+        for brewery in breweries_list:
+            if brewery in user_dict["breweries"].keys():
+                counts[breweries_list.index(brewery)] = user_dict["breweries"][brewery]
+        user_rows.append([username] + counts)
+        """
+        for brewery, count in user_dict["breweries"].items():
 
-    brewery_counts_df = pd.DataFrame(user_rows, columns=headers)
+            user_brewery_rows.append([username] + [brewery] + [count])
+        
+
+    #brewery_counts_df = pd.DataFrame(user_rows, columns=headers)
+    brewery_counts_df = pd.DataFrame(user_brewery_rows, columns=headers)
 
     return brewery_counts_df
 
@@ -152,10 +191,10 @@ def gen_words_list(dict_list):
     '''
     word_list = []
     for user_dict in dict_list:
-    	words = user_dict["beer words"]
-    	for word in words:
-    		if word not in word_list:
-    			word_list.append(word)
+        words = user_dict["beer words"]
+        for word in words:
+            if word not in word_list:
+                word_list.append(word)
 
     return word_list
 
@@ -163,19 +202,32 @@ def gen_words_list(dict_list):
 def get_word_counts_df(dict_list):
     '''
     '''
+    """
     words_list = gen_words_list(dict_list)
     headers = ["username"] + words_list
     user_rows = []
+    """
+    headers = ["username", "word", "count"]
+    user_word_rows = []
 
     for user_dict in dict_list:
-    	username = user_dict["username"]
-    	counts = [0] * len(words_list)
-    	for word in words_list:
-    		if word in user_dict["beer words"]:
-    			counts[words_list.index(word)] = user_dict["beer words"].count(word)
-    	user_rows.append([username] + counts)
+        username = user_dict["username"]
+        """
+        counts = [0] * len(words_list)
+        for word in words_list:
+            if word in user_dict["beer words"]:
+                counts[words_list.index(word)] = user_dict["beer words"].count(word)
+        user_rows.append([username] + counts)
+        """
+        unique_word_set = set(user_dict["beer words"])
 
-    word_counts_df = pd.DataFrame(user_rows, columns=headers)
+        for word in unique_word_set:
+
+            count = user_dict["beer words"].count(word)
+            user_word_rows.append([username] + [word] + [count])
+    
+    #word_counts_df = pd.DataFrame(user_rows, columns=headers)
+    word_counts_df = pd.DataFrame(user_word_rows, columns=headers)
 
     return word_counts_df
 
@@ -188,25 +240,26 @@ def user_beer_id_matrix(dict_list):
     user_headers = ["user_beer_key", "username", "beer_id", "rating", "count"]
     # For General Beer Matrix
     beer_matrix = []
-    beer_headers = ["beer_id", "abv", "style", "brewery"]
+    beer_headers = ["beer_id", "name", "abv", "style", "brewery"]
  
     for user_dict in dict_list:
-        for beer in user_dict["beers"].keys():
-            concat_user_beer = str(user_dict["username"]) + "|" + str(user_dict["beers"][beer]["beer id"])
+        for beername, beer_dict in user_dict["beers"].items():
+            
+            concat_user_beer = str(user_dict["username"]) + "|" + str(beer_dict["beer id"])
             username = user_dict["username"]
-            beer_id = user_dict["beers"][beer]["beer id"]
-            rating = user_dict["beers"][beer]["beer rating"]
-            count = user_dict["beers"][beer]["count"]
+            beer_id = beer_dict["beer id"]
+            rating = beer_dict["beer rating"]
+            count = beer_dict["count"]
             user_row = [concat_user_beer, username, beer_id, rating, count] 
             user_matrix.append(user_row)
             
-            if not user_dict["beers"][beer]["abv"]:
+            if not beer_dict["abv"]:
                 abv = 0
             else:
-                abv = user_dict["beers"][beer]["abv"]
-            style = user_dict["beers"][beer]["beer style"]
-            brewery = user_dict["beers"][beer]["brewery name"]
-            beer_row = [beer_id, abv, style, brewery]
+                abv = beer_dict["abv"]
+            style = beer_dict["beer style"]
+            brewery = beer_dict["brewery name"]
+            beer_row = [beer_id, beername, abv, style, brewery]
             if beer_row not in beer_matrix:
                 beer_matrix.append(beer_row)
    
@@ -217,9 +270,10 @@ def user_beer_id_matrix(dict_list):
 
 
 def dict_list_to_db(dict_list):
-    '''
-    '''
+    
+    
     total_df = get_total_df(dict_list)
+    '''
     total_df["styles"] = total_df["styles"].astype('str')
     total_df["breweries"] = total_df["breweries"].astype('str')
     total_df["brewery counts"] = total_df["brewery counts"].astype('str')
@@ -227,9 +281,10 @@ def dict_list_to_db(dict_list):
     total_df["countries"] = total_df["countries"].astype('str')
     total_df["country counts"] = total_df["country counts"].astype('str')
     total_df["beer words"] = total_df["beer words"].astype('str') 
+    '''
 
     brewery_counts_df = get_brewery_counts_df(dict_list)
-    print(brewery_counts_df.head())
+    #print(brewery_counts_df.head())
     style_counts_df = get_style_counts_df(dict_list)
     #print(style_counts_df.head())
     country_counts_df = get_country_counts_df(dict_list)
@@ -237,7 +292,7 @@ def dict_list_to_db(dict_list):
     word_counts_df = get_word_counts_df(dict_list)
     user_matrix_df, beer_matrix_df = user_beer_id_matrix(dict_list)
     
-    
+    '''
     # write everything to own csv
     total_df.to_csv('total.csv')
     brewery_counts_df.to_csv('brewery_counts.csv')
@@ -246,7 +301,7 @@ def dict_list_to_db(dict_list):
     word_counts_df.to_csv('word_counts.csv')
     user_matrix_df.to_csv('user_beer_info.csv')
     beer_matrix_df.to_csv('general_beer_info.csv')
-
+    '''
     
     # write to sql database
     connect = sql.connect('teamcs122db.db')
