@@ -25,7 +25,7 @@ def user_dict_and_crawl_list(starting_url):
     request = get_request(user_beers_url)
     soup = convert_to_soup(request)
     if soup == None: 
-        print("fuck")
+        print("No soup object")
     tag_list = soup.find_all("p", "name")
     user_dict = profile_scraper(soup)
 
@@ -149,7 +149,7 @@ def profile_scraper(starting_object, soup_object=1):
         style_string = tag.string
         if style_string != "All Styles":
             style = style_string[:style_string.find("(") - 1]
-            count = style_string[style_string.find("(")+1:style_string.find(")")]
+            count = style_string[style_string.rfind("(")+1:style_string.rfind(")")]
             user_dict["styles"][style] = count
     
     country_list = soup.find("select", id="country_picker").find_all("option")
@@ -165,7 +165,7 @@ def profile_scraper(starting_object, soup_object=1):
         brewery_string = tag.string
         if brewery_string != "All Breweries":
             brewery = brewery_string[:brewery_string.find("(") - 1]
-            count = brewery_string[brewery_string.find("(")+1:brewery_string.find(")")]
+            count = brewery_string[brewery_string.rfind("(")+1:brewery_string.rfind(")")]
             user_dict["breweries"][brewery] = count
 
     beer_list = soup.find("div", "distinct-list-list").find_all("div", "beer-item")
