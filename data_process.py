@@ -6,7 +6,7 @@ import sys
 import crawler
 import pandas as pd
 import json
-from sqlalchemy import create_engine
+import sqlite3 as sql
 
 #temp_dict_list = crawler.get_user_dicts_list('https://untappd.com/user/madwood1', 5)
 
@@ -220,9 +220,20 @@ def dict_list_to_db(dict_list):
     '''
     '''
     total_df = get_total_df(dict_list)
+    total_df["styles"] = total_df["styles"].astype('str')
+    total_df["breweries"] = total_df["breweries"].astype('str')
+    total_df["brewery counts"] = total_df["brewery counts"].astype('str')
+    total_df["beers"] = total_df["beers"].astype('str')
+    total_df["countries"] = total_df["countries"].astype('str')
+    total_df["country counts"] = total_df["country counts"].astype('str')
+    total_df["beer words"] = total_df["beer words"].astype('str') 
+
     brewery_counts_df = get_brewery_counts_df(dict_list)
+    print(brewery_counts_df.head())
     style_counts_df = get_style_counts_df(dict_list)
+    #print(style_counts_df.head())
     country_counts_df = get_country_counts_df(dict_list)
+    #print(country_counts_df.head())
     word_counts_df = get_word_counts_df(dict_list)
     user_matrix_df, beer_matrix_df = user_beer_id_matrix(dict_list)
     
@@ -236,23 +247,19 @@ def dict_list_to_db(dict_list):
     user_matrix_df.to_csv('user_beer_info.csv')
     beer_matrix_df.to_csv('general_beer_info.csv')
 
-    '''
+    
     # write to sql database
-
-    #db_engine = create_engine('project_data.db')
-
-    engine = create_engine("postgres://localhost/mydb")
-    if not database_exists(engine.url):
-        create_database(engine.url)
-
-    total_df.to_sql("all_info", engine, if_exists='replace')
-    brewery_counts_df.to_sql("brewery_counts", engine, if_exists='replace')
-    style_counts_df.to_sql("style_counts", engine, if_exists='replace')
-    country_counts_df.to_sql("country_counts", engine, if_exists='replace')
-    word_counts_df.to_sql("word_counts", engine, if_exists='replace')
-    user_matrix_df.to_sql("beer_user_info", engine, if_exists='replace')
-    beer_matrix_df.to_sql("beer_general_info", engine, if_exists='replace')
+    connect = sql.connect('teamcs122db.db')
+    total_df.to_sql("all_info", connect, if_exists='replace')
+    
+    # Dataframes need to be rewritten - cannot have thousands of columns
     '''
-
-
+    brewery_counts_df.to_sql("brewery_counts", connect, if_exists='replace')
+    style_counts_df.to_sql("style_counts", connect, if_exists='replace')
+    country_counts_df.to_sql("country_counts", connect, if_exists='replace')
+    word_counts_df.to_sql("word_counts", connect, if_exists='replace')
+    user_matrix_df.to_sql("beer_user_info", connect, if_exists='replace')
+    beer_matrix_df.to_sql("beer_general_info", connect, if_exists='replace')
+    '''
+    
     return None
