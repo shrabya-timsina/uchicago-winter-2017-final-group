@@ -40,6 +40,10 @@ def user_dict_and_crawl_list(starting_url):
         if request == None:
             continue
         else:
+            '''
+            ### Selenium code ###
+            soup = sel.get_full_page_from_beer_url(beer_url, browser)
+            '''
             soup = convert_to_soup(request)
             beer_words = beer_words_collector(soup)
 
@@ -52,6 +56,10 @@ def user_dict_and_crawl_list(starting_url):
                 absolute_user_url = convert_if_relative_url(beer_url, user_url)
                 if (absolute_user_url != starting_url) and (absolute_user_url not in users_to_crawl):
                     users_to_crawl.append(absolute_user_url)
+    '''
+    ### Selenium code ###
+    browser.quit()
+    '''
     
     return user_dict, users_to_crawl
 
