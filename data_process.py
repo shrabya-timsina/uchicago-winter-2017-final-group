@@ -6,6 +6,7 @@ import sys
 import crawler
 import pandas as pd
 import json
+from sqlalchemy import create_engine
 
 #temp_dict_list = crawler.get_user_dicts_list('https://untappd.com/user/madwood1', 5)
 
@@ -200,10 +201,11 @@ def user_beer_id_matrix(dict_list):
             user_matrix.append(user_row)
             
             if not user_dict["beers"][beer]["abv"]:
+                abv = 0
+            else:
                 abv = user_dict["beers"][beer]["abv"]
-            if not user_dict["beers"][beer]["style"]:
-                style = user_dict["beers"][beer]["style"]
-            brewery = user_dict["beers"][beer]["brewery"]
+            style = user_dict["beers"][beer]["beer style"]
+            brewery = user_dict["beers"][beer]["brewery name"]
             beer_row = [beer_id, abv, style, brewery]
             if beer_row not in beer_matrix:
                 beer_matrix.append(beer_row)
@@ -224,7 +226,7 @@ def dict_list_to_db(dict_list):
     word_counts_df = get_word_counts_df(dict_list)
     user_matrix_df, beer_matrix_df = user_beer_id_matrix(dict_list)
     
-
+    
     # write everything to own csv
     total_df.to_csv('total.csv')
     brewery_counts_df.to_csv('brewery_counts.csv')
@@ -233,5 +235,24 @@ def dict_list_to_db(dict_list):
     word_counts_df.to_csv('word_counts.csv')
     user_matrix_df.to_csv('user_beer_info.csv')
     beer_matrix_df.to_csv('general_beer_info.csv')
+
+    '''
+    # write to sql database
+
+    #db_engine = create_engine('project_data.db')
+
+    engine = create_engine("postgres://localhost/mydb")
+    if not database_exists(engine.url):
+        create_database(engine.url)
+
+    total_df.to_sql("all_info", engine, if_exists='replace')
+    brewery_counts_df.to_sql("brewery_counts", engine, if_exists='replace')
+    style_counts_df.to_sql("style_counts", engine, if_exists='replace')
+    country_counts_df.to_sql("country_counts", engine, if_exists='replace')
+    word_counts_df.to_sql("word_counts", engine, if_exists='replace')
+    user_matrix_df.to_sql("beer_user_info", engine, if_exists='replace')
+    beer_matrix_df.to_sql("beer_general_info", engine, if_exists='replace')
+    '''
+
 
     return None
