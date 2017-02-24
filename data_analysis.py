@@ -3,12 +3,13 @@
 # analyze user data to get suggestions
 
 import sys
-import data_process as dp
 import crawler
-import selenium_automation as sel
+import numpy as np
+import sqlite3
+import pandas as pd
+
+# SQLite3
+DB_FILENAME = 'teamcs122db.db'
 
 
-style_counts = 'style_counts.csv'
-
-
-def csv_to_sql_converstion()
+def 
