@@ -11,7 +11,7 @@ import sqlite3 as sql
 #temp_dict_list = crawler.get_user_dicts_list('https://untappd.com/user/madwood1', 5)
 
 # get json file that has 100 user dictionaries branching from https://untappd.com/user/madwood1
-json_dict_file = open('beer_dict.json')
+json_dict_file = open('result.json')
 json_file_str = json_dict_file.read()
 json_dict_list = json.loads(json_file_str)
 
@@ -49,7 +49,7 @@ def get_country_counts_df(dict_list):
         username = user_dict["username"]
 
         for country, count in user_dict["countries"].items():
-           user_country_rows.append([username] + [country] + [count])
+           user_country_rows.append([username] + [country] + [int(count)])
 
     country_counts_df = pd.DataFrame(user_country_rows, columns=headers)
 
@@ -66,7 +66,7 @@ def get_style_counts_df(dict_list):
         username = user_dict["username"]
 
         for style, count in user_dict["styles"].items():
-            user_style_rows.append([username] + [style] + [count])
+            user_style_rows.append([username] + [style] + [int(count)])
         
     style_counts_df = pd.DataFrame(user_style_rows, columns=headers)
 
@@ -83,7 +83,7 @@ def get_brewery_counts_df(dict_list):
         username = user_dict["username"]
 
         for brewery, count in user_dict["breweries"].items():
-            user_brewery_rows.append([username] + [brewery] + [count])
+            user_brewery_rows.append([username] + [brewery] + [int(count)])
         
     brewery_counts_df = pd.DataFrame(user_brewery_rows, columns=headers)
 
@@ -126,9 +126,9 @@ def user_beer_id_matrix(dict_list):
             
             concat_user_beer = str(user_dict["username"]) + "|" + str(beer_dict["beer id"])
             username = user_dict["username"]
-            beer_id = beer_dict["beer id"]
+            beer_id = int(beer_dict["beer id"])
             rating = beer_dict["beer rating"]
-            count = beer_dict["count"]
+            count = int(beer_dict["count"])
             user_row = [concat_user_beer, username, beer_id, rating, count] 
             user_matrix.append(user_row)
             
