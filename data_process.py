@@ -102,7 +102,8 @@ def get_word_counts_df(dict_list):
 
     for user_dict in dict_list:
         username = user_dict["username"]
-        unique_word_set = set(user_dict["beer words"])
+        all_words = [word for sublist in user_dict["beer words"] for word in sublist]
+        unique_word_set = set(all_words)
 
         for word in unique_word_set:
 
