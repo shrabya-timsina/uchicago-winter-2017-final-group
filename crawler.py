@@ -52,9 +52,7 @@ def user_dict_and_crawl_list(starting_url, soup):
     # original search code
 
     for tag in beer_tag_list:
-        #beer_url = tag.contents[0].get('href')
         beer_url = tag.find_all("a", "label")[0].get("href")
-        print(beer_url)
         absolute_beer_url = convert_if_relative_url(user_beers_url, beer_url)
         beers_urls_list.append(absolute_beer_url)
 
@@ -73,11 +71,9 @@ def user_dict_and_crawl_list(starting_url, soup):
                 print("no beer soup")
                 continue
             else:
-                beer_words = beer_words_collector(soup)
+                beer_words = beer_words_collector(beer_soup)
 
-                #beer_name = beer_soup.find("div", "box b_info").find("div", "name").h1.get_text(" ", strip=True)
-                beer_name = beer_soup.find("div", "cont distinct-list filterable-page").find("div", "name").h1.get_text(" ", strip=True)
-                #user_dict["beer words"] = user_dict["beer words"] + beer_words 
+    
                 user_dict["beer words"].append(beer_words)
                 # pull user information
                 tag_list = beer_soup.find_all("div","avatar-holder")[:-2] #last two dont contain user links
@@ -91,7 +87,7 @@ def user_dict_and_crawl_list(starting_url, soup):
     browser.quit()
     '''
     
-    return user_dict, users_to_crawl, beer_tag_list
+    return user_dict, users_to_crawl
 
 
 def get_user_dicts_list(starting_url, max_links_num, starting_soup):
@@ -101,7 +97,9 @@ def get_user_dicts_list(starting_url, max_links_num, starting_soup):
     '''
     # iniailize list of all user dicts
     all_user_dicts = []
-    #keep track of already visited user profiles
+    #keep track of profiles to visit
+    need_process_links = []
+    # keep track of visited profiles
     processed_links = []
 
     #starting_soup = get_compassionate_soup_from_url(starting_url)
@@ -109,38 +107,39 @@ def get_user_dicts_list(starting_url, max_links_num, starting_soup):
         print("use a different starting url")
         return None
 
-    first_user_dict, users_to_crawl_list, beers_urls_list = user_dict_and_crawl_list(starting_url, starting_soup)
+    first_user_dict, users_to_crawl_list = user_dict_and_crawl_list(starting_url, starting_soup)
     if (first_user_dict == {}) or (users_to_crawl_list == []):
         print("use different starting url")
-        return none
-    #print(len(users_to_crawl_list))
+        return None
     all_user_dicts.append(first_user_dict)
     
-    user_queue = queue.Queue()
+    #user_queue = queue.Queue()
     i = 0
     for link in users_to_crawl_list:
             if link not in processed_links:
-                processed_links.append(link)
-                user_queue.put(link)
+                need_process_links.append(link)
+                #user_queue.put(link)
 
-    while (len(all_user_dicts) < max_links_num) and (not user_queue.empty()):
-        current_link = user_queue.get()
+    #while (len(all_user_dicts) < max_links_num) and (not user_queue.empty())
+
+    while (len(all_user_dicts) < max_links_num) and (need_process_links != []):
+        #current_link = user_queue.get()
+        current_link = need_process_links.pop()
         if current_link in processed_links:
             continue
-        else:
-            processed_links.append(current_link)
-            current_soup = get_compassionate_soup_from_url(current_link)
-            if current_soup == None:
-                continue
-            else:
-                current_user_dict, current_user_link_branches = user_dict_and_crawl_list(current_link, current_soup)
-                all_user_dicts.append(current_user_dict)
-                i += 1
-                print(i)
-                for link in current_user_link_branches:
-                    if link not in processed_links:
-                        processed_links.append(link)
-                        user_queue.put(link)
+        processed_links.append(current_link)
+        current_soup = get_compassionate_soup_from_url(current_link)
+        current_user_dict, current_user_link_branches = user_dict_and_crawl_list(current_link, current_soup)
+        all_user_dicts.append(current_user_dict)
+        i += 1
+        print(i)
+        need_process_links = need_process_links + current_user_link_branches 
+
+
+        #for link in current_user_link_branches:
+        #    if link not in processed_links:
+        #        processed_links.append(link)
+        #        user_queue.put(link)
 
     return all_user_dicts
 
