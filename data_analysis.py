@@ -13,9 +13,8 @@ import data_process as dProc
 # SQLite3
 DB_FILENAME = 'teamcs122db.db'
 
+def vectorize_sql_profile(user_url):
 
-
-def vectorize_sql_profile(userprofile):
     connect = sql.connect(DB_FILENAME)
     user_vectors = pd.read_sql('SELECT DISTINCT username from beer_user_info', connect)
     usernames = user_vectors
@@ -33,7 +32,13 @@ def vectorize_sql_profile(userprofile):
             else:
                 user_vectors[beer].iloc[index] = rating * rel_freq
 
-    (list(user_vectors.columns.values))
+    test_dict = crawler.profile_scraper(user_url, 0)
+    test_vector = pd.DataFrame(columns=list(user_vectors.columns.values))
+    test_vector['username'][0] = test_dict['username']
+    print(test_vector)
+    for beer in test_dict['beers'].keys():
+        if beer['beer_id'] not in list(user_vectors.columns.values):
+            user_vectors[int(beer)] = 0
 
             
     connect.close()
