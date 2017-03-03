@@ -5,13 +5,28 @@ import urllib.parse
 import user
 import string
 import selenium_automation as sel
+import httplib2
 
 
-def user_dict_and_crawl_list(starting_url):
+def get_compassionate_soup_from_url(url):
+    '''
+    compassionate scraping method to get bs4 object from url
+    '''
+    conn = httplib2.Http(".cache")
+    
+    page = conn.request(url, "GET")
+
+    soup = bs4.BeautifulSoup(page[1], 'html.parser')
+
+    return soup
+    
+
+
+def user_dict_and_crawl_list(starting_url, soup):
     '''
 
     '''
-    #need to fix method of extracting counts - currently only extracting single digits
+    # need to fix method of extracting counts - currently only extracting single digits
     user_beers_url = starting_url + "/beers"
 
     '''
@@ -22,51 +37,64 @@ def user_dict_and_crawl_list(starting_url):
     soup = sel.get_full_page_from_user_url(user_beers_url, browser)
     '''
 
-    request = get_request(user_beers_url)
-    soup = convert_to_soup(request)
-    if soup == None: 
-        print("No soup object")
-    tag_list = soup.find_all("p", "name")
-    user_dict = profile_scraper(soup)
+    ####request = get_request(user_beers_url)
+    ####soup = convert_to_soup(request)
+
+    #tag_list = soup.find_all("p", "name")
+    beer_tag_list = soup.find_all("div", "cont user_profile")[0].find_all("div", "top")
+    user_dict = profile_scraper(starting_url, soup)
+    if user_dict == None:
+        return {}
 
     beers_urls_list = []
     users_to_crawl = []
 
-    for tag in tag_list:
-        beer_url = tag.contents[0].get('href')
+    # original search code
+
+    for tag in beer_tag_list:
+        #beer_url = tag.contents[0].get('href')
+        beer_url = tag.find_all("a", "label")[0].get("href")
+        print(beer_url)
         absolute_beer_url = convert_if_relative_url(user_beers_url, beer_url)
         beers_urls_list.append(absolute_beer_url)
 
     for beer_url in beers_urls_list:
         request = get_request(beer_url)
         if request == None:
+            print("request is none")
             continue
         else:
             '''
             ### Selenium code ###
             soup = sel.get_full_page_from_beer_url(beer_url, browser)
             '''
-            soup = convert_to_soup(request)
-            beer_words = beer_words_collector(soup)
+            beer_soup = convert_to_soup(request)
+            if beer_soup == None:
+                print("no beer soup")
+                continue
+            else:
+                beer_words = beer_words_collector(soup)
 
-            beer_name = soup.find("div", "box b_info").find("div", "name").h1.get_text(" ", strip=True)
-            user_dict["beer words"] = user_dict["beer words"] + beer_words 
-            #pull user information
-            tag_list = soup.find_all("div","avatar-holder")[:-2] #last two dont contain user links
-            for user in tag_list:
-                user_url = user.find('a').get('href')
-                absolute_user_url = convert_if_relative_url(beer_url, user_url)
-                if (absolute_user_url != starting_url) and (absolute_user_url not in users_to_crawl):
-                    users_to_crawl.append(absolute_user_url)
+                #beer_name = beer_soup.find("div", "box b_info").find("div", "name").h1.get_text(" ", strip=True)
+                beer_name = beer_soup.find("div", "cont distinct-list filterable-page").find("div", "name").h1.get_text(" ", strip=True)
+                #user_dict["beer words"] = user_dict["beer words"] + beer_words 
+                user_dict["beer words"].append(beer_words)
+                # pull user information
+                tag_list = beer_soup.find_all("div","avatar-holder")[:-2] #last two dont contain user links
+                for user in tag_list:
+                    user_url = user.find('a').get('href')
+                    absolute_user_url = convert_if_relative_url(beer_url, user_url)
+                    if (absolute_user_url != starting_url) and (absolute_user_url not in users_to_crawl):
+                         users_to_crawl.append(absolute_user_url)
     '''
     ### Selenium code ###
     browser.quit()
     '''
     
-    return user_dict, users_to_crawl
+    return user_dict, users_to_crawl, beer_tag_list
 
 
-def get_user_dicts_list(starting_url, max_links_num):
+def get_user_dicts_list(starting_url, max_links_num, starting_soup):
     '''
     use priority queue to generate and process x number of profiles and corresponding x user dictionaries
     return list of user dictionaries
@@ -76,8 +104,16 @@ def get_user_dicts_list(starting_url, max_links_num):
     #keep track of already visited user profiles
     processed_links = []
 
-    first_user_dict, users_to_crawl_list = user_dict_and_crawl_list(starting_url)
-    print(len(users_to_crawl_list))
+    #starting_soup = get_compassionate_soup_from_url(starting_url)
+    if starting_soup == None:
+        print("use a different starting url")
+        return None
+
+    first_user_dict, users_to_crawl_list, beers_urls_list = user_dict_and_crawl_list(starting_url, starting_soup)
+    if (first_user_dict == {}) or (users_to_crawl_list == []):
+        print("use different starting url")
+        return none
+    #print(len(users_to_crawl_list))
     all_user_dicts.append(first_user_dict)
     
     user_queue = queue.Queue()
@@ -89,15 +125,22 @@ def get_user_dicts_list(starting_url, max_links_num):
 
     while (len(all_user_dicts) < max_links_num) and (not user_queue.empty()):
         current_link = user_queue.get()
-        processed_links.append(current_link)
-        current_user_dict, current_user_link_branches = user_dict_and_crawl_list(current_link)
-        all_user_dicts.append(current_user_dict)
-        i += 1
-        print(i)
-        for link in current_user_link_branches:
-            if link not in processed_links:
-                processed_links.append(link)
-                user_queue.put(link)
+        if current_link in processed_links:
+            continue
+        else:
+            processed_links.append(current_link)
+            current_soup = get_compassionate_soup_from_url(current_link)
+            if current_soup == None:
+                continue
+            else:
+                current_user_dict, current_user_link_branches = user_dict_and_crawl_list(current_link, current_soup)
+                all_user_dicts.append(current_user_dict)
+                i += 1
+                print(i)
+                for link in current_user_link_branches:
+                    if link not in processed_links:
+                        processed_links.append(link)
+                        user_queue.put(link)
 
     return all_user_dicts
 
@@ -123,16 +166,19 @@ def beer_words_collector(soup):
     return beer_words
 
 
-def profile_scraper(starting_object, soup_object=1):
+def profile_scraper(starting_url, soup):
     '''
     starting_object - either a url or a soup object
     '''
-    if soup_object == 0:
-        user_beers_url = starting_object + "/beers"
-        request = get_request(user_beers_url)
-        soup = convert_to_soup(request)
-    else: 
-        soup = starting_object
+    user_beers_url = starting_url + "/beers"
+    request = get_request(user_beers_url)
+    beers_soup = convert_to_soup(request)
+    if beers_soup == None:
+        print("beers soup is None")
+        return None
+    if soup == None:
+        print("soup is None")
+        return None
 
     user_dict = {}
     user_dict["styles"] = {}
@@ -141,10 +187,11 @@ def profile_scraper(starting_object, soup_object=1):
     user_dict["beers"] = {}
     user_dict["beer words"] = []
 
-    user_dict["name"] = soup.find("div", "box user_mini").find("div", "info").h1.string
-    user_dict["username"] = soup.find("div", "box user_mini").find("div", "info").find("span", "username").string
+    
+    user_dict["name"] = soup.find("div", "cont user_profile").find("div", "info").h1.string
+    user_dict["username"] = soup.find("div", "cont user_profile").find("div", "info").find("span", "username").string
 
-    styles_list = soup.find("select", id="style_picker").find_all("option")
+    styles_list = beers_soup.find("select", id="style_picker").find_all("option")
     for tag in styles_list:
         style_string = tag.string
         if style_string != "All Styles":
@@ -152,7 +199,7 @@ def profile_scraper(starting_object, soup_object=1):
             count = style_string[style_string.rfind("(")+1:style_string.rfind(")")]
             user_dict["styles"][style] = count
     
-    country_list = soup.find("select", id="country_picker").find_all("option")
+    country_list = beers_soup.find("select", id="country_picker").find_all("option")
     for tag in country_list:
         country_string = tag.string
         if country_string != "All Countries":
@@ -160,7 +207,7 @@ def profile_scraper(starting_object, soup_object=1):
             count = country_string[country_string.rfind("(")+1:country_string.rfind(")")]
             user_dict["countries"][country] = count
 
-    brewery_list = soup.find("select", id="brewery_picker").find_all("option")
+    brewery_list = beers_soup.find("select", id="brewery_picker").find_all("option")
     for tag in brewery_list:
         brewery_string = tag.string
         if brewery_string != "All Breweries":
@@ -168,7 +215,7 @@ def profile_scraper(starting_object, soup_object=1):
             count = brewery_string[brewery_string.rfind("(")+1:brewery_string.rfind(")")]
             user_dict["breweries"][brewery] = count
 
-    beer_list = soup.find("div", "distinct-list-list").find_all("div", "beer-item")
+    beer_list = beers_soup.find("div", "distinct-list-list").find_all("div", "beer-item")
     for tag in beer_list:
         beer_id = tag.get("data-bid")
         beer_name = tag.find("p", "name").get_text(" ", strip=True)

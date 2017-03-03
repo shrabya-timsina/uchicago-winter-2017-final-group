@@ -8,12 +8,12 @@ import pandas as pd
 import json
 import sqlite3 as sql
 
-#temp_dict_list = crawler.get_user_dicts_list('https://untappd.com/user/madwood1', 5)
+
 
 # get json file that has 100 user dictionaries branching from https://untappd.com/user/madwood1
-json_dict_file = open('result.json')
-json_file_str = json_dict_file.read()
-json_dict_list = json.loads(json_file_str)
+#json_dict_file = open('result.json')
+#json_file_str = json_dict_file.read()
+#son_dict_list = json.loads(json_file_str)
 
 
 def get_total_df(dict_list):
@@ -162,12 +162,16 @@ def dict_list_to_db(dict_list):
     # write to sql database
     connect = sql.connect('teamcs122db.db')
     
-    brewery_counts_df.to_sql("brewery_counts", connect, if_exists='replace')
-    style_counts_df.to_sql("style_counts", connect, if_exists='replace')
-    country_counts_df.to_sql("country_counts", connect, if_exists='replace')
-    word_counts_df.to_sql("word_counts", connect, if_exists='replace')
-    user_matrix_df.to_sql("beer_user_info", connect, if_exists='replace')
-    beer_matrix_df.to_sql("beer_general_info", connect, if_exists='replace')
+    brewery_counts_df.to_sql("brewery_counts", connect, if_exists='append')
+    style_counts_df.to_sql("style_counts", connect, if_exists='append')
+    country_counts_df.to_sql("country_counts", connect, if_exists='append')
+    word_counts_df.to_sql("word_counts", connect, if_exists='append')
+    user_matrix_df.to_sql("beer_user_info", connect, if_exists='append')
+    beer_matrix_df.to_sql("beer_general_info", connect, if_exists='append')
     
     
     return None
+
+
+
+#dict_list = crawler.get_user_dicts_list('https://untappd.com/user/madwood1', 500)
