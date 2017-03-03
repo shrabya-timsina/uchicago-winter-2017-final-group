@@ -1,3 +1,6 @@
+
+    
+
 # cs122 project 
 #
 # Data Processing File
@@ -11,11 +14,12 @@ import sqlite3 as sql
 
 
 # get json file that has 100 user dictionaries branching from https://untappd.com/user/madwood1
-#json_dict_file = open('result.json')
-#json_file_str = json_dict_file.read()
-#son_dict_list = json.loads(json_file_str)
-
-
+# dict_list = crawler.get_user_dicts_list('https://untappd.com/user/madwood1', 500)
+def read_json(json):
+    with open(json, 'r') as f:
+        dict_list = json.load(f)
+        
+    
 def get_total_df(dict_list):
     '''
     '''
@@ -150,7 +154,6 @@ def user_beer_id_matrix(dict_list):
 
 def dict_list_to_db(dict_list):
     
-    
     total_df = get_total_df(dict_list)
 
     brewery_counts_df = get_brewery_counts_df(dict_list)
@@ -172,6 +175,3 @@ def dict_list_to_db(dict_list):
     
     return None
 
-
-
-#dict_list = crawler.get_user_dicts_list('https://untappd.com/user/madwood1', 500)
