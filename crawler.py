@@ -42,7 +42,7 @@ def user_dict_and_crawl_list(starting_url, soup):
 
     #tag_list = soup.find_all("p", "name")
     beer_tag_list = soup.find_all("div", "cont user_profile")[0].find_all("div", "top")
-    user_dict = profile_scraper(starting_url, soup)
+    user_dict = profile_scraper(starting_url)
     if user_dict == None:
         return {}
 
@@ -165,19 +165,13 @@ def beer_words_collector(soup):
     return beer_words
 
 
-def profile_scraper(starting_url, soup):
+def profile_scraper(starting_url):
     '''
     starting_object - either a url or a soup object
     '''
     user_beers_url = starting_url + "/beers"
     request = get_request(user_beers_url)
     beers_soup = convert_to_soup(request)
-    if beers_soup == None:
-        print("beers soup is None")
-        return None
-    if soup == None:
-        print("soup is None")
-        return None
 
     user_dict = {}
     user_dict["styles"] = {}
@@ -186,9 +180,8 @@ def profile_scraper(starting_url, soup):
     user_dict["beers"] = {}
     user_dict["beer words"] = []
 
-    
-    user_dict["name"] = soup.find("div", "cont user_profile").find("div", "info").h1.string
-    user_dict["username"] = soup.find("div", "cont user_profile").find("div", "info").find("span", "username").string
+    user_dict["name"] = beers_soup.find("div", "cont").find("div", "info").h1.string
+    user_dict["username"] = beers_soup.find("div", "cont").find("div", "info").find("span", "username").string
 
     styles_list = beers_soup.find("select", id="style_picker").find_all("option")
     for tag in styles_list:
