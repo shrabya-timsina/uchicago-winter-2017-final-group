@@ -176,3 +176,49 @@ def dict_list_to_db(dict_list):
     
     return None
 
+
+
+def crawl_and_make_db(starting_url, max_links_num):
+    '''
+    use priority queue to generate and process x number of profiles and corresponding x user dictionaries
+    return list of user dictionaries
+    '''
+    #keep track of profiles to visit
+    need_process_links = []
+    # keep track of visited profiles
+    processed_links = []
+
+    starting_soup = crawler.get_compassionate_soup_from_url(starting_url)
+    if starting_soup == None:
+        print("use a different starting url")
+        return None
+
+    first_user_dict, users_to_crawl_list = crawler.user_dict_and_crawl_list(starting_url, starting_soup)
+    if (first_user_dict == {}) or (users_to_crawl_list == []):
+        print("use different starting url")
+        return None
+
+    dict_list_to_db([first_user_dict])
+    
+    for link in users_to_crawl_list:
+            if link not in processed_links:
+                need_process_links.append(link)
+
+    i = 0
+
+    while (i < max_links_num) and (need_process_links != []):
+        current_link = need_process_links.pop()
+        if current_link in processed_links:
+            continue
+        processed_links.append(current_link)
+        current_soup = crawler.get_compassionate_soup_from_url(current_link)
+        current_user_dict, current_user_link_branches = user_dict_and_crawl_list(current_link, current_soup)
+        if (current_user_dict == {}) or (current_user_link_branches == []):
+            continue
+        else:
+            dict_list_to_db([current_user_dict])
+            i += 1
+            print(i)
+            need_process_links = need_process_links + current_user_link_branches 
+
+    return None

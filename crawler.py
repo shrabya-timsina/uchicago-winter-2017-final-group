@@ -57,6 +57,8 @@ def user_dict_and_crawl_list(starting_url, soup):
         beers_urls_list.append(absolute_beer_url)
 
     for beer_url in beers_urls_list:
+        if beer_url == "http://help.untappd.com/kb/using-untappd/why-is-this-beer-flagged-for-deletion":
+            continue
         request = get_request(beer_url)
         if request == None:
             print("request is none")
