@@ -189,7 +189,7 @@ def crawl_and_make_db(starting_url, max_links_num):
     processed_links = []
 
     starting_soup = crawler.get_compassionate_soup_from_url(starting_url)
-    if starting_soup == None:
+    if starting_soup is None:
         print("use a different starting url")
         return None
 
@@ -212,7 +212,9 @@ def crawl_and_make_db(starting_url, max_links_num):
             continue
         processed_links.append(current_link)
         current_soup = crawler.get_compassionate_soup_from_url(current_link)
-        current_user_dict, current_user_link_branches = user_dict_and_crawl_list(current_link, current_soup)
+        if current_soup is None:
+            continue
+        current_user_dict, current_user_link_branches = crawler.user_dict_and_crawl_list(current_link, current_soup)
         if (current_user_dict == {}) or (current_user_link_branches == []):
             continue
         else:

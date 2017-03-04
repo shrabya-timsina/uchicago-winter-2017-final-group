@@ -151,6 +151,8 @@ def beer_words_collector(soup):
     '''
     '''
     beer_words = []
+    if type(soup.find("div", "beer-descrption-read-less")) is None :
+        return ''
     beer_desc = soup.find("div", "beer-descrption-read-less").get_text(" ", strip=True)
     beer_desc = ''.join(word.strip(string.punctuation) for word in beer_desc)
     [beer_words.append(word.lower()) for word in beer_desc.split()]
