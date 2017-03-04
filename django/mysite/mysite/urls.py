@@ -16,8 +16,14 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from beer_suggester import views
 
+'''
 urlpatterns = [
     url(r'^beer_suggester/', include('beer_suggester.urls')),
     url(r'^admin/', admin.site.urls),
+]
+'''
+urlpatterns = [
+    url(r'^$', views.index, name='index'),
 ]
