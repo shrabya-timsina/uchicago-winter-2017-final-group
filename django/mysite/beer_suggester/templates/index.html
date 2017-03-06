@@ -22,24 +22,30 @@
 
 
         <div class="frame">
-            {% if suggestions != None %}
-            <div class="suggestions">
-                <table class="suggestions">
-                    <tr>
-                        {% for col in column_names %}
-                        <th>{{ col }}</th>
+            {% if valid_form == True %}
+                {% if valid_username == True %}
+                <div class="suggestions">
+                    <table class="suggestions">
+                        <tr>
+                            {% for col in column_names %}
+                            <th>{{ col }}</th>
+                            {% endfor %}
+                        </tr>
+                        {% for entry in beers %}
+                        <tr>
+                            {% for col in entry %}
+                            <td>{{ col }}</td>
+                            {% endfor %}
+                        </tr>
                         {% endfor %}
-                    </tr>
-                    {% for entry in beers %}
-                    <tr>
-                        {% for col in entry %}
-                        <td>{{ col }}</td>
-                        {% endfor %}
-                    </tr>
-                    {% endfor %}
-                </table>
-            </div>
-            <p class="num_results">Results: {{ num_results }}</p>
+                    </table>
+                </div>
+                <p class="num_results">Results: {{ num_results }}</p>
+                {% else %}
+                    <h5>Invalid Username</h5>
+                {% endif %}
+            {% else %}
+                <h5>A valid username is required.</h5>
             {% endif %}
         </div>
     </body>
