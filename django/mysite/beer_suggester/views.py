@@ -18,31 +18,36 @@ COLUMN_NAMES = dict(
 
 
 def index(request):
+    context = {}
     if request.method == 'GET':
         form = Input_form(request.GET)
         if form.is_valid():
+            context['valid_form'] = True
             if form.cleaned_data['username']:
-                send_to_profile_crawler = form.cleaned_data['username']
                 beer_suggestions_db = get_beer_suggestions(form.cleaned_data['username'])
-
+                if form.cleaned_data['username']=="waddup": beer_suggestions_db = None
+            else:
+               beer_suggestions_db = None 
+        else:
+            beer_suggestions_db = None 
+            context['valid_form'] = False 
+    
     else:
         form = Input_form()
     
     if beer_suggestions_db is None:
-        context['suggestions'] = None
-    #elif not _valid_result(res):
-    #    context['result'] = None
+        context['valid_username'] = False    
     else:
-        context['suggestions'] = "working"
+        context['valid_username'] = True
         context['column_names'] = list(beer_suggestions_db.columns)
         context['beers'] = beer_suggestions_db.values.tolist()
         context['num_results'] = len(beer_suggestions_db.values.tolist())
 
-    context['form':form]
+    context['form'] = form
     return render(request, 'index.html', context)
 
 class Input_form(forms.Form):
-    username = forms.CharField(label='Utappd Usename', help_text = 'e.g. Hanz84', required=False)
+    username = forms.CharField(label='Utappd Usename', help_text = 'e.g. Hanz84', required=True)
 
 
 #this function needs to be customized
@@ -65,5 +70,5 @@ def get_beer_suggestions(username):
     beer_name = ["ale", "stout"]
     beer_id = [1,2]
     beer_df = pd.DataFrame({"ID":beer_id, "Name": beer_name})
-    return beer_df.to_html
+    return beer_df
 
