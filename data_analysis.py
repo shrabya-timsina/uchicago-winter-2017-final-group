@@ -13,14 +13,62 @@ import data_process as dProc
 # SQLite3
 DB_FILENAME = 'teamcs122db.db'
 
-def vectorize_beers(user_url):
 
-    connect = sql.connect(DB_FILENAME)
-    user_vectors = pd.read_sql('SELECT DISTINCT username from beer_user_info', connect)
+def gather_usernames(connection):
+    '''
+    Gathers unique usernames in database.
+    Returns two dataframes.
+    '''
+    user_vectors = pd.read_sql('SELECT username from unique_users', 
+                               connection)
     usernames = user_vectors.copy()
+    return user_vectors, usernames
+
+def create_agg_vectors(database, agg):
+    '''
+    Creates the vectors for each user in the database based on the unique 
+    styles present in the databased for all users. Each coordinate corresponds
+    to a unique beer style and the positional value is weighted based on the 
+    relative frequency of the style. 
+    Returns dataframe of user vectors.
+    '''
+    connect = sql.connect(database)
+    user_vectors, usernames = gather_usernames(connect)
+    table = str(agg) + '_counts'
     for index, row in usernames.iterrows():
         username = row['username']
-        beers = pd.read_sql('SELECT beer_id, rating, count from beer_user_info where username like ' + '\'' + str(username) + '\'', connect)
+        agg_df = pd.read_sql('SELECT username,' + str(agg) + ', count FROM ' + str(table) + ' where count >= 3 and username like ' + '\'' + str(username) + '\'',
+                             connect)
+        total_count = agg_df['count'].values.sum()
+        for sub_index, sub_row in agg_df.iterrows():
+            agg_value = sub_row[agg]
+            rel_freq = float(sub_row['count']) / total_count
+            if agg_value not in list(user_vectors.columns.values):
+                user_vectors[agg_value] = 0
+                user_vectors.ix[index, agg_value] = float(rel_freq)
+            else:
+                user_vectors.ix[index, agg_value] = float(rel_freq)
+    
+    connect.close()
+    user_vectors.set_index('username', drop=True, inplace=True)
+    return user_vectors    
+
+
+def create_beer_vectors(database):
+    '''
+    Creates the vectors for each user in the database based on the unique 
+    beers present in the databased for all users. Each coordinate corresponds
+    to a unique beer and the positional value is weighted based on the 
+    relative frequency of the beer times the rating. 
+    Returns dataframe of user vectors.
+    '''
+    connect = sql.connect(database)
+    user_vectors, usernames = gather_usernames(connect)
+
+    for index, row in usernames.iterrows():
+        username = row['username']
+        beers = pd.read_sql('SELECT beer_id, rating, count from beer_user_info where count >= 3 and username like ' + '\'' + str(username) + '\'',
+                            connect)
         total_count = beers['count'].values.sum()
         for sub_index, sub_row in beers.iterrows():
             beer = int(sub_row['beer_id'])
@@ -32,11 +80,89 @@ def vectorize_beers(user_url):
             else:
                 user_vectors.ix[index, beer] = float(rating * rel_freq)
 
+    connect.close()
     user_vectors.set_index('username', drop=True, inplace=True)
+    return user_vectors
+
+
+def prepare_testvector(username, columns):
+    '''
+    Prepares an empty input user vector to be filled.
+    Returns test vector and user dictionary. 
+    '''
+    user_url = 'https://untappd.com/user/' + str(username)
     test_dict = crawler.profile_scraper(user_url)
     username = test_dict['username']
-    test_vector = pd.DataFrame(columns=list(user_vectors.columns.values), index=[username])
+    test_vector = pd.DataFrame(columns=columns, index=[username])
     test_vector.fillna(0, inplace=True)
+    return test_vector, test_dict
+    
+
+def calc_cos_simil(test_vector, user_vectors):
+    '''
+    Calculates the pairwise cosine similarity scores for 1 user vector against 
+    n user vectors. 
+    '''
+    i = 0
+    n = len(user_vectors)
+    
+    distance_matrix = np.zeros((n, 1))
+    test_matrix = test_vector.as_matrix()
+    user_matrix = user_vectors.as_matrix()
+    
+    for row in user_matrix:
+        distance_matrix[i,0] = cosine_similarity(test_matrix, row)
+        i += 1
+
+    distance_df = pd.DataFrame(distance_matrix, index=user_vectors.index.tolist(), columns=['score']).sort(columns='score', ascending=False)
+    return distance_df
+
+
+
+def topk_profiles_agg(username, topk, agg):
+    '''
+    Creates an input user style vector. Calculates the cosine similarity
+    scores against all users in the database. Ranks users based on cosine 
+    similarity scores and returns an ordered dataframe of usernames 
+    and associated cosine similarities.
+    '''
+    user_vectors = create_agg_vectors(DB_FILENAME, agg)
+    columns = list(user_vectors.columns.values)
+    test_vector, test_dict = prepare_testvector(username, columns)
+    total_count = 0
+
+    if agg == 'style':
+        dict_key = 'styles'
+    else: 
+        dict_key = 'breweries'
+    
+    for agg in test_dict[dict_key].keys():
+        count = int(test_dict[dict_key][agg])
+        total_count += count
+        if agg not in list(user_vectors.columns.values):
+            user_vectors[agg] = 0
+            test_vector[agg] = float(count) 
+        else: 
+            test_vector[agg] = float(count)
+
+    test_vector = test_vector.divide(total_count, axis='index')
+    distance_df = calc_cos_simil(test_vector, user_vectors)
+    print(distance_df.head(25))
+
+    return 0
+
+    
+
+def topk_profiles_beers(username, topk):
+    '''
+    Creates an input user beer vector. Calculates the cosine similarity
+    scores against all users in the database. Ranks users based on cosine 
+    similarity scores and returns an ordered dataframe of usernames 
+    and associated cosine similarities.
+    '''
+    user_vectors = create_beer_vectors(DB_FILENAME)
+    columns = list(user_vectors.columns.values)
+    test_vector, test_dict = prepare_testvector(username, columns)
     total_count = 0
     
     for beer in test_dict['beers'].keys():
@@ -53,56 +179,4 @@ def vectorize_beers(user_url):
     test_vector = test_vector.divide(total_count, axis='index')
     distance_df = calc_cos_simil(test_vector, user_vectors)
 
-    distance_df = vectorize_styles(test_dict, usernames)
-    connect.close()
-
-def calc_cos_simil(test_vector, user_vectors):
-    i = 0
-    n = len(user_vectors)
-    distance_matrix = np.zeros((n, 1))
-    test_matrix = test_vector.as_matrix()
-    user_matrix = user_vectors.as_matrix()
-    
-    for row in user_matrix:
-        distance_matrix[i,0] = cosine_similarity(test_matrix, row)
-        i += 1
-    distance_df = pd.DataFrame(distance_matrix, index=user_vectors.index.tolist(), columns=['score']).sort(columns='score', ascending=False)
-    return distance_df
-
-
-def vectorize_styles(user_dict, usernames):
-    connect = sql.connect(DB_FILENAME)
-    user_vectors = usernames
-    for index, row in usernames.iterrows():
-        username = row['username']
-        styles = pd.read_sql('SELECT username, style, count FROM style_counts where username like ' + '\'' + str(username) + '\'', connect)
-        total_count = styles['count'].values.sum()
-        for sub_index, sub_row in styles.iterrows():
-            style = sub_row['style']
-            rel_freq = float(sub_row['count']) / total_count
-            if style not in list(user_vectors.columns.values):
-                user_vectors[style] = 0
-                user_vectors.ix[index, style] = float(rel_freq)
-            else:
-                user_vectors.ix[index, style] = float(rel_freq)
-
-    user_vectors.set_index('username', drop=True, inplace=True)
-    username = user_dict['username']
-    test_vector = pd.DataFrame(columns=list(user_vectors.columns.values), index=[username])
-    test_vector.fillna(0, inplace=True)
-    total_count = 0
-    
-    for style in user_dict['styles'].keys():
-        count = int(user_dict['styles'][style])
-        total_count += count
-        if style not in list(user_vectors.columns.values):
-            user_vectors[style] = 0
-            test_vector[style] = float(count) 
-        else: 
-            test_vector[style] = float(count)
-
-    test_vector = test_vector.divide(total_count, axis='index')
-    distance_df = calc_cos_simil(test_vector, user_vectors)
-    print(distance_df.head())
-
-    connect.close()
+    return 0 

@@ -172,7 +172,8 @@ def dict_list_to_db(dict_list):
     word_counts_df.to_sql("word_counts", connect, if_exists='append')
     user_matrix_df.to_sql("beer_user_info", connect, if_exists='append')
     beer_matrix_df.to_sql("beer_general_info", connect, if_exists='append')
-    
+
+    connect.close()   
     
     return None
 
@@ -224,3 +225,17 @@ def crawl_and_make_db(starting_url, max_links_num):
             need_process_links = need_process_links + current_user_link_branches 
 
     return None
+
+def build_unique_username_table(database):
+    '''
+    Build table with only unique usernames from beer_user_info
+    '''
+    
+    connect = sql.connect(database)
+    cursor = connect.cursor()
+    cursor.execute('DROP TABLE IF EXISTS unique_users;')
+    cursor.execute('CREATE TABLE unique_users as SELECT DISTINCT username from beer_user_info')
+    connect.close()
+    return None
+
+
