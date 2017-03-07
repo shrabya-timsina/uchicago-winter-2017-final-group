@@ -37,7 +37,7 @@ def create_agg_vectors(database, agg):
     table = str(agg) + '_counts'
     for index, row in usernames.iterrows():
         username = row['username']
-        agg_df = pd.read_sql('SELECT username,' + str(agg) + ', count FROM ' + str(table) + ' where count >= 3 and username like ' + '\'' + str(username) + '\'',
+        agg_df = pd.read_sql('SELECT username,' + str(agg) + ', count FROM ' + str(table) + ' where username like ' + '\'' + str(username) + '\'',
                              connect)
         total_count = agg_df['count'].values.sum()
         for sub_index, sub_row in agg_df.iterrows():
@@ -67,7 +67,7 @@ def create_beer_vectors(database):
 
     for index, row in usernames.iterrows():
         username = row['username']
-        beers = pd.read_sql('SELECT beer_id, rating, count from beer_user_info where count >= 3 and username like ' + '\'' + str(username) + '\'',
+        beers = pd.read_sql('SELECT beer_id, rating, count from beer_user_info where username like ' + '\'' + str(username) + '\'',
                             connect)
         total_count = beers['count'].values.sum()
         for sub_index, sub_row in beers.iterrows():
@@ -121,10 +121,10 @@ def calc_cos_simil(test_vector, user_vectors):
 
 def topk_profiles_agg(username, topk, agg):
     '''
-    Creates an input user style vector. Calculates the cosine similarity
-    scores against all users in the database. Ranks users based on cosine 
-    similarity scores and returns an ordered dataframe of usernames 
-    and associated cosine similarities.
+    Creates an input user aggregate statistic vector. Calculates the 
+    cosine similarity scores against all users in the database. 
+    Ranks users based on cosine similarity scores and returns 
+    an ordered dataframe of usernames and associated cosine similarities.
     '''
     user_vectors = create_agg_vectors(DB_FILENAME, agg)
     columns = list(user_vectors.columns.values)
@@ -147,9 +147,11 @@ def topk_profiles_agg(username, topk, agg):
 
     test_vector = test_vector.divide(total_count, axis='index')
     distance_df = calc_cos_simil(test_vector, user_vectors)
-    print(distance_df.head(25))
+    
+    if str(username) in distance_df.index.values:
+        distance_df.drop(str(username), inplace=True)
 
-    return 0
+    return distance_df.head(topk)
 
     
 
@@ -178,5 +180,8 @@ def topk_profiles_beers(username, topk):
     
     test_vector = test_vector.divide(total_count, axis='index')
     distance_df = calc_cos_simil(test_vector, user_vectors)
+    
+    if str(username) in distance_df.index.values:
+        distance_df.drop(str(username), inplace=True)
 
-    return 0 
+    return distance_df.head(topk)
