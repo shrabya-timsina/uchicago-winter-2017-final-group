@@ -7,6 +7,9 @@ from django import forms
 import pandas as pd
 import bs4
 import urllib3
+from data_analysis_copy import get_suggestions_from_topk
+
+
 
 COLUMN_NAMES = dict(
         beer_id='Beer ID',
@@ -27,6 +30,7 @@ def index(request):
             context['valid_form'] = True
             if form.cleaned_data['username']:
                 beer_suggestions_df = get_beer_suggestions(form.cleaned_data['username'])
+                ##### FIX THIS HARDCODE - CHECK IF USERNAME IN DATABASE #####
                 if form.cleaned_data['username']=="waddup": beer_suggestions_df = None
             else:
                beer_suggestions_df = None 
@@ -58,15 +62,7 @@ def index(request):
         context['beers'] = beer_suggestions_df.values.tolist()
         context['num_results'] = len(beer_suggestions_df.values.tolist())
         
-        
-
-
-
-
-
     context['form'] = form
-
-
 
     return render(request, 'index.html', context)
 
@@ -77,12 +73,14 @@ class Input_form(forms.Form):
 
 def get_beer_suggestions(username):
     # https://untappd.com/b/goose-island-beer-co-goose-ipa/1353
-    beer_name = ["Goose IPA", "IPA"]
-    beer_id = [1353,4509]
-    brewery = ["Goose Island Beer Co.", "Lagunitas Brewing Company"]
-    beer_df = pd.DataFrame({"ID":beer_id, "Name": beer_name, "Brewery": brewery})
-    return beer_df
+    #beer_name = ["Goose IPA", "IPA"]
+    #beer_id = [1353,4509]
+    #brewery = ["Goose Island Beer Co.", "Lagunitas Brewing Company"]
+    #beer_df = pd.DataFrame({"ID":beer_id, "Name": beer_name, "Brewery": brewery})
 
+    suggestions_df = get_suggestions_from_topk(username, 5)
+
+    return suggestions_df
 
 
 #this function needs to be customized
