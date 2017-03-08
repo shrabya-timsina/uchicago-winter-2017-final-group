@@ -185,3 +185,72 @@ def topk_profiles_beers(username, topk):
         distance_df.drop(str(username), inplace=True)
 
     return distance_df.head(topk)
+
+
+#### suggestion/output functions ###
+
+
+def get_suggestions_from_topk(username, k):
+    '''
+    topk df is a k row dataframe containing usernames and their corresponding 
+    cosine distances to an initial input-user. This function queries the profiles
+    database and returns beer ids corresponding to suggestions from top k profiles
+    '''
+
+    topk_df = topk_profiles_beers(username, k)
+
+    usernames = topk_df.index.tolist()
+    converted_users = ['\'' + str(user) + '\'' for user in usernames]
+
+    connect = sql.connect(DB_FILENAME)
+    beers_df = pd.read_sql("SELECT username, beer_id, rating, count FROM beer_user_info WHERE username IN (" + ",".join(converted_users) + ")", connect)
+    connect.close()
+
+
+    topk_beer_ids = []
+    
+    beers_df.sort(columns='rating', ascending=False, inplace=True, kind='quicksort')
+    top_beers_df = beers_df[pd.to_numeric(beers_df['rating']) >= 3.5]
+
+    beer_id_list = top_beers_df['beer_id'].tolist()
+
+    print("asdf")
+
+    top_k_beer_ids = list(set(beer_id_list))
+    if 0 in top_k_beer_ids:
+        top_k_beer_ids = top_k_beer_ids.remove(0)
+
+    #get beer_ids of input user
+    input_user_beer_ids = []
+    user_url = 'https://untappd.com/user/' + str(username)
+    input_user_dict = crawler.profile_scraper(user_url)
+    for beer in input_user_dict["beers"].keys():
+        #print(beer)
+        input_user_beer_ids.append(input_user_dict["beers"][beer]["beer id"])
+  
+    #print(top_k_beer_ids)
+    # remove overlapping beers
+    for beer in top_k_beer_ids:
+        if beer in input_user_beer_ids:
+            top_k_beer_ids.remove(beer)
+
+    #suggest at most 20 beers
+    if len(top_k_beer_ids) < 20:
+        return top_k_beer_ids
+    else:
+        return top_k_beer_ids[:20]
+    
+
+
+
+
+def get_beer_details(beer_id):
+    '''
+    Queries in SQL database with the given beer_id
+    and stores beer information into a pandas dataframe
+    '''
+    connect = sql.connect(DB_FILENAME)
+    suggested_beers = pd.read_sql('SELECT DISTINCT beer_id, name, abv, style, brewery from beer_general_info where beer_id =' + str(beer_id),
+                            connect)
+    connect.close()
+    return suggested_beers
