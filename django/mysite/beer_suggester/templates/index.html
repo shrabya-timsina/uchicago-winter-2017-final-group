@@ -11,7 +11,6 @@
         </div>
         <div class="frame">
             <form method="get">
-                {% csrf_token %}
                 <table class="form">
                 {{ form }}
                 </table>
@@ -20,33 +19,38 @@
         </div>      
      
 
-
         <div class="frame">
             {% if valid_form == True %}
                 {% if valid_username == True %}
-                <div class="suggestions">
-                    <table class="suggestions">
-                        <tr>
-                            {% for col in column_names %}
-                            <th>{{ col }}</th>
+                    <div class="suggestions">
+                        <table class="suggestions_table">
+                            <tr>
+                                {% for col in column_names %}
+                                <th>{{ col }}</th>
+                                {% endfor %}
+                            </tr>
+                            {% for entry in beers %}
+                            <tr>
+                                {% for col in entry %}
+                                    {% if 'https://' in col %}
+                                    <td><img src="{{ col }}"></td>
+                                    {% else %}                                
+                                        <td>{{ col }}</td>
+                                    {% endif %}
+                                {% endfor %}
+
+                            </tr>
                             {% endfor %}
-                        </tr>
-                        {% for entry in beers %}
-                        <tr>
-                            {% for col in entry %}
-                            <td>{{ col }}</td>
-                            {% endfor %}
-                        </tr>
-                        {% endfor %}
-                    </table>
-                </div>
-                <p class="num_results">Results: {{ num_results }}</p>
+                        </table>
+                    </div>
+                    <p class="num_results">Results: {{ num_results }}</p>
                 {% else %}
                     <h5>Invalid Username</h5>
                 {% endif %}
             {% else %}
                 <h5>A valid username is required.</h5>
             {% endif %}
+
         </div>
     </body>
 </html>
