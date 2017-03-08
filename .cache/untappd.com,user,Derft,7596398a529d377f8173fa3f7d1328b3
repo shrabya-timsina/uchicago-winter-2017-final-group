@@ -1,0 +1,1297 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 19:20:40 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 64119
+set-cookie: untappd_com_site_v2=b691a316314d1cef58d373f5fcd603aa; expires=Wed, 08-Mar-2017 07:20:40 GMT; Max-Age=43200; path=/, ut_anon=251dd8af-fceb-44b0-abde-eea333e1198a; expires=Mon, 08-Jul-3016 19:20:40 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/Derft
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Simon H. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Simon H. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Simon H. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/Derft">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/Derft">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="1335908" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_300x300.jpg">
+					</div>
+				</div><div class="info">
+					<h1>Simon H.</h1>
+					<span class="username">Derft</span>
+					<span class="location"></span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+												<p>
+								<a class="fb track-click" target="_blank" data-track="profile" data-href=":facebook" href="/social/redir/facebook/604419754">Facebook</a>
+							</p>
+											</div>
+				<div class="stats">
+											<a href="/user/Derft" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">673</span>
+							<span class="title">Total</span>
+						</a><a href="/user/Derft/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">530</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/Derft/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">284</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/Derft/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">4</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/Derft/checkin/425320455"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/7e32b0f87427c7fa6f7b0fa9dae0dfff_320x320.jpeg" /></a></p><p><a href="/user/Derft/checkin/425320335"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/1a9ecc1db3db98d2e60d50b9869dd652_320x320.jpeg" /></a></p><p><a href="/user/Derft/checkin/425320215"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/b187e23752087e6c8ece0c7d98f880a7_320x320.jpeg" /></a></p><p><a href="/user/Derft/checkin/425320041"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/5f789caea8b769644d1f42a04bfd03c7_320x320.jpeg" /></a></p><p><a href="/user/Derft/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/1b819181a40dffd815fe73c34b7fff37_320x320.jpeg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Simon's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425320455" data-checkin-id="425320455">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/carlsberg-group-tuborg-guld-gold/7520" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-TuborgGold_7520.jpeg" alt="Carlsberg Group by Tuborg Guld/Gold">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking a <a  href="/b/carlsberg-group-tuborg-guld-gold/7520">Tuborg Guld/Gold</a> by <a href="/w/carlsberg-group/344">Carlsberg Group</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/Derft/checkin/425320455" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/7e32b0f87427c7fa6f7b0fa9dae0dfff_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425320455" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:30:12 +0000</a>
+							<a href="/user/Derft/checkin/425320455" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425320335" data-checkin-id="425320335">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brasserie-st-feuillien-triple/16631" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-16631_fb81e_sm.jpeg" alt="Brasserie St-Feuillien by Triple">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking a <a  href="/b/brasserie-st-feuillien-triple/16631">Triple</a> by <a href="/w/brasserie-st-feuillien/295">Brasserie St-Feuillien</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_DubTripQuad_sm.jpg" alt="Dubbel, Tripel and Quad Oh My! (Level 3)">
+											<span>Earned the Dubbel, Tripel and Quad Oh My! (Level 3) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/Derft/checkin/425320335" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/1a9ecc1db3db98d2e60d50b9869dd652_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425320335" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:29:26 +0000</a>
+							<a href="/user/Derft/checkin/425320335" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425320215" data-checkin-id="425320215">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/founders-brewing-co-centennial-ipa/1456" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1456_a771f_sm.jpeg" alt="Founders Brewing Co. by Centennial IPA">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking a <a  href="/b/founders-brewing-co-centennial-ipa/1456">Centennial IPA</a> by <a href="/w/founders-brewing-co/549">Founders Brewing Co.</a>
+							</p>
+														<p class="photo">
+								<a href="/user/Derft/checkin/425320215" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/b187e23752087e6c8ece0c7d98f880a7_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425320215" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:28:37 +0000</a>
+							<a href="/user/Derft/checkin/425320215" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425320041" data-checkin-id="425320041">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bryggeriet-vestfyen-uglens-stout/529506" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Bryggeriet Vestfyen by Uglens Stout">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking an <a  href="/b/bryggeriet-vestfyen-uglens-stout/529506">Uglens Stout</a> by <a href="/w/bryggeriet-vestfyen/3420">Bryggeriet Vestfyen</a>
+							</p>
+														<p class="photo">
+								<a href="/user/Derft/checkin/425320041" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/5f789caea8b769644d1f42a04bfd03c7_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425320041" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:27:34 +0000</a>
+							<a href="/user/Derft/checkin/425320041" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425319947" data-checkin-id="425319947">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/guinness-kilkenny/6337" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-6337_57132_sm.jpeg" alt="Guinness by Kilkenny">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking a <a  href="/b/guinness-kilkenny/6337">Kilkenny</a> by <a href="/w/guinness/49">Guinness</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r250"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_PaintRed_sm.jpg" alt="Paint the Town Red (Level 2)">
+											<span>Earned the Paint the Town Red (Level 2) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/Derft/checkin/425319947" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/1b819181a40dffd815fe73c34b7fff37_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425319947" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:26:47 +0000</a>
+							<a href="/user/Derft/checkin/425319947" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425319738" data-checkin-id="425319738">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/omission-beer-pale-ale/131265" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-OmissionPaleAle_131265.jpeg" alt="Omission Beer by Pale Ale">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking a <a  href="/b/omission-beer-pale-ale/131265">Pale Ale</a> by <a href="/w/omission-beer/25595">Omission Beer</a>
+							</p>
+														<p class="photo">
+								<a href="/user/Derft/checkin/425319738" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/1f3a57adfaef44ed4a0631afe2854a33_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425319738" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:25:31 +0000</a>
+							<a href="/user/Derft/checkin/425319738" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425319527" data-checkin-id="425319527">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bryggeriet-s-c-fuglsang-early-bird/88246" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-EarlyBird_88246.jpeg" alt="Bryggeriet S.C. Fuglsang by Early Bird">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking an <a  href="/b/bryggeriet-s-c-fuglsang-early-bird/88246">Early Bird</a> by <a href="/w/bryggeriet-sc-fuglsang/11810">Bryggeriet S.C. Fuglsang</a>
+							</p>
+														<p class="photo">
+								<a href="/user/Derft/checkin/425319527" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/049eef278bf425310ae8ab27865adb2e_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425319527" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:24:17 +0000</a>
+							<a href="/user/Derft/checkin/425319527" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425319360" data-checkin-id="425319360">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/evil-twin-brewing-even-more-jesus/145448" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-145448_fe40c_sm.jpeg" alt="Evil Twin Brewing by Even More Jesus">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking an <a href="/b/evil-twin-brewing-even-more-jesus/145448">Even More Jesus</a> by <a  href="/w/evil-twin-brewing/3735">Evil Twin Brewing</a> at <a href="/v/basement-beer-bar/1777240">Basement Beer Bar</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425319360" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:23:09 +0000</a>
+							<a href="/user/Derft/checkin/425319360" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425319223" data-checkin-id="425319223">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mikkeller-session-ipa-mosaic/1836932" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1836932_cccd3_sm.jpeg" alt="Mikkeller by Session IPA Mosaic">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking a <a href="/b/mikkeller-session-ipa-mosaic/1836932">Session IPA Mosaic</a> by <a  href="/w/mikkeller/2813">Mikkeller</a> at <a href="/v/basement-beer-bar/1777240">Basement Beer Bar</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_hoptopia_sm.jpg" alt="I Believe in IPA!  (Level 15)">
+											<span>Earned the I Believe in IPA!  (Level 15) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_DanishDelight_sm.jpg" alt="Danish Delight (Level 49)">
+											<span>Earned the Danish Delight (Level 49) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_WheelofStyles_sm.jpg" alt="Wheel of Styles (Level 13)">
+											<span>Earned the Wheel of Styles (Level 13) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425319223" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:22:13 +0000</a>
+							<a href="/user/Derft/checkin/425319223" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425318913" data-checkin-id="425318913">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/raasted-bryghus-imperial-oatmeal-whiskey-stout/1554744" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Raasted Bryghus by Imperial Oatmeal Whiskey Stout">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking an <a  href="/b/raasted-bryghus-imperial-oatmeal-whiskey-stout/1554744">Imperial Oatmeal Whiskey Stout</a> by <a href="/w/raasted-bryghus/5253">Raasted Bryghus</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/Derft/checkin/425318913" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/e517163da7a69702b25d1a6173460aab_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425318913" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:20:20 +0000</a>
+							<a href="/user/Derft/checkin/425318913" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425318793" data-checkin-id="425318793">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/raasted-bryghus-imperial-stout-quinta-port-infused/1820590" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Raasted Bryghus by Imperial Stout Quinta Port Infused">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking an <a  href="/b/raasted-bryghus-imperial-stout-quinta-port-infused/1820590">Imperial Stout Quinta Port Infused</a> by <a href="/w/raasted-bryghus/5253">Raasted Bryghus</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Mums									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_heavyWeight_sm.jpg" alt="Heavy Weight  (Level 12)">
+											<span>Earned the Heavy Weight  (Level 12) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/Derft/checkin/425318793" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/e6182443c99016c7c55bfccc1743620b_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425318793" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:19:36 +0000</a>
+							<a href="/user/Derft/checkin/425318793" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425318564" data-checkin-id="425318564">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/raasted-bryghus-imperial-oatmeal-coffee-stout/1562879" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Raasted Bryghus by Imperial Oatmeal Coffee Stout">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking an <a  href="/b/raasted-bryghus-imperial-oatmeal-coffee-stout/1562879">Imperial Oatmeal Coffee Stout</a> by <a href="/w/raasted-bryghus/5253">Raasted Bryghus</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Den var sku meget god									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_2xCore_sm.jpg" alt="2X (Level 2)">
+											<span>Earned the 2X (Level 2) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/Derft/checkin/425318564" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/a3834dccd78c35e85758aade44181b89_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425318564" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:18:12 +0000</a>
+							<a href="/user/Derft/checkin/425318564" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425318378" data-checkin-id="425318378">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/orbaek-bryggeri-ipa/144084" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-144084_79f25_sm.jpeg" alt="Ørbæk Bryggeri by IPA">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking an <a  href="/b/orbaek-bryggeri-ipa/144084">IPA</a> by <a href="/w/orbaek-bryggeri/5554">Ørbæk Bryggeri</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r275"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/Derft/checkin/425318378" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/e984e39da97d6ccc6263ed4afbb1d41c_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425318378" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:17:01 +0000</a>
+							<a href="/user/Derft/checkin/425318378" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425318264" data-checkin-id="425318264">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/skovlyst-bryghus-birkebryg/28356" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_28356_62d306bb36d5fcc19c5b9d47d13d.jpeg" alt="Skovlyst Bryghus by BirkeBryg">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking a <a  href="/b/skovlyst-bryghus-birkebryg/28356">BirkeBryg</a> by <a href="/w/skovlyst-bryghus/325727">Skovlyst Bryghus</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 4)">
+											<span>Earned the Riding Steady (Level 4) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/Derft/checkin/425318264" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/91c5d613497f37ea8c15b3fd3e456016_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425318264" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:16:16 +0000</a>
+							<a href="/user/Derft/checkin/425318264" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425318083" data-checkin-id="425318083">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Derft">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/80929be9943de426f9064a56608fd82a_100x100.jpg" alt="Simon H.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/evil-twin-brewing-molotov-lite/888627" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-888627_f57d1_sm.jpeg" alt="Evil Twin Brewing by Molotov Lite">
+							</a>
+														<p class="text">
+								<a href="/user/Derft" class="user">Simon H.</a>  is drinking a <a  href="/b/evil-twin-brewing-molotov-lite/888627">Molotov Lite</a> by <a href="/w/evil-twin-brewing/3735">Evil Twin Brewing</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/Derft/checkin/425318083" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/0e2cc453658a54833e651c0ac332c7e4_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Derft/checkin/425318083" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:15:00 +0000</a>
+							<a href="/user/Derft/checkin/425318083" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/Derft" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Derft/badges/168823720" title="Trip to the Farm" ><span><img src="https://untappd.akamaized.net/badges/bdg_saison_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Derft/badges/160986929" title="Legendary" ><span><img src="https://untappd.akamaized.net/badges/bdg_legendary_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Derft/badges/176068876" title="Riding Steady (Level 4)" ><span><img src="https://untappd.akamaized.net/badges/bdg_RidingSteady_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Derft/badges/160965172" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Derft/badges/176069058" title="2X (Level 2)" ><span><img src="https://untappd.akamaized.net/badges/bdg_2xCore_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Derft/badges/157347236" title="Cheers To You! (Level 2)" ><span><img src="https://untappd.akamaized.net/badges/bdg_HeresToYou_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Derft/badges/146850411" title="Take A Dunk!" ><span><img src="https://untappd.akamaized.net/badges/bdg_TakeADunk_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Derft/badges/146849288" title="Witch's Brew (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Halloween2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Derft/badges/133552817" title="Imperial Czar" ><span><img src="https://untappd.akamaized.net/badges/bdg_ImperialStout_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Derft/badges/131201304" title="Keep Your Wits About You" ><span><img src="https://untappd.akamaized.net/badges/bdg_witbier_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Derft/badges/176069474" title="Wheel of Styles (Level 13)" ><span><img src="https://untappd.akamaized.net/badges/bdg_WheelofStyles_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Derft/badges/128200595" title="The Gondolier" ><span><img src="https://untappd.akamaized.net/badges/bdg_italy_md.jpg"></span></a>
+                <p class="more"><a href="/user/Derft/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/fuller-smith-turner-brewer-s-reserve-no-4/211452" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_211452_b76ca25105d5964084191fd40c7b.jpeg"><p>
+	    				<span class="name">Brewer's Reserve No. 4</span>
+                        <span class="brewery">Fuller, Smith & Turner </span>	    			</p>
+	    		</a>
+    			    			<a href="/b/alesmith-brewing-company-old-numbskull/13961" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-OldNumbskull_13961.jpeg"><p>
+	    				<span class="name">Old Numbskull</span>
+                        <span class="brewery">AleSmith Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/bieres-de-chimay-abbaye-notre-dame-de-scourmont-chimay-bleue-grande-reserve/34039" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-34039_abfbe_sm.jpeg"><p>
+	    				<span class="name">Chimay Bleue (Grande Réserve)</span>
+                        <span class="brewery">Bières de Chimay</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brewdog-punk-ipa/5702" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-5702_7d1d7_sm.jpeg"><p>
+	    				<span class="name">Punk IPA</span>
+                        <span class="brewery">BrewDog</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/fuller-smith-turner-london-pride/2762" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-2762_10b41_sm.jpeg"><p>
+	    				<span class="name">London Pride</span>
+                        <span class="brewery">Fuller, Smith & Turner </span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/Derft/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/john-bull-pub/332698" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">John Bull Pub</span>
+    	    				<span class="location">Aalborg, Region Nordjylland                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/roskilde-festival/5091655" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/nightclub_bg_88.png"><p>
+    	    				<span class="name">Roskilde  Festival</span>
+    	    				    	    			</p>
+    	    		</a>
+        			        			<a href="/v/cafe-frederiksberg/1224663" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Café Frederiksberg</span>
+    	    				<span class="location">Aalborg, Region Nordjylland                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/fur-bryghus/873077" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Fur Bryghus</span>
+    	    				<span class="location">
+                                Fur
+                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/basement-beer-bar/1777240" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://untappd.akamaized.net/venuelogos/venue_1777240_353befca_bg_88.png"><p>
+    	    				<span class="name">Basement Beer Bar</span>
+    	    				<span class="location">Aalborg, Region Nordjylland                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/Derft/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/brewdogbrewery" title="BrewDog" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-241_8c584.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/WychwoodBrewery" title="Wychwood Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-WychwoodBrewery_1376.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/IndslevBryggeri" title="Indslev Bryggeri" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-8461_465e5.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/MidtfynsBryghus" title="Midtfyns Bryghus" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-MidtfynsBryghus_5254.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BieresdeChimay" title="Bières de Chimay (Abbaye Notre Dame de Scourmont) " ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-378_6719b.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/alesmith" title="AleSmith Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-2471_6bfa2.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/CarlsbergGroup" title="Carlsberg Group" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-CarlsbergBrewery_344.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/InnisandGunnUK" title="Innis & Gunn" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-innisgunn_1673.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/summerwinebrewery" title="Summer Wine Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-SummerWineBrewery_9697.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/fullers" title="Fuller, Smith & Turner (Fullers beers)" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-3296_73351.jpeg"></span></a>
+                                        </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

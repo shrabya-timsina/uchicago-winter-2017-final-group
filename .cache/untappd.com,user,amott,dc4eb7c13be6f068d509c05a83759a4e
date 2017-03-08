@@ -1,0 +1,1318 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 18:45:39 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 64259
+set-cookie: untappd_com_site_v2=4501b7f4dde2739a6c9ea9b801140653; expires=Wed, 08-Mar-2017 06:45:39 GMT; Max-Age=43200; path=/, ut_anon=d495a35c-57a4-41ab-a251-ae028bc40384; expires=Mon, 08-Jul-3016 18:45:39 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/amott
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Andy O. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Andy O. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Andy O. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/amott">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/amott">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="2124005" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_300x300.jpg">
+					</div>
+				</div><div class="info">
+					<h1>Andy O.</h1>
+					<span class="username">amott</span>
+					<span class="location">Oklahoma</span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+												<p>
+								<a class="fb track-click" target="_blank" data-track="profile" data-href=":facebook" href="/social/redir/facebook/10206189838936772">Facebook</a>
+							</p>
+											</div>
+				<div class="stats">
+											<a href="/user/amott" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">305</span>
+							<span class="title">Total</span>
+						</a><a href="/user/amott/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">302</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/amott/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">230</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/amott/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">10</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/amott/checkin/424890854"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/e48f151a1d3d36d261c571be5d505831_320x320.jpeg" /></a></p><p><a href="/user/amott/checkin/424554069"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/1e414ef0ccb196cc7fd7a1d48c64bdfc_320x320.jpeg" /></a></p><p><a href="/user/amott/checkin/421857825"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_26/0e4f30c3c5d51d79776b32622ab388e9_320x320.jpeg" /></a></p><p><a href="/user/amott/checkin/421262196"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_25/e9af05d702ef821434a963ac8929ef44_320x320.jpeg" /></a></p><p><a href="/user/amott/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_24/1e237af768c00973db02073d2d6bd1d0_320x320.jpeg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Andy's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_424890854" data-checkin-id="424890854">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/august-schell-brewing-company-grain-belt-premium/14011" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-GrainBeltPremium_14011.jpeg" alt="August Schell Brewing Company by Grain Belt Premium">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a  href="/b/august-schell-brewing-company-grain-belt-premium/14011">Grain Belt Premium</a> by <a href="/w/august-schell-brewing-company/4905">August Schell Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r275"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 4)">
+											<span>Earned the Riding Steady (Level 4) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/amott/checkin/424890854" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/e48f151a1d3d36d261c571be5d505831_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/424890854" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 21:26:12 +0000</a>
+							<a href="/user/amott/checkin/424890854" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424554069" data-checkin-id="424554069">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/new-bohemia-wurst-and-bierhaus-new-bohemian-lager/1634364" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="New Bohemia Wurst & BierHaus by New Bohemian Lager">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a  href="/b/new-bohemia-wurst-and-bierhaus-new-bohemian-lager/1634364">New Bohemian Lager</a> by <a href="/w/new-bohemia-wurst-bierhaus/281539">New Bohemia Wurst & BierHaus</a>
+							</p>
+														<div class="checkin-comment">
+								
+								<p class="purchased">Purchased at <a href="/v/new-bohemia-wurst-bierhaus/4442702">New Bohemia Wurst + BierHaus</a></p>
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_LagerJack_sm.jpg" alt="Lager Jack (Level 6)">
+											<span>Earned the Lager Jack (Level 6) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/amott/checkin/424554069" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/1e414ef0ccb196cc7fd7a1d48c64bdfc_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/424554069" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 01:59:09 +0000</a>
+							<a href="/user/amott/checkin/424554069" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423387553" data-checkin-id="423387553">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/yoerg-brewing-co-yoerg-s-beer/1669467" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Yoerg Brewing Co by Yoerg's Beer">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a  href="/b/yoerg-brewing-co-yoerg-s-beer/1669467">Yoerg's Beer</a> by <a href="/w/yoerg-brewing-co/287467">Yoerg Brewing Co</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/423387553" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 01:36:56 +0000</a>
+							<a href="/user/amott/checkin/423387553" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423361052" data-checkin-id="423361052">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/modist-brewing-company-phresh/1504850" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1504850_fe91c_sm.jpeg" alt="Modist Brewing Company by pHresh">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a  href="/b/modist-brewing-company-phresh/1504850">pHresh</a> by <a href="/w/modist-brewing-company/263036">Modist Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_MardiGras2017_sm.jpg" alt="Mardi Gras (2017)">
+											<span>Earned the Mardi Gras (2017) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/423361052" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 00:50:06 +0000</a>
+							<a href="/user/amott/checkin/423361052" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_421857825" data-checkin-id="421857825">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/arcadia-brewing-company-arcadia-ales-cheap-date/345737" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-345737_6dd8c_sm.jpeg" alt="Arcadia Brewing Company (Arcadia Ales) by Cheap Date">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a href="/b/arcadia-brewing-company-arcadia-ales-cheap-date/345737">Cheap Date</a> by <a  href="/w/arcadia-brewing-company-arcadia-ales/47">Arcadia Brewing Company (Arcadia Ales)</a> at <a href="/v/the-valley-tap-house/137443">The Valley Tap House </a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_VerifiedVenue_sm.jpg" alt="Verified Adventure">
+											<span>Earned the Verified Adventure badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/amott/checkin/421857825" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_26/0e4f30c3c5d51d79776b32622ab388e9_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/421857825" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 26 Feb 2017 00:13:50 +0000</a>
+							<a href="/user/amott/checkin/421857825" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_421262196" data-checkin-id="421262196">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/uncharted-cider-company-smith-and-forge-hard-cider/424951" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-424951_4a288_sm.jpeg" alt="Uncharted Cider Company by Smith & Forge Hard Cider">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a  href="/b/uncharted-cider-company-smith-and-forge-hard-cider/424951">Smith & Forge Hard Cider</a> by <a href="/w/uncharted-cider-company/120281">Uncharted Cider Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/amott/checkin/421262196" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_25/e9af05d702ef821434a963ac8929ef44_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/421262196" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 25 Feb 2017 02:35:42 +0000</a>
+							<a href="/user/amott/checkin/421262196" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_420762326" data-checkin-id="420762326">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bent-brewstillery-moar-ipa/660853" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-660853_c2ced_sm.jpeg" alt="Bent Brewstillery by Moar IPA ">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a href="/b/bent-brewstillery-moar-ipa/660853">Moar IPA </a> by <a  href="/w/bent-brewstillery/68292">Bent Brewstillery</a> at <a href="/v/world-of-beer/5083148">World of Beer</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Really bittet									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r275"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_nbt_sm.jpg" alt="New Brew Thursday (Level 2)">
+											<span>Earned the New Brew Thursday (Level 2) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 3)">
+											<span>Earned the Riding Steady (Level 3) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/amott/checkin/420762326" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_24/1e237af768c00973db02073d2d6bd1d0_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/420762326" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 24 Feb 2017 01:59:26 +0000</a>
+							<a href="/user/amott/checkin/420762326" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_420500479" data-checkin-id="420500479">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/new-belgium-brewing-company-2-below-winter-ale/416" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-nbb2below.jpg" alt="New Belgium Brewing Company by 2° Below Winter Ale">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a  href="/b/new-belgium-brewing-company-2-below-winter-ale/416">2° Below Winter Ale</a> by <a href="/w/new-belgium-brewing-company/905">New Belgium Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/bottle@3x.png">
+									          <span>Bottle</span>
+									        </p>
+																					<span class="rating small r325"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/amott/checkin/420500479" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_23/a7ba86e42bb5c2f1cad9581cc00e5505_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/420500479" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 23 Feb 2017 03:12:33 +0000</a>
+							<a href="/user/amott/checkin/420500479" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419989620" data-checkin-id="419989620">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/jacob-leinenkugel-brewing-company-cocoa-shandy/1777225" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Jacob Leinenkugel Brewing Company by Cocoa Shandy">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a  href="/b/jacob-leinenkugel-brewing-company-cocoa-shandy/1777225">Cocoa Shandy</a> by <a href="/w/jacob-leinenkugel-brewing-company/708">Jacob Leinenkugel Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Just like a bar of chocolate									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r475"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/amott/checkin/419989620" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_21/72c14be0bf81953d74e79b036ab2a21f_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/419989620" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 21 Feb 2017 01:22:19 +0000</a>
+							<a href="/user/amott/checkin/419989620" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="atasler" href="/user/atasler" title="Ashley M." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/255336dba3b77974f40913d705ce8e78_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419989204" data-checkin-id="419989204">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/jacob-leinenkugel-brewing-company-cocoa-shandy/1777225" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Jacob Leinenkugel Brewing Company by Cocoa Shandy">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a  href="/b/jacob-leinenkugel-brewing-company-cocoa-shandy/1777225">Cocoa Shandy</a> by <a href="/w/jacob-leinenkugel-brewing-company/708">Jacob Leinenkugel Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Just like a bar of chocolate									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r475"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/419989204" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 21 Feb 2017 01:21:18 +0000</a>
+							<a href="/user/amott/checkin/419989204" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419677864" data-checkin-id="419677864">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bell-s-brewery-hopslam-ale/4143" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-4143_90b4a_sm.jpeg" alt="Bell's Brewery by Hopslam Ale">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a href="/b/bell-s-brewery-hopslam-ale/4143">Hopslam Ale</a> by <a  href="/w/bell-s-brewery/2507">Bell's Brewery</a> at <a href="/v/the-blue-door-pub/17259">The Blue Door Pub</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/amott/checkin/419677864" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_20/3d1509b087c210e8efb9e192dc36af35_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/419677864" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 20 Feb 2017 00:24:48 +0000</a>
+							<a href="/user/amott/checkin/419677864" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="motowithmatt" href="/user/motowithmatt" title="Matt M." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/0b86c78cd1b1d4998cf10289a8f0d320_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419045068" data-checkin-id="419045068">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/jacob-leinenkugel-brewing-company-spiced-pear-shandy/1006683" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1006683_27b5d_sm.jpeg" alt="Jacob Leinenkugel Brewing Company by Spiced Pear Shandy">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a  href="/b/jacob-leinenkugel-brewing-company-spiced-pear-shandy/1006683">Spiced Pear Shandy</a> by <a href="/w/jacob-leinenkugel-brewing-company/708">Jacob Leinenkugel Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r325"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/amott/checkin/419045068" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_18/e49ad0cd85cb4a2be728f507aceaf581_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/419045068" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 18 Feb 2017 23:39:41 +0000</a>
+							<a href="/user/amott/checkin/419045068" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_415373510" data-checkin-id="415373510">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/tallgrass-brewing-company-8-bit-pale-ale/105492" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-105492_40d0b_sm.jpeg" alt="Tallgrass Brewing Company by 8-Bit Pale Ale">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a href="/b/tallgrass-brewing-company-8-bit-pale-ale/105492">8-Bit Pale Ale</a> by <a  href="/w/tallgrass-brewing-company/1488">Tallgrass Brewing Company</a> at <a href="/v/world-of-beer/5083148">World of Beer</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/amott/checkin/415373510" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_10/7e4beef872188ef0905aea54fc38f6eb_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/415373510" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 10 Feb 2017 01:42:11 +0000</a>
+							<a href="/user/amott/checkin/415373510" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_410200862" data-checkin-id="410200862">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/odell-brewing-co-drumroll/1600793" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1600793_53215_sm.jpeg" alt="Odell Brewing Co. by Drumroll">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a  href="/b/odell-brewing-co-drumroll/1600793">Drumroll</a> by <a href="/w/odell-brewing-co/7296">Odell Brewing Co.</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/410200862" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 27 Jan 2017 01:52:49 +0000</a>
+							<a href="/user/amott/checkin/410200862" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="amott" href="/user/amott" title="Andy O." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_410173927" data-checkin-id="410173927">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/amott">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/b6f96886b39ef490b4b7f642904a3c99_100x100.jpg" alt="Andy O.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/upper-hand-brewery-yooper-ale/1075717" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1075717_f1956_sm.jpeg" alt="Upper Hand Brewery by Yooper Ale">
+							</a>
+														<p class="text">
+								<a href="/user/amott" class="user">Andy O.</a>  is drinking a <a href="/b/upper-hand-brewery-yooper-ale/1075717">Yooper Ale</a> by <a  href="/w/upper-hand-brewery/77998">Upper Hand Brewery</a> at <a href="/v/world-of-beer/5083148">World of Beer</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_PaleMoon_sm.jpg" alt="Pale as the Moon (Level 8)">
+											<span>Earned the Pale as the Moon (Level 8) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/amott/checkin/410173927" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_01_27/68f8f744f637ff014f84885ab1029255_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/amott/checkin/410173927" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 27 Jan 2017 01:02:46 +0000</a>
+							<a href="/user/amott/checkin/410173927" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/amott" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/amott/badges/175023832" title="Mardi Gras (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_MardiGras2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/amott/badges/174037596" title="Verified Adventure" ><span><img src="https://untappd.akamaized.net/badges/bdg_VerifiedVenue_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/amott/badges/161744918" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/amott/badges/173484245" title="New Brew Thursday (Level 2)" ><span><img src="https://untappd.akamaized.net/badges/bdg_nbt_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/amott/badges/155904853" title="Johnny Appleseed" ><span><img src="https://untappd.akamaized.net/badges/bdg_appleseed_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/amott/badges/175853193" title="Riding Steady (Level 4)" ><span><img src="https://untappd.akamaized.net/badges/bdg_RidingSteady_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/amott/badges/154315668" title="Better Together" ><span><img src="https://untappd.akamaized.net/badges/bdg_BetterTogether_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/amott/badges/153937294" title="Beer-giving (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Thanksgiving2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/amott/badges/151430736" title="Cheers To You!" ><span><img src="https://untappd.akamaized.net/badges/bdg_HeresToYou_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/amott/badges/150365035" title="Winter Wonderland" ><span><img src="https://untappd.akamaized.net/badges/bdg_wonderland_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/amott/badges/150365033" title="Veterans Day (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_VeteransDay2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/amott/badges/148997214" title="Election Day (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_ElectionDay2016_md.jpg"></span></a>
+                <p class="more"><a href="/user/amott/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/oskar-blues-brewery-death-by-coconut/623963" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-623963_78bfa_sm.jpeg"><p>
+	    				<span class="name">Death By Coconut</span>
+                        <span class="brewery">Oskar Blues Brewery</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/boulevard-brewing-co-tank-7-farmhouse-ale/10891" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-10891_26699_sm.jpeg"><p>
+	    				<span class="name">Tank 7 Farmhouse Ale</span>
+                        <span class="brewery">Boulevard Brewing Co.</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/wooden-legs-brewing-company-pubkeep-series-dark-singularity/472509" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_472509_sm_fb5e7c3f2b6d8b77bc5177dbe7f12c.jpeg"><p>
+	    				<span class="name">Pubkeep Series: Dark Singularity</span>
+                        <span class="brewery">Wooden Legs Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/jacob-leinenkugel-brewing-company-cocoa-shandy/1777225" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Cocoa Shandy</span>
+                        <span class="brewery">Jacob Leinenkugel Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/woodchuck-cidery-woodchuck-amber-hard-cider/4484" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-4484_ff5ec_sm.jpeg"><p>
+	    				<span class="name">Woodchuck Amber Hard Cider</span>
+                        <span class="brewery">Woodchuck Cidery</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/amott/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/boulevard-tasting-room/46651" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Boulevard Tasting Room</span>
+    	    				<span class="location">Kansas City, MO                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/callahans-pub-and-grille/51820" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Callahans Pub & Grille</span>
+    	    				<span class="location">Enid, OK                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/world-of-beer/5083148" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">World of Beer</span>
+    	    				<span class="location">Saint Paul, MN                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/the-blue-door-pub/17259" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">The Blue Door Pub</span>
+    	    				<span class="location">Saint Paul, MN                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/boulevard-brewing-co/5001676" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://untappd.akamaized.net/venuelogos/venue_5001676_6ecb9819_bg_88.png"><p>
+    	    				<span class="name">Boulevard Brewing Beer Hall</span>
+    	    				<span class="location">Kansas City, MO                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/amott/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BlueMoonBrewingCompany" title="Blue Moon Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-127804_1a670.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/MankatoBrewery" title="Mankato Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-21676_478f4.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/foundersbrewing" title="Founders Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-foundersbrewingcompany_549.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/boulevard" title="Boulevard Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-1514_2003e.jpeg"></span></a>
+                                        </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,1278 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 19:21:19 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 60950
+set-cookie: untappd_com_site_v2=01a286140f6968a54d51dc9b22ae3659; expires=Wed, 08-Mar-2017 07:21:19 GMT; Max-Age=43200; path=/, ut_anon=9035288f-1217-42a9-bf1d-e11e4f535501; expires=Mon, 08-Jul-3016 19:21:19 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/stongefr
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>François S. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="François S. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="François S. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/stongefr">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/stongefr">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="3746677" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_300x300.jpg">
+					</div>
+				</div><div class="info">
+					<h1>François S.</h1>
+					<span class="username">stongefr</span>
+					<span class="location">Shawinigan</span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+												<p>
+								<a class="tw track-click" target="_blank" data-track="profile" data-href=":twitter" href="https://twitter.com/slushead">Twitter</a>
+							</p>
+														<p>
+								<a class="fb track-click" target="_blank" data-track="profile" data-href=":facebook" href="/social/redir/facebook/10157466205125484">Facebook</a>
+							</p>
+											</div>
+				<div class="stats">
+											<a href="/user/stongefr" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">75</span>
+							<span class="title">Total</span>
+						</a><a href="/user/stongefr/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">72</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/stongefr/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">52</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/stongefr/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">5</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/stongefr/checkin/408699644"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_01_21/034842d359cf9c3d38483edb98f7fbfd_320x320.jpeg" /></a></p><p><a href="/user/stongefr/checkin/408625934"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_01_21/425fb858dcc0788b11949cf001f6b575_320x320.jpeg" /></a></p><p><a href="/user/stongefr/checkin/379220845"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2016_11_05/4010bb693e00db6b4cf607078289c39a_320x320.jpeg" /></a></p><p><a href="/user/stongefr/checkin/379179939"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2016_11_05/d614997896b9c977ede0669f51625bb7_320x320.jpeg" /></a></p><p><a href="/user/stongefr/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2016_10_01/4ba141aeeb700fea4ae1625f53c03f35_320x320.jpeg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>François's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_424625553" data-checkin-id="424625553">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/waterloo-brewing-waterloo-original-dark/4901" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-4901_fa298_sm.jpeg" alt="Waterloo Brewing by Waterloo Original Dark">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking a <a  href="/b/waterloo-brewing-waterloo-original-dark/4901">Waterloo Original Dark</a> by <a href="/w/waterloo-brewing-co/253">Waterloo Brewing</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r325"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/424625553" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 03:29:24 +0000</a>
+							<a href="/user/stongefr/checkin/424625553" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="WaterlooBrewing" href="/brewery/253" title="Waterloo Brewing" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/site/brewery_logos/brewery-253_56a85.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424604198" data-checkin-id="424604198">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/niagara-brewing-company-honeymoon-peach-radler/1065410" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1065410_9a1d2_sm.jpeg" alt="Niagara Brewing Company by Honeymoon Peach Radler">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking a <a  href="/b/niagara-brewing-company-honeymoon-peach-radler/1065410">Honeymoon Peach Radler</a> by <a href="/w/niagara-brewing-company/199977">Niagara Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/424604198" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 02:58:55 +0000</a>
+							<a href="/user/stongefr/checkin/424604198" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423954635" data-checkin-id="423954635">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/niagara-brewing-company-beerdevil-ipa/1117918" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1117918_d888b_sm.jpeg" alt="Niagara Brewing Company by Beerdevil IPA">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking a <a  href="/b/niagara-brewing-company-beerdevil-ipa/1117918">Beerdevil IPA</a> by <a href="/w/niagara-brewing-company/199977">Niagara Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/423954635" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 04:55:22 +0000</a>
+							<a href="/user/stongefr/checkin/423954635" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423921225" data-checkin-id="423921225">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/gambrinus-brasserie-artisanale-cafe-cowboy/521974" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Gambrinus Brasserie Artisanale by Café Cowboy">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking a <a href="/b/gambrinus-brasserie-artisanale-cafe-cowboy/521974">Café Cowboy</a> by <a  href="/w/gambrinus-brasserie-artisanale/33840">Gambrinus Brasserie Artisanale</a> at <a href="/v/gambrinus-brasserie-artisanale/309092">Gambrinus - Brasserie Artisanale</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_canada_sm.jpg" alt="The Great White North  (Level 13)">
+											<span>Earned the The Great White North  (Level 13) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/423921225" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 03:44:01 +0000</a>
+							<a href="/user/stongefr/checkin/423921225" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423896734" data-checkin-id="423896734">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/gambrinus-brasserie-artisanale-okanagan/1653891" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Gambrinus Brasserie Artisanale by Okanagan">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking an <a  href="/b/gambrinus-brasserie-artisanale-okanagan/1653891">Okanagan</a> by <a href="/w/gambrinus-brasserie-artisanale/33840">Gambrinus Brasserie Artisanale</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r250"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_WheelofStyles_sm.jpg" alt="Wheel of Styles (Level 7)">
+											<span>Earned the Wheel of Styles (Level 7) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/423896734" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 03:05:48 +0000</a>
+							<a href="/user/stongefr/checkin/423896734" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422381135" data-checkin-id="422381135">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/le-trou-du-diable-quebec-brettneck/1360877" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1360877_106bc_sm.jpeg" alt="Le Trou du Diable by Québec Brettneck">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking a <a href="/b/le-trou-du-diable-quebec-brettneck/1360877">Québec Brettneck</a> by <a  href="/w/le-trou-du-diable/3232">Le Trou du Diable</a> at <a href="/v/brasserie-artisanale-le-trou-du-diable/167952">Brasserie Artisanale le Trou du Diable</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/422381135" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 26 Feb 2017 23:43:35 +0000</a>
+							<a href="/user/stongefr/checkin/422381135" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422338558" data-checkin-id="422338558">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/le-trou-du-diable-st-andre-claymore/11882" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_11882_sm_b43771a918a6e1af26d7e74839edaa.jpeg" alt="Le Trou du Diable by St-André Claymore">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking a <a href="/b/le-trou-du-diable-st-andre-claymore/11882">St-André Claymore</a> by <a  href="/w/le-trou-du-diable/3232">Le Trou du Diable</a> at <a href="/v/brasserie-artisanale-le-trou-du-diable/167952">Brasserie Artisanale le Trou du Diable</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r325"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/422338558" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 26 Feb 2017 22:24:30 +0000</a>
+							<a href="/user/stongefr/checkin/422338558" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422307889" data-checkin-id="422307889">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/le-trou-du-diable-esteban/1448917" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1448917_a4941_sm.jpeg" alt="Le Trou du Diable by Esteban">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking an <a href="/b/le-trou-du-diable-esteban/1448917">Esteban</a> by <a  href="/w/le-trou-du-diable/3232">Le Trou du Diable</a> at <a href="/v/brasserie-artisanale-le-trou-du-diable/167952">Brasserie Artisanale le Trou du Diable</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_heavyWeight_sm.jpg" alt="Heavy Weight (Level 2)">
+											<span>Earned the Heavy Weight (Level 2) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 4)">
+											<span>Earned the Riding Steady (Level 4) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/422307889" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 26 Feb 2017 21:30:12 +0000</a>
+							<a href="/user/stongefr/checkin/422307889" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_421765679" data-checkin-id="421765679">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/a-la-fut-cowsure-framboise/1200346" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="À la Fût by Cowsûre Framboise">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking a <a href="/b/a-la-fut-cowsure-framboise/1200346">Cowsûre Framboise</a> by <a  href="/w/la-f-t/11977">À la Fût</a> at <a href="/v/a-la-fut/686530">À La Fût</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_TeaTime_sm.jpg" alt="Tea Time">
+											<span>Earned the Tea Time badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_canada_sm.jpg" alt="The Great White North  (Level 12)">
+											<span>Earned the The Great White North  (Level 12) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/421765679" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 25 Feb 2017 22:44:05 +0000</a>
+							<a href="/user/stongefr/checkin/421765679" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_421727323" data-checkin-id="421727323">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/a-la-fut-serie-brouepub-dunkel-weizen/1009342" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="À la Fût by Série Brouepub Dunkel Weizen">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking a <a href="/b/a-la-fut-serie-brouepub-dunkel-weizen/1009342">Série Brouepub Dunkel Weizen</a> by <a  href="/w/la-f-t/11977">À la Fût</a> at <a href="/v/a-la-fut/686530">À La Fût</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/421727323" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 25 Feb 2017 22:06:14 +0000</a>
+							<a href="/user/stongefr/checkin/421727323" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_416380390" data-checkin-id="416380390">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/le-trou-du-diable-roi-arthur/1517175" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1517175_d4aeb_sm.jpeg" alt="Le Trou du Diable by Roi Arthur">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking a <a href="/b/le-trou-du-diable-roi-arthur/1517175">Roi Arthur</a> by <a  href="/w/le-trou-du-diable/3232">Le Trou du Diable</a> at <a href="/v/brasserie-artisanale-le-trou-du-diable/167952">Brasserie Artisanale le Trou du Diable</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/416380390" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 11 Feb 2017 23:35:03 +0000</a>
+							<a href="/user/stongefr/checkin/416380390" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_416254590" data-checkin-id="416254590">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/broadway-pub-l-allumeuse/315581" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-315581_d4895_sm.jpeg" alt="Broadway Pub by L’Allumeuse">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking a <a href="/b/broadway-pub-l-allumeuse/315581">L’Allumeuse</a> by <a  href="/w/broadway-pub/2007">Broadway Pub</a> at <a href="/v/broadway-pub/326683">Broadway Pub</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/416254590" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 11 Feb 2017 21:31:47 +0000</a>
+							<a href="/user/stongefr/checkin/416254590" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_416253118" data-checkin-id="416253118">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/broadway-pub-sein-d-esprit-de-noel/513241" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Broadway Pub by Sein D'esprit De Noel">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking a <a href="/b/broadway-pub-sein-d-esprit-de-noel/513241">Sein D'esprit De Noel</a> by <a  href="/w/broadway-pub/2007">Broadway Pub</a> at <a href="/v/broadway-pub/326683">Broadway Pub</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r325"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_findSource_sm.jpg" alt="Find the Source (Level 2)">
+											<span>Earned the Find the Source (Level 2) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_WheelofStyles_sm.jpg" alt="Wheel of Styles (Level 6)">
+											<span>Earned the Wheel of Styles (Level 6) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/416253118" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 11 Feb 2017 21:30:16 +0000</a>
+							<a href="/user/stongefr/checkin/416253118" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_416110395" data-checkin-id="416110395">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/le-trou-du-diable-mactavish-in-memoriam/49491" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-49491_6cf5a_sm.jpeg" alt="Le Trou du Diable by MacTavish in Memoriam">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking a <a href="/b/le-trou-du-diable-mactavish-in-memoriam/49491">MacTavish in Memoriam</a> by <a  href="/w/le-trou-du-diable/3232">Le Trou du Diable</a> at <a href="/v/digihub-shawinigan/5906386">DigiHub Shawinigan</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_canada_sm.jpg" alt="The Great White North  (Level 11)">
+											<span>Earned the The Great White North  (Level 11) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/416110395" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 11 Feb 2017 19:01:43 +0000</a>
+							<a href="/user/stongefr/checkin/416110395" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_414828380" data-checkin-id="414828380">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/stongefr">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5309ba74e3b7e62f607e1fa66687ec92_100x100.jpg" alt="François S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/boreale-boreale-blanche/45421" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_45421_480d2efdf38574f5a2d77266133d.jpeg" alt="Boréale by Boréale Blanche">
+							</a>
+														<p class="text">
+								<a href="/user/stongefr" class="user">François S.</a>  is drinking a <a href="/b/boreale-boreale-blanche/45421">Boréale Blanche</a> by <a  href="/w/boreale/4245">Boréale</a> at <a href="/v/frite-alors/5895368">Frite Alors</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_goingPlaces_sm.jpg" alt="Bar Explorer (Level 4)">
+											<span>Earned the Bar Explorer (Level 4) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/stongefr/checkin/414828380" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Feb 2017 23:26:38 +0000</a>
+							<a href="/user/stongefr/checkin/414828380" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/stongefr" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/stongefr/badges/173992418" title="Tea Time" ><span><img src="https://untappd.akamaized.net/badges/bdg_TeaTime_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/stongefr/badges/168873715" title="Keep Your Wits About You" ><span><img src="https://untappd.akamaized.net/badges/bdg_witbier_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/stongefr/badges/167908748" title="Journeyman" ><span><img src="https://untappd.akamaized.net/badges/bdg_check50_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/stongefr/badges/167908749" title="Lager Jack" ><span><img src="https://untappd.akamaized.net/badges/bdg_LagerJack_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/stongefr/badges/167050421" title="Photogenic Brew" ><span><img src="https://untappd.akamaized.net/badges/bdg_beertography_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/stongefr/badges/167050422" title="Trip to the Farm" ><span><img src="https://untappd.akamaized.net/badges/bdg_saison_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/stongefr/badges/161262916" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/stongefr/badges/153928121" title="Beer-giving (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Thanksgiving2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/stongefr/badges/174251791" title="Riding Steady (Level 4)" ><span><img src="https://untappd.akamaized.net/badges/bdg_RidingSteady_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/stongefr/badges/169823871" title="I Believe in IPA! (Level 2)" ><span><img src="https://untappd.akamaized.net/badges/bdg_hoptopia_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/stongefr/badges/171208158" title="Find the Source (Level 2)" ><span><img src="https://untappd.akamaized.net/badges/bdg_findSource_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/stongefr/badges/150447921" title="Veterans Day (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_VeteransDay2016_md.jpg"></span></a>
+                <p class="more"><a href="/user/stongefr/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/le-trou-du-diable-le-sang-d-encre/25242" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-25242_03c3e_sm.jpeg"><p>
+	    				<span class="name">Le Sang d'Encre</span>
+                        <span class="brewery">Le Trou du Diable</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/le-trou-du-diable-la-saison-du-tracteur/139122" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-139122_2c190_sm.jpeg"><p>
+	    				<span class="name">La Saison du Tracteur</span>
+                        <span class="brewery">Le Trou du Diable</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brasseurs-du-monde-l-infusee/181740" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_181740_01d12961b4b004ae4f8d5457e9ac.jpeg"><p>
+	    				<span class="name">L'Infusée</span>
+                        <span class="brewery">Brasseurs du Monde</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brasserie-lefebvre-barbar/28225" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-28225_34686_sm.jpeg"><p>
+	    				<span class="name">Barbãr</span>
+                        <span class="brewery">Brasserie Lefebvre</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brasseurs-illimites-india-pale-ale-double-a-la-mangue/1624697" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">India Pale Ale Double À La Mangue</span>
+                        <span class="brewery">Brasseurs Illimités</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/stongefr/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/archibald-microbrasserie/1756069" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Archibald Microbrasserie</span>
+    	    				<span class="location">Trois-Rivières, QC                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/brasserie-artisanale-le-trou-du-diable/167952" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Brasserie Artisanale le Trou du Diable</span>
+    	    				<span class="location">Shawinigan, QC                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/club-soda/262327" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_bg_88.png"><p>
+    	    				<span class="name">Club Soda</span>
+    	    				<span class="location">Montréal, QC                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/gambrinus-brasserie-artisanale/309092" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Gambrinus - Brasserie Artisanale</span>
+    	    				<span class="location">Trois-Rivières, QC                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/pointedulac/322781" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/outdoors_bg_88.png"><p>
+    	    				<span class="name">Pointe-du-lac</span>
+    	    				<span class="location">Pointe-du-Lac, QC                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/stongefr/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Les3BrasseursThe3Brewers" title="Les 3 Brasseurs (The 3 Brewers)" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-1430_6b9f2.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Archibaldmicrobrasserie" title="Microbrasserie Archibald" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-12777_74fe6.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/troududiable" title="Le Trou Du Diable" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-3232_65e4c.jpeg"></span></a>
+                                        </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

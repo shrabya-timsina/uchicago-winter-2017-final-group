@@ -1,0 +1,1406 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 18:56:00 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 71768
+set-cookie: untappd_com_site_v2=061171f8b57949d3e273add36d118370; expires=Wed, 08-Mar-2017 06:56:00 GMT; Max-Age=43200; path=/, ut_anon=fe5f96fe-b3af-4a4e-88dc-89f6f51234f2; expires=Mon, 08-Jul-3016 18:56:00 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/madalves
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Marcus A. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Marcus A. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Marcus A. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/madalves">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/madalves">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="191200" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=125&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+					</div>
+				</div><div class="info">
+					<h1>Marcus A.</h1>
+					<span class="username">madalves</span>
+					<span class="location">Amsterdam</span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+												<p>
+								<a class="tw track-click" target="_blank" data-track="profile" data-href=":twitter" href="https://twitter.com/madalves">Twitter</a>
+							</p>
+														<p>
+								<a class="fb track-click" target="_blank" data-track="profile" data-href=":facebook" href="/social/redir/facebook/1058980457">Facebook</a>
+							</p>
+														<p>
+								<a class="sq track-click" target="_blank" data-track="profile" data-href=":foursquare" href="https://foursquare.com/user/4416268">Foursquare</a>
+							</p>
+											</div>
+				<div class="stats">
+											<a href="/user/madalves" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">454</span>
+							<span class="title">Total</span>
+						</a><a href="/user/madalves/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">368</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/madalves/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">266</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/madalves/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">14</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/madalves/checkin/425214200"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/8f35b1c925367f4e90e95564457c1e90_320x320.jpg" /></a></p><p><a href="/user/madalves/checkin/425202588"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/0f7d7d018a788ef515baf80daa98a58e_320x320.jpg" /></a></p><p><a href="/user/madalves/checkin/425192088"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/b36dd6ea676c443d65d9190d4bf9c493_320x320.jpg" /></a></p><p><a href="/user/madalves/checkin/425176932"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/917c1b7c3d4c34925013ef9e89980412_320x320.jpg" /></a></p><p><a href="/user/madalves/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/45338dc02126e731a13b4c8647381ef3_320x320.jpg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Marcus's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425214200" data-checkin-id="425214200">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/traveler-beer-co-jolly-traveler-winter-shandy/686801" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-686801_6e3d8_sm.jpeg" alt="Traveler Beer Co. by Jolly Traveler Winter Shandy">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking a <a href="/b/traveler-beer-co-jolly-traveler-winter-shandy/686801">Jolly Traveler Winter Shandy</a> by <a  href="/w/traveler-beer-co/27980">Traveler Beer Co.</a> at <a href="/v/birdielaan/4641824">Birdielaan</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r100"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/425214200" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/8f35b1c925367f4e90e95564457c1e90_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/425214200" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 01:01:36 +0000</a>
+							<a href="/user/madalves/checkin/425214200" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425202588" data-checkin-id="425202588">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/stoudts-brewing-company-fourplay-ipa/306330" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_306330_sm_92c0d957eeab3f13b22135b0938f2f.jpeg" alt="Stoudts Brewing Company by Fourplay IPA">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking a <a href="/b/stoudts-brewing-company-fourplay-ipa/306330">Fourplay IPA</a> by <a  href="/w/stoudts-brewing-company/2337">Stoudts Brewing Company</a> at <a href="/v/birdielaan/4641824">Birdielaan</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/425202588" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/0f7d7d018a788ef515baf80daa98a58e_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/425202588" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 00:29:39 +0000</a>
+							<a href="/user/madalves/checkin/425202588" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425192088" data-checkin-id="425192088">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-de-koninck-triple-d-anvers/67064" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-TripledAnvers_67064.jpeg" alt="Brouwerij De Koninck by Triple d'Anvers">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking a <a href="/b/brouwerij-de-koninck-triple-d-anvers/67064">Triple d'Anvers</a> by <a  href="/w/brouwerij-de-koninck/4053">Brouwerij De Koninck</a> at <a href="/v/birdielaan/4641824">Birdielaan</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_DubTripQuad_sm.jpg" alt="Dubbel, Tripel and Quad Oh My! (Level 2)">
+											<span>Earned the Dubbel, Tripel and Quad Oh My! (Level 2) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/425192088" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/b36dd6ea676c443d65d9190d4bf9c493_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/425192088" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 23:59:57 +0000</a>
+							<a href="/user/madalves/checkin/425192088" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425176932" data-checkin-id="425176932">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brasserie-d-achouffe-n-ice-chouffe/7539" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-NIceChouffe_7539.jpeg" alt="Brasserie d'Achouffe by N'Ice Chouffe">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking a <a href="/b/brasserie-d-achouffe-n-ice-chouffe/7539">N'Ice Chouffe</a> by <a  href="/w/brasserie-dachouffe/11866">Brasserie d'Achouffe</a> at <a href="/v/birdielaan/4641824">Birdielaan</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_highABV_sm.jpg" alt="Sky's the Limit (Level 2)">
+											<span>Earned the Sky's the Limit (Level 2) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/425176932" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/917c1b7c3d4c34925013ef9e89980412_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/425176932" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 23:12:08 +0000</a>
+							<a href="/user/madalves/checkin/425176932" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425168350" data-checkin-id="425168350">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/heineken-h41/1359816" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1359816_fc8bd_sm.jpeg" alt="Heineken by H41">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking a <a href="/b/heineken-h41/1359816">H41</a> by <a  href="/w/heineken/1400">Heineken</a> at <a href="/v/birdielaan/4641824">Birdielaan</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/425168350" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/45338dc02126e731a13b4c8647381ef3_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/425168350" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 22:40:15 +0000</a>
+							<a href="/user/madalves/checkin/425168350" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425160426" data-checkin-id="425160426">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/lagunitas-brewing-company-ipa/4509" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-4509_1ce65_sm.jpeg" alt="Lagunitas Brewing Company by IPA">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking an <a href="/b/lagunitas-brewing-company-ipa/4509">IPA</a> by <a  href="/w/lagunitas-brewing-company/765">Lagunitas Brewing Company</a> at <a href="/v/birdielaan/4641824">Birdielaan</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/425160426" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/f8df0d8c2b8f5c2d177dcfcdc5c1fc3e_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/425160426" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 22:06:16 +0000</a>
+							<a href="/user/madalves/checkin/425160426" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425155233" data-checkin-id="425155233">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bulmers-cider-original/430537" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-430537_036c3_sm.jpeg" alt="Bulmers Cider by Original">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking an <a href="/b/bulmers-cider-original/430537">Original</a> by <a  href="/w/bulmers-cider/10147">Bulmers Cider</a> at <a href="/v/birdielaan/4641824">Birdielaan</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r100"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_godSaveTheQueen_sm.jpg" alt="God Save the Queen (Level 2)">
+											<span>Earned the God Save the Queen (Level 2) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/425155233" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/85e9ee5a5277abe5269060bbb66c3837_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/425155233" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 21:41:48 +0000</a>
+							<a href="/user/madalves/checkin/425155233" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425151137" data-checkin-id="425151137">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/fish-brewing-company-fish-tale-winterfish/762" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-762_6e935_sm.jpeg" alt="Fish Brewing Company by Fish Tale Winterfish">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking a <a href="/b/fish-brewing-company-fish-tale-winterfish/762">Fish Tale Winterfish</a> by <a  href="/w/fish-brewing-company/526">Fish Brewing Company</a> at <a href="/v/birdielaan/4641824">Birdielaan</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_wonderland_sm.jpg" alt="Winter Wonderland">
+											<span>Earned the Winter Wonderland badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_HoppedUp_sm.jpg" alt="Hopped Up (Level 2)">
+											<span>Earned the Hopped Up (Level 2) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/425151137" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/e25275d9c991287540193842d123d5cb_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/425151137" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 21:21:50 +0000</a>
+							<a href="/user/madalves/checkin/425151137" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425150134" data-checkin-id="425150134">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-kees-farmhouse-ipa/1058085" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1058085_5348f_sm.jpeg" alt="Brouwerij Kees by Farmhouse IPA">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking a <a href="/b/brouwerij-kees-farmhouse-ipa/1058085">Farmhouse IPA</a> by <a  href="/w/brouwerij-kees/188723">Brouwerij Kees</a> at <a href="/v/birdielaan/4641824">Birdielaan</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r250"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_GoingDutch_sm.jpg?v=1" alt="Going Dutch  (Level 13)">
+											<span>Earned the Going Dutch  (Level 13) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/425150134" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/b2802945ec7bfa2dd9a2613b981e5eec_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/425150134" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 21:16:54 +0000</a>
+							<a href="/user/madalves/checkin/425150134" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_421428026" data-checkin-id="421428026">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/iki-beer-iki-yuzu/31656" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-31656_8631c_sm.jpeg" alt="iKi beer by iKi Yuzu">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking an <a href="/b/iki-beer-iki-yuzu/31656">iKi Yuzu</a> by <a  href="/w/iki-beer/10089">iKi beer</a> at <a href="/v/wagamama/179953">wagamama</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r300"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/421428026" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_25/9e40ea89cca237c092dfb7b6761451bf_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/421428026" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 25 Feb 2017 15:21:18 +0000</a>
+							<a href="/user/madalves/checkin/421428026" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_416793688" data-checkin-id="416793688">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/heineken-italia-birra-messina/9853" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-BirraMessina_9853.jpeg" alt="Heineken (Italia) by Birra Messina">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking a <a href="/b/heineken-italia-birra-messina/9853">Birra Messina</a> by <a  href="/w/heineken-italia/2754">Heineken (Italia)</a> at <a href="/v/jamies-italian/310147">Jamie's Italian</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r250"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_goingPlaces_sm.jpg" alt="Bar Explorer (Level 29)">
+											<span>Earned the Bar Explorer (Level 29) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 3)">
+											<span>Earned the Riding Steady (Level 3) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/416793688" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_12/1fcc4abf751766531365a5cb02db551e_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/416793688" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 12 Feb 2017 19:28:05 +0000</a>
+							<a href="/user/madalves/checkin/416793688" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="RobertoB" href="/user/RobertoB" title="RobertoB" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ce93459488bba848dc9c9d5997e522b0_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_416705019" data-checkin-id="416705019">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/meantime-brewing-company-london-lager/42347" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_42347_sm_dc154a479b6ea7924708c074e52c22.jpeg" alt="Meantime Brewing Company by London Lager">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking a <a href="/b/meantime-brewing-company-london-lager/42347">London Lager</a> by <a  href="/w/meantime-brewing-company/844">Meantime Brewing Company</a> at <a href="/v/fishplaice/3999567">Fishplaice</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r200"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/416705019" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_12/b98aa4a1274bf62eb9c69f58ffe0b17b_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/416705019" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 12 Feb 2017 14:29:54 +0000</a>
+							<a href="/user/madalves/checkin/416705019" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="RobertoB" href="/user/RobertoB" title="RobertoB" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ce93459488bba848dc9c9d5997e522b0_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_416704373" data-checkin-id="416704373">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/camden-town-brewery-camden-pale-ale/45380" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-45380_7b5ce_sm.jpeg" alt="Camden Town Brewery by Camden Pale Ale">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking a <a href="/b/camden-town-brewery-camden-pale-ale/45380">Camden Pale Ale</a> by <a  href="/w/camden-town-brewery/10433">Camden Town Brewery</a> at <a href="/v/jamies-italian/3396734">Jamie's Italian</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/416704373" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_12/34d5e1c51723f5f43bcb48772baf0f9d_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/416704373" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 12 Feb 2017 14:25:21 +0000</a>
+							<a href="/user/madalves/checkin/416704373" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="RobertoB" href="/user/RobertoB" title="RobertoB" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ce93459488bba848dc9c9d5997e522b0_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_410901652" data-checkin-id="410901652">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/koninklijke-brand-bierbrouwerij-pilsener/63303" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-63303_9a0f6_sm.jpeg" alt="Koninklijke Brand Bierbrouwerij by Pilsener">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking a <a href="/b/koninklijke-brand-bierbrouwerij-pilsener/63303">Pilsener</a> by <a  href="/w/koninklijke-brand-bierbrouwerij/2053">Koninklijke Brand Bierbrouwerij</a> at <a href="/v/vantspit-de-pijp/4006900">VANTSPIT (de Pijp)</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/410901652" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_01_28/910ded19ad8968e561a75eeeeb486b03_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/410901652" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 28 Jan 2017 18:14:04 +0000</a>
+							<a href="/user/madalves/checkin/410901652" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="RobertoB" href="/user/RobertoB" title="RobertoB" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ce93459488bba848dc9c9d5997e522b0_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_410408242" data-checkin-id="410408242">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/madalves">
+							<img class="lazy" data-original="https://gravatar.com/avatar/3a7140708a629ecf624cf1cd2469d837?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Marcus A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-palm-estaminet-premium-pils/41815" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-Estaminet_41815.jpeg" alt="Brouwerij Palm by Estaminet Premium Pils">
+							</a>
+														<p class="text">
+								<a href="/user/madalves" class="user">Marcus A.</a>  is drinking an <a href="/b/brouwerij-palm-estaminet-premium-pils/41815">Estaminet Premium Pils</a> by <a  href="/w/brouwerij-palm/967">Brouwerij Palm</a> at <a href="/v/restaurant-surya/1159948">Restaurant Surya</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r150"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_pilsner_sm.jpg" alt="Crisp as Day (Level 4)">
+											<span>Earned the Crisp as Day (Level 4) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/madalves/checkin/410408242" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_01_27/1e0d11a6df9e003a08f0b26dfc4e523c_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/madalves/checkin/410408242" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 27 Jan 2017 20:44:52 +0000</a>
+							<a href="/user/madalves/checkin/410408242" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="RobertoB" href="/user/RobertoB" title="RobertoB" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ce93459488bba848dc9c9d5997e522b0_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/madalves" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/madalves/badges/175983567" title="Winter Wonderland" ><span><img src="https://untappd.akamaized.net/badges/bdg_wonderland_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/madalves/badges/163443656" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/madalves/badges/162358962" title="Trekking the Alps" ><span><img src="https://untappd.akamaized.net/badges/bdg_TrekkingtheAlps_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/madalves/badges/171480045" title="Riding Steady (Level 3)" ><span><img src="https://untappd.akamaized.net/badges/bdg_RidingSteady_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/madalves/badges/160798898" title="Merry Brew-mas (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Christmas2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/madalves/badges/160798900" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/madalves/badges/158378051" title="The Regular" ><span><img src="https://untappd.akamaized.net/badges/bdg_regular_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/madalves/badges/155687685" title="Suds Samba" ><span><img src="https://untappd.akamaized.net/badges/bdg_brazil_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/madalves/badges/155433565" title="Fields of Gold" ><span><img src="https://untappd.akamaized.net/badges/bdg_FieldsOfGold_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/madalves/badges/154485913" title="Beer-giving (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Thanksgiving2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/madalves/badges/151250837" title="The Gondolier" ><span><img src="https://untappd.akamaized.net/badges/bdg_italy_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/madalves/badges/151250835" title="Cheers To You! (Level 4)" ><span><img src="https://untappd.akamaized.net/badges/bdg_HeresToYou_md.jpg"></span></a>
+                <p class="more"><a href="/user/madalves/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/heineken-heineken/5860" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_5860_b030fadf70b76c074a13e47b719c.jpeg"><p>
+	    				<span class="name">Heineken</span>
+                        <span class="brewery">Heineken</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brouwerij-t-ij-ipa/72136" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_72136_b69d6cf997aa633e61ba8e9b435d.jpeg"><p>
+	    				<span class="name">IPA</span>
+                        <span class="brewery">Brouwerij 't IJ</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/guinness-guinness-draught/4473" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_4473_8122008947804818c90640a06d83.jpeg"><p>
+	    				<span class="name">Guinness Draught</span>
+                        <span class="brewery">Guinness</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/koninklijke-brand-bierbrouwerij-zwaar-blond/472454" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-472454_7ba3e_sm.jpeg"><p>
+	    				<span class="name">Zwaar Blond</span>
+                        <span class="brewery">Koninklijke Brand Bierbrouwerij</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/koninklijke-brand-bierbrouwerij-pilsener/63303" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-63303_9a0f6_sm.jpeg"><p>
+	    				<span class="name">Pilsener</span>
+                        <span class="brewery">Koninklijke Brand Bierbrouwerij</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/madalves/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/cacao-veembroederhof/558709" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/building/home_bg_88.png"><p>
+    	    				<span class="name">Cacao Veembroederhof</span>
+    	    				<span class="location">Amsterdam, Noord-Holland                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/birdielaan/4641824" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/building/home_bg_88.png"><p>
+    	    				<span class="name">Birdielaan</span>
+    	    				<span class="location">Almere, Flevoland                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/brouwerij-t-ij/23071" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Brouwerij 't IJ</span>
+    	    				<span class="location">Amsterdam, Noord-Holland                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/holiday-inn/2439697" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/travel/hotel_bg_88.png"><p>
+    	    				<span class="name">Holiday Inn</span>
+    	    				<span class="location">成都市, 四川                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/constance-belle-mare-plage/3445143" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/travel/hotel_bg_88.png"><p>
+    	    				<span class="name">Constance Belle Mare Plage</span>
+    	    				<span class="location">Poste de Flacq, Flacq District                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/madalves/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    		<div class="box">
+    	<div class="content">
+            <h3>Wish List</h3>    			<a href="/b/guinness-hop-house-13-lager/989661" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-989661_5680d_sm.jpeg"><p>
+	    				<span class="name">Hop House 13 Lager</span>
+                        <span class="brewery">Guinness</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/guinness-harp-premium-lager/3948" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-harpLager.jpg"><p>
+	    				<span class="name">Harp Premium Lager</span>
+                        <span class="brewery">Guinness</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/bierbrouwerij-emelisse-blond/80208" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-80208_0782a_sm.jpeg"><p>
+	    				<span class="name">Blond</span>
+                        <span class="brewery">Bierbrouwerij Emelisse</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brouwerij-de-sint-sixtusabdij-van-westvleteren-trappist-westvleteren-8/1127" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-Trappist-Westvleteren-8.jpg"><p>
+	    				<span class="name">Trappist Westvleteren 8</span>
+                        <span class="brewery">Brouwerij De Sint-Sixtusabdij van Westvleteren</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brouwerij-de-sint-sixtusabdij-van-westvleteren-trappist-westvleteren-12/4680" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-Trappist-Westvleteren-12.jpg"><p>
+	    				<span class="name">Trappist Westvleteren 12</span>
+                        <span class="brewery">Brouwerij De Sint-Sixtusabdij van Westvleteren</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/wishlist" href="/user/madalves/wishlist">See Full Wish List</a></p>
+                            	</div>
+	</div>
+	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/cuamoc" title="Cervecería Cuauhtémoc Moctezuma" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-360_7cfc5.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/AmstelBier" title="Amstel Brouwerij" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-37_49f7a.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/LagunitasBrewingCo" title="Lagunitas Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-765_b53eb.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BrandBierbrouwerij" title="Brand Bierbrouwerij" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-2053_f448c.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/tigerbeer" title="Asia Pacific Breweries (Singapore)" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-3097_72b79.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Brouwerijhetij" title="Brouwerij 't IJ" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-brouwerijtij_261.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/brasilkirin" title="Brasil Kirin" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-4278_761cb.jpeg"></span></a>
+                                        </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

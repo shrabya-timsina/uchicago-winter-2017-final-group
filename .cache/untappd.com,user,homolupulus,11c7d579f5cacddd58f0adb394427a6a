@@ -1,0 +1,1560 @@
+status: 200
+content-length: 87354
+-content-encoding: gzip
+upgrade: h2,h2c
+connection: Upgrade
+content-location: https://untappd.com/user/homolupulus
+date: Fri, 03 Mar 2017 20:33:52 GMT
+set-cookie: untappd_com_site_v2=91f1445a18701974c64674e536948d0d; expires=Sat, 04-Mar-2017 08:33:52 GMT; Max-Age=43200; path=/, ut_anon=f88968e7-a456-4dbd-b8f6-e1e6cd6a3560; expires=Thu, 04-Jul-3016 20:33:52 GMT; Max-Age=31536000000; path=/
+content-type: text/html
+vary: Accept-Encoding
+server: Apache
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>homo l. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="homo l. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="homo l. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/homolupulus">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/homolupulus">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="206183" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://untappd.s3.amazonaws.com/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg">
+					</div>
+				</div><div class="info">
+					<h1>homo l.</h1>
+					<span class="username">homolupulus</span>
+					<span class="location"></span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+												<p>
+								<a class="tw track-click" target="_blank" data-track="profile" data-href=":twitter" href="https://twitter.com/LaBIRRAtorium">Twitter</a>
+							</p>
+														<p>
+								<a class="fb track-click" target="_blank" data-track="profile" data-href=":facebook" href="/social/redir/facebook/531970465">Facebook</a>
+							</p>
+														<p>
+								<a class="sq track-click" target="_blank" data-track="profile" data-href=":foursquare" href="https://foursquare.com/user/72147014">Foursquare</a>
+							</p>
+											</div>
+				<div class="stats">
+											<a href="/user/homolupulus" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">5,428</span>
+							<span class="title">Total</span>
+						</a><a href="/user/homolupulus/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">4,354</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/homolupulus/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">1,321</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/homolupulus/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">402</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/homolupulus/checkin/423254608"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/9f06f8a9a27df8d3aae075cc344cac44_320x320.jpeg" /></a></p><p><a href="/user/homolupulus/checkin/423204983"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/f9d077b39b57840ae4ec89236b5952cb_320x320.jpeg" /></a></p><p><a href="/user/homolupulus/checkin/423195230"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/f4f881730cf7516a6f75b92868e3cc53_320x320.jpeg" /></a></p><p><a href="/user/homolupulus/checkin/423192853"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/fd54d1e15d19e00c47924292f11342ff_320x320.jpeg" /></a></p><p><a href="/user/homolupulus/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/0160b4d25b2ce460ff18a8e29d1f3403_320x320.jpeg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>homo's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_423489890" data-checkin-id="423489890">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/eric-bordelet-sidre-brut/171133" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-171133_c7ce9_sm.jpeg" alt="Eric Bordelet by Sidre Brut">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/eric-bordelet-sidre-brut/171133">Sidre Brut</a> by <a  href="/w/eric-bordelet/3521">Eric Bordelet</a> at <a href="/v/la-capsule/199217">La Capsule</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_appleseed_sm.jpg" alt="Johnny Appleseed (Level 5)">
+											<span>Earned the Johnny Appleseed (Level 5) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423489890" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 11:28:35 +0000</a>
+							<a href="/user/homolupulus/checkin/423489890" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>3</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="formeg" href="/user/formeg" title="Fab" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb0b81c5df0c85ede2d4ed121a740351_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423489533" data-checkin-id="423489533">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/anarchy-brew-co-warhead/472427" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-472427_8691c_sm.jpeg" alt="Anarchy Brew Co. by Warhead">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/anarchy-brew-co-warhead/472427">Warhead</a> by <a  href="/w/anarchy-brew-co/39646">Anarchy Brew Co.</a> at <a href="/v/la-capsule/199217">La Capsule</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423489533" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 11:19:57 +0000</a>
+							<a href="/user/homolupulus/checkin/423489533" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>3</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="formeg" href="/user/formeg" title="Fab" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb0b81c5df0c85ede2d4ed121a740351_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423488432" data-checkin-id="423488432">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/page-24-brasserie-saint-germain-page-24-imperial-russian-stout-black-edition/1048061" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1048061_2e948_sm.jpeg" alt="Page 24 / Brasserie Saint-Germain by Page 24 – Imperial Russian Stout Black Edition">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/page-24-brasserie-saint-germain-page-24-imperial-russian-stout-black-edition/1048061">Page 24 – Imperial Russian Stout Black Edition</a> by <a  href="/w/page-24-brasserie-saintgermain/97324">Page 24 / Brasserie Saint-Germain</a> at <a href="/v/la-capsule/199217">La Capsule</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423488432" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 10:51:44 +0000</a>
+							<a href="/user/homolupulus/checkin/423488432" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>4</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mar-T" href="/user/Mar-T" title="Mar T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ccf24a4b93c9a22a731f7ad5f578c56f_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="formeg" href="/user/formeg" title="Fab" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb0b81c5df0c85ede2d4ed121a740351_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423488315" data-checkin-id="423488315">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brasserie-cambier-saison-biologique/1479995" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1479995_62c2c_sm.jpeg" alt="Brasserie Cambier by Saison Biologique">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/brasserie-cambier-saison-biologique/1479995">Saison Biologique</a> by <a  href="/w/brasserie-cambier/181470">Brasserie Cambier</a> at <a href="/v/la-capsule/199217">La Capsule</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423488315" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 10:48:31 +0000</a>
+							<a href="/user/homolupulus/checkin/423488315" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>4</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mar-T" href="/user/Mar-T" title="Mar T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ccf24a4b93c9a22a731f7ad5f578c56f_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="formeg" href="/user/formeg" title="Fab" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb0b81c5df0c85ede2d4ed121a740351_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423488236" data-checkin-id="423488236">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/la-debauche-weird-debauchery/1836374" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="La Débauche by Weird Debauchery">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/la-debauche-weird-debauchery/1836374">Weird Debauchery</a> by <a  href="/w/la-debauche/126828">La Débauche</a> at <a href="/v/la-capsule/199217">La Capsule</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r325"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_VerifiedVenue_sm.jpg" alt="Verified Adventure (Level 5)">
+											<span>Earned the Verified Adventure (Level 5) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_LaCremedelaCreme_sm.jpg" alt="La Crème de la Creme (Level 5)">
+											<span>Earned the La Crème de la Creme (Level 5) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423488236" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 10:46:27 +0000</a>
+							<a href="/user/homolupulus/checkin/423488236" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>4</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mar-T" href="/user/Mar-T" title="Mar T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ccf24a4b93c9a22a731f7ad5f578c56f_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="formeg" href="/user/formeg" title="Fab" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb0b81c5df0c85ede2d4ed121a740351_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423488194" data-checkin-id="423488194">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brasserie-de-la-senne-schieve-funambulo/1007318" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1007318_c126b_sm.jpeg" alt="Brasserie de la Senne by Schieve Funambulo">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/brasserie-de-la-senne-schieve-funambulo/1007318">Schieve Funambulo</a> by <a  href="/w/brasserie-de-la-senne/176">Brasserie de la Senne</a> at <a href="/v/la-capsule/199217">La Capsule</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_IronMan_sm.jpg" alt="Iron Man (Level 3)">
+											<span>Earned the Iron Man (Level 3) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423488194" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 10:45:12 +0000</a>
+							<a href="/user/homolupulus/checkin/423488194" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>4</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mar-T" href="/user/Mar-T" title="Mar T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ccf24a4b93c9a22a731f7ad5f578c56f_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="formeg" href="/user/formeg" title="Fab" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb0b81c5df0c85ede2d4ed121a740351_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423488162" data-checkin-id="423488162">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brasserie-des-vignes-esprits-libres/1717227" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1717227_ee963_sm.jpeg" alt="Brasserie des Vignes by Esprits Libres">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking an <a href="/b/brasserie-des-vignes-esprits-libres/1717227">Esprits Libres</a> by <a  href="/w/brasserie-des-vignes/5302">Brasserie des Vignes</a> at <a href="/v/la-capsule/199217">La Capsule</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423488162" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 10:43:58 +0000</a>
+							<a href="/user/homolupulus/checkin/423488162" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>4</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mar-T" href="/user/Mar-T" title="Mar T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ccf24a4b93c9a22a731f7ad5f578c56f_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="formeg" href="/user/formeg" title="Fab" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb0b81c5df0c85ede2d4ed121a740351_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423488121" data-checkin-id="423488121">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brasserie-des-7-bonnettes-la-bonnette-ambree/854652" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-854652_2da41_sm.jpeg" alt="Brasserie des 7 Bonnettes by La Bonnette Ambrée">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/brasserie-des-7-bonnettes-la-bonnette-ambree/854652">La Bonnette Ambrée</a> by <a  href="/w/brasserie-des-7-bonnettes/164595">Brasserie des 7 Bonnettes</a> at <a href="/v/la-capsule/199217">La Capsule</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423488121" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 10:42:42 +0000</a>
+							<a href="/user/homolupulus/checkin/423488121" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>4</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mar-T" href="/user/Mar-T" title="Mar T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ccf24a4b93c9a22a731f7ad5f578c56f_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="formeg" href="/user/formeg" title="Fab" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb0b81c5df0c85ede2d4ed121a740351_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423487920" data-checkin-id="423487920">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/les-3-brasseurs-la-blanche/1848793" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Les 3 Brasseurs by La Blanche">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/les-3-brasseurs-la-blanche/1848793">La Blanche</a> by <a  href="/w/les-3-brasseurs/170776">Les 3 Brasseurs</a> at <a href="/v/les-3-brasseurs/127008">Les 3 Brasseurs</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r300"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423487920" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 10:36:01 +0000</a>
+							<a href="/user/homolupulus/checkin/423487920" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>4</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mar-T" href="/user/Mar-T" title="Mar T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ccf24a4b93c9a22a731f7ad5f578c56f_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="formeg" href="/user/formeg" title="Fab" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb0b81c5df0c85ede2d4ed121a740351_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423487801" data-checkin-id="423487801">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/les-3-brasseurs-la-brune/1329783" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Les 3 Brasseurs by La Brune">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/les-3-brasseurs-la-brune/1329783">La Brune</a> by <a  href="/w/les-3-brasseurs/170776">Les 3 Brasseurs</a> at <a href="/v/les-3-brasseurs/127008">Les 3 Brasseurs</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r300"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423487801" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 10:32:57 +0000</a>
+							<a href="/user/homolupulus/checkin/423487801" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>3</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mar-T" href="/user/Mar-T" title="Mar T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ccf24a4b93c9a22a731f7ad5f578c56f_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423487646" data-checkin-id="423487646">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/les-3-brasseurs-l-ambree/1733491" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Les 3 Brasseurs by L'Ambrée">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/les-3-brasseurs-l-ambree/1733491">L'Ambrée</a> by <a  href="/w/les-3-brasseurs/170776">Les 3 Brasseurs</a> at <a href="/v/les-3-brasseurs/127008">Les 3 Brasseurs</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r325"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_LaCremedelaCreme_sm.jpg" alt="La Crème de la Creme (Level 4)">
+											<span>Earned the La Crème de la Creme (Level 4) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423487646" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 10:28:35 +0000</a>
+							<a href="/user/homolupulus/checkin/423487646" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>4</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mar-T" href="/user/Mar-T" title="Mar T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ccf24a4b93c9a22a731f7ad5f578c56f_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="formeg" href="/user/formeg" title="Fab" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb0b81c5df0c85ede2d4ed121a740351_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423487548" data-checkin-id="423487548">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/les-3-brasseurs-la-blonde/1733458" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Les 3 Brasseurs by La Blonde">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/les-3-brasseurs-la-blonde/1733458">La Blonde</a> by <a  href="/w/les-3-brasseurs/170776">Les 3 Brasseurs</a> at <a href="/v/les-3-brasseurs/127008">Les 3 Brasseurs</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r300"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_FieldsOfGold_sm.jpg" alt="Fields of Gold (Level 8)">
+											<span>Earned the Fields of Gold (Level 8) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423487548" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 10:26:12 +0000</a>
+							<a href="/user/homolupulus/checkin/423487548" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>4</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mar-T" href="/user/Mar-T" title="Mar T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ccf24a4b93c9a22a731f7ad5f578c56f_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="formeg" href="/user/formeg" title="Fab" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb0b81c5df0c85ede2d4ed121a740351_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423254608" data-checkin-id="423254608">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brasserie-la-choulette-la-choulette-framboise/19" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-19_ebbc3_sm.jpeg" alt="Brasserie La Choulette by La Choulette Framboise">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/brasserie-la-choulette-la-choulette-framboise/19">La Choulette Framboise</a> by <a  href="/w/brasserie-la-choulette/196">Brasserie La Choulette</a> at <a href="/v/lestaminet-lillois/2936703">l'Estaminet Lillois</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/bottle@3x.png">
+									          <span>Bottle</span>
+									        </p>
+																					<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_goingPlaces_sm.jpg" alt="Bar Explorer (Level 46)">
+											<span>Earned the Bar Explorer (Level 46) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/homolupulus/checkin/423254608" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/9f06f8a9a27df8d3aae075cc344cac44_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423254608" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 20:26:24 +0000</a>
+							<a href="/user/homolupulus/checkin/423254608" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>5</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mar-T" href="/user/Mar-T" title="Mar T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ccf24a4b93c9a22a731f7ad5f578c56f_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="Knalluhhhhh" href="/user/Knalluhhhhh" title="Knalluhhhhh" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/21bf8a80f4ce61f7a9638da62938085e_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423204983" data-checkin-id="423204983">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/gentse-gruut-stadsbrouwerij-gruut-inferno/56499" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_56499_sm_99eed5c81c289de8b5aca1c5cf9d5c.jpeg" alt="Gentse Gruut Stadsbrouwerij by Gruut Inferno">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/gentse-gruut-stadsbrouwerij-gruut-inferno/56499">Gruut Inferno</a> by <a  href="/w/gentse-gruut-stadsbrouwerij/6224">Gentse Gruut Stadsbrouwerij</a> at <a href="/v/cornwall/123457">Cornwall</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/bottle@3x.png">
+									          <span>Bottle</span>
+									        </p>
+																					<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/homolupulus/checkin/423204983" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/f9d077b39b57840ae4ec89236b5952cb_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423204983" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 16:22:56 +0000</a>
+							<a href="/user/homolupulus/checkin/423204983" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>8</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mar-T" href="/user/Mar-T" title="Mar T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ccf24a4b93c9a22a731f7ad5f578c56f_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="eschae" href="/user/eschae" title="Marco E." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/f78500f877a2c1a9084e1af49f479492_100x100.JPG">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="venom666" href="/user/venom666" title="Carlos S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/2407c3fd4d9413823c64e06a449b7af8_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="MariBelCocinaC" href="/user/MariBelCocinaC" title="Maribel (." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/af1b781eae79507e29ce13e96c272a43_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="formeg" href="/user/formeg" title="Fab" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb0b81c5df0c85ede2d4ed121a740351_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423195230" data-checkin-id="423195230">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/homolupulus">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/2c7a49d7a0d1a4a028bf21665e6ec5be_thumb.jpg" alt="homo l.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brasserie-deseveaux-sarazen/280951" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Brasserie Deseveaux by Sarazen">
+							</a>
+														<p class="text">
+								<a href="/user/homolupulus" class="user">homo l.</a>  is drinking a <a href="/b/brasserie-deseveaux-sarazen/280951">Sarazen</a> by <a  href="/w/brasserie-deseveaux/48716">Brasserie Deseveaux</a> at <a href="/v/auberge-des-aulnes/5465029">Auberge Des aulnes</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/bottle@3x.png">
+									          <span>Bottle</span>
+									        </p>
+																					<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/homolupulus/checkin/423195230" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/f4f881730cf7516a6f75b92868e3cc53_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/homolupulus/checkin/423195230" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 13:35:56 +0000</a>
+							<a href="/user/homolupulus/checkin/423195230" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>7</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mar-T" href="/user/Mar-T" title="Mar T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ccf24a4b93c9a22a731f7ad5f578c56f_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioSanchez" href="/user/AntonioSanchez" title="Antonio S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/07ca19023fbb2c8c8debae8e94b2b5fd_thumb.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="maxlieja" href="/user/maxlieja" title="maxime v." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/59085b4c711a4dc19d403fe2eed2e22e_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AntonioRomero" href="/user/AntonioRomero" title="Antonio  R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ba20d185303a458e0d21cf5266e758d1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="venom666" href="/user/venom666" title="Carlos S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/2407c3fd4d9413823c64e06a449b7af8_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="formeg" href="/user/formeg" title="Fab" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb0b81c5df0c85ede2d4ed121a740351_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/homolupulus" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/homolupulus/badges/174466507" title="Mardi Gras (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_MardiGras2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/homolupulus/badges/175118699" title="Verified Adventure (Level 5)" ><span><img src="https://untappd.akamaized.net/badges/bdg_VerifiedVenue_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/homolupulus/badges/166957151" title="So Udderly Sweet" ><span><img src="https://untappd.akamaized.net/badges/bdg_UdderlySweet_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/homolupulus/badges/162836408" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/homolupulus/badges/160302961" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/homolupulus/badges/159606709" title="Merry Brew-mas (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Christmas2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/homolupulus/badges/159143641" title="Bourbon County Black Friday (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_BCS2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/homolupulus/badges/158641250" title="Deep Blue Sea" ><span><img src="https://untappd.akamaized.net/badges/bdg_DeepBlueSea_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/homolupulus/badges/153517390" title="Beer-giving (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Thanksgiving2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/homolupulus/badges/152094424" title="Take A Dunk!" ><span><img src="https://untappd.akamaized.net/badges/bdg_TakeADunk_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/homolupulus/badges/152094414" title="Cheers To You! (Level 4)" ><span><img src="https://untappd.akamaized.net/badges/bdg_HeresToYou_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/homolupulus/badges/150554916" title="Veterans Day (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_VeteransDay2016_md.jpg"></span></a>
+                <p class="more"><a href="/user/homolupulus/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/bfm-brasserie-des-franches-montagnes-abbaye-de-saint-bon-chien-2011/132783" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_241957_sm_2b60492b529575eafe37b66a7897ca.jpeg"><p>
+	    				<span class="name">Abbaye de Saint Bon-Chien (2011)</span>
+                        <span class="brewery">BFM (Brasserie des Franches-Montagnes)</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brouwerij-liefmans-kriek-brut/8472" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-8472_697cd_sm.jpeg"><p>
+	    				<span class="name">Kriek Brut</span>
+                        <span class="brewery">Brouwerij Liefmans</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/bfm-brasserie-des-franches-montagnes-225-saison/270389" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_270389_sm_c2f380d04060850e543e5381a0cb83.jpeg"><p>
+	    				<span class="name">√225 Saison</span>
+                        <span class="brewery">BFM (Brasserie des Franches-Montagnes)</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/to-ol-ov-ral-iipa/102376" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-OVRAL_102376.jpeg"><p>
+	    				<span class="name">OV-RAL IIPA</span>
+                        <span class="brewery">To Øl</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/lagunitas-brewing-company-ipa/4509" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-4509_1ce65_sm.jpeg"><p>
+	    				<span class="name">IPA</span>
+                        <span class="brewery">Lagunitas Brewing Company</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/homolupulus/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/labirratorium/589317" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/beergarden_bg_88.png"><p>
+    	    				<span class="name">Labirratorium</span>
+    	    				<span class="location">Madrid, Madrid                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/irreale/1451175" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Irreale</span>
+    	    				<span class="location">Madrid, Madrid                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/bar-animal/396499" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss1.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Bar Animal</span>
+    	    				<span class="location">Madrid, Madrid                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/la-tienda-de-la-cerveza/515642" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/shops/foodanddrink_bg_88.png"><p>
+    	    				<span class="name">La Tienda de la Cerveza</span>
+    	    				<span class="location">Madrid, Madrid                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/homo-lupulus-guarida/1177975" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/building/home_bg_88.png"><p>
+    	    				<span class="name">Homo Lupulus Guarida</span>
+    	    				<span class="location">Madrid, Madrid                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/homolupulus/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/vicbrewery" title="Vic Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-105616_5648a.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BrewByNumbers" title="Brew By Numbers" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-brewbynumbers_50834.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Oedipus" title="Oedipus Brewing" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-18058_33551.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/brewski_se" title="Brewski" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-167487_32217.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BrouwerijBoon" title="Brouwerij Boon" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-268_452e8.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Brouwerij3Fonteinen" title="Brouwerij 3 Fonteinen" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-3562_fd387.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/bellsbrewery" title="Bell's Brewery, Inc." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-2507_ad044.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/523brewery" title="523" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-523_115091.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Hornbeer" title="Hornbeer" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-Hornbeer_2681.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/hetuiltje" title="Het Uiltje - Crafty beer from Holland" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-32280_1f9b7.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Omnipollo" title="Omnipollo" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-Omnipollo_29486_68ed9.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/MauiBrewingCompany" title="Maui Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-836_fd28d.jpeg"></span></a>
+                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/viewLikeHistory" href="/user/homolupulus/likes">See All Likes</a></p>                </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

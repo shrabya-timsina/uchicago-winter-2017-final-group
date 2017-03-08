@@ -1,0 +1,1352 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 18:41:04 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 70266
+set-cookie: untappd_com_site_v2=cd14851026818bf375191bb37b896b01; expires=Wed, 08-Mar-2017 06:41:04 GMT; Max-Age=43200; path=/, ut_anon=4bd1460c-7609-499e-adfc-61e40cc80c36; expires=Mon, 08-Jul-3016 18:41:04 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/kuzi16
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>matt  on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="matt  Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="matt  Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/kuzi16">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/kuzi16">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="183607" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=125&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+					</div>
+				</div><div class="info">
+					<h1>matt </h1>
+					<span class="username">kuzi16</span>
+					<span class="location">cuyahoga falls ohio</span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+												<p>
+								<a class="tw track-click" target="_blank" data-track="profile" data-href=":twitter" href="https://twitter.com/KuzisCigar">Twitter</a>
+							</p>
+														<p>
+								<a class="fb track-click" target="_blank" data-track="profile" data-href=":facebook" href="/social/redir/facebook/624400646">Facebook</a>
+							</p>
+											</div>
+				<div class="stats">
+											<a href="/user/kuzi16" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">3,125</span>
+							<span class="title">Total</span>
+						</a><a href="/user/kuzi16/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">1,757</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/kuzi16/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">765</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/kuzi16/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">44</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/kuzi16/checkin/425104569"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/f90635c3b3bf268c12afad65cf9b810a_320x320.jpeg" /></a></p><p><a href="/user/kuzi16/checkin/424790221"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/d2536a7f20fc0b910cf7f03e0e53911a_320x320.jpeg" /></a></p><p><a href="/user/kuzi16/checkin/424770803"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/4a6df8586abb5b057c9578500f93bef1_320x320.jpeg" /></a></p><p><a href="/user/kuzi16/checkin/424569205"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/581e20714a25f9f592111c8319c1717f_320x320.jpeg" /></a></p><p><a href="/user/kuzi16/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/f265fe3d7eba8599dead32411102d299_320x320.jpeg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>matt's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425319218" data-checkin-id="425319218">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-petite-fumee/1883857" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Sierra Nevada Brewing Co. by Petite Fumee">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-petite-fumee/1883857">Petite Fumee</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-tap-room/4761986">Sierra Nevada Tap Room</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Mild smoke. Peach style sweet. Light carbonation. Some funk. Unique.									</p>
+									
+								<p class="purchased">Purchased at <a href="/v/sierra-nevada-tap-room/4761986">Sierra Nevada Tap Room</a></p>
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425319218" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:22:11 +0000</a>
+							<a href="/user/kuzi16/checkin/425319218" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425318698" data-checkin-id="425318698">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-35th-anniversary-our-brewers-reserve/1317196" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1317196_acaa7_sm.jpeg" alt="Sierra Nevada Brewing Co. by 35th Anniversary - Our Brewers Reserve">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-35th-anniversary-our-brewers-reserve/1317196">35th Anniversary - Our Brewers Reserve</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-tap-room/4761986">Sierra Nevada Tap Room</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Great balance and great Hop. Has a round malt that is complex and not too sweet. Almost fig. Very nice.									</p>
+									
+								<p class="purchased">Purchased at <a href="/v/sierra-nevada-tap-room/4761986">Sierra Nevada Tap Room</a></p>
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r475"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425318698" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:19:04 +0000</a>
+							<a href="/user/kuzi16/checkin/425318698" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425317249" data-checkin-id="425317249">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-barrel-aged-import-export-stout/1919576" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Sierra Nevada Brewing Co. by Barrel-aged Import/export Stout">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-barrel-aged-import-export-stout/1919576">Barrel-aged Import/export Stout</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-tap-room/4761986">Sierra Nevada Tap Room</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Hearty boozy notes. Almost more of a stouted bourbon not a bourboned stout. Woody vanilla. Stone fruit?									</p>
+									
+								<p class="purchased">Purchased at <a href="/v/sierra-nevada-tap-room/4761986">Sierra Nevada Tap Room</a></p>
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425317249" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:09:17 +0000</a>
+							<a href="/user/kuzi16/checkin/425317249" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425316729" data-checkin-id="425316729">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-bigfoot-2017/1886464" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1886464_58ee4_sm.jpeg" alt="Sierra Nevada Brewing Co. by Bigfoot (2017)">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-bigfoot-2017/1886464">Bigfoot (2017)</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-tap-room/4761986">Sierra Nevada Tap Room</a>
+							</p>
+														<div class="checkin-comment">
+								
+								<p class="purchased">Purchased at <a href="/v/sierra-nevada-tap-room/4761986">Sierra Nevada Tap Room</a></p>
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r450"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425316729" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 18:05:34 +0000</a>
+							<a href="/user/kuzi16/checkin/425316729" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425315174" data-checkin-id="425315174">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-know-good-ipa/1898722" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1898722_93ed1_sm.jpeg" alt="Sierra Nevada Brewing Co. by Know Good IPA">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-know-good-ipa/1898722">Know Good IPA</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-tap-room/4761986">Sierra Nevada Tap Room</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Very smooth. Hop presence is good. Bitter lingers just long enough.									</p>
+									
+								<p class="purchased">Purchased at <a href="/v/sierra-nevada-tap-room/4761986">Sierra Nevada Tap Room</a></p>
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425315174" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 17:54:11 +0000</a>
+							<a href="/user/kuzi16/checkin/425315174" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425311898" data-checkin-id="425311898">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-bigfoot/20951" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-sierraNevadaBigfoot.jpg" alt="Sierra Nevada Brewing Co. by Bigfoot">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-bigfoot/20951">Bigfoot</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									great mouth feel. Amazing malts.									</p>
+									
+								<p class="purchased">Purchased at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a></p>
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r475"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425311898" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 17:30:07 +0000</a>
+							<a href="/user/kuzi16/checkin/425311898" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425311331" data-checkin-id="425311331">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-stout/6201" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_6201_a9cbaa272cbad8a2756b48e5fdba.jpeg" alt="Sierra Nevada Brewing Co. by Stout">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-stout/6201">Stout</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Nice and round.  Malty. Leans to coco.									</p>
+									
+								<p class="purchased">Purchased at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a></p>
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425311331" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 17:25:37 +0000</a>
+							<a href="/user/kuzi16/checkin/425311331" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425310963" data-checkin-id="425310963">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-tropical-torpedo/1741133" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1741133_0a236_sm.jpeg" alt="Sierra Nevada Brewing Co. by Tropical Torpedo">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-tropical-torpedo/1741133">Tropical Torpedo</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Fruity. Sweet. Hops are nice.									</p>
+									
+								<p class="purchased">Purchased at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a></p>
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425310963" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 17:22:26 +0000</a>
+							<a href="/user/kuzi16/checkin/425310963" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425310545" data-checkin-id="425310545">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-golden-ipa/913115" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-913115_73f1b_sm.jpeg" alt="Sierra Nevada Brewing Co. by Golden IPA">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-golden-ipa/913115">Golden IPA</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Amarillo. But light in general.									</p>
+									
+								<p class="purchased">Purchased at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a></p>
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425310545" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 17:19:13 +0000</a>
+							<a href="/user/kuzi16/checkin/425310545" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425310012" data-checkin-id="425310012">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-sidecar-orange-pale-ale/1695697" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1695697_ccc11_sm.jpeg" alt="Sierra Nevada Brewing Co. by Sidecar Orange Pale Ale">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-sidecar-orange-pale-ale/1695697">Sidecar Orange Pale Ale</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Orange is noticible.  Good. Good sweet.									</p>
+									
+								<p class="purchased">Purchased at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a></p>
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_PaleMoon_sm.jpg" alt="Pale as the Moon  (Level 23)">
+											<span>Earned the Pale as the Moon  (Level 23) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425310012" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 17:14:45 +0000</a>
+							<a href="/user/kuzi16/checkin/425310012" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425309681" data-checkin-id="425309681">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-audition-saison/1138745" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1138745_9734d_sm.jpeg" alt="Sierra Nevada Brewing Co. by Audition Saison">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking an <a href="/b/sierra-nevada-brewing-co-audition-saison/1138745">Audition Saison</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Mild funk. Good pepper. Nice.									</p>
+									
+								<p class="purchased">Purchased at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a></p>
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425309681" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 17:11:41 +0000</a>
+							<a href="/user/kuzi16/checkin/425309681" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425309361" data-checkin-id="425309361">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-nooner-pilsner/913150" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-913150_b0c1c_sm.jpeg" alt="Sierra Nevada Brewing Co. by Nooner Pilsner">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-nooner-pilsner/913150">Nooner Pilsner</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+								
+								<p class="purchased">Purchased at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a></p>
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425309361" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 17:08:48 +0000</a>
+							<a href="/user/kuzi16/checkin/425309361" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425309126" data-checkin-id="425309126">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-kellerweis/5374" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-sierraNevadaKellerweis.jpg" alt="Sierra Nevada Brewing Co. by Kellerweis">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-kellerweis/5374">Kellerweis</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Bread banana clove.									</p>
+									
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425309126" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 17:06:46 +0000</a>
+							<a href="/user/kuzi16/checkin/425309126" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425304027" data-checkin-id="425304027">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-pale-ale/6284" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-6284_6ddce_sm.jpeg" alt="Sierra Nevada Brewing Co. by Pale Ale">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-pale-ale/6284">Pale Ale</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/sierra-nevada-brewing-co/1412782">Sierra Nevada Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r275"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425304027" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 16:05:34 +0000</a>
+							<a href="/user/kuzi16/checkin/425304027" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425242373" data-checkin-id="425242373">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/kuzi16">
+							<img class="lazy" data-original="https://gravatar.com/avatar/1f759973333c1b342c9a15c81bc13326?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matt">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bhramari-brewhouse-beaucatcher/1908306" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Bhramari Brewhouse by Beaucatcher">
+							</a>
+														<p class="text">
+								<a href="/user/kuzi16" class="user">matt</a>  is drinking a <a href="/b/bhramari-brewhouse-beaucatcher/1908306">Beaucatcher</a> by <a  href="/w/bhramari-brewhouse/224530">Bhramari Brewhouse</a> at <a href="/v/bhramari-brewhouse/4217705">Bhramari Brewhouse</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Classic profile for style. Tiny hint of abv.									</p>
+									
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/kuzi16/checkin/425242373" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 02:22:03 +0000</a>
+							<a href="/user/kuzi16/checkin/425242373" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/kuzi16" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/kuzi16/badges/175135299" title="NC Beer Month is Coming! (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NCBeerMonth_March17_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/kuzi16/badges/174947418" title="You're Extra Special" ><span><img src="https://untappd.akamaized.net/badges/bdg_ExtraSpecial_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/kuzi16/badges/174888846" title="Road to the Harvest - Cascade" ><span><img src="https://untappd.akamaized.net/badges/bdg_GIB_Rd2Hrv_1_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/kuzi16/badges/174725565" title="Mardi Gras (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_MardiGras2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/kuzi16/badges/168981743" title="First Squeeze!" ><span><img src="https://untappd.akamaized.net/badges/bdg_NuggetNectarSqueeze_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/kuzi16/badges/175968964" title="Verified Adventure (Level 5)" ><span><img src="https://untappd.akamaized.net/badges/bdg_VerifiedVenue_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/kuzi16/badges/167633651" title="Continually Hopped IPAs (90 Minute)" ><span><img src="https://untappd.akamaized.net/badges/bdg_DFH90min_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/kuzi16/badges/166198572" title="Bell's Hopslam Release (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hopslam2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/kuzi16/badges/163598314" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/kuzi16/badges/160403431" title="Merry Brew-mas (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Christmas2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/kuzi16/badges/160403432" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/kuzi16/badges/157857734" title="Lagunitas Dark Swan" ><span><img src="https://untappd.akamaized.net/badges/bdg_LagunitasDarkSwan_md.jpg"></span></a>
+                <p class="more"><a href="/user/kuzi16/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/great-lakes-brewing-company-chillwave-double-ipa/257063" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-257063_57a48_sm.jpeg"><p>
+	    				<span class="name">Chillwave Double IPA</span>
+                        <span class="brewery">Great Lakes Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/abbaye-de-maredsous-maredsous-8-brune/9652" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-9652_f6e65_sm.jpeg"><p>
+	    				<span class="name">Maredsous 8° Brune</span>
+                        <span class="brewery">Abbaye de Maredsous</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/zombie-safehouse-brewery-audrey-hepburn/357124" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_357124_sm_5b2e049829c3f3caa0d2576c5c00bd.jpeg"><p>
+	    				<span class="name">Audrey Hepburn</span>
+                        <span class="brewery">Zombie Safehouse Brewery</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/founders-brewing-co-double-trouble/5437" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-FoundersDoubleTrouble.jpg"><p>
+	    				<span class="name">Double Trouble</span>
+                        <span class="brewery">Founders Brewing Co.</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/left-hand-brewing-company-milk-stout-nitro/82680" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_82680_b38825209f93434a84173b75a126.jpeg"><p>
+	    				<span class="name">Milk Stout Nitro</span>
+                        <span class="brewery">Left Hand Brewing Company</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/kuzi16/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/the-cashmere-cricket/93484" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">The Cashmere Cricket</span>
+    	    				<span class="location">Cuyahoga Falls, OH                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/zombie-safe-house/423094" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_bg_88.png"><p>
+    	    				<span class="name">Zombie Safe House</span>
+    	    				<span class="location">Cuyahoga Falls, OH                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/market-district-supermarket/2342555" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_bg_88.png"><p>
+    	    				<span class="name">Market District Supermarket</span>
+    	    				<span class="location">Cuyahoga Falls, OH                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/lizardville-beer-store-and-whiskey-bar/684463" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/whiskey_bg_88.png"><p>
+    	    				<span class="name">Lizardville Beer Store & Whiskey Bar</span>
+    	    				<span class="location">Akron, OH                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/horrible-sinking-chair-of-doom/3001307" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/building/postoffice_bg_88.png"><p>
+    	    				<span class="name">Horrible Sinking Chair Of Doom</span>
+    	    				<span class="location">Cuyahoga Falls, OH                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/kuzi16/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    		<div class="box">
+    	<div class="content">
+            <h3>Wish List</h3>    			<a href="/b/hiho-brewing-co-bossy-lady-ipa/1928435" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Bossy Lady IPA</span>
+                        <span class="brewery">HiHO Brewing Co.</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/hiho-brewing-co-cardinal-series-ambitter/1887633" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Cardinal Series - Ambitter</span>
+                        <span class="brewery">HiHO Brewing Co.</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/hiho-brewing-co-pale-ale/1897745" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Pale Ale</span>
+                        <span class="brewery">HiHO Brewing Co.</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/r-shea-brewing-ryed-n-the-storm-out/1912762" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Ryed'n the Storm Out</span>
+                        <span class="brewery">R.Shea Brewing</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/hoof-hearted-brewing-south-of-eleven/261734" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_261734_a4b65d6e3dceeb7a0b1bad8d7c63.jpeg"><p>
+	    				<span class="name">South Of Eleven</span>
+                        <span class="brewery">Hoof Hearted Brewing</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/wishlist" href="/user/kuzi16/wishlist">See Full Wish List</a></p>
+                            	</div>
+	</div>
+	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/HiHOBrewingCo" title="HiHO Brewing Co" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-312659_5e6a8.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/WyndridgeFarm" title="Wyndridge Farm" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-wyndridgefarm_98011.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/moonlightmeadery" title="Moonlight" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-9900_fb1da.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/ZaftigBeer" title="Zaftig Brewing Co., LLC" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-ZaftigBrewingCompany_40748_7217c.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/RoyalDocksBrewing" title="Royal Docks Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-148617_52c38.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/ThePhoenixBrewingCompany" title="The Phoenix Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-121921_b11bb.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/MIAbeer" title="M.I.A." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-46754_6a314.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/StellaArtois" title="Stella Artois" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-265_7be0f.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/MarketGardenBrewery" title="Market Garden Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-12456_cfb79.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/PortBrewing" title="Port Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-portbrewingcompany_1009.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/WickedWeedBrewing" title="Wicked Weed Brewing" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-37851_5617e.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/WildRideBrew" title="Wild Ride Brewing Co. " ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-120680_9cb0a.jpeg"></span></a>
+                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/viewLikeHistory" href="/user/kuzi16/likes">See All Likes</a></p>                </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,1323 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 19:04:32 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 66608
+set-cookie: untappd_com_site_v2=4014f92b361936581497a51611d8e2a8; expires=Wed, 08-Mar-2017 07:04:32 GMT; Max-Age=43200; path=/, ut_anon=d6912f87-fde2-4406-8dc1-ccb085a93b7d; expires=Mon, 08-Jul-3016 19:04:32 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/lehows
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Howie G. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Howie G. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Howie G. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/lehows">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/lehows">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="3837799" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_300x300.jpg">
+					</div>
+				</div><div class="info">
+					<h1>Howie G.</h1>
+					<span class="username">lehows</span>
+					<span class="location">Outer Lands</span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+												<p>
+								<a class="fb track-click" target="_blank" data-track="profile" data-href=":facebook" href="/social/redir/facebook/991300519082">Facebook</a>
+							</p>
+											</div>
+				<div class="stats">
+											<a href="/user/lehows" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">404</span>
+							<span class="title">Total</span>
+						</a><a href="/user/lehows/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">365</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/lehows/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">293</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/lehows/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">11</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/lehows/checkin/420156712"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_21/ccc7bca47e51f767a0d00e8f2a3567b7_320x320.jpg" /></a></p><p><a href="/user/lehows/checkin/419426649"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_19/2fd7d1381355c1bd4b2022be101b9fa9_320x320.jpg" /></a></p><p><a href="/user/lehows/checkin/419425600"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_19/260f7763ed94055a7f30ee654ffa24a3_320x320.jpg" /></a></p><p><a href="/user/lehows/checkin/418682105"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_18/c46e8dff42992d1597f082ef674f6b59_320x320.jpg" /></a></p><p><a href="/user/lehows/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_11/39b5b17e65b73b5984afce6d94046816_320x320.jpg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Howie's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425198219" data-checkin-id="425198219">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/hangzhou-quiandaohu-beer-co-cheerday-brewery-lucky-beer-lucky-buddha/50983" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-50983_4356d_sm.jpeg" alt="Hangzhou Quiandaohu Beer Co. (Cheerday Brewery) by Lucky Beer (Lucky Buddha)">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking a <a href="/b/hangzhou-quiandaohu-beer-co-cheerday-brewery-lucky-beer-lucky-buddha/50983">Lucky Beer (Lucky Buddha)</a> by <a  href="/w/hangzhou-quiandaohu-beer-co-cheerday-brewery/11680">Hangzhou Quiandaohu Beer Co. (Cheerday Brewery)</a> at <a href="/v/hydrangea-house/5626733">Hydrangea House</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r300"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/425198219" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 00:17:25 +0000</a>
+							<a href="/user/lehows/checkin/425198219" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424907907" data-checkin-id="424907907">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/destination-unknown-beer-company-andrea-doria/1291376" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1291376_e3ce6_sm.jpeg" alt="Destination Unknown Beer Company by Andrea Doria">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking an <a href="/b/destination-unknown-beer-company-andrea-doria/1291376">Andrea Doria</a> by <a  href="/w/destination-unknown-beer-company/49641">Destination Unknown Beer Company</a> at <a href="/v/beaver-dam-boat-basin/2651533">Beaver Dam Boat Basin</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_WheelofStyles_sm.jpg" alt="Wheel of Styles (Level 17)">
+											<span>Earned the Wheel of Styles (Level 17) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/424907907" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 21:56:13 +0000</a>
+							<a href="/user/lehows/checkin/424907907" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424227419" data-checkin-id="424227419">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/guinness-guinness-original-xx/1103018" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1103018_773d3_sm.jpeg" alt="Guinness by Guinness Original XX">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking a <a href="/b/guinness-guinness-original-xx/1103018">Guinness Original XX</a> by <a  href="/w/guinness/49">Guinness</a> at <a href="/v/hydrangea-house/5626733">Hydrangea House</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_irish_sm.jpg" alt="Luck of the Irish">
+											<span>Earned the Luck of the Irish badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_heavyWeight_sm.jpg" alt="Heavy Weight (Level 10)">
+											<span>Earned the Heavy Weight (Level 10) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 19)">
+											<span>Earned the Riding Steady (Level 19) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/424227419" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 20:30:08 +0000</a>
+							<a href="/user/lehows/checkin/424227419" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Sound_Affects" href="/user/Sound_Affects" title="eddy w." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/69e092509b62533e044cc2ba244bf3a7_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424180513" data-checkin-id="424180513">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/northern-monk-northern-star/848422" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-848422_021d5_sm.jpeg" alt="Northern Monk by Northern Star">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking a <a href="/b/northern-monk-northern-star/848422">Northern Star</a> by <a  href="/w/northern-monk/71828">Northern Monk</a> at <a href="/v/hydrangea-house/5626733">Hydrangea House</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_godSaveTheQueen_sm.jpg" alt="God Save the Queen  (Level 13)">
+											<span>Earned the God Save the Queen  (Level 13) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/424180513" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 19:43:17 +0000</a>
+							<a href="/user/lehows/checkin/424180513" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="NorthernMonk" href="/brewery/71828" title="Northern Monk" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/site/brewery_logos/brewery-71828_bee17.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424104162" data-checkin-id="424104162">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/heavy-seas-beer-loose-cannon/18311" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-18311_36a98_sm.jpeg" alt="Heavy Seas Beer by Loose Cannon">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking a <a href="/b/heavy-seas-beer-loose-cannon/18311">Loose Cannon</a> by <a  href="/w/heavy-seas-beer/385">Heavy Seas Beer</a> at <a href="/v/papa-nicks-pizza/1025101">Papa Nicks Pizza</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_hoptopia_sm.jpg" alt="I Believe in IPA!  (Level 25)">
+											<span>Earned the I Believe in IPA!  (Level 25) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/424104162" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 18:10:06 +0000</a>
+							<a href="/user/lehows/checkin/424104162" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423862263" data-checkin-id="423862263">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/greenport-harbor-brewing-company-harbor-ale/22676" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-22676_795c4_sm.jpeg" alt="Greenport Harbor Brewing Company by Harbor Ale">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking a <a href="/b/greenport-harbor-brewing-company-harbor-ale/22676">Harbor Ale</a> by <a  href="/w/greenport-harbor-brewing-company/3505">Greenport Harbor Brewing Company</a> at <a href="/v/beaver-dam-boat-basin/2651533">Beaver Dam Boat Basin</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_PaleMoon_sm.jpg" alt="Pale as the Moon (Level 8)">
+											<span>Earned the Pale as the Moon (Level 8) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/423862263" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 02:19:43 +0000</a>
+							<a href="/user/lehows/checkin/423862263" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423709090" data-checkin-id="423709090">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/troegs-independent-brewing-nugget-nectar-2017/1960189" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1960189_b992f_sm.jpeg" alt="Tröegs Independent Brewing by Nugget Nectar (2017)">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking a <a href="/b/troegs-independent-brewing-nugget-nectar-2017/1960189">Nugget Nectar (2017)</a> by <a  href="/w/troegs-independent-brewing/2583">Tröegs Independent Brewing</a> at <a href="/v/the-bar/5918530">The Bar</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_2xCore_sm.jpg" alt="2X (Level 7)">
+											<span>Earned the 2X (Level 7) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/423709090" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 23:13:30 +0000</a>
+							<a href="/user/lehows/checkin/423709090" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Sound_Affects" href="/user/Sound_Affects" title="eddy w." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/69e092509b62533e044cc2ba244bf3a7_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423686706" data-checkin-id="423686706">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/troegs-independent-brewing-first-cut/1933463" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1933463_cd94e_sm.jpeg" alt="Tröegs Independent Brewing by First Cut ">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking a <a href="/b/troegs-independent-brewing-first-cut/1933463">First Cut </a> by <a  href="/w/troegs-independent-brewing/2583">Tröegs Independent Brewing</a> at <a href="/v/the-bar/5918530">The Bar</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/423686706" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 22:41:44 +0000</a>
+							<a href="/user/lehows/checkin/423686706" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423057742" data-checkin-id="423057742">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/narragansett-brewing-company-narragansett-lager/6632" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-NarragansettLager_6632.jpeg" alt="Narragansett Brewing Company by Narragansett Lager">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking a <a href="/b/narragansett-brewing-company-narragansett-lager/6632">Narragansett Lager</a> by <a  href="/w/narragansett-brewing-company/1252">Narragansett Brewing Company</a> at <a href="/v/hydrangea-house/5626733">Hydrangea House</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/423057742" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 01 Mar 2017 23:40:32 +0000</a>
+							<a href="/user/lehows/checkin/423057742" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Sound_Affects" href="/user/Sound_Affects" title="eddy w." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/69e092509b62533e044cc2ba244bf3a7_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422823987" data-checkin-id="422823987">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/anchor-brewing-company-liberty-ipa/1869115" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1869115_008f8_sm.jpeg" alt="Anchor Brewing Company by Liberty IPA">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking a <a href="/b/anchor-brewing-company-liberty-ipa/1869115">Liberty IPA</a> by <a  href="/w/anchor-brewing-company/3891">Anchor Brewing Company</a> at <a href="/v/the-bar/5918530">The Bar</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/422823987" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 01 Mar 2017 00:11:34 +0000</a>
+							<a href="/user/lehows/checkin/422823987" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422823380" data-checkin-id="422823380">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/duclaw-brewing-company-sweet-baby-jesus-2016/1465133" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-269469_e2d86_sm.jpeg" alt="DuClaw Brewing Company by Sweet Baby Jesus! (2016)">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking a <a href="/b/duclaw-brewing-company-sweet-baby-jesus-2016/1465133">Sweet Baby Jesus! (2016)</a> by <a  href="/w/duclaw-brewing-company/4921">DuClaw Brewing Company</a> at <a href="/v/hydrangea-house/5626733">Hydrangea House</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Not usually a fan of stuff like this but very good.									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_america_sm.jpg" alt="Land of the Free  (Level 50)">
+											<span>Earned the Land of the Free  (Level 50) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/422823380" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 01 Mar 2017 00:10:04 +0000</a>
+							<a href="/user/lehows/checkin/422823380" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Arielle12" href="/user/Arielle12" title="Arielle M." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/62092505b90a0bd52343edefd8e509f7_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422792616" data-checkin-id="422792616">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-beer-camp-golden-ipa-2017/1884514" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1884514_c138c_sm.jpeg" alt="Sierra Nevada Brewing Co. by Beer Camp Golden IPA (2017)">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-beer-camp-golden-ipa-2017/1884514">Beer Camp Golden IPA (2017)</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/the-bar/5918530">The Bar</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_MardiGras2017_sm.jpg" alt="Mardi Gras (2017)">
+											<span>Earned the Mardi Gras (2017) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/422792616" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 28 Feb 2017 22:52:19 +0000</a>
+							<a href="/user/lehows/checkin/422792616" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422599953" data-checkin-id="422599953">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/samuel-smith-s-old-brewery-organic-chocolate-stout/219082" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_219082_efeb8e8b90842dbc266b0c60ec1a.jpeg" alt="Samuel Smith's Old Brewery by Organic Chocolate Stout">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking an <a href="/b/samuel-smith-s-old-brewery-organic-chocolate-stout/219082">Organic Chocolate Stout</a> by <a  href="/w/samuel-smiths-old-brewery/1099">Samuel Smith's Old Brewery</a> at <a href="/v/hydrangea-house/5626733">Hydrangea House</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Tobacco and chocolate flavors.									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_UdderlySweet_sm.jpg" alt="So Udderly Sweet (Level 2)">
+											<span>Earned the So Udderly Sweet (Level 2) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/422599953" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 27 Feb 2017 23:38:10 +0000</a>
+							<a href="/user/lehows/checkin/422599953" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>3</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Arielle12" href="/user/Arielle12" title="Arielle M." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/62092505b90a0bd52343edefd8e509f7_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="Sound_Affects" href="/user/Sound_Affects" title="eddy w." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/69e092509b62533e044cc2ba244bf3a7_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="docwaffle" href="/user/docwaffle" title="jeff the jammer" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/b592f27c85e7b5fea4f011c71abe74c2_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422348751" data-checkin-id="422348751">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bell-s-brewery-hopslam-ale-2017/1895017" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-4143_90b4a_sm.jpeg" alt="Bell's Brewery by Hopslam Ale (2017)">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking a <a href="/b/bell-s-brewery-hopslam-ale-2017/1895017">Hopslam Ale (2017)</a> by <a  href="/w/bell-s-brewery/2507">Bell's Brewery</a> at <a href="/v/bellport-bay/5636244">bellport bay</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r475"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/422348751" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 26 Feb 2017 22:42:55 +0000</a>
+							<a href="/user/lehows/checkin/422348751" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422288113" data-checkin-id="422288113">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/lehows">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/5247ee218f1051679d0238be614d0c4e_100x100.jpg" alt="Howie G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/the-five-points-brewing-company-five-points-ipa/717712" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-717712_31e03_sm.jpeg" alt="The Five Points Brewing Company by Five Points IPA">
+							</a>
+														<p class="text">
+								<a href="/user/lehows" class="user">Howie G.</a>  is drinking a <a href="/b/the-five-points-brewing-company-five-points-ipa/717712">Five Points IPA</a> by <a  href="/w/the-five-points-brewing-company/56204">The Five Points Brewing Company</a> at <a href="/v/hydrangea-house/5626733">Hydrangea House</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/lehows/checkin/422288113" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 26 Feb 2017 20:56:44 +0000</a>
+							<a href="/user/lehows/checkin/422288113" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/lehows" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/lehows/badges/175513675" title="Luck of the Irish" ><span><img src="https://untappd.akamaized.net/badges/bdg_irish_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/lehows/badges/174530059" title="Mardi Gras (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_MardiGras2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/lehows/badges/173507706" title="Hotel Hopper" ><span><img src="https://untappd.akamaized.net/badges/bdg_HotelHopper_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/lehows/badges/173456735" title="Beer City Brewsader (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_BeerCityBrewsader2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/lehows/badges/172442525" title="First Squeeze!" ><span><img src="https://untappd.akamaized.net/badges/bdg_NuggetNectarSqueeze_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/lehows/badges/170887275" title="Gourd to the Last Drop" ><span><img src="https://untappd.akamaized.net/badges/bdg_pumpkinBeer_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/lehows/badges/169883548" title="Brew Bowl LI" ><span><img src="https://untappd.akamaized.net/badges/bdg_SuperBowlLI_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/lehows/badges/168966216" title="Trip to the Farm" ><span><img src="https://untappd.akamaized.net/badges/bdg_saison_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/lehows/badges/168628029" title="Bell's Hopslam Release (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hopslam2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/lehows/badges/168600842" title="Rye It Up!" ><span><img src="https://untappd.akamaized.net/badges/bdg_ryeitup_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/lehows/badges/168175812" title="Better Together" ><span><img src="https://untappd.akamaized.net/badges/bdg_BetterTogether_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/lehows/badges/168149135" title="Last Call" ><span><img src="https://untappd.akamaized.net/badges/bdg_lastCall_md.jpg"></span></a>
+                <p class="more"><a href="/user/lehows/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/guinness-guinness-draught/4473" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_4473_8122008947804818c90640a06d83.jpeg"><p>
+	    				<span class="name">Guinness Draught</span>
+                        <span class="brewery">Guinness</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/two-roads-brewing-company-two-evil-geyser-gose/1267171" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1267171_bc1ef_sm.jpeg"><p>
+	    				<span class="name">Two Evil: Geyser Gose</span>
+                        <span class="brewery">Two Roads Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/narragansett-brewing-company-autocrat-coffee-milk-stout/485593" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-485593_1f6dc_sm.jpeg"><p>
+	    				<span class="name">Autocrat Coffee Milk Stout</span>
+                        <span class="brewery">Narragansett Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/pipeworks-brewing-company-ninja-vs-unicorn/129534" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-129534_f46b6_sm.jpeg"><p>
+	    				<span class="name">Ninja vs. Unicorn</span>
+                        <span class="brewery">Pipeworks Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/stone-brewing-stone-xocoveza-2016/1754849" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1754849_00430_sm.jpeg"><p>
+	    				<span class="name">Stone Xocoveza (2016)</span>
+                        <span class="brewery">Stone Brewing</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/lehows/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/hydrangea-house/5626733" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/secretbar_bg_88.png"><p>
+    	    				<span class="name">Hydrangea House</span>
+    	    				<span class="location">Bellport, NY                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/bellport-bay/5636244" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/beach_bg_88.png"><p>
+    	    				<span class="name">bellport bay</span>
+    	    				<span class="location">Bellport, NY                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/the-wenlock-arms/77621" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">The Wenlock Arms</span>
+    	    				<span class="location">Islington, Greater London                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/tapwerks-ale-house-and-cafe/9677" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">TapWerks Ale House & Café</span>
+    	    				<span class="location">Oklahoma City, OK                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/old-inlet-near-pelican-island/5050004" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/beach_bg_88.png"><p>
+    	    				<span class="name">Old Inlet near Pelican Island</span>
+    	    				<span class="location">Brookhaven, NY                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/lehows/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/KentFallsBrewing" title="Kent Falls Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-173732_8c6ee.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/newburghbrewing" title="Newburgh Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-newburghbrewingco_17660.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Redwell_Brewing" title="Redwell Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-63133_d8013.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/SignatureBrew" title="Signature Brew" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-23517_0f7bd.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/HoofHearted" title="Hoof Hearted Brewing" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-HoofHearted_32642.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/StillwaterArtisanal" title="Stillwater Artisanal Ales" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-1203_10f2b.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/FourpureBrewingCo" title="Fourpure Brewing Co" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-fourpurebrewingco_86957.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/TwoTribes1" title="Two Tribes" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-223314_5af23.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/westbrookbrewing" title="Westbrook Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-10905_a3666.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Brewgooder" title="Brewgooder" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-219665_89b77.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/RevolverBrewing" title="Revolver Brewing" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-RevolverBrewing_30341.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/CraneBrewingCo" title="Crane Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-223639_b2074.jpeg"></span></a>
+                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/viewLikeHistory" href="/user/lehows/likes">See All Likes</a></p>                </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

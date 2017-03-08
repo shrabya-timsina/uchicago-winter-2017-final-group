@@ -1,0 +1,1479 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 19:47:11 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 75024
+set-cookie: untappd_com_site_v2=6ca3c6693b471326c107c4bf49cfd48d; expires=Wed, 08-Mar-2017 07:47:11 GMT; Max-Age=43200; path=/, ut_anon=9dcfdd2a-52aa-4984-b557-757cf127333d; expires=Mon, 08-Jul-3016 19:47:11 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/shuhei
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Shuhei K. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Shuhei K. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Shuhei K. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/shuhei">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/shuhei">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="97798" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=125&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+					</div>
+				</div><div class="info">
+					<h1>Shuhei K.</h1>
+					<span class="username">shuhei</span>
+					<span class="location">Berlin, Germany</span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+												<p>
+								<a class="fb track-click" target="_blank" data-track="profile" data-href=":facebook" href="/social/redir/facebook/1665286895">Facebook</a>
+							</p>
+														<p>
+								<a class="sq track-click" target="_blank" data-track="profile" data-href=":foursquare" href="https://foursquare.com/user/2719463">Foursquare</a>
+							</p>
+											</div>
+				<div class="stats">
+											<a href="/user/shuhei" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">739</span>
+							<span class="title">Total</span>
+						</a><a href="/user/shuhei/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">520</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/shuhei/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">356</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/shuhei/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">11</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/shuhei/checkin/425137445"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/94fc213be2e766dbda36b322dd5b3a1e_320x320.jpg" /></a></p><p><a href="/user/shuhei/checkin/424837388"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/1b81dc22eae63c7104740932bdbe3e99_320x320.jpg" /></a></p><p><a href="/user/shuhei/checkin/424083564"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/3074df0125eaf3c1f012d7e258ff4952_320x320.jpg" /></a></p><p><a href="/user/shuhei/checkin/423242934"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/8977b696b740e2a19a3f96ac42254bfb_320x320.jpg" /></a></p><p><a href="/user/shuhei/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_01/cfbd39aab39022ba08f2ccac41cf1ac7_320x320.jpg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Shuhei's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425137445" data-checkin-id="425137445">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/latitude-42-brewing-company-party-at-the-moon-tower/1052561" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Latitude 42 Brewing Company by Party At the Moon Tower">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking a <a  href="/b/latitude-42-brewing-company-party-at-the-moon-tower/1052561">Party At the Moon Tower</a> by <a href="/w/latitude-42-brewing-company/69399">Latitude 42 Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/can@3x.png?v=1">
+									          <span>Can</span>
+									        </p>
+																					<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/shuhei/checkin/425137445" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/94fc213be2e766dbda36b322dd5b3a1e_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/425137445" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 20:11:42 +0000</a>
+							<a href="/user/shuhei/checkin/425137445" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kubos" href="/user/kubos" title="tomoki k." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/4f40801f06c672bcb73ad645e145713a_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424837388" data-checkin-id="424837388">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/alesmith-brewing-company-ipa/1793" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1793_21474_sm.jpeg" alt="AleSmith Brewing Company by IPA">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking an <a  href="/b/alesmith-brewing-company-ipa/1793">IPA</a> by <a href="/w/alesmith-brewing-company/2471">AleSmith Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									落ちついていて地味にうまい。あまり苦味が残らないのも良い。でも 350 ml 缶 € 7 は高いかな...。									</p>
+									
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/can@3x.png?v=1">
+									          <span>Can</span>
+									        </p>
+																					<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/shuhei/checkin/424837388" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/1b81dc22eae63c7104740932bdbe3e99_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/424837388" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 19:51:59 +0000</a>
+							<a href="/user/shuhei/checkin/424837388" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kubos" href="/user/kubos" title="tomoki k." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/4f40801f06c672bcb73ad645e145713a_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424773985" data-checkin-id="424773985">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/lervig-tasty-juice/1862728" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1862728_4aa04_sm.jpeg" alt="Lervig  by Tasty Juice">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking a <a href="/b/lervig-tasty-juice/1862728">Tasty Juice</a> by <a  href="/w/lervig-aktiebryggeri/6826">Lervig </a> at <a href="/v/kaschk/2079097">Kaschk</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/424773985" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 17:29:36 +0000</a>
+							<a href="/user/shuhei/checkin/424773985" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kubos" href="/user/kubos" title="tomoki k." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/4f40801f06c672bcb73ad645e145713a_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424773619" data-checkin-id="424773619">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brlo-pale-ale/861484" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-861484_d6ffa_sm.jpeg" alt="BRLO  by Pale Ale">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking a <a href="/b/brlo-pale-ale/861484">Pale Ale</a> by <a  href="/w/brlo-craft-beer/165817">BRLO </a> at <a href="/v/kaschk/2079097">Kaschk</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/424773619" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 17:28:29 +0000</a>
+							<a href="/user/shuhei/checkin/424773619" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kubos" href="/user/kubos" title="tomoki k." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/4f40801f06c672bcb73ad645e145713a_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424101825" data-checkin-id="424101825">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/warpigs-brewpub-booty-call/1161064" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="WarPigs Brewpub by Booty Call">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking a <a href="/b/warpigs-brewpub-booty-call/1161064">Booty Call</a> by <a  href="/w/warpigs-brewpub/186232">WarPigs Brewpub</a> at <a href="/v/brewdog/3942989">BrewDog</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/424101825" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 18:06:28 +0000</a>
+							<a href="/user/shuhei/checkin/424101825" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424083564" data-checkin-id="424083564">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/the-kernel-brewery-india-pale-ale-centennial-enigma/1890343" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="The Kernel Brewery by India Pale Ale Centennial Enigma">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking an <a href="/b/the-kernel-brewery-india-pale-ale-centennial-enigma/1890343">India Pale Ale Centennial Enigma</a> by <a  href="/w/kernel-brewery/3376">The Kernel Brewery</a> at <a href="/v/brewdog/3942989">BrewDog</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_findSource_sm.jpg" alt="Find the Source (Level 2)">
+											<span>Earned the Find the Source (Level 2) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_hoptopia_sm.jpg" alt="I Believe in IPA!  (Level 39)">
+											<span>Earned the I Believe in IPA!  (Level 39) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_godSaveTheQueen_sm.jpg" alt="God Save the Queen (Level 8)">
+											<span>Earned the God Save the Queen (Level 8) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/shuhei/checkin/424083564" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/3074df0125eaf3c1f012d7e258ff4952_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/424083564" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 17:37:09 +0000</a>
+							<a href="/user/shuhei/checkin/424083564" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kubos" href="/user/kubos" title="tomoki k." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/4f40801f06c672bcb73ad645e145713a_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423242934" data-checkin-id="423242934">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/motel-beer-white-sands/1917113" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Motel Beer by White Sands">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking a <a  href="/b/motel-beer-white-sands/1917113">White Sands</a> by <a href="/w/motel-beer/320929">Motel Beer</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Plastic bottle beer!									</p>
+									
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/growler.png?v=1">
+									          <span>Growler</span>
+									        </p>
+																					<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/shuhei/checkin/423242934" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/8977b696b740e2a19a3f96ac42254bfb_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/423242934" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 19:44:35 +0000</a>
+							<a href="/user/shuhei/checkin/423242934" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422745302" data-checkin-id="422745302">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brlo-german-ipa/1493611" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1493611_3b940_sm.jpeg" alt="BRLO  by German IPA">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking a <a href="/b/brlo-german-ipa/1493611">German IPA</a> by <a  href="/w/brlo-craft-beer/165817">BRLO </a> at <a href="/v/brlo-brwhouse/4881319">BRLO BRWHOUSE</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/shuhei/checkin/422745302" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_01/cfbd39aab39022ba08f2ccac41cf1ac7_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/422745302" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 28 Feb 2017 19:26:38 +0000</a>
+							<a href="/user/shuhei/checkin/422745302" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422739393" data-checkin-id="422739393">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/haffner-brau-hopfenstopfer-hopfenstopfer-comet-ipa/323307" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-323307_3fff8_sm.jpeg" alt="Häffner Bräu - Hopfenstopfer by Hopfenstopfer Comet IPA">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking a <a href="/b/haffner-brau-hopfenstopfer-hopfenstopfer-comet-ipa/323307">Hopfenstopfer Comet IPA</a> by <a  href="/w/h-ffner-br-u-hopfenstopfer/14191">Häffner Bräu - Hopfenstopfer</a> at <a href="/v/brlo-brwhouse/4881319">BRLO BRWHOUSE</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_MardiGras2017_sm.jpg" alt="Mardi Gras (2017)">
+											<span>Earned the Mardi Gras (2017) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_VerifiedVenue_sm.jpg" alt="Verified Adventure">
+											<span>Earned the Verified Adventure badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/422739393" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 28 Feb 2017 18:53:34 +0000</a>
+							<a href="/user/shuhei/checkin/422739393" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422535701" data-checkin-id="422535701">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/rugener-insel-brauerei-insel-saison/1204204" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1204204_3c32d_sm.jpeg" alt="Rügener Insel-Brauerei by Insel Saison">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking an <a  href="/b/rugener-insel-brauerei-insel-saison/1204204">Insel Saison</a> by <a href="/w/ra-1-4-gener-insel-brauerei/220632">Rügener Insel-Brauerei</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/422535701" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 27 Feb 2017 18:29:46 +0000</a>
+							<a href="/user/shuhei/checkin/422535701" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kubos" href="/user/kubos" title="tomoki k." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/4f40801f06c672bcb73ad645e145713a_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422260314" data-checkin-id="422260314">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/tamamura-honten-co-shiga-kogen-afpa/150774" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-150774_2275c_sm.jpeg" alt="Tamamura Honten Co. by Shiga Kogen AfPA">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking a <a href="/b/tamamura-honten-co-shiga-kogen-afpa/150774">Shiga Kogen AfPA</a> by <a  href="/w/tamamura-honten-co/5704">Tamamura Honten Co.</a> at <a href="/v/beer-pub-ishii/725704">Beer Pub Ishii (ビアパブ イシイ)</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									金曜日に									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 4)">
+											<span>Earned the Riding Steady (Level 4) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/422260314" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 26 Feb 2017 20:08:50 +0000</a>
+							<a href="/user/shuhei/checkin/422260314" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kubos" href="/user/kubos" title="tomoki k." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/4f40801f06c672bcb73ad645e145713a_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+																		<div class="comment" id="comment_32452733">
+											<div class="avatar">
+												<div class="avatar-holder">
+																											<a href="/user/kubos">
+														<img class="lazy" data-original="https://untappd.akamaized.net/profile/4f40801f06c672bcb73ad645e145713a_100x100.jpg" alt="tomoki k.">
+													</a>
+												</div>
+											</div>
+											<div class="text">
+												<p>
+													<a href="/user/kubos">tomoki k.</a>: 
+													おお！一時帰国！イシイ！												</p>
+												<p class="meta">
+													<span class="time timezoner">Mon, 27 Feb 2017 01:54:54 +0000</span>
+																									</p>
+											</div>
+										</div>
+																				<div class="comment" id="comment_32459764">
+											<div class="avatar">
+												<div class="avatar-holder">
+																											<a href="/user/shuhei">
+														<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+													</a>
+												</div>
+											</div>
+											<div class="text">
+												<p>
+													<a href="/user/shuhei">Shuhei K.</a>: 
+													久しぶりに！やっぱ志賀高原はうまい！												</p>
+												<p class="meta">
+													<span class="time timezoner">Mon, 27 Feb 2017 18:30:41 +0000</span>
+																									</p>
+											</div>
+										</div>
+																	</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_417577700" data-checkin-id="417577700">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/stone-brewing-stone-xocoveza-2016/1754849" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1754849_00430_sm.jpeg" alt="Stone Brewing by Stone Xocoveza (2016)">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking a <a  href="/b/stone-brewing-stone-xocoveza-2016/1754849">Stone Xocoveza (2016)</a> by <a href="/w/stone-brewing/1204">Stone Brewing</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Very sweet with cinnamon flavor.									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_america_sm.jpg" alt="Land of the Free  (Level 14)">
+											<span>Earned the Land of the Free  (Level 14) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_WheelofStyles_sm.jpg" alt="Wheel of Styles (Level 10)">
+											<span>Earned the Wheel of Styles (Level 10) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/417577700" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 15 Feb 2017 22:27:06 +0000</a>
+							<a href="/user/shuhei/checkin/417577700" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kubos" href="/user/kubos" title="tomoki k." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/4f40801f06c672bcb73ad645e145713a_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_417567348" data-checkin-id="417567348">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/rugener-insel-brauerei-baltic-ale/1201117" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1201117_e864a_sm.jpeg" alt="Rügener Insel-Brauerei by Baltic Ale">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking a <a  href="/b/rugener-insel-brauerei-baltic-ale/1201117">Baltic Ale</a> by <a href="/w/ra-1-4-gener-insel-brauerei/220632">Rügener Insel-Brauerei</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Tastes like Bergian golden ale									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_DasBoot16_sm.jpg" alt="Das Boot  (Level 18)">
+											<span>Earned the Das Boot  (Level 18) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_IronMan_sm.jpg" alt="Iron Man">
+											<span>Earned the Iron Man badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/shuhei/checkin/417567348" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_15/9efdff4562b7f862da7bdbe723290b85_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/417567348" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 15 Feb 2017 21:49:35 +0000</a>
+							<a href="/user/shuhei/checkin/417567348" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kubos" href="/user/kubos" title="tomoki k." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/4f40801f06c672bcb73ad645e145713a_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_417548528" data-checkin-id="417548528">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/stone-brewing-stone-ruination-double-ipa-2-0/1044097" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1044097_0165f_sm.jpeg" alt="Stone Brewing by Stone Ruination Double IPA 2.0">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking a <a  href="/b/stone-brewing-stone-ruination-double-ipa-2-0/1044097">Stone Ruination Double IPA 2.0</a> by <a href="/w/stone-brewing/1204">Stone Brewing</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/shuhei/checkin/417548528" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_15/d35338144b1ac80fb41d554581bc5f47_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/417548528" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 15 Feb 2017 20:36:37 +0000</a>
+							<a href="/user/shuhei/checkin/417548528" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kubos" href="/user/kubos" title="tomoki k." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/4f40801f06c672bcb73ad645e145713a_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_417543252" data-checkin-id="417543252">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/shuhei">
+							<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/rugener-insel-brauerei-insel-saison/1204204" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1204204_3c32d_sm.jpeg" alt="Rügener Insel-Brauerei by Insel Saison">
+							</a>
+														<p class="text">
+								<a href="/user/shuhei" class="user">Shuhei K.</a>  is drinking an <a  href="/b/rugener-insel-brauerei-insel-saison/1204204">Insel Saison</a> by <a href="/w/ra-1-4-gener-insel-brauerei/220632">Rügener Insel-Brauerei</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_saison_sm.jpg" alt="Trip to the Farm (Level 5)">
+											<span>Earned the Trip to the Farm (Level 5) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/shuhei/checkin/417543252" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_15/ef0afef155139e9d4ba59d1df8c2f51c_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/shuhei/checkin/417543252" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 15 Feb 2017 20:15:25 +0000</a>
+							<a href="/user/shuhei/checkin/417543252" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kubos" href="/user/kubos" title="tomoki k." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/4f40801f06c672bcb73ad645e145713a_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+																		<div class="comment" id="comment_32158104">
+											<div class="avatar">
+												<div class="avatar-holder">
+																											<a href="/user/kubos">
+														<img class="lazy" data-original="https://untappd.akamaized.net/profile/4f40801f06c672bcb73ad645e145713a_100x100.jpg" alt="tomoki k.">
+													</a>
+												</div>
+											</div>
+											<div class="text">
+												<p>
+													<a href="/user/kubos">tomoki k.</a>: 
+													紙？												</p>
+												<p class="meta">
+													<span class="time timezoner">Thu, 16 Feb 2017 08:44:05 +0000</span>
+																									</p>
+											</div>
+										</div>
+																				<div class="comment" id="comment_32158316">
+											<div class="avatar">
+												<div class="avatar-holder">
+																											<a href="/user/shuhei">
+														<img class="lazy" data-original="https://gravatar.com/avatar/ca0ab6e450f894e06652ee257df9d647?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Shuhei K.">
+													</a>
+												</div>
+											</div>
+											<div class="text">
+												<p>
+													<a href="/user/shuhei">Shuhei K.</a>: 
+													紙に包まれてるだけだと思って取ろうとしたら、中にはラベルがなかった。そういうデザインらしい。												</p>
+												<p class="meta">
+													<span class="time timezoner">Thu, 16 Feb 2017 09:44:44 +0000</span>
+																									</p>
+											</div>
+										</div>
+																	</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/shuhei" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/shuhei/badges/174475746" title="Verified Adventure" ><span><img src="https://untappd.akamaized.net/badges/bdg_VerifiedVenue_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/shuhei/badges/174475745" title="Mardi Gras (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_MardiGras2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/shuhei/badges/171863807" title="Iron Man" ><span><img src="https://untappd.akamaized.net/badges/bdg_IronMan_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/shuhei/badges/169891463" title="Summer Fun" ><span><img src="https://untappd.akamaized.net/badges/bdg_summer2011_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/shuhei/badges/169891464" title="Home Brewed Goodness" ><span><img src="https://untappd.akamaized.net/badges/bdg_homebrew_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/shuhei/badges/169873599" title="Brew Bowl LI" ><span><img src="https://untappd.akamaized.net/badges/bdg_SuperBowlLI_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/shuhei/badges/169558731" title="Legendary" ><span><img src="https://untappd.akamaized.net/badges/bdg_legendary_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/shuhei/badges/166179806" title="Going Dutch" ><span><img src="https://untappd.akamaized.net/badges/bdg_GoingDutch_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/shuhei/badges/162650960" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/shuhei/badges/161784900" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/shuhei/badges/153489581" title="Down In Smoke" ><span><img src="https://untappd.akamaized.net/badges/bdg_DownInSmoke_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/shuhei/badges/153486239" title="Beer-giving (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Thanksgiving2016_md.jpg"></span></a>
+                <p class="more"><a href="/user/shuhei/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/tamamura-honten-co-shiga-kogen-indian-summer-saison/57366" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-57366_c101a_sm.jpeg"><p>
+	    				<span class="name">Shiga Kogen Indian Summer Saison</span>
+                        <span class="brewery">Tamamura Honten Co.</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brewdog-i-hardcore-you/6042" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-mikkellerBDIHardcoreYou.jpg"><p>
+	    				<span class="name">I Hardcore You</span>
+                        <span class="brewery">BrewDog</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/beer-buddy-new-zealand-ipa/208463" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">New Zealand IPA</span>
+                        <span class="brewery">Beer Buddy</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/nogne-o-india-pale-ale-ipa/15929" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-15929_ca11e_sm.jpeg"><p>
+	    				<span class="name">India Pale Ale (IPA)</span>
+                        <span class="brewery">Nøgne Ø</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/ushitora-brewery-067-raijin/1418090" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">#067 Raijin</span>
+                        <span class="brewery">Ushitora Brewery</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/shuhei/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/beer-pub-ishii/725704" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Beer Pub Ishii (ビアパブ イシイ)</span>
+    	    				<span class="location">東京, 東京都                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/ビアパブイシイ/805762" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss1.4sqi.net/img/categories_v2/food/gastropub_bg_88.png"><p>
+    	    				<span class="name">ビアパブイシイ</span>
+    	    				<span class="location">東京, 東京都                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/craft-beer-market-craft-beer-market/120889" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Craft Beer Market (Craft Beer Market 虎ノ門店)</span>
+    	    				<span class="location">東京, 東京都                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/venue-place/3834994" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">すみくらふと</span>
+    	    				<span class="location">世田谷区, 東京都                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/frenc-heartcrafted-goods/2830990" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/creperie_bg_88.png"><p>
+    	    				<span class="name">FRENC heartcrafted goods</span>
+    	    				<span class="location">Berlin, Berlin                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/shuhei/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/magicrockbrewing" title="Magic Rock Brewing" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-13156_ba18c.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Pohjala" title="Põhjala" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-54434_458dd.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Hornbeer" title="Hornbeer" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-Hornbeer_2681.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Austmann" title="Austmann " ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-69202_a557c.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/KuehnKunzRosenBrewery" title="KUEHN KUNZ ROSEN" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-139128_663fc.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BlackLabBCN" title="BlackLab" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-155094_80f7a.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/JawsBrew" title="Jaws Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-29772_c4431.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/MonyoBrewingCo" title="MONYO Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-174715_8757c.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BerlinerBergBrauerei" title="Berliner Berg Brauerei" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-209452_1c511.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/CambaBavaria" title="Camba" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-22882_980b7.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Strassenbrau" title="Straßenbräu" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-238323_104af.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/hammer2015" title="Hammer" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-199063_80e47.jpeg"></span></a>
+                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/viewLikeHistory" href="/user/shuhei/likes">See All Likes</a></p>                </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

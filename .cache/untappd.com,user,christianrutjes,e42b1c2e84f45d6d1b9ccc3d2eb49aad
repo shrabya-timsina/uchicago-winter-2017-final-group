@@ -1,0 +1,1394 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 19:03:56 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 70518
+set-cookie: untappd_com_site_v2=d3d7734de81befb55c8f8ae30408a89d; expires=Wed, 08-Mar-2017 07:03:56 GMT; Max-Age=43200; path=/, ut_anon=b465a04d-4185-46a1-8004-c25e6c84fb70; expires=Mon, 08-Jul-3016 19:03:56 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/christianrutjes
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Christian R. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Christian R. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Christian R. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/christianrutjes">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/christianrutjes">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="3821632" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=125&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+					</div>
+				</div><div class="info">
+					<h1>Christian R.</h1>
+					<span class="username">christianrutjes</span>
+					<span class="location"></span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+												<p>
+								<a class="fb track-click" target="_blank" data-track="profile" data-href=":facebook" href="/social/redir/facebook/10205553580957611">Facebook</a>
+							</p>
+											</div>
+				<div class="stats">
+											<a href="/user/christianrutjes" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">28</span>
+							<span class="title">Total</span>
+						</a><a href="/user/christianrutjes/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">25</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/christianrutjes/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">25</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/christianrutjes/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">4</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/christianrutjes/checkin/425138202"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/ae522ff5ff07ffd6fd6302992cbcc212_320x320.jpg" /></a></p><p><a href="/user/christianrutjes/checkin/424742925"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/7ca7ce7d2f3d36d1eb18e368d6addb7c_320x320.jpg" /></a></p><p><a href="/user/christianrutjes/checkin/424352461"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/a5cf93c41bef098fae576e084b071646_320x320.jpg" /></a></p><p><a href="/user/christianrutjes/checkin/424263961"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/bb584c4cb21ac94634e04798ddd9aee7_320x320.jpg" /></a></p><p><a href="/user/christianrutjes/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/fcf75ac7229076f21d40a6ad7d0a77f9_320x320.jpg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Christian's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425138202" data-checkin-id="425138202">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-de-brabandere-bavik-kwaremont/26918" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_26918_sm_bbfadd795cb3877d51e564267eb685.jpeg" alt="Brouwerij De Brabandere (Bavik) by Kwaremont">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/brouwerij-de-brabandere-bavik-kwaremont/26918">Kwaremont</a> by <a  href="/w/brouwerij-de-brabandere-bavik/4571">Brouwerij De Brabandere (Bavik)</a> at <a href="/v/zevenaar/985038">Zevenaar</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_check25_sm.jpg" alt="Apprentice">
+											<span>Earned the Apprentice badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/425138202" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/ae522ff5ff07ffd6fd6302992cbcc212_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/425138202" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 20:15:35 +0000</a>
+							<a href="/user/christianrutjes/checkin/425138202" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="bavik" href="/brewery/4571" title="Brouwerij De Brabandere (Bavik)" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/site/brewery_logos/brewery-brouwerijdebrabanderebavik_4571.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424742925" data-checkin-id="424742925">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/fuller-smith-and-turner-london-pride/2762" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-2762_10b41_sm.jpeg" alt="Fuller, Smith & Turner  by London Pride">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/fuller-smith-and-turner-london-pride/2762">London Pride</a> by <a  href="/w/fuller-smith-turner/3296">Fuller, Smith & Turner </a> at <a href="/v/the-admiralty/2247394">The Admiralty</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/424742925" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/7ca7ce7d2f3d36d1eb18e368d6addb7c_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/424742925" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 15:21:09 +0000</a>
+							<a href="/user/christianrutjes/checkin/424742925" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mark27" href="/user/Mark27" title="Mark" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/e4a515277bb0caef35678eefab2fc12e_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424352461" data-checkin-id="424352461">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brewdog-punk-ipa/5702" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-5702_7d1d7_sm.jpeg" alt="BrewDog by Punk IPA">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/brewdog-punk-ipa/5702">Punk IPA</a> by <a  href="/w/brewdog/241">BrewDog</a> at <a href="/v/oneills/59678">O'Neill's</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_beertography_sm.jpg" alt="Photogenic Brew (Level 5)">
+											<span>Earned the Photogenic Brew (Level 5) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/424352461" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/a5cf93c41bef098fae576e084b071646_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/424352461" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 22:34:02 +0000</a>
+							<a href="/user/christianrutjes/checkin/424352461" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>2</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kleingeld89" href="/user/kleingeld89" title="Maryn K." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/2d479fad3faf4c6d63d28f93dda9c956_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="Mark27" href="/user/Mark27" title="Mark" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/e4a515277bb0caef35678eefab2fc12e_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424263961" data-checkin-id="424263961">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/fuller-smith-and-turner-frontier/374584" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-374584_133b7_sm.jpeg" alt="Fuller, Smith & Turner  by Frontier">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/fuller-smith-and-turner-frontier/374584">Frontier</a> by <a  href="/w/fuller-smith-turner/3296">Fuller, Smith & Turner </a> at <a href="/v/euston-flyer/91274">Euston Flyer</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/424263961" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/bb584c4cb21ac94634e04798ddd9aee7_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/424263961" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 21:05:57 +0000</a>
+							<a href="/user/christianrutjes/checkin/424263961" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kleingeld89" href="/user/kleingeld89" title="Maryn K." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/2d479fad3faf4c6d63d28f93dda9c956_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424222136" data-checkin-id="424222136">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/foster-s-group-foster-s-lager/5519" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-5519_45b43_sm.jpeg" alt="Foster's Group by Foster's Lager">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/foster-s-group-foster-s-lager/5519">Foster's Lager</a> by <a  href="/w/foster-s-group/546">Foster's Group</a> at <a href="/v/euston-flyer/91274">Euston Flyer</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/424222136" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/fcf75ac7229076f21d40a6ad7d0a77f9_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/424222136" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 20:24:59 +0000</a>
+							<a href="/user/christianrutjes/checkin/424222136" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424007831" data-checkin-id="424007831">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/guinness-guinness-draught/4473" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_4473_8122008947804818c90640a06d83.jpeg" alt="Guinness by Guinness Draught">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/guinness-guinness-draught/4473">Guinness Draught</a> by <a  href="/w/guinness/49">Guinness</a> at <a href="/v/the-griffin-pub/610476">The Griffin Pub</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_goingPlaces_sm.jpg" alt="Bar Explorer (Level 3)">
+											<span>Earned the Bar Explorer (Level 3) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/424007831" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/26b992ce07e19060af914e370723b6e6_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/424007831" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 12:49:35 +0000</a>
+							<a href="/user/christianrutjes/checkin/424007831" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kleingeld89" href="/user/kleingeld89" title="Maryn K." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/2d479fad3faf4c6d63d28f93dda9c956_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423584330" data-checkin-id="423584330">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/guinness-guinness-draught/4473" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_4473_8122008947804818c90640a06d83.jpeg" alt="Guinness by Guinness Draught">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/guinness-guinness-draught/4473">Guinness Draught</a> by <a  href="/w/guinness/49">Guinness</a> at <a href="/v/generator-hostel-london/309292">Generator Hostel London</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_traveller_sm.jpg" alt="Brew Traveler">
+											<span>Earned the Brew Traveler badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/423584330" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_03/a74a11b0375e4d749fb66b395ab4da3f_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/423584330" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 19:44:05 +0000</a>
+							<a href="/user/christianrutjes/checkin/423584330" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_417518702" data-checkin-id="417518702">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/abbaye-de-leffe-leffe-blonde-blond/5940" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-5940_9118b_sm.jpeg" alt="Abbaye de Leffe by Leffe Blonde / Blond">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/abbaye-de-leffe-leffe-blonde-blond/5940">Leffe Blonde / Blond</a> by <a  href="/w/abbaye-de-leffe/5">Abbaye de Leffe</a> at <a href="/v/donatellos/1484341">Donatello's</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_beertography_sm.jpg" alt="Photogenic Brew (Level 4)">
+											<span>Earned the Photogenic Brew (Level 4) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/417518702" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_15/bfcf5524ed81713a40b8db5d6e20f293_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/417518702" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 15 Feb 2017 18:23:28 +0000</a>
+							<a href="/user/christianrutjes/checkin/417518702" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>2</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kleingeld89" href="/user/kleingeld89" title="Maryn K." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/2d479fad3faf4c6d63d28f93dda9c956_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="Mark27" href="/user/Mark27" title="Mark" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/e4a515277bb0caef35678eefab2fc12e_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_416702812" data-checkin-id="416702812">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-de-hoorn-cornet/828399" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-828399_0a1a7_sm.jpeg" alt="Brouwerij De Hoorn by Cornet">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/brouwerij-de-hoorn-cornet/828399">Cornet</a> by <a  href="/w/brouwerij-de-hoorn/150230">Brouwerij De Hoorn</a> at <a href="/v/center-parcs-het-heijderbos/726384">Center Parcs Het Heijderbos</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_belgianHoliday_sm.jpg" alt="Belgian Holiday">
+											<span>Earned the Belgian Holiday badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_FieldsOfGold_sm.jpg" alt="Fields of Gold">
+											<span>Earned the Fields of Gold badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/416702812" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_12/943903552efc32c39a9c8c8353868e3c_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/416702812" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 12 Feb 2017 14:14:36 +0000</a>
+							<a href="/user/christianrutjes/checkin/416702812" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_414783518" data-checkin-id="414783518">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/flying-dog-brewery-raging-bitch-belgian-ipa/5756" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-5756_58e81_sm.jpeg" alt="Flying Dog Brewery by Raging Bitch Belgian IPA">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/flying-dog-brewery-raging-bitch-belgian-ipa/5756">Raging Bitch Belgian IPA</a> by <a  href="/w/flying-dog-brewery/540">Flying Dog Brewery</a> at <a href="/v/zevenaar/985038">Zevenaar</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_connoiseur_sm.jpg" alt="Beer Connoisseur">
+											<span>Earned the Beer Connoisseur badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/414783518" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_07/a13739530520e77b5078b442f7894ece_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/414783518" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Feb 2017 20:06:36 +0000</a>
+							<a href="/user/christianrutjes/checkin/414783518" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_411924065" data-checkin-id="411924065">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/de-halve-maan-straffe-hendrik-brugs-tripel-bier-9/9601" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-9601_96801_sm.jpeg" alt="De Halve Maan by Straffe Hendrik Brugs Tripel Bier 9°">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/de-halve-maan-straffe-hendrik-brugs-tripel-bier-9/9601">Straffe Hendrik Brugs Tripel Bier 9°</a> by <a  href="/w/de-halve-maan/430">De Halve Maan</a> at <a href="/v/zevenaar/985038">Zevenaar</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/411924065" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_01_30/fc2e6c72d2b790abf0df36d1d5e64b25_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/411924065" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 30 Jan 2017 20:31:39 +0000</a>
+							<a href="/user/christianrutjes/checkin/411924065" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kleingeld89" href="/user/kleingeld89" title="Maryn K." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/2d479fad3faf4c6d63d28f93dda9c956_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_410116297" data-checkin-id="410116297">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-huyghe-la-guillotine/26907" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-26907_429fc_sm.jpeg" alt="Brouwerij Huyghe by La Guillotine">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/brouwerij-huyghe-la-guillotine/26907">La Guillotine</a> by <a  href="/w/brouwerij-huyghe/285">Brouwerij Huyghe</a> at <a href="/v/cafe-t-moortgat/430237">Café 't Moortgat</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/410116297" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_01_26/79aae764aa4fbe03b0072b3f67158a49_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/410116297" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 26 Jan 2017 23:07:06 +0000</a>
+							<a href="/user/christianrutjes/checkin/410116297" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kleingeld89" href="/user/kleingeld89" title="Maryn K." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/2d479fad3faf4c6d63d28f93dda9c956_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_408391701" data-checkin-id="408391701">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/koninklijke-grolsch-premium-pilsner-premium-lager/7221" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-7221_0e1d7_sm.jpeg" alt="Koninklijke Grolsch by Premium Pilsner / Premium Lager">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/koninklijke-grolsch-premium-pilsner-premium-lager/7221">Premium Pilsner / Premium Lager</a> by <a  href="/w/koninklijke-grolsch/4058">Koninklijke Grolsch</a> at <a href="/v/de-kompaan/4727517">De Kompaan</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_goingPlaces_sm.jpg" alt="Bar Explorer (Level 2)">
+											<span>Earned the Bar Explorer (Level 2) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_beertography_sm.jpg" alt="Photogenic Brew (Level 3)">
+											<span>Earned the Photogenic Brew (Level 3) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/408391701" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_01_21/6eed3be5f162b364e2a475ae0d302955_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/408391701" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 21 Jan 2017 17:00:31 +0000</a>
+							<a href="/user/christianrutjes/checkin/408391701" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_407578009" data-checkin-id="407578009">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bavaria-brouwerij-premium-pilsener/16010" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-BavariaPremiumPilsener_16010.jpeg" alt="Bavaria Brouwerij by Premium Pilsener">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking a <a href="/b/bavaria-brouwerij-premium-pilsener/16010">Premium Pilsener</a> by <a  href="/w/bavaria-brouwerij/109">Bavaria Brouwerij</a> at <a href="/v/hotel-de-wageningsche-berg/1506851">Hotel de Wageningsche Berg</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_GoingDutch_sm.jpg?v=1" alt="Going Dutch (Level 2)">
+											<span>Earned the Going Dutch (Level 2) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady">
+											<span>Earned the Riding Steady badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/407578009" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_01_19/934504f1a04ac183dd95eb9eac98a966_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/407578009" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 19 Jan 2017 17:18:41 +0000</a>
+							<a href="/user/christianrutjes/checkin/407578009" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_402149632" data-checkin-id="402149632">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/christianrutjes">
+							<img class="lazy" data-original="https://gravatar.com/avatar/a70e1a3611685088de77ea8451eaad29?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Christian R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/kirin-brewery-company-ichiban-ichiban-shibori/4667" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-IchibanShibori_4667.jpeg" alt="Kirin Brewery Company by Ichiban (Ichiban Shibori)">
+							</a>
+														<p class="text">
+								<a href="/user/christianrutjes" class="user">Christian R.</a>  is drinking an <a href="/b/kirin-brewery-company-ichiban-ichiban-shibori/4667">Ichiban (Ichiban Shibori)</a> by <a  href="/w/kirin-brewery-company/741">Kirin Brewery Company</a> at <a href="/v/lindenholt/283524">Lindenholt</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/christianrutjes/checkin/402149632" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_01_02/1c6f3f4c6f558baddb22e2ffea36dbb7_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/christianrutjes/checkin/402149632" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 02 Jan 2017 18:14:47 +0000</a>
+							<a href="/user/christianrutjes/checkin/402149632" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="kleingeld89" href="/user/kleingeld89" title="Maryn K." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/2d479fad3faf4c6d63d28f93dda9c956_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/christianrutjes" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/christianrutjes/badges/175976607" title="Apprentice" ><span><img src="https://untappd.akamaized.net/badges/bdg_check25_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/christianrutjes/badges/175173426" title="Brew Traveler" ><span><img src="https://untappd.akamaized.net/badges/bdg_traveller_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/christianrutjes/badges/171432359" title="Fields of Gold" ><span><img src="https://untappd.akamaized.net/badges/bdg_FieldsOfGold_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/christianrutjes/badges/171432358" title="Belgian Holiday" ><span><img src="https://untappd.akamaized.net/badges/bdg_belgianHoliday_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/christianrutjes/badges/170430911" title="Beer Connoisseur" ><span><img src="https://untappd.akamaized.net/badges/bdg_connoiseur_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/christianrutjes/badges/166478958" title="Riding Steady" ><span><img src="https://untappd.akamaized.net/badges/bdg_RidingSteady_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/christianrutjes/badges/162686273" title="Playing the Field" ><span><img src="https://untappd.akamaized.net/badges/bdg_playingTheField_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/christianrutjes/badges/162686271" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/christianrutjes/badges/162686272" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/christianrutjes/badges/166478957" title="Going Dutch (Level 2)" ><span><img src="https://untappd.akamaized.net/badges/bdg_GoingDutch_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/christianrutjes/badges/149114574" title="Election Day (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_ElectionDay2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/christianrutjes/badges/159265261" title="Wheel of Styles (Level 2)" ><span><img src="https://untappd.akamaized.net/badges/bdg_WheelofStyles_md.jpg"></span></a>
+                <p class="more"><a href="/user/christianrutjes/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/guinness-guinness-draught/4473" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_4473_8122008947804818c90640a06d83.jpeg"><p>
+	    				<span class="name">Guinness Draught</span>
+                        <span class="brewery">Guinness</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/texelse-bierbrouwerij-bock/8288" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-8288_a05a9_sm.jpeg"><p>
+	    				<span class="name">Bock</span>
+                        <span class="brewery">Texelse Bierbrouwerij</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brouwerij-de-molen-hop-liefde/462734" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-462734_9c1a7_sm.jpeg"><p>
+	    				<span class="name">Hop & Liefde</span>
+                        <span class="brewery">Brouwerij De Molen</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/de-halve-maan-brugse-zot/4713" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-4713_80e11_sm.jpeg"><p>
+	    				<span class="name">Brugse Zot</span>
+                        <span class="brewery">De Halve Maan</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brasserie-d-achouffe-la-chouffe/52593" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-52593_5716b_sm.jpeg"><p>
+	    				<span class="name">La Chouffe</span>
+                        <span class="brewery">Brasserie d'Achouffe</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/christianrutjes/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/cafe-vrijdag/346013" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/cafe_bg_88.png"><p>
+    	    				<span class="name">Café Vrijdag</span>
+    	    				<span class="location">Arnhem, Gelderland                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/le-grand-cafe/427259" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/default_bg_88.png"><p>
+    	    				<span class="name">Le Grand Café</span>
+    	    				<span class="location">Arnhem, Gelderland                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/zevenaar/985038" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png"><p>
+    	    				<span class="name">Zevenaar</span>
+    	    				<span class="location">Zevenaar, Gelderland                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/cafe-het-schilderij/1247818" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Cafe Het Schilderij</span>
+    	    				<span class="location">6952AB, Dieren                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/grand-cafe-de-markt/350030" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/cafe_bg_88.png"><p>
+    	    				<span class="name">Grand Café De Markt</span>
+    	    				<span class="location">Zevenaar, Gelderland                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/christianrutjes/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    			</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

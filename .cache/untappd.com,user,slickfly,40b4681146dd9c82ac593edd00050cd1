@@ -1,0 +1,1426 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 19:57:16 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 72835
+set-cookie: untappd_com_site_v2=0260cf8128a20574b313035f50177cdc; expires=Wed, 08-Mar-2017 07:57:16 GMT; Max-Age=43200; path=/, ut_anon=01ffd0b8-8bf8-41d1-8e73-2378d86ac1a9; expires=Mon, 08-Jul-3016 19:57:16 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/slickfly
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Louis F. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Louis F. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Louis F. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/slickfly">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/slickfly">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="1500123" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_300x300.jpg">
+					</div>
+				</div><div class="info">
+					<h1>Louis F.</h1>
+					<span class="username">slickfly</span>
+					<span class="location">Mankato</span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+									</div>
+				<div class="stats">
+											<a href="/user/slickfly" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">2,124</span>
+							<span class="title">Total</span>
+						</a><a href="/user/slickfly/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">1,341</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/slickfly/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">693</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/slickfly/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">43</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/slickfly/checkin/424064527"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/acaa361acd7c67df32eda8c320065958_320x320.jpg" /></a></p><p><a href="/user/slickfly/checkin/423691901"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_03/61497e5f8c2ce2d928cbb0eaf96cf3eb_320x320.jpg" /></a></p><p><a href="/user/slickfly/checkin/423662907"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_03/226199389942c6fb3c41e98c1c27d268_320x320.jpg" /></a></p><p><a href="/user/slickfly/checkin/419973068"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_21/01dde2b48bbc8feba64b4d7926c03357_320x320.jpg" /></a></p><p><a href="/user/slickfly/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_20/516ad59fa0f15cd88238a4fc8fe07836_320x320.jpeg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Louis's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425206717" data-checkin-id="425206717">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mankato-brewery-nano-hoppy-red-ale/1965417" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Mankato Brewery by Nano Hoppy Red Ale">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/mankato-brewery-nano-hoppy-red-ale/1965417">Nano Hoppy Red Ale</a> by <a  href="/w/mankato-brewery/21676">Mankato Brewery</a> at <a href="/v/mankato-brewery/261456">Mankato Brewery</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/425206717" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 00:41:03 +0000</a>
+							<a href="/user/slickfly/checkin/425206717" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425200595" data-checkin-id="425200595">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mankato-brewery-crooked-rook-coffee/1984169" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Mankato Brewery by Crooked Rook Coffee">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/mankato-brewery-crooked-rook-coffee/1984169">Crooked Rook Coffee</a> by <a  href="/w/mankato-brewery/21676">Mankato Brewery</a> at <a href="/v/mankato-brewery/261456">Mankato Brewery</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_heavyWeight_sm.jpg" alt="Heavy Weight  (Level 45)">
+											<span>Earned the Heavy Weight  (Level 45) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/425200595" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 00:24:07 +0000</a>
+							<a href="/user/slickfly/checkin/425200595" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Fed21" href="/user/Fed21" title="Jason F." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/12f9c6f3ea47057b8b855eb3cbe92374_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425177872" data-checkin-id="425177872">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/rush-river-brewing-nevermore/19964" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-19964_cf709_sm.jpeg" alt="Rush River Brewing by Nevermore">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/rush-river-brewing-nevermore/19964">Nevermore</a> by <a  href="/w/rush-river-brewing/1084">Rush River Brewing</a> at <a href="/v/the-boulder-tap-house/484465">The Boulder Tap House</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/425177872" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 23:15:21 +0000</a>
+							<a href="/user/slickfly/checkin/425177872" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="AlRisk" href="/user/AlRisk" title="Al R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/d057ccf596fae710283368d5718299de_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425164273" data-checkin-id="425164273">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/ballast-point-brewing-and-spirits-red-velvet/1249148" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1249148_e5bac_sm.jpeg" alt="Ballast Point Brewing & Spirits by Red Velvet">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/ballast-point-brewing-and-spirits-red-velvet/1249148">Red Velvet</a> by <a  href="/w/ballast-point-brewing-spirits/68">Ballast Point Brewing & Spirits</a> at <a href="/v/the-boulder-tap-house/484465">The Boulder Tap House</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r300"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/425164273" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 22:22:56 +0000</a>
+							<a href="/user/slickfly/checkin/425164273" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="michaelmj44" href="/user/michaelmj44" title="MJ 4." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/f8f86a57321ffd164b80fe00f2071490_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+																		<div class="comment" id="comment_32624093">
+											<div class="avatar">
+												<div class="avatar-holder">
+																											<a href="/user/michaelmj44">
+														<img class="lazy" data-original="https://untappd.akamaized.net/profile/f8f86a57321ffd164b80fe00f2071490_100x100.jpg" alt="MJ 4.">
+													</a>
+												</div>
+											</div>
+											<div class="text">
+												<p>
+													<a href="/user/michaelmj44">MJ 4.</a>: 
+													Did that taste like cake to you?												</p>
+												<p class="meta">
+													<span class="time timezoner">Mon, 06 Mar 2017 22:37:27 +0000</span>
+																									</p>
+											</div>
+										</div>
+																	</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425156629" data-checkin-id="425156629">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/odell-brewing-co-crossover/1745744" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1745744_a0f0a_sm.jpeg" alt="Odell Brewing Co. by Crossover">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/odell-brewing-co-crossover/1745744">Crossover</a> by <a  href="/w/odell-brewing-co/7296">Odell Brewing Co.</a> at <a href="/v/the-boulder-tap-house/484465">The Boulder Tap House</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r325"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/425156629" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 21:48:38 +0000</a>
+							<a href="/user/slickfly/checkin/425156629" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="michaelmj44" href="/user/michaelmj44" title="MJ 4." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/f8f86a57321ffd164b80fe00f2071490_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424818871" data-checkin-id="424818871">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/sierra-nevada-brewing-co-cherry-chocolate-stout/1803887" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1803887_2bcfb_sm.jpeg" alt="Sierra Nevada Brewing Co. by Cherry Chocolate Stout">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/sierra-nevada-brewing-co-cherry-chocolate-stout/1803887">Cherry Chocolate Stout</a> by <a  href="/w/sierra-nevada-brewing-co/1142">Sierra Nevada Brewing Co.</a> at <a href="/v/erdner-brewing-inc/1984709">Erdner Brewing Inc</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/bottle@3x.png">
+									          <span>Bottle</span>
+									        </p>
+																					<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_NCBeerMonth_March17_sm.jpg" alt="NC Beer Month is Coming! (2017)">
+											<span>Earned the NC Beer Month is Coming! (2017) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_2xCore_sm.jpg" alt="2X (Level 13)">
+											<span>Earned the 2X (Level 13) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/424818871" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 19:15:35 +0000</a>
+							<a href="/user/slickfly/checkin/424818871" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424818081" data-checkin-id="424818081">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bent-paddle-brewing-co-valve-jockey-1-oatmeal-ipa/1909797" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Bent Paddle Brewing Co. by Valve Jockey #1 - Oatmeal IPA">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/bent-paddle-brewing-co-valve-jockey-1-oatmeal-ipa/1909797">Valve Jockey #1 - Oatmeal IPA</a> by <a  href="/w/bent-paddle-brewing-co/60721">Bent Paddle Brewing Co.</a> at <a href="/v/erdner-brewing-inc/1984709">Erdner Brewing Inc</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/bottle@3x.png">
+									          <span>Bottle</span>
+									        </p>
+																					<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/424818081" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 19:13:57 +0000</a>
+							<a href="/user/slickfly/checkin/424818081" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424064527" data-checkin-id="424064527">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/august-schell-brewing-company-schell-s-bock/14016" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-Bock_14016.jpeg" alt="August Schell Brewing Company by Schell's Bock">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/august-schell-brewing-company-schell-s-bock/14016">Schell's Bock</a> by <a  href="/w/august-schell-brewing-company/4905">August Schell Brewing Company</a> at <a href="/v/august-schell-brewing-company/9105">August Schell Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Bockfest 2017!									</p>
+									
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/slickfly/checkin/424064527" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/acaa361acd7c67df32eda8c320065958_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/424064527" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 17:00:33 +0000</a>
+							<a href="/user/slickfly/checkin/424064527" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="michaelmj44" href="/user/michaelmj44" title="MJ 4." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/f8f86a57321ffd164b80fe00f2071490_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423715378" data-checkin-id="423715378">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/waconia-brewing-company-90k-ipa/846623" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-846623_dab19_sm.jpeg" alt="Waconia Brewing Company by 90K IPA">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/waconia-brewing-company-90k-ipa/846623">90K IPA</a> by <a  href="/w/waconia-brewing-company/163192">Waconia Brewing Company</a> at <a href="/v/concordia/1091772">Concordia</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r300"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/423715378" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 23:21:50 +0000</a>
+							<a href="/user/slickfly/checkin/423715378" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>2</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="michaelmj44" href="/user/michaelmj44" title="MJ 4." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/f8f86a57321ffd164b80fe00f2071490_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="Fed69" href="/user/Fed69" title="Jeff F." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/1e45e7a915e5a8417e4ff5ce4f9d63a2_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423691901" data-checkin-id="423691901">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/august-schell-brewing-company-noble-star-collection-tidal-disruption/1350889" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="August Schell Brewing Company by Noble Star Collection: Tidal Disruption">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/august-schell-brewing-company-noble-star-collection-tidal-disruption/1350889">Noble Star Collection: Tidal Disruption</a> by <a  href="/w/august-schell-brewing-company/4905">August Schell Brewing Company</a> at <a href="/v/schells-starkellar/4737562">Schell's Starkellar</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/slickfly/checkin/423691901" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_03/61497e5f8c2ce2d928cbb0eaf96cf3eb_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/423691901" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 22:49:34 +0000</a>
+							<a href="/user/slickfly/checkin/423691901" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>2</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="michaelmj44" href="/user/michaelmj44" title="MJ 4." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/f8f86a57321ffd164b80fe00f2071490_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="AlRisk" href="/user/AlRisk" title="Al R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/d057ccf596fae710283368d5718299de_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423680907" data-checkin-id="423680907">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/august-schell-brewing-company-noble-star-collection-harmony-of-spheres/1737300" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1737300_0ac61_sm.jpeg" alt="August Schell Brewing Company by Noble Star Collection: Harmony of Spheres">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/august-schell-brewing-company-noble-star-collection-harmony-of-spheres/1737300">Noble Star Collection: Harmony of Spheres</a> by <a  href="/w/august-schell-brewing-company/4905">August Schell Brewing Company</a> at <a href="/v/schells-starkellar/4737562">Schell's Starkellar</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/423680907" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 22:33:01 +0000</a>
+							<a href="/user/slickfly/checkin/423680907" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>2</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="coreytowne" href="/user/coreytowne" title="Corey T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/2df3d6b6521d6c29a1cb62866054e87a_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="Fed21" href="/user/Fed21" title="Jason F." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/12f9c6f3ea47057b8b855eb3cbe92374_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423672672" data-checkin-id="423672672">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/august-schell-brewing-company-noble-star-collection-orbital-drift/1187198" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1187198_989b9_sm.jpeg" alt="August Schell Brewing Company by Noble Star Collection: Orbital Drift">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/august-schell-brewing-company-noble-star-collection-orbital-drift/1187198">Noble Star Collection: Orbital Drift</a> by <a  href="/w/august-schell-brewing-company/4905">August Schell Brewing Company</a> at <a href="/v/schells-starkellar/4737562">Schell's Starkellar</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_Berliner_sm.jpg" alt="Ich Bin Ein Berliner">
+											<span>Earned the Ich Bin Ein Berliner badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/423672672" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 22:20:30 +0000</a>
+							<a href="/user/slickfly/checkin/423672672" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Fed21" href="/user/Fed21" title="Jason F." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/12f9c6f3ea47057b8b855eb3cbe92374_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423662907" data-checkin-id="423662907">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/august-schell-brewing-company-noble-star-collection-apricot-vista/1436182" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="August Schell Brewing Company by Noble Star Collection: Apricot Vista">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/august-schell-brewing-company-noble-star-collection-apricot-vista/1436182">Noble Star Collection: Apricot Vista</a> by <a  href="/w/august-schell-brewing-company/4905">August Schell Brewing Company</a> at <a href="/v/schells-starkellar/4737562">Schell's Starkellar</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 9)">
+											<span>Earned the Riding Steady (Level 9) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/slickfly/checkin/423662907" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_03/226199389942c6fb3c41e98c1c27d268_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/423662907" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 22:05:08 +0000</a>
+							<a href="/user/slickfly/checkin/423662907" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>2</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Fed21" href="/user/Fed21" title="Jason F." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/12f9c6f3ea47057b8b855eb3cbe92374_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423033710" data-checkin-id="423033710">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/harpoon-brewery-harpoon-ipa/5928" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-5928_9a6d4_sm.jpeg" alt="Harpoon Brewery by Harpoon IPA">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/harpoon-brewery-harpoon-ipa/5928">Harpoon IPA</a> by <a  href="/w/harpoon-brewery/634">Harpoon Brewery</a> at <a href="/v/tav-on-the-ave/115751">Tav on the Ave</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Not really an IPA. Reminds me of a stronger Lager flavor.									</p>
+									
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r275"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/423033710" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 01 Mar 2017 22:32:11 +0000</a>
+							<a href="/user/slickfly/checkin/423033710" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Hfstafne" href="/user/Hfstafne" title="Heather S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/8fc64d378bb0e32335fcd21117f32be6?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423024841" data-checkin-id="423024841">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/slickfly">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0c038ef49e811c37cf79e5f1f97d55de_100x100.jpg" alt="Louis F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/ballast-point-brewing-and-spirits-mango-even-keel/878224" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-878224_ba716_sm.jpeg" alt="Ballast Point Brewing & Spirits by Mango Even Keel">
+							</a>
+														<p class="text">
+								<a href="/user/slickfly" class="user">Louis F.</a>  is drinking a <a href="/b/ballast-point-brewing-and-spirits-mango-even-keel/878224">Mango Even Keel</a> by <a  href="/w/ballast-point-brewing-spirits/68">Ballast Point Brewing & Spirits</a> at <a href="/v/tav-on-the-ave/115751">Tav on the Ave</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/slickfly/checkin/423024841" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 01 Mar 2017 21:59:44 +0000</a>
+							<a href="/user/slickfly/checkin/423024841" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="JimmySilva" href="/user/JimmySilva" title="Jimmy S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/bab38747a21e2327838b6aab08535174_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/slickfly" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/slickfly/badges/175816784" title="NC Beer Month is Coming! (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NCBeerMonth_March17_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/slickfly/badges/175222276" title="Ich Bin Ein Berliner" ><span><img src="https://untappd.akamaized.net/badges/bdg_Berliner_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/slickfly/badges/174514487" title="Mardi Gras (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_MardiGras2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/slickfly/badges/174245129" title="Suds Samba" ><span><img src="https://untappd.akamaized.net/badges/bdg_brazil_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/slickfly/badges/172833508" title="To The Alt" ><span><img src="https://untappd.akamaized.net/badges/bdg_AltBier_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/slickfly/badges/169843198" title="Brew Bowl LI" ><span><img src="https://untappd.akamaized.net/badges/bdg_SuperBowlLI_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/slickfly/badges/169824744" title="Brew Crawl" ><span><img src="https://untappd.akamaized.net/badges/bdg_brewCrawl_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/slickfly/badges/168603063" title="Hey Honey" ><span><img src="https://untappd.akamaized.net/badges/bdg_mead_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/slickfly/badges/167578387" title="Bell's Hopslam Release (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hopslam2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/slickfly/badges/167282076" title="What Gose Round" ><span><img src="https://untappd.akamaized.net/badges/bdg_GoseAround_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/slickfly/badges/167274335" title="Hoppy Anniversary (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_YardHouseHoppyAnniversary_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/slickfly/badges/162804767" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                <p class="more"><a href="/user/slickfly/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/surly-brewing-company-furious/7808" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_7808_sm_2fc6d05467299ca91110b10c9a9c27.jpeg"><p>
+	    				<span class="name">Furious</span>
+                        <span class="brewery">Surly Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/august-schell-brewing-company-cave-aged-barrel-aged-series-3-2016-edition/1853105" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Cave-Aged Barrel-Aged Series #3 2016 Edition</span>
+                        <span class="brewery">August Schell Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/avery-brewing-co-tweak-2016-batch-2/1566248" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Tweak (2016) Batch #2</span>
+                        <span class="brewery">Avery Brewing Co.</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/surly-brewing-company-darkness-2016-barrel-aged/1797212" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Darkness (2016) Barrel-Aged</span>
+                        <span class="brewery">Surly Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/bent-brewstillery-dark-fatha-barrel-aged-2016/1798428" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1798428_34109_sm.jpeg"><p>
+	    				<span class="name">Dark Fatha - Barrel Aged - 2016</span>
+                        <span class="brewery">Bent Brewstillery</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/slickfly/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/the-boulder-tap-house/484465" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/burger_bg_88.png"><p>
+    	    				<span class="name">The Boulder Tap House</span>
+    	    				<span class="location">Mankato, MN                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/erdner-brewing-inc/1984709" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Erdner Brewing Inc</span>
+    	    				<span class="location">Mankato, MN                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/mankato-brewery/261456" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Mankato Brewery</span>
+    	    				<span class="location">North Mankato, MN                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/pub-500/159482" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/default_bg_88.png"><p>
+    	    				<span class="name">Pub 500</span>
+    	    				<span class="location">Mankato, MN                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/new-bohemia-wurst-bierhaus/4033958" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/gastropub_bg_88.png"><p>
+    	    				<span class="name">New Bohemia Wurst+BierHaus</span>
+    	    				<span class="location">Mankato, MN                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/slickfly/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    		<div class="box">
+    	<div class="content">
+            <h3>Wish List</h3>    			<a href="/b/lagunitas-brewing-company-willett-whiskey-barrel-aged-imperial-stout/1753414" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1753414_51e85_sm.jpeg"><p>
+	    				<span class="name">Willett Whiskey Barrel-Aged Imperial Stout</span>
+                        <span class="brewery">Lagunitas Brewing Company</span>	    			</p>
+	    		</a>
+    			    	</div>
+	</div>
+	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BaldManBrewing" title="Bald Man Brewing" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-73206_4f773.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/3floyds" title="Three Floyds Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-2470_90eff.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/CanalParkBrewingCo" title="Canal Park Brewing Co" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-46859_54e17.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/flyingdog" title="Flying Dog Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-540_27433.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Airbru" title="Airbräu" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-7420_6f3ea.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/CentralWatersBrewingCompany" title="Central Waters Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-358_e71fc.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/foundersbrewing" title="Founders Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-foundersbrewingcompany_549.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/topplinggoliathbrewing" title="TG Brews" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-7532_26551.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/gooseisland" title="Goose Island Beer Co. " ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-2898_7ee53.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/weihenstephaner" title="Bayerische Staatsbrauerei Weihenstephan" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-88_16162.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/southerntierbrewing" title="Southern Tier Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-4586_47eba.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/bentpaddlebeer" title="Bent Paddle Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-bentpaddlebrewingco_60721.jpeg"></span></a>
+                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/viewLikeHistory" href="/user/slickfly/likes">See All Likes</a></p>                </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

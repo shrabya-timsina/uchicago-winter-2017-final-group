@@ -1,0 +1,1411 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 18:34:53 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 70107
+set-cookie: untappd_com_site_v2=8d228019c85838a17240ecfe54085703; expires=Wed, 08-Mar-2017 06:34:53 GMT; Max-Age=43200; path=/, ut_anon=da8f7893-9240-4b4c-801b-3974c3edd3bc; expires=Mon, 08-Jul-3016 18:34:53 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/tonendoor
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>ton en door h. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="ton en door h. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="ton en door h. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/tonendoor">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/tonendoor">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="1022172" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://untappd.s3.amazonaws.com/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg">
+					</div>
+				</div><div class="info">
+					<h1>ton en door h.</h1>
+					<span class="username">tonendoor</span>
+					<span class="location">hapert</span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+									</div>
+				<div class="stats">
+											<a href="/user/tonendoor" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">1,671</span>
+							<span class="title">Total</span>
+						</a><a href="/user/tonendoor/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">1,465</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/tonendoor/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">665</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/tonendoor/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">15</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/tonendoor/checkin/425174089"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/4dcca655dbcc171fb5b1cc072fc593b3_320x320.jpeg" /></a></p><p><a href="/user/tonendoor/checkin/425154115"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/a92583ecc3fde9d0f4156ae9b8a88796_320x320.jpeg" /></a></p><p><a href="/user/tonendoor/checkin/424917454"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/755ec7ad979a45e8fa22e40fa4f7c043_320x320.jpeg" /></a></p><p><a href="/user/tonendoor/checkin/424906132"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/9aac09343c9983b2e8fbb9070a6a729f_320x320.jpeg" /></a></p><p><a href="/user/tonendoor/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/394201582bb11f122454ece5e670eb8d_320x320.jpeg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>ton en door's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425174089" data-checkin-id="425174089">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bierbrouwerij-emelisse-dubbel/107271" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-107271_658d9_sm.jpeg" alt="Bierbrouwerij Emelisse by Dubbel">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking a <a  href="/b/bierbrouwerij-emelisse-dubbel/107271">Dubbel</a> by <a href="/w/bierbrouwerij-emelisse/9171">Bierbrouwerij Emelisse</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Heerlijk  biertje									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_DubTripQuad_sm.jpg" alt="Dubbel, Tripel and Quad Oh My! (Level 27)">
+											<span>Earned the Dubbel, Tripel and Quad Oh My! (Level 27) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/425174089" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/4dcca655dbcc171fb5b1cc072fc593b3_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/425174089" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 23:01:56 +0000</a>
+							<a href="/user/tonendoor/checkin/425174089" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425154115" data-checkin-id="425154115">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brauerei-diebels-alt/23116" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-DiebelsAlt_23116.jpeg" alt="Brauerei Diebels by Alt">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking an <a  href="/b/brauerei-diebels-alt/23116">Alt</a> by <a href="/w/brauerei-diebels/448">Brauerei Diebels</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Niets bijzonders.									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r200"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_DasBoot16_sm.jpg" alt="Das Boot  (Level 14)">
+											<span>Earned the Das Boot  (Level 14) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/425154115" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_06/a92583ecc3fde9d0f4156ae9b8a88796_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/425154115" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 21:36:27 +0000</a>
+							<a href="/user/tonendoor/checkin/425154115" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424917454" data-checkin-id="424917454">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/colner-hofbrau-fruh-fruh-kolsch/1639" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-FruhKolsch_1639.jpeg" alt="Cölner Hofbräu Früh by Früh Kölsch">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking a <a  href="/b/colner-hofbrau-fruh-fruh-kolsch/1639">Früh Kölsch</a> by <a href="/w/c-lner-hofbr-u-fr-h/386">Cölner Hofbräu Früh</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Lekker pilsje.  Volle lange nasmaak									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r275"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/424917454" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/755ec7ad979a45e8fa22e40fa4f7c043_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/424917454" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 22:12:41 +0000</a>
+							<a href="/user/tonendoor/checkin/424917454" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424906132" data-checkin-id="424906132">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-leysen-baskwadder-blond/1402586" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1402586_a3c92_sm.jpeg" alt="Brouwerij Leysen by Baskwadder Blond">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking a <a  href="/b/brouwerij-leysen-baskwadder-blond/1402586">Baskwadder Blond</a> by <a href="/w/brouwerij-leysen/249106">Brouwerij Leysen</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Fris licht  hoppig  en moutig  biertje. Lekker									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r300"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/424906132" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/9aac09343c9983b2e8fbb9070a6a729f_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/424906132" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 21:53:07 +0000</a>
+							<a href="/user/tonendoor/checkin/424906132" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424870956" data-checkin-id="424870956">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/erdinger-weissbrau-erdinger-dunkel/8697" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-8697_2e046_sm.jpeg" alt="Erdinger Weissbräu by Erdinger Dunkel">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking an <a  href="/b/erdinger-weissbrau-erdinger-dunkel/8697">Erdinger Dunkel</a> by <a href="/w/erdinger-weissbra-u/1019">Erdinger Weissbräu</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Lekker									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r300"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/424870956" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/394201582bb11f122454ece5e670eb8d_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/424870956" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 20:51:45 +0000</a>
+							<a href="/user/tonendoor/checkin/424870956" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424475820" data-checkin-id="424475820">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/privatbrauerei-gaffel-becker-gaffels-fassbrause-zitrone/209367" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Privatbrauerei Gaffel Becker by Gaffels Fassbrause Zitrone">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking a <a href="/b/privatbrauerei-gaffel-becker-gaffels-fassbrause-zitrone/209367">Gaffels Fassbrause Zitrone</a> by <a  href="/w/privatbrauerei-gaffel-becker/1021">Privatbrauerei Gaffel Becker</a> at <a href="/v/hoogerheide/1198640">Hoogerheide</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Lekker fris biertje									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r250"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/424475820" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/a0f8ec023910971819e43de6daa1a7e2_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/424475820" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 00:36:50 +0000</a>
+							<a href="/user/tonendoor/checkin/424475820" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423678656" data-checkin-id="423678656">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/dortmunder-actien-brauerei-brinkhoff-s-no-1/30434" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-30434_987e6_sm.jpeg" alt="Dortmunder Actien-Brauerei by Brinkhoff's No. 1">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking a <a  href="/b/dortmunder-actien-brauerei-brinkhoff-s-no-1/30434">Brinkhoff's No. 1</a> by <a href="/w/dortmunder-actien-brauerei/4129">Dortmunder Actien-Brauerei</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Redelijk  pilske									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r225"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/423678656" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_03/eeb5a09898111b2ffb7375b1932bb9f6_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/423678656" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 22:29:40 +0000</a>
+							<a href="/user/tonendoor/checkin/423678656" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423638269" data-checkin-id="423638269">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bierbrouwerij-de-koningshoeven-la-trappe-quadrupel-2015/1092332" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1830_127ca_sm.jpeg" alt="Bierbrouwerij De Koningshoeven by La Trappe Quadrupel (2015)">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking a <a  href="/b/bierbrouwerij-de-koningshoeven-la-trappe-quadrupel-2015/1092332">La Trappe Quadrupel (2015)</a> by <a href="/w/bierbrouwerij-de-koningshoeven/110">Bierbrouwerij De Koningshoeven</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Lekker									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_highABV_sm.jpg" alt="Sky's the Limit (Level 25)">
+											<span>Earned the Sky's the Limit (Level 25) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/423638269" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_03/60284c2d31268faf4139c5d797d53dc4_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/423638269" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 21:23:02 +0000</a>
+							<a href="/user/tonendoor/checkin/423638269" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="remoke" href="/user/remoke" title="Theo D." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/ee53d8afacdcea89839e3ed01e6f4dd4?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423629475" data-checkin-id="423629475">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bierbrouwerij-de-koningshoeven-la-trappe-puur-2017/1955313" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-16012_6ba38_sm.jpeg" alt="Bierbrouwerij De Koningshoeven by La Trappe PUUR (2017)">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking a <a  href="/b/bierbrouwerij-de-koningshoeven-la-trappe-puur-2017/1955313">La Trappe PUUR (2017)</a> by <a href="/w/bierbrouwerij-de-koningshoeven/110">Bierbrouwerij De Koningshoeven</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Lekker moutig  biertje									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r300"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_trappist_sm.jpg" alt="Trappist Travesty (Level 8)">
+											<span>Earned the Trappist Travesty (Level 8) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 9)">
+											<span>Earned the Riding Steady (Level 9) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/423629475" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_03/4c334b311dc43fe838a2b58df7aa5d5d_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/423629475" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 21:07:57 +0000</a>
+							<a href="/user/tonendoor/checkin/423629475" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="tonendoor" href="/user/tonendoor" title="ton en door h." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423303729" data-checkin-id="423303729">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brasserie-des-fagnes-super-des-fagnes-brune/28149" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-SuperDesFagnesBrune_28149.jpeg" alt="Brasserie des Fagnes by Super des Fagnes Brune">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking a <a  href="/b/brasserie-des-fagnes-super-des-fagnes-brune/28149">Super des Fagnes Brune</a> by <a href="/w/brasserie-des-fagnes/1657">Brasserie des Fagnes</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Lekker kruidig  en  fruitig  biertje									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/423303729" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/ba4820d59d9d47c32d0aa7c0e38ec39c_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/423303729" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 22:55:53 +0000</a>
+							<a href="/user/tonendoor/checkin/423303729" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Mikeyve" href="/user/Mikeyve" title="Mike V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/ab99da831d713e7a13989f496c942c48?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423291589" data-checkin-id="423291589">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-de-molen-bloed-zweet-and-tranen-2016/1900047" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-36485_3845f_sm.jpeg" alt="Brouwerij De Molen by Bloed, Zweet & Tranen (2016)">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking a <a  href="/b/brouwerij-de-molen-bloed-zweet-and-tranen-2016/1900047">Bloed, Zweet & Tranen (2016)</a> by <a href="/w/brouwerij-de-molen/3367">Brouwerij De Molen</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Lekker rokerig  biertje .licht  fruitig, in de neus wat kers									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_DownInSmoke_sm.jpg" alt="Down In Smoke (Level 3)">
+											<span>Earned the Down In Smoke (Level 3) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/423291589" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/e4044123f822400b3e2512b04f263ced_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/423291589" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 22:24:45 +0000</a>
+							<a href="/user/tonendoor/checkin/423291589" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423283372" data-checkin-id="423283372">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/radeberger-gruppe-sester-kolsch/30878" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-SesterKolsch_30878.jpeg" alt="Radeberger Gruppe by Sester Kölsch">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking a <a  href="/b/radeberger-gruppe-sester-kolsch/30878">Sester Kölsch</a> by <a href="/w/radeberger-gruppe/4936">Radeberger Gruppe</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									T drinkt. Beetje  slapjes									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r200"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/423283372" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/3c89463810b4d1a20bb36c6d37f4057c_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/423283372" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 22:00:49 +0000</a>
+							<a href="/user/tonendoor/checkin/423283372" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423272316" data-checkin-id="423272316">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/feldschlosschen-dresden-kronfels-hell/1535955" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1535955_0048e_sm.jpeg" alt="Feldschlösschen Dresden by Kronfels Hell">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking a <a  href="/b/feldschlosschen-dresden-kronfels-hell/1535955">Kronfels Hell</a> by <a href="/w/feldschlosschen-dresden/85725">Feldschlösschen Dresden</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Lekker pilsje.									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r300"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_DasBoot16_sm.jpg" alt="Das Boot  (Level 13)">
+											<span>Earned the Das Boot  (Level 13) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/423272316" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/c48bdc779894b8123c75adf717355618_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/423272316" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 21:25:36 +0000</a>
+							<a href="/user/tonendoor/checkin/423272316" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423056300" data-checkin-id="423056300">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/radeberger-gruppe-gilden-kolsch/30661" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-GildenKolsch_30661.jpeg" alt="Radeberger Gruppe by Gilden Kölsch">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking a <a  href="/b/radeberger-gruppe-gilden-kolsch/30661">Gilden Kölsch</a> by <a href="/w/radeberger-gruppe/4936">Radeberger Gruppe</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Moutig biertje, licht  bitter									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r250"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_nbt_sm.jpg" alt="New Brew Thursday  (Level 29)">
+											<span>Earned the New Brew Thursday  (Level 29) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/423056300" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_01/ec55f8ad930f5ed0f1e2659ead9ae394_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/423056300" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 01 Mar 2017 23:36:59 +0000</a>
+							<a href="/user/tonendoor/checkin/423056300" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423037719" data-checkin-id="423037719">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/tonendoor">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/0974281c7c071c821325ff8a4d32f52f_100x100.jpg" alt="ton en door h.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/binding-brauerei-schofferhofer-weizen/7489" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-SchofferhoferHefeweizen_7489.jpeg" alt="Binding Brauerei by Schöfferhofer Weizen">
+							</a>
+														<p class="text">
+								<a href="/user/tonendoor" class="user">ton en door h.</a>  is drinking a <a  href="/b/binding-brauerei-schofferhofer-weizen/7489">Schöfferhofer Weizen</a> by <a href="/w/binding-brauerei/137894">Binding Brauerei</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Moutig  biertje.  Beetje slap									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r275"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/tonendoor/checkin/423037719" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_01/f362d3c6c5a9165924fc6fbb997641df_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/tonendoor/checkin/423037719" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 01 Mar 2017 22:45:41 +0000</a>
+							<a href="/user/tonendoor/checkin/423037719" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/tonendoor" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/tonendoor/badges/174503736" title="Mardi Gras (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_MardiGras2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/tonendoor/badges/174376761" title="Respect the Kölsch" ><span><img src="https://untappd.akamaized.net/badges/bdg_kolsch_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/tonendoor/badges/173933419" title="Summer Fun" ><span><img src="https://untappd.akamaized.net/badges/bdg_summer2011_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/tonendoor/badges/173838280" title="The RADler" ><span><img src="https://untappd.akamaized.net/badges/bdg_RADler_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/tonendoor/badges/165104254" title="You're Extra Special" ><span><img src="https://untappd.akamaized.net/badges/bdg_ExtraSpecial_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/tonendoor/badges/162944484" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/tonendoor/badges/159786594" title="Merry Brew-mas (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Christmas2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/tonendoor/badges/159786595" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/tonendoor/badges/153489603" title="Beer-giving (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Thanksgiving2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/tonendoor/badges/166520655" title="Cheers To You! (Level 3)" ><span><img src="https://untappd.akamaized.net/badges/bdg_HeresToYou_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/tonendoor/badges/149805417" title="Veterans Day (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_VeteransDay2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/tonendoor/badges/148964801" title="Election Day (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_ElectionDay2016_md.jpg"></span></a>
+                <p class="more"><a href="/user/tonendoor/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/dommelsche-bierbrouwerij-pilsener/7445" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-DommelschPilsener_7445.jpeg"><p>
+	    				<span class="name">Pilsener</span>
+                        <span class="brewery">Dommelsche Bierbrouwerij</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brouwerij-bosteels-tripel-karmeliet/6511" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-TripelKarmeliet_6511.jpeg"><p>
+	    				<span class="name">Tripel Karmeliet</span>
+                        <span class="brewery">Brouwerij Bosteels</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brouwerij-bosteels-pauwel-kwak/358" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-358_bc148_sm.jpeg"><p>
+	    				<span class="name">Pauwel Kwak</span>
+                        <span class="brewery">Brouwerij Bosteels</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/bierbrouwerij-de-koningshoeven-la-trappe-quadrupel-oak-aged-batch-18/888511" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-888511_cf7cf_sm.jpeg"><p>
+	    				<span class="name">La Trappe Quadrupel Oak Aged Batch #18</span>
+                        <span class="brewery">Bierbrouwerij De Koningshoeven</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brouwerij-st-bernardus-grottenbier/1963" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1963_5466f_sm.jpeg"><p>
+	    				<span class="name">Grottenbier</span>
+                        <span class="brewery">Brouwerij St. Bernardus</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/tonendoor/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/hapert/1514659" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png"><p>
+    	    				<span class="name">Hapert</span>
+    	    				<span class="location">Hapert, Noord-Brabant                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/hapert/392306" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/travel/default_bg_88.png"><p>
+    	    				<span class="name">Hapert</span>
+    	    				    	    			</p>
+    	    		</a>
+        			        			<a href="/v/home/1167524" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss1.4sqi.net/img/categories_v2/building/home_bg_88.png"><p>
+    	    				<span class="name">Home</span>
+    	    				<span class="location">Hapert, Noord-Brabant                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/thuis/1266259" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/building/home_bg_88.png"><p>
+    	    				<span class="name">Thuis</span>
+    	    				<span class="location">Reusel, Noord-Brabant                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/thuis/1405765" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/building/home_bg_88.png"><p>
+    	    				<span class="name">Thuis</span>
+    	    				<span class="location">Bergeijk, Noord-Brabant                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/tonendoor/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    		<div class="box">
+    	<div class="content">
+            <h3>Wish List</h3>    			<a href="/b/brewery-john-martin-and-brewery-timmermans-brasserie-de-la-taupe/1831510" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Brasserie de la Taupe</span>
+                        <span class="brewery">Brewery John Martin & Brewery Timmermans</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/bieres-de-chimay-chimay-bleue-vieillie-en-barriques-4-october-2016/1812341" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Chimay Bleue Vieillie en Barriques #4 (October 2016)</span>
+                        <span class="brewery">Bières de Chimay</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/seizoensbrouwerij-vandewalle-reninge-bitter-blond-a-lambiek/1286721" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Reninge Bitter Blond A Lambiek</span>
+                        <span class="brewery">Seizoensbrouwerij Vandewalle</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/bellwoods-brewery-belgian-ipa/305105" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Belgian IPA</span>
+                        <span class="brewery">Bellwoods Brewery</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/de-struise-brouwers-zombinator-vintage-aka-zeus/1226187" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Zombinator Vintage 2012 on steroids Aka Zeus 01</span>
+                        <span class="brewery">De Struise Brouwers</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/wishlist" href="/user/tonendoor/wishlist">See Full Wish List</a></p>
+                            	</div>
+	</div>
+	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Pohjala" title="Põhjala" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-54434_458dd.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/DeKustbrouwerij" title="De Kustbrouwerij" ><span><img src="https://untappd.akamaized.net/site/assets/images/temp/badge-brewery-default.png"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/breweryTimmermans" title="Brewery John Martin & Brewery Timmermans" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-BrouwerijTimmermansJohnMartinNV_2313.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/bavik" title="Brouwerij De Brabandere (Bavik)" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-brouwerijdebrabanderebavik_4571.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BierbrouwerijDeKoningshoeven" title="Bierbrouwerij De Koningshoeven" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-bierbrouwerijdekoningshoeven_110.jpeg"></span></a>
+                                        </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

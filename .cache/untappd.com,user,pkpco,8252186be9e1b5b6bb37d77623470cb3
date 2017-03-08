@@ -1,0 +1,1257 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 19:16:22 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 61979
+set-cookie: untappd_com_site_v2=e494664feae98075dc795b28bfb445f3; expires=Wed, 08-Mar-2017 07:16:22 GMT; Max-Age=43200; path=/, ut_anon=f8abf642-f6d1-4f9e-b078-6f7ecaad382d; expires=Mon, 08-Jul-3016 19:16:22 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/pkpco
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Phil S. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Phil S. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Phil S. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/pkpco">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/pkpco">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="693530" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://untappd.s3.amazonaws.com/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg">
+					</div>
+				</div><div class="info">
+					<h1>Phil S.</h1>
+					<span class="username">pkpco</span>
+					<span class="location"></span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+									</div>
+				<div class="stats">
+											<a href="/user/pkpco" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">1,450</span>
+							<span class="title">Total</span>
+						</a><a href="/user/pkpco/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">393</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/pkpco/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">244</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/pkpco/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">5</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/pkpco/checkin/420803407"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_24/9c2af6ca7f7af9334981cd072ae4a50b_320x320.jpg" /></a></p><p><a href="/user/pkpco/checkin/272245012"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2016_01_30/dbb44955812413cb324539c7fa1846b6_320x320.jpg" /></a></p><p><a href="/user/pkpco/checkin/39850570"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2013_08_03/bb8652ee953b1e76698ccc85f1d475ec_320x320.jpg" /></a></p><p><a href="/user/pkpco/checkin/39322943"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2013_07_31/67efd22f9fba4497b7b7d6acb535b84e_320x320.jpg" /></a></p><p><a href="/user/pkpco/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2013_07_30/fb8b551b4fca18202a7b3f07f768bef0_320x320.jpg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Phil's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425044055" data-checkin-id="425044055">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/weyerbacher-brewing-company-insanity/3935" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_3935_sm_6aa28eb3838678933569098f6d3d83.jpeg" alt="Weyerbacher Brewing Company by Insanity">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking an <a href="/b/weyerbacher-brewing-company-insanity/3935">Insanity</a> by <a  href="/w/weyerbacher-brewing-company/1352">Weyerbacher Brewing Company</a> at <a href="/v/pen-argyl-pa/204701">Pen Argyl, PA</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r475"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/425044055" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 02:29:21 +0000</a>
+							<a href="/user/pkpco/checkin/425044055" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425029809" data-checkin-id="425029809">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/weyerbacher-brewing-company-insanity/3935" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_3935_sm_6aa28eb3838678933569098f6d3d83.jpeg" alt="Weyerbacher Brewing Company by Insanity">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking an <a href="/b/weyerbacher-brewing-company-insanity/3935">Insanity</a> by <a  href="/w/weyerbacher-brewing-company/1352">Weyerbacher Brewing Company</a> at <a href="/v/pen-argyl-pa/204701">Pen Argyl, PA</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r475"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/425029809" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 01:52:00 +0000</a>
+							<a href="/user/pkpco/checkin/425029809" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424505338" data-checkin-id="424505338">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/weyerbacher-brewing-company-quad/3939" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_3939_sm_48a03e57de8bbf901641dc6fb49831.jpeg" alt="Weyerbacher Brewing Company by Quad">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking a <a href="/b/weyerbacher-brewing-company-quad/3939">Quad</a> by <a  href="/w/weyerbacher-brewing-company/1352">Weyerbacher Brewing Company</a> at <a href="/v/pen-argyl-pa/204701">Pen Argyl, PA</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/424505338" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 01:07:37 +0000</a>
+							<a href="/user/pkpco/checkin/424505338" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424405861" data-checkin-id="424405861">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/weyerbacher-brewing-company-blasphemy/341390" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_341390_sm_c4185127b5da6a7d2d04caff80422d.jpeg" alt="Weyerbacher Brewing Company by Blasphemy">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking a <a href="/b/weyerbacher-brewing-company-blasphemy/341390">Blasphemy</a> by <a  href="/w/weyerbacher-brewing-company/1352">Weyerbacher Brewing Company</a> at <a href="/v/pen-argyl-pa/204701">Pen Argyl, PA</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/424405861" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 23:26:39 +0000</a>
+							<a href="/user/pkpco/checkin/424405861" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424367659" data-checkin-id="424367659">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/weyerbacher-brewing-company-blasphemy/341390" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_341390_sm_c4185127b5da6a7d2d04caff80422d.jpeg" alt="Weyerbacher Brewing Company by Blasphemy">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking a <a href="/b/weyerbacher-brewing-company-blasphemy/341390">Blasphemy</a> by <a  href="/w/weyerbacher-brewing-company/1352">Weyerbacher Brewing Company</a> at <a href="/v/pen-argyl-pa/204701">Pen Argyl, PA</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Aged a year very nice									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/424367659" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 22:48:58 +0000</a>
+							<a href="/user/pkpco/checkin/424367659" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422630507" data-checkin-id="422630507">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/dogfish-head-craft-brewery-90-minute-ipa/8056" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-8056_948fa_sm.jpeg" alt="Dogfish Head Craft Brewery by 90 Minute IPA">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking a <a href="/b/dogfish-head-craft-brewery-90-minute-ipa/8056">90 Minute IPA</a> by <a  href="/w/dogfish-head-craft-brewery/459">Dogfish Head Craft Brewery</a> at <a href="/v/pen-argyl-pa/204701">Pen Argyl, PA</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r475"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/422630507" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 28 Feb 2017 01:07:06 +0000</a>
+							<a href="/user/pkpco/checkin/422630507" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422621227" data-checkin-id="422621227">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/dogfish-head-craft-brewery-olde-school-2017/1928870" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-dfhOldeSchool.jpg" alt="Dogfish Head Craft Brewery by Olde School (2017)">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking an <a href="/b/dogfish-head-craft-brewery-olde-school-2017/1928870">Olde School (2017)</a> by <a  href="/w/dogfish-head-craft-brewery/459">Dogfish Head Craft Brewery</a> at <a href="/v/pen-argyl-pa/204701">Pen Argyl, PA</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/422621227" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 28 Feb 2017 00:41:05 +0000</a>
+							<a href="/user/pkpco/checkin/422621227" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422597524" data-checkin-id="422597524">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/weyerbacher-brewing-company-sunday-morning-stout-2017/1920202" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-327638_73326_sm.jpeg" alt="Weyerbacher Brewing Company by Sunday Morning Stout (2017)">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking a <a href="/b/weyerbacher-brewing-company-sunday-morning-stout-2017/1920202">Sunday Morning Stout (2017)</a> by <a  href="/w/weyerbacher-brewing-company/1352">Weyerbacher Brewing Company</a> at <a href="/v/pen-argyl-pa/204701">Pen Argyl, PA</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/422597524" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 27 Feb 2017 23:30:27 +0000</a>
+							<a href="/user/pkpco/checkin/422597524" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422590435" data-checkin-id="422590435">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/weyerbacher-brewing-company-sunday-morning-stout-2017/1920202" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-327638_73326_sm.jpeg" alt="Weyerbacher Brewing Company by Sunday Morning Stout (2017)">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking a <a href="/b/weyerbacher-brewing-company-sunday-morning-stout-2017/1920202">Sunday Morning Stout (2017)</a> by <a  href="/w/weyerbacher-brewing-company/1352">Weyerbacher Brewing Company</a> at <a href="/v/pen-argyl-pa/204701">Pen Argyl, PA</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/422590435" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 27 Feb 2017 23:06:29 +0000</a>
+							<a href="/user/pkpco/checkin/422590435" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_420812892" data-checkin-id="420812892">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/dogfish-head-craft-brewery-90-minute-ipa/8056" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-8056_948fa_sm.jpeg" alt="Dogfish Head Craft Brewery by 90 Minute IPA">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking a <a href="/b/dogfish-head-craft-brewery-90-minute-ipa/8056">90 Minute IPA</a> by <a  href="/w/dogfish-head-craft-brewery/459">Dogfish Head Craft Brewery</a> at <a href="/v/pen-argyl-pa/204701">Pen Argyl, PA</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r475"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/420812892" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 24 Feb 2017 03:54:41 +0000</a>
+							<a href="/user/pkpco/checkin/420812892" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_420803407" data-checkin-id="420803407">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/weyerbacher-brewing-company-quad/3939" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_3939_sm_48a03e57de8bbf901641dc6fb49831.jpeg" alt="Weyerbacher Brewing Company by Quad">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking a <a href="/b/weyerbacher-brewing-company-quad/3939">Quad</a> by <a  href="/w/weyerbacher-brewing-company/1352">Weyerbacher Brewing Company</a> at <a href="/v/pen-argyl-pa/204701">Pen Argyl, PA</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/pkpco/checkin/420803407" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_24/9c2af6ca7f7af9334981cd072ae4a50b_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/420803407" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 24 Feb 2017 03:27:26 +0000</a>
+							<a href="/user/pkpco/checkin/420803407" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_420748226" data-checkin-id="420748226">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/jacob-leinenkugel-brewing-company-summer-shandy/8949" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-8949_8f073_sm.jpeg" alt="Jacob Leinenkugel Brewing Company by Summer Shandy">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking a <a href="/b/jacob-leinenkugel-brewing-company-summer-shandy/8949">Summer Shandy</a> by <a  href="/w/jacob-leinenkugel-brewing-company/708">Jacob Leinenkugel Brewing Company</a> at <a href="/v/pj-whelihans-pub-and-restaurant/257310">P.J. Whelihan's Pub & Restaurant</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/420748226" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 24 Feb 2017 01:33:49 +0000</a>
+							<a href="/user/pkpco/checkin/420748226" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_420728581" data-checkin-id="420728581">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/troegs-independent-brewing-nugget-nectar/3757" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-3757_1b370_sm.jpeg" alt="Tröegs Independent Brewing by Nugget Nectar">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking a <a href="/b/troegs-independent-brewing-nugget-nectar/3757">Nugget Nectar</a> by <a  href="/w/troegs-independent-brewing/2583">Tröegs Independent Brewing</a> at <a href="/v/pj-whelihans-pub-and-restaurant/257310">P.J. Whelihan's Pub & Restaurant</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/420728581" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 24 Feb 2017 00:59:47 +0000</a>
+							<a href="/user/pkpco/checkin/420728581" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_420712742" data-checkin-id="420712742">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/jacob-leinenkugel-brewing-company-summer-shandy/8949" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-8949_8f073_sm.jpeg" alt="Jacob Leinenkugel Brewing Company by Summer Shandy">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking a <a href="/b/jacob-leinenkugel-brewing-company-summer-shandy/8949">Summer Shandy</a> by <a  href="/w/jacob-leinenkugel-brewing-company/708">Jacob Leinenkugel Brewing Company</a> at <a href="/v/pj-whelihans-pub-and-restaurant/257310">P.J. Whelihan's Pub & Restaurant</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/420712742" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 24 Feb 2017 00:32:05 +0000</a>
+							<a href="/user/pkpco/checkin/420712742" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_420705810" data-checkin-id="420705810">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pkpco">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bb244bc55c079f1f36da696df9f65fef_thumb.jpg" alt="Phil S.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/jacob-leinenkugel-brewing-company-summer-shandy/8949" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-8949_8f073_sm.jpeg" alt="Jacob Leinenkugel Brewing Company by Summer Shandy">
+							</a>
+														<p class="text">
+								<a href="/user/pkpco" class="user">Phil S.</a>  is drinking a <a href="/b/jacob-leinenkugel-brewing-company-summer-shandy/8949">Summer Shandy</a> by <a  href="/w/jacob-leinenkugel-brewing-company/708">Jacob Leinenkugel Brewing Company</a> at <a href="/v/pj-whelihans-pub-and-restaurant/257310">P.J. Whelihan's Pub & Restaurant</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pkpco/checkin/420705810" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 24 Feb 2017 00:19:55 +0000</a>
+							<a href="/user/pkpco/checkin/420705810" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/pkpco" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pkpco/badges/170238636" title="Brew Bowl LI" ><span><img src="https://untappd.akamaized.net/badges/bdg_SuperBowlLI_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pkpco/badges/168781596" title="Riding Steady" ><span><img src="https://untappd.akamaized.net/badges/bdg_RidingSteady_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pkpco/badges/167663678" title="Continually Hopped IPAs (60 Minute)" ><span><img src="https://untappd.akamaized.net/badges/bdg_DFH60min_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pkpco/badges/167660424" title="Continually Hopped IPAs (90 Minute)" ><span><img src="https://untappd.akamaized.net/badges/bdg_DFH90min_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pkpco/badges/163099134" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pkpco/badges/160534257" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pkpco/badges/159883918" title="Merry Brew-mas (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Christmas2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pkpco/badges/158247883" title="Toast King" ><span><img src="https://untappd.akamaized.net/badges/bdg_toastKing_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pkpco/badges/157768352" title="Hoppy Time" ><span><img src="https://untappd.akamaized.net/badges/bdg_YuenglingIPL16_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pkpco/badges/157768353" title="#LagerLove (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_LagerLove16_md-v3.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pkpco/badges/157467816" title="The Mad Elf" ><span><img src="https://untappd.akamaized.net/badges/bdg_MadElf16_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pkpco/badges/156469241" title="Bourbon County Black Friday (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_BCS2016_md.jpg"></span></a>
+                <p class="more"><a href="/user/pkpco/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/weyerbacher-brewing-company-blithering-idiot/3926" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_3926_sm_9111dfebd11ed91a8d7ebef2d01136.jpeg"><p>
+	    				<span class="name">Blithering Idiot</span>
+                        <span class="brewery">Weyerbacher Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/weyerbacher-brewing-company-quad/3939" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_3939_sm_48a03e57de8bbf901641dc6fb49831.jpeg"><p>
+	    				<span class="name">Quad</span>
+                        <span class="brewery">Weyerbacher Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/weyerbacher-brewing-company-blasphemy/341390" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_341390_sm_c4185127b5da6a7d2d04caff80422d.jpeg"><p>
+	    				<span class="name">Blasphemy</span>
+                        <span class="brewery">Weyerbacher Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/weyerbacher-brewing-company-21st-anniversary-ale/1161370" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1161370_0bc7d_sm.jpeg"><p>
+	    				<span class="name">21st Anniversary Ale</span>
+                        <span class="brewery">Weyerbacher Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/founders-brewing-co-kentucky-breakfast-stout-kbs/9681" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-FoundersKBS.jpg"><p>
+	    				<span class="name">Kentucky Breakfast Stout (KBS)</span>
+                        <span class="brewery">Founders Brewing Co.</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/pkpco/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/pen-argyl-pa/204701" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png"><p>
+    	    				<span class="name">Pen Argyl, PA</span>
+    	    				    	    			</p>
+    	    		</a>
+        			        			<a href="/v/pj-whelihans-pub-and-restaurant/74417" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/sportsbar_bg_88.png"><p>
+    	    				<span class="name">P.J. Whelihan’s Pub & Restaurant</span>
+    	    				<span class="location">Bethlehem, PA                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/weyerbacher-brewing-copany/25599" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Weyerbacher Brewing Co‎mpany</span>
+    	    				<span class="location">Easton, PA                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/buffalo-wild-wings/98117" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/wings_bg_88.png"><p>
+    	    				<span class="name">Buffalo Wild Wings</span>
+    	    				<span class="location">Easton, PA                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/troegs-brewing-company/113968" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Tröegs Brewing Company</span>
+    	    				<span class="location">Hershey, PA                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/pkpco/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    		<div class="box">
+    	<div class="content">
+            <h3>Wish List</h3>    			<a href="/b/weyerbacher-brewing-company-twelve/3941" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-Twelve_3941.jpeg"><p>
+	    				<span class="name">Twelve</span>
+                        <span class="brewery">Weyerbacher Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/thirsty-monk-brewery-and-pub-coconorm/122807" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">CocoNorm</span>
+                        <span class="brewery">Thirsty Monk Brewery & Pub</span>	    			</p>
+	    		</a>
+    			    	</div>
+	</div>
+	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/DominionBrewing" title="Dominion Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-940_9079c.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/NorthSlopeBrewingCompany" title="North Slope Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-191784_84298.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/riverhorse" title="River Horse Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-1058_01138.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/freewill" title="Free Will" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-16644_a18c7.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/FLyingMouseBrewery" title="Flying Mouse Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-FlyingMouseBrewery_74381_a4174.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/konabrewing" title="Kona Brewing Company " ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-konabrewingcompany_1988.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/FordhamBrewing" title="Fordham Brewing" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-544_4dbc0.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/LazyMagnoliaBrewingCompany" title="Lazy Magnolia Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-LazyMagnoliaBrewingCompany_776.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/AtwaterBrewery" title="Atwater Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-AtwaterBrewery_56.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/voodoobrewery" title="Voodoo Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-VoodooBrewingCo_1330.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/NewBelgium" title="New Belgium Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-905_2ddc7.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/seadogbrewing" title="Sea Dog Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-SeaDogBrewingCompany_1125.jpeg"></span></a>
+                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/viewLikeHistory" href="/user/pkpco/likes">See All Likes</a></p>                </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>
