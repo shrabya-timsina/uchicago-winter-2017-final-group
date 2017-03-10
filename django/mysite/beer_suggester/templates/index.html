@@ -33,9 +33,11 @@
                             <tr>
                                 {% for col in entry %}
                                     {% if 'https://' in col %}
-                                    <td><img src="{{ col }}"></td>
+                                    <td><img src="{{ col }}" alt="Beer Badge" height="100" width="100"></td>
+                                    {% elif 'default' in col %}
+                                    <td><img src="{% static "badge-beer-default.png" %}" alt="Beer Badge" height="100" width="100"></td>
                                     {% else %}                                
-                                        <td>{{ col }}</td>
+                                    <td>{{ col }}</td>
                                     {% endif %}
                                 {% endfor %}
 
