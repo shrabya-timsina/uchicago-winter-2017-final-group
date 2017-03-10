@@ -1,0 +1,1291 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 18:52:14 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 63791
+set-cookie: untappd_com_site_v2=a62f4f37ff0d15984d25f28a51c1fae5; expires=Wed, 08-Mar-2017 06:52:14 GMT; Max-Age=43200; path=/, ut_anon=6e0c0d74-f38e-4410-827b-521e6f330ec4; expires=Mon, 08-Jul-3016 18:52:14 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/KillYourDarlings
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Mike A. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Mike A. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Mike A. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/KillYourDarlings">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/KillYourDarlings">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="1098133" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_300x300.jpg">
+					</div>
+				</div><div class="info">
+					<h1>Mike A.</h1>
+					<span class="username">KillYourDarlings</span>
+					<span class="location"></span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+									</div>
+				<div class="stats">
+											<a href="/user/KillYourDarlings" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">464</span>
+							<span class="title">Total</span>
+						</a><a href="/user/KillYourDarlings/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">429</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/KillYourDarlings/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">205</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/KillYourDarlings/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">5</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/KillYourDarlings/checkin/291836455"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2016_03_25/fa74f01d052c9f829b7da43af52de571_320x320.jpg" /></a></p><p><a href="/user/KillYourDarlings/checkin/124607217"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2014_10_25/b8308da839f7cec4f7d44af548a9c6f9_320x320.jpg" /></a></p><p><a href="/user/KillYourDarlings/checkin/99358027"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2014_07_13/66234a61781dbc28d88c454622bf5ad2_320x320.jpg" /></a></p><p><a href="/user/KillYourDarlings/checkin/99356143"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2014_07_13/31bcad5e58ab754a554157515b1e3aca_320x320.jpg" /></a></p><p><a href="/user/KillYourDarlings/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2014_07_13/b4eaef06b303809f88975b59e8dc5b89_320x320.jpg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Mike's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425147444" data-checkin-id="425147444">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/caledonian-brewing-co-coast-to-coast/1223979" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1223979_b3032_sm.jpeg" alt="Caledonian Brewing Co. by Coast To Coast">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a  href="/b/caledonian-brewing-co-coast-to-coast/1223979">Coast To Coast</a> by <a href="/w/caledonian-brewing-co/2071">Caledonian Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_Highlander_sm.jpg" alt="Highlander (Level 3)">
+											<span>Earned the Highlander (Level 3) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/425147444" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 21:02:55 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/425147444" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424269556" data-checkin-id="424269556">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/the-wild-beer-co-redwood-2016/1835147" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1835147_41f52_sm.jpeg" alt="The Wild Beer Co by Redwood 2016">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a href="/b/the-wild-beer-co-redwood-2016/1835147">Redwood 2016</a> by <a  href="/w/the-wild-beer-co/41559">The Wild Beer Co</a> at <a href="/v/turners-craft-beer-bottle-shop/3024166">Turner's Craft Beer Bottle Shop</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/424269556" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 21:11:29 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/424269556" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424223914" data-checkin-id="424223914">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/weird-beard-brew-co-little-things-that-kill/1332233" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1332233_55502_sm.jpeg" alt="Weird Beard Brew Co. by Little Things That Kill">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a href="/b/weird-beard-brew-co-little-things-that-kill/1332233">Little Things That Kill</a> by <a  href="/w/weird-beard-brew-co/30704">Weird Beard Brew Co.</a> at <a href="/v/turners-craft-beer-bottle-shop/3024166">Turner's Craft Beer Bottle Shop</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/424223914" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 20:26:40 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/424223914" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423208455" data-checkin-id="423208455">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/the-wild-beer-co-sourdough/514918" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-514918_57f1e_sm.jpeg" alt="The Wild Beer Co by Sourdough">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a href="/b/the-wild-beer-co-sourdough/514918">Sourdough</a> by <a  href="/w/the-wild-beer-co/41559">The Wild Beer Co</a> at <a href="/v/sheffield-tap/20078">Sheffield Tap</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_MardiGras2017_sm.jpg" alt="Mardi Gras (2017)">
+											<span>Earned the Mardi Gras (2017) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/423208455" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 16:54:48 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/423208455" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="DasFury" href="/user/DasFury" title="Mark S." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/7f8c070378a03a25b3bf2a3c394e5ab3_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_421469862" data-checkin-id="421469862">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bradfield-brewery-blonde-extra/654983" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Bradfield Brewery by Blonde Extra">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a href="/b/bradfield-brewery-blonde-extra/654983">Blonde Extra</a> by <a  href="/w/bradfield-brewery/8856">Bradfield Brewery</a> at <a href="/v/copthorne-hotel-sheffield/1622126">Copthorne Hotel Sheffield</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r250"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_HeresToYou_sm.jpg" alt="Cheers To You! (Level 3)">
+											<span>Earned the Cheers To You! (Level 3) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 5)">
+											<span>Earned the Riding Steady (Level 5) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/421469862" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 25 Feb 2017 17:18:30 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/421469862" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419891063" data-checkin-id="419891063">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/milestone-brewing-co-best-bitter/1772034" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Milestone Brewing Co by Best Bitter">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a href="/b/milestone-brewing-co-best-bitter/1772034">Best Bitter</a> by <a  href="/w/milestone-brewing-co/4173">Milestone Brewing Co</a> at <a href="/v/the-lord-nelson/54710">The Lord Nelson</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/419891063" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 20 Feb 2017 20:55:01 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/419891063" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419871466" data-checkin-id="419871466">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/milestone-brewing-co-pekko/1575639" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Milestone Brewing Co by Pekko">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a href="/b/milestone-brewing-co-pekko/1575639">Pekko</a> by <a  href="/w/milestone-brewing-co/4173">Milestone Brewing Co</a> at <a href="/v/the-lord-nelson/54710">The Lord Nelson</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_goingPlaces_sm.jpg" alt="Bar Explorer (Level 15)">
+											<span>Earned the Bar Explorer (Level 15) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/419871466" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 20 Feb 2017 19:50:01 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/419871466" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_416302244" data-checkin-id="416302244">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bad-co-brewing-and-distilling-company-dazed-and-confused/762354" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-762354_00edc_sm.jpeg" alt="BAD Co. - Brewing & Distilling Company by Dazed & Confused">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a  href="/b/bad-co-brewing-and-distilling-company-dazed-and-confused/762354">Dazed & Confused</a> by <a href="/w/bad-co-brewing-distilling-company/166712">BAD Co. - Brewing & Distilling Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_UdderlySweet_sm.jpg" alt="So Udderly Sweet">
+											<span>Earned the So Udderly Sweet badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/416302244" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 11 Feb 2017 22:18:42 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/416302244" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_416262191" data-checkin-id="416262191">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/rooster-s-brewing-co-high-tea/523270" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-523270_7718f_sm.jpeg" alt="Rooster's Brewing Co by High Tea">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a  href="/b/rooster-s-brewing-co-high-tea/523270">High Tea</a> by <a href="/w/rooster-s-brewing-co/3679">Rooster's Brewing Co</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_hoptopia_sm.jpg" alt="I Believe in IPA!  (Level 18)">
+											<span>Earned the I Believe in IPA!  (Level 18) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/416262191" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 11 Feb 2017 21:39:19 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/416262191" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_416199213" data-checkin-id="416199213">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brass-castle-brewery-salty-dog/1643335" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1643335_44d21_sm.jpeg" alt="Brass Castle Brewery by Salty Dog">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a  href="/b/brass-castle-brewery-salty-dog/1643335">Salty Dog</a> by <a href="/w/brass-castle-brewery/16019">Brass Castle Brewery</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_SourBrew_sm.jpg" alt="Pucker Up">
+											<span>Earned the Pucker Up badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_WheelofStyles_sm.jpg" alt="Wheel of Styles (Level 9)">
+											<span>Earned the Wheel of Styles (Level 9) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/416199213" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 11 Feb 2017 20:37:55 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/416199213" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_416180346" data-checkin-id="416180346">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/harry-bromptons-alcoholic-ice-tea/1918209" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Harry Bromptons by Alcoholic Ice Tea">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking an <a  href="/b/harry-bromptons-alcoholic-ice-tea/1918209">Alcoholic Ice Tea</a> by <a href="/w/harry-bromptons/320180">Harry Bromptons</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/416180346" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 11 Feb 2017 20:19:33 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/416180346" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_410452826" data-checkin-id="410452826">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/flying-dog-brewery-snake-dog-ipa/3759" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-3759_a0860_sm.jpeg" alt="Flying Dog Brewery by Snake Dog IPA">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a href="/b/flying-dog-brewery-snake-dog-ipa/3759">Snake Dog IPA</a> by <a  href="/w/flying-dog-brewery/540">Flying Dog Brewery</a> at <a href="/v/the-distillery/2649908">The Distillery</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/410452826" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 27 Jan 2017 22:03:33 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/410452826" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_410411319" data-checkin-id="410411319">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/g-menabrea-and-figli-menabrea-1846/7482" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-Menabrea1846_7482.jpeg" alt="G. Menabrea & Figli by Menabrea 1846">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a href="/b/g-menabrea-and-figli-menabrea-1846/7482">Menabrea 1846</a> by <a  href="/w/g-menabrea-figli/1955">G. Menabrea & Figli</a> at <a href="/v/la-pizza/5812660">La Pizza</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r300"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 4)">
+											<span>Earned the Riding Steady (Level 4) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/410411319" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 27 Jan 2017 20:50:34 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/410411319" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_408609777" data-checkin-id="408609777">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/worthington-s-worthington-best-bitter-creamflow/6267" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_6267_ae3684303a588e4bb9d5baccb8be.jpeg" alt="Worthington's by Worthington Best Bitter/Creamflow">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a href="/b/worthington-s-worthington-best-bitter-creamflow/6267">Worthington Best Bitter/Creamflow</a> by <a  href="/w/worthington-s/12474">Worthington's</a> at <a href="/v/7-spices/1067717">7 Spices</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r200"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/408609777" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 21 Jan 2017 21:45:01 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/408609777" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_408608738" data-checkin-id="408608738">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/KillYourDarlings">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/d2a9bd470c39f7c326998552a439c394_100x100.jpg" alt="Mike A.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/alechemy-brewing-ltd-rhapsody/384820" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-384820_78740_sm.jpeg" alt="Alechemy Brewing Ltd by Rhapsody">
+							</a>
+														<p class="text">
+								<a href="/user/KillYourDarlings" class="user">Mike A.</a>  is drinking a <a href="/b/alechemy-brewing-ltd-rhapsody/384820">Rhapsody</a> by <a  href="/w/alechemy-brewing-ltd/28307">Alechemy Brewing Ltd</a> at <a href="/v/the-shakespeare/199330">The Shakespeare</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_beerGathering_sm.jpg" alt="Beer Gathering">
+											<span>Earned the Beer Gathering badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/KillYourDarlings/checkin/408608738" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 21 Jan 2017 21:43:59 +0000</a>
+							<a href="/user/KillYourDarlings/checkin/408608738" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/KillYourDarlings" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/KillYourDarlings/badges/174891803" title="Mardi Gras (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_MardiGras2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/KillYourDarlings/badges/171233778" title="So Udderly Sweet" ><span><img src="https://untappd.akamaized.net/badges/bdg_UdderlySweet_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/KillYourDarlings/badges/171179804" title="Pucker Up" ><span><img src="https://untappd.akamaized.net/badges/bdg_SourBrew_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/KillYourDarlings/badges/167041309" title="Beer Gathering" ><span><img src="https://untappd.akamaized.net/badges/bdg_beerGathering_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/KillYourDarlings/badges/161517622" title="Sky's the Limit" ><span><img src="https://untappd.akamaized.net/badges/bdg_highABV_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/KillYourDarlings/badges/160344338" title="Merry Brew-mas (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Christmas2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/KillYourDarlings/badges/160344339" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/KillYourDarlings/badges/157919028" title="Winter Wonderland" ><span><img src="https://untappd.akamaized.net/badges/bdg_wonderland_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/KillYourDarlings/badges/173841211" title="Riding Steady (Level 5)" ><span><img src="https://untappd.akamaized.net/badges/bdg_RidingSteady_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/KillYourDarlings/badges/153558261" title="Beer-giving (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Thanksgiving2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/KillYourDarlings/badges/173841208" title="Cheers To You! (Level 3)" ><span><img src="https://untappd.akamaized.net/badges/bdg_HeresToYou_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/KillYourDarlings/badges/147010395" title="Witch's Brew (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Halloween2016_md.jpg"></span></a>
+                <p class="more"><a href="/user/KillYourDarlings/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/thornbridge-brewery-wild-swan/24400" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-WildSwan_24400.jpeg"><p>
+	    				<span class="name">Wild Swan</span>
+                        <span class="brewery">Thornbridge Brewery</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/dukeries-brewery-de-lovetot/309904" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-309904_aef70_sm.jpeg"><p>
+	    				<span class="name">De Lovetot</span>
+                        <span class="brewery">Dukeries Brewery</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/magic-rock-brewing-bourbon-barrel-bearded-lady/153631" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-BourbonBarrelBeardedLady_153631.jpeg"><p>
+	    				<span class="name">Bourbon Barrel Bearded Lady</span>
+                        <span class="brewery">Magic Rock Brewing</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/thornbridge-brewery-sequoia/54776" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-Sequoia_54776.jpeg"><p>
+	    				<span class="name">Sequoia</span>
+                        <span class="brewery">Thornbridge Brewery</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/beavertown-stingy-jack/485000" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-485000_5ebeb_sm.jpeg"><p>
+	    				<span class="name">Stingy Jack</span>
+                        <span class="brewery">Beavertown</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/KillYourDarlings/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/rutland-arms/40587" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Rutland Arms</span>
+    	    				<span class="location">
+                                Sheffield
+                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/brewdog-sheffield/1429187" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">BrewDog Sheffield</span>
+    	    				<span class="location">
+                                Sheffield
+                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/sheffield-tap/20078" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://untappd.akamaized.net/venuelogos/venue_20078_33b9da6c_bg_88.png"><p>
+    	    				<span class="name">Sheffield Tap</span>
+    	    				<span class="location">
+                                Sheffield
+                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/broadfield-ale-house/160217" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Broadfield Ale House</span>
+    	    				<span class="location">Sheffield, Sheffield                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/hop-hideout/1154240" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/beergarden_bg_88.png"><p>
+    	    				<span class="name">Hop Hideout</span>
+    	    				<span class="location">Sheffield, Sheffield                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/KillYourDarlings/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/SentinelBrewingCo" title="Sentinel Brewing Co " ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-193299_75ec4.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/LittleCrittersBrewingCompany" title="Little Critters Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-253739_67fa4.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/CraftyDevilBrewingCo" title="Crafty Devil Brewing Co" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-160665_d7ade.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BadCoBrewingandDistillingCompany" title="BAD Co. - Brewing & Distilling Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-166712_2c268.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Vocation" title="Vocation" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-198288_16463.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BrassCastleBrewery" title="Brass Castle Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-16019_aeafc.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BlueMonkeyBrewery" title="Blue Monkey Brewery " ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-5703_046bc.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/SteelCityBrewing" title="Steel City Brewing" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-SteelCityBrewing_8913_7512b.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BeavertownBeer" title="Beavertown" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-24735_8f3a5.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BadSeedBrewery" title="Bad Seed Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-BadSeedBrewery_74107_33f0c.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/brewdogbrewery" title="BrewDog" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-241_8c584.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/IlkleyBrewery" title="Ilkley Brewery Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-6766_63ac7.jpeg"></span></a>
+                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/viewLikeHistory" href="/user/KillYourDarlings/likes">See All Likes</a></p>                </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,1507 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 19:17:00 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 76659
+set-cookie: untappd_com_site_v2=ca8c8d2cf3c2cbd91f95e18f92faf66b; expires=Wed, 08-Mar-2017 07:17:00 GMT; Max-Age=43200; path=/, ut_anon=c6660eb1-baa6-49b2-9ae6-af6dca4a09db; expires=Mon, 08-Jul-3016 19:17:00 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/pooli
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>matias r. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="matias r. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="matias r. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/pooli">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/pooli">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="2584638" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=125&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+					</div>
+				</div><div class="info">
+					<h1>matias r.</h1>
+					<span class="username">pooli</span>
+					<span class="location"></span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+									</div>
+				<div class="stats">
+											<a href="/user/pooli" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">376</span>
+							<span class="title">Total</span>
+						</a><a href="/user/pooli/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">369</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/pooli/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">262</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/pooli/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">3</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/pooli/checkin/424299762"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/fc6e1d3764e6b5ad1fb5e6084208245e_320x320.jpeg" /></a></p><p><a href="/user/pooli/checkin/424280057"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/da0a55fb83157f4e13815f64f8b9a249_320x320.jpeg" /></a></p><p><a href="/user/pooli/checkin/424259582"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/277bd4284848fb515f411262dc8fefc1_320x320.jpeg" /></a></p><p><a href="/user/pooli/checkin/424186473"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/e100b359cae449bfbd1fb411253f8a9b_320x320.jpeg" /></a></p><p><a href="/user/pooli/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/d6a093a442cd508c2c5bf0fee6e814e0_320x320.jpeg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>matias's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_424388737" data-checkin-id="424388737">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/thornbridge-brewery-late-star/236541" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Thornbridge Brewery by Late Star">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/thornbridge-brewery-late-star/236541">Late Star</a> by <a  href="/w/thornbridge-brewery/2047">Thornbridge Brewery</a> at <a href="/v/old-bank/259601">Old Bank</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Hedelmäinen jarunsas. Tasapainoinen									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r325"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/424388737" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 23:09:36 +0000</a>
+							<a href="/user/pooli/checkin/424388737" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424299762" data-checkin-id="424299762">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mikkeller-citra/567599" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_567599_sm_ddb070e2e908e77976a5c2b6f4de92.jpeg" alt="Mikkeller by Citra">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/mikkeller-citra/567599">Citra</a> by <a  href="/w/mikkeller/2813">Mikkeller</a> at <a href="/v/cosmic-comic-cafe/117650">Cosmic Comic Cafe</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Runsas. Hedelmää taustalla									</p>
+									
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/can@3x.png?v=1">
+									          <span>Can</span>
+									        </p>
+																					<span class="rating small r325"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_HoppedUp_sm.jpg" alt="Hopped Up (Level 6)">
+											<span>Earned the Hopped Up (Level 6) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_2xCore_sm.jpg" alt="2X">
+											<span>Earned the 2X badge!</span>
+										</span>
+										
+										<div class="tagged-friends">
+											<strong>Tagged Friends</strong>
+											<div>
+
+												
+														<div class="avatar">
+															<div class="avatar-holder">
+																																<a href="/user/Reiska">
+																	<img src="https://untappd.akamaized.net/profile/73a0ee82ba2dacfd2ddb54b191da6cce_100x100.jpeg">
+																</a>
+															</div>
+														</div>
+																								</div>
+										</div>
+
+										
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/424299762" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/fc6e1d3764e6b5ad1fb5e6084208245e_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/424299762" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 21:41:18 +0000</a>
+							<a href="/user/pooli/checkin/424299762" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424280057" data-checkin-id="424280057">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/great-divide-brewing-company-colette-farmhouse-ale/5431" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-5431_9b1be_sm.jpeg" alt="Great Divide Brewing Company by Colette Farmhouse Ale">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/great-divide-brewing-company-colette-farmhouse-ale/5431">Colette Farmhouse Ale</a> by <a  href="/w/great-divide-brewing-company/604">Great Divide Brewing Company</a> at <a href="/v/cosmic-comic-cafe/117650">Cosmic Comic Cafe</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Hedelmäinen. Hieman banaania ja mausteisuutta.									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_saison_sm.jpg" alt="Trip to the Farm (Level 2)">
+											<span>Earned the Trip to the Farm (Level 2) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/424280057" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/da0a55fb83157f4e13815f64f8b9a249_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/424280057" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 21:21:44 +0000</a>
+							<a href="/user/pooli/checkin/424280057" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424259582" data-checkin-id="424259582">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/kolme-pukkia-cosmic-comic-cafe-xx/1930191" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Kolme Pukkia by Cosmic Comic Cafe XX">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/kolme-pukkia-cosmic-comic-cafe-xx/1930191">Cosmic Comic Cafe XX</a> by <a  href="/w/kolme-pukkia/200106">Kolme Pukkia</a> at <a href="/v/cosmic-comic-cafe/117650">Cosmic Comic Cafe</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Greippinen. Hedelmäisen tasapainoinen.									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r325"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_beerGathering_sm.jpg" alt="Beer Gathering">
+											<span>Earned the Beer Gathering badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_hoptopia_sm.jpg" alt="I Believe in IPA!  (Level 16)">
+											<span>Earned the I Believe in IPA!  (Level 16) badge!</span>
+										</span>
+										
+										<div class="tagged-friends">
+											<strong>Tagged Friends</strong>
+											<div>
+
+												
+														<div class="avatar">
+															<div class="avatar-holder">
+																																<a href="/user/Reiska">
+																	<img src="https://untappd.akamaized.net/profile/73a0ee82ba2dacfd2ddb54b191da6cce_100x100.jpeg">
+																</a>
+															</div>
+														</div>
+																								</div>
+										</div>
+
+										
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/424259582" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/277bd4284848fb515f411262dc8fefc1_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/424259582" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 21:01:33 +0000</a>
+							<a href="/user/pooli/checkin/424259582" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424186473" data-checkin-id="424186473">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mallaskoski-brewery-roihu/1912522" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Mallaskoski Brewery by Roihu">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/mallaskoski-brewery-roihu/1912522">Roihu</a> by <a  href="/w/mallaskoski-brewery/9339">Mallaskoski Brewery</a> at <a href="/v/hunters-inn/582971">Hunter's Inn</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Hieman savuinen... Perus olut									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r300"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/424186473" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/e100b359cae449bfbd1fb411253f8a9b_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/424186473" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 19:49:29 +0000</a>
+							<a href="/user/pooli/checkin/424186473" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424058555" data-checkin-id="424058555">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/kaskenmaen-panimo-kaski-ipa/657844" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Kaskenmäen Panimo by Kaski-IPA">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/kaskenmaen-panimo-kaski-ipa/657844">Kaski-IPA</a> by <a  href="/w/kaskenma-en-panimo/44686">Kaskenmäen Panimo</a> at <a href="/v/uusi-apteekki/344998">Uusi Apteekki</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Perus ipa									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r300"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_goingPlaces_sm.jpg" alt="Bar Explorer (Level 17)">
+											<span>Earned the Bar Explorer (Level 17) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_finnished_sm.jpg" alt="Never Finnished! (Level 32)">
+											<span>Earned the Never Finnished! (Level 32) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/424058555" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/d6a093a442cd508c2c5bf0fee6e814e0_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/424058555" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 16:44:35 +0000</a>
+							<a href="/user/pooli/checkin/424058555" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424036460" data-checkin-id="424036460">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/radbrew-radbeer/1396788" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1396788_dc237_sm.jpeg" alt="Radbrew by Radbeer">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/radbrew-radbeer/1396788">Radbeer</a> by <a  href="/w/radbrew/172075">Radbrew</a> at <a href="/v/radbar-turku/4225197">Radbar Turku</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Maltainen. Perus olut									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r300"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/424036460" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/0577ff3ccbc18140cceee4ee11f1bb37_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/424036460" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 15:30:00 +0000</a>
+							<a href="/user/pooli/checkin/424036460" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Radbrew_Official" href="/brewery/172075" title="Radbrew" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/site/brewery_logos/brewery-172075_f25af.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424023717" data-checkin-id="424023717">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/east-london-brewing-company-cowcatcher/624017" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-624017_a9b32_sm.jpeg" alt="East London Brewing Company  by Cowcatcher">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/east-london-brewing-company-cowcatcher/624017">Cowcatcher</a> by <a  href="/w/east-london-brewing-company/19832">East London Brewing Company </a> at <a href="/v/old-bank/259601">Old Bank</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Hyvä hedelmä ja runko. Maukas									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_PaleMoon_sm.jpg" alt="Pale as the Moon (Level 9)">
+											<span>Earned the Pale as the Moon (Level 9) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/424023717" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_04/f1acfaca20f1953ce29de3d9fd64c267_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/424023717" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 14:30:54 +0000</a>
+							<a href="/user/pooli/checkin/424023717" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Reiska" href="/user/Reiska" title="Reijo R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/73a0ee82ba2dacfd2ddb54b191da6cce_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_421544215" data-checkin-id="421544215">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/ruosniemen-panimo-koodari/1572024" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1572024_4fd45_sm.jpeg" alt="Ruosniemen Panimo by Koodari">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/ruosniemen-panimo-koodari/1572024">Koodari</a> by <a  href="/w/ruosniemen-panimo/34204">Ruosniemen Panimo</a> at <a href="/v/liljalaakson-leikkipaikka/3377684">Liljalaakson leikkipaikka</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Pehmeä ja hedelmäinen maku. Jälkimaussa hieman karvautta.									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/421544215" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_25/0f69fbebd3af7a6bb1b2c960008a8753_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/421544215" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 25 Feb 2017 19:00:31 +0000</a>
+							<a href="/user/pooli/checkin/421544215" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_420894929" data-checkin-id="420894929">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/saimaan-juomatehdas-home-brewer-s-special-copper-mallet-red-ale/1946160" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Saimaan Juomatehdas by Home Brewer's Special Copper Mallet Red Ale">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/saimaan-juomatehdas-home-brewer-s-special-copper-mallet-red-ale/1946160">Home Brewer's Special Copper Mallet Red Ale</a> by <a  href="/w/saimaan-juomatehdas/11432">Saimaan Juomatehdas</a> at <a href="/v/liljalaakson-leikkipaikka/3377684">Liljalaakson leikkipaikka</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Runsas ja hieman myös hedelmää. Karamellinen									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r325"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/420894929" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_24/556e1f2202e8f90cdaaa0264a7c57fd5_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/420894929" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 24 Feb 2017 17:23:25 +0000</a>
+							<a href="/user/pooli/checkin/420894929" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Reiska" href="/user/Reiska" title="Reijo R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/73a0ee82ba2dacfd2ddb54b191da6cce_100x100.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+																		<div class="comment" id="comment_32363800">
+											<div class="avatar">
+												<div class="avatar-holder">
+																											<a href="/user/Reiska">
+														<img class="lazy" data-original="https://untappd.akamaized.net/profile/73a0ee82ba2dacfd2ddb54b191da6cce_100x100.jpeg" alt="Reijo R.">
+													</a>
+												</div>
+											</div>
+											<div class="text">
+												<p>
+													<a href="/user/Reiska">Reijo R.</a>: 
+													Ihan samanaikaisesti.												</p>
+												<p class="meta">
+													<span class="time timezoner">Fri, 24 Feb 2017 17:25:23 +0000</span>
+																									</p>
+											</div>
+										</div>
+																				<div class="comment" id="comment_32395138">
+											<div class="avatar">
+												<div class="avatar-holder">
+																											<a href="/user/pooli">
+														<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+													</a>
+												</div>
+											</div>
+											<div class="text">
+												<p>
+													<a href="/user/pooli">matias r.</a>: 
+													joo, huomasin saman asian. joitakin sekuntteja eroa. aika ihme... ja sama olut vielä												</p>
+												<p class="meta">
+													<span class="time timezoner">Sat, 25 Feb 2017 07:25:10 +0000</span>
+																									</p>
+											</div>
+										</div>
+																	</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_415994931" data-checkin-id="415994931">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/kimito-brewing-mosaic-vienna-pale-ale/1815878" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Kimito Brewing by Mosaic/Vienna Pale Ale">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/kimito-brewing-mosaic-vienna-pale-ale/1815878">Mosaic/Vienna Pale Ale</a> by <a  href="/w/kimito-brewing/256808">Kimito Brewing</a> at <a href="/v/liljalaakson-leikkipaikka/3377684">Liljalaakson leikkipaikka</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Hedelmäisen greippinen. Hieman lyhyt. Tasapainoinen									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/415994931" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_11/bcf8dbc9491fee93f17eb505333b8995_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/415994931" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 11 Feb 2017 14:39:47 +0000</a>
+							<a href="/user/pooli/checkin/415994931" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="KimitoBrewing" href="/brewery/256808" title="Kimito Brewing" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/site/brewery_logos/brewery-256808_eff58.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_414590838" data-checkin-id="414590838">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/rekolan-panimo-brewery-kaffe-stout/1903513" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Rekolan Panimo / Brewery by Kaffe Stout">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/rekolan-panimo-brewery-kaffe-stout/1903513">Kaffe Stout</a> by <a  href="/w/rekolan-panimo-brewery/35196">Rekolan Panimo / Brewery</a> at <a href="/v/alko-oy/4539795">Alko Oy</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Oikein mokkainen. Hieman suklaata pehmeä									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_finnished_sm.jpg" alt="Never Finnished! (Level 31)">
+											<span>Earned the Never Finnished! (Level 31) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/414590838" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_06/0cd4a903b9e97971f5e0a5fd13b17929_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/414590838" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Feb 2017 17:40:18 +0000</a>
+							<a href="/user/pooli/checkin/414590838" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_414589786" data-checkin-id="414589786">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mustan-virran-panimo-pistolekors-porter/1896428" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1896428_332f4_sm.jpeg" alt="Mustan Virran Panimo by Pistolekors Porter">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/mustan-virran-panimo-pistolekors-porter/1896428">Pistolekors Porter</a> by <a  href="/w/mustan-virran-panimo/253831">Mustan Virran Panimo</a> at <a href="/v/alko-oy/4539795">Alko Oy</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Suklaan vivahde. Pehmeä paahteisen maltainen. Tasapainoinen.									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_heavyWeight_sm.jpg" alt="Heavy Weight (Level 5)">
+											<span>Earned the Heavy Weight (Level 5) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/414589786" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_06/65e00bc9f51b66177238aef173e37ab2_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/414589786" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Feb 2017 17:30:45 +0000</a>
+							<a href="/user/pooli/checkin/414589786" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_414588730" data-checkin-id="414588730">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/laitilan-wirvoitusjuomatehdas-savu-india-pale-ale/1939838" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Laitilan Wirvoitusjuomatehdas by Savu India Pale Ale">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/laitilan-wirvoitusjuomatehdas-savu-india-pale-ale/1939838">Savu India Pale Ale</a> by <a  href="/w/laitilan-wirvoitusjuomatehdas/2619">Laitilan Wirvoitusjuomatehdas</a> at <a href="/v/alko-oy/4539795">Alko Oy</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Savupalvia, myös maussa. Sopiva humala. Erikoinen. Savu peittää kyllä muut maut									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r300"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/414588730" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_06/0b837d42403427a8d46031dde837f46e_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/414588730" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Feb 2017 17:21:03 +0000</a>
+							<a href="/user/pooli/checkin/414588730" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_414588294" data-checkin-id="414588294">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/pooli">
+							<img class="lazy" data-original="https://gravatar.com/avatar/36e32a4759dd53647a42d292f2d9d560?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="matias r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/the-flying-dutchman-nomad-brewing-company-flip-flopped-white-socked-strong-hopped-white-ipa/1584437" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1584437_af396_sm.jpeg" alt="The Flying Dutchman Nomad Brewing Company by Flip Flopped White Socked Strong Hopped White IPA">
+							</a>
+														<p class="text">
+								<a href="/user/pooli" class="user">matias r.</a>  is drinking a <a href="/b/the-flying-dutchman-nomad-brewing-company-flip-flopped-white-socked-strong-hopped-white-ipa/1584437">Flip Flopped White Socked Strong Hopped White IPA</a> by <a  href="/w/the-flying-dutchman-nomad-brewing-company/75189">The Flying Dutchman Nomad Brewing Company</a> at <a href="/v/alko-oy/4539795">Alko Oy</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Greippinen, hieman yhteinen. Tasapainoinen									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/pooli/checkin/414588294" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_06/ac3a723451f69c63c5b371431504a67e_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/pooli/checkin/414588294" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Feb 2017 17:16:12 +0000</a>
+							<a href="/user/pooli/checkin/414588294" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="FlyingDutchmanNomadBrewing" href="/brewery/75189" title="Flying Dutchman" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/site/brewery_logos/brewery-75189_3118e.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+																		<div class="comment" id="comment_31950093">
+											<div class="avatar">
+												<div class="avatar-holder">
+																											<a href="/brewery/75189">
+														<img class="lazy" data-original="https://untappd.akamaized.net/site/brewery_logos/brewery-75189_3118e.jpeg" alt="Flying Dutchman">
+													</a>
+												</div>
+											</div>
+											<div class="text">
+												<p>
+													<a href="/brewery/75189">Flying Dutchman</a>: 
+													Thanks Matias! Good feedback :)												</p>
+												<p class="meta">
+													<span class="time timezoner">Tue, 07 Feb 2017 09:46:32 +0000</span>
+																									</p>
+											</div>
+										</div>
+																	</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/pooli" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pooli/badges/175551985" title="2X" ><span><img src="https://untappd.akamaized.net/badges/bdg_2xCore_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pooli/badges/175530579" title="Beer Gathering" ><span><img src="https://untappd.akamaized.net/badges/bdg_beerGathering_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pooli/badges/162676831" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pooli/badges/160089984" title="Merry Brew-mas (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Christmas2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pooli/badges/160089985" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pooli/badges/156399538" title="Sky's the Limit" ><span><img src="https://untappd.akamaized.net/badges/bdg_highABV_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pooli/badges/153672890" title="Find the Source" ><span><img src="https://untappd.akamaized.net/badges/bdg_findSource_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pooli/badges/153672889" title="Beer-giving (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Thanksgiving2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pooli/badges/151607494" title="Cheers To You!" ><span><img src="https://untappd.akamaized.net/badges/bdg_HeresToYou_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pooli/badges/162676832" title="Riding Steady (Level 3)" ><span><img src="https://untappd.akamaized.net/badges/bdg_RidingSteady_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pooli/badges/150181888" title="Veterans Day (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_VeteransDay2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/pooli/badges/149405891" title="Liquid Lunch" ><span><img src="https://untappd.akamaized.net/badges/bdg_LiquidLunch_md.jpg"></span></a>
+                <p class="more"><a href="/user/pooli/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/carlsberg-sverige-carnegie-porter/107" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-CarnegiePorter_107.jpeg"><p>
+	    				<span class="name">Carnegie Porter</span>
+                        <span class="brewery">Carlsberg Sverige</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/koskipanimo-plevnan-weizenbock/425831" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Plevnan Weizenbock</span>
+                        <span class="brewery">Koskipanimo</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/mustan-virran-panimo-pistolekors-porter/1896428" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1896428_332f4_sm.jpeg"><p>
+	    				<span class="name">Pistolekors Porter</span>
+                        <span class="brewery">Mustan Virran Panimo</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/radbrew-sandstone/947501" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-947501_3e5e0_sm.jpeg"><p>
+	    				<span class="name">Sandstone</span>
+                        <span class="brewery">Radbrew</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/humalove-brewing-winter-moo/1804553" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1804553_3842b_sm.jpeg"><p>
+	    				<span class="name">Winter Moo</span>
+                        <span class="brewery">Humalove Brewing</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/pooli/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/liljalaakson-leikkipaikka/3377684" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/playground_bg_88.png"><p>
+    	    				<span class="name">Liljalaakson leikkipaikka</span>
+    	    				<span class="location">Turku, Varsinais-Suomen maakunta                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/alko-oy/4539795" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/winery_bg_88.png"><p>
+    	    				<span class="name">Alko Oy</span>
+    	    				    	    			</p>
+    	    		</a>
+        			        			<a href="/v/liljanlaakso/4006228" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/lake_bg_88.png"><p>
+    	    				<span class="name">Liljanlaakso</span>
+    	    				    	    			</p>
+    	    		</a>
+        			        			<a href="/v/old-bank/259601" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Old Bank</span>
+    	    				<span class="location">Turku, Varsinais-Suomen maakunta                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/liljalaakso/3806713" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png"><p>
+    	    				<span class="name">Liljalaakso</span>
+    	    				<span class="location">Turku, Varsinais-Suomen maakunta                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/pooli/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    		<div class="box">
+    	<div class="content">
+            <h3>Wish List</h3>    			<a href="/b/coolhead-brew-ipanema/1527950" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1527950_8cb1f_sm.jpeg"><p>
+	    				<span class="name">IPAnema</span>
+                        <span class="brewery">CoolHead Brew</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/stadin-panimo-south-pacific-ipl/1727072" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">South Pacific IPL</span>
+                        <span class="brewery">Stadin Panimo</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/pohjala-pohja-konn/769283" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-769283_d462c_sm.jpeg"><p>
+	    				<span class="name">Põhja Konn</span>
+                        <span class="brewery">Põhjala</span>	    			</p>
+	    		</a>
+    			    	</div>
+	</div>
+	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/RekolanPanimo" title="Rekolan Panimo" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-RekolanPanimo_35196.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/MustanVirranPanimo" title="Mustan Virran Panimo Oy" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-253831_e0f92.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/OppigardsBryggeri" title="Oppigårds Bryggeri" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-4920_a1e2d.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/SuomenlinnanPanimo" title="Suomenlinnan Panimo" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-SuomenlinnanPanimo_5204_dfe5f.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/SideshowBrewery" title="Sideshow Brewery / Brewcats " ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-216159_024b5.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Schlenkerla-Brewery" title="Schlenkerla" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-2001_78248.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Humalove" title="Humalove" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-167148_ff5e8.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/FlyingDutchmanNomadBrewing" title="Flying Dutchman" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-75189_3118e.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Tyris" title="Tyris" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-27690_9f2f6.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/flyingdog" title="Flying Dog Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-540_27433.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/salopian-brewery" title="Salopian Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-1096_7940e.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/KimitoBrewing" title="Kimito Brewing" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-256808_eff58.jpeg"></span></a>
+                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/viewLikeHistory" href="/user/pooli/likes">See All Likes</a></p>                </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

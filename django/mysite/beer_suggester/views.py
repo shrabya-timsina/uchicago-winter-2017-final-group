@@ -7,6 +7,9 @@ from django import forms
 import pandas as pd
 import bs4
 import urllib3
+from data_analysis_copy import get_suggestions_from_topk
+
+
 
 COLUMN_NAMES = dict(
         beer_id='Beer ID',
@@ -26,7 +29,8 @@ def index(request):
         if form.is_valid():
             context['valid_form'] = True
             if form.cleaned_data['username']:
-                beer_suggestions_df = get_beer_suggestions(form.cleaned_data['username'])
+                beer_suggestions_df = get_suggestions_from_topk(form.cleaned_data['username'], 5)
+                ##### FIX THIS HARDCODE - CHECK IF USERNAME IN DATABASE #####
                 if form.cleaned_data['username']=="waddup": beer_suggestions_df = None
             else:
                beer_suggestions_df = None 
@@ -43,13 +47,16 @@ def index(request):
         pm = urllib3.PoolManager()
         image_column = []
         for i, beer in beer_suggestions_df.iterrows():
-            name_url_section = "-".join(beer['Name'].lower().split())
-            brewery__url_section = "-".join(beer['Brewery'].lower().split())
-            myurl = "https://untappd.com/b/" +  brewery__url_section + "-" + name_url_section + "/" + str(beer['ID'])
+            name_url_section = "-".join(beer['name'].lower().split())
+            brewery__url_section = "-".join(beer['brewery'].lower().split())
+            myurl = "https://untappd.com/b/" +  brewery__url_section + "-" + name_url_section + "/" + str(beer['beer_id'])
             html = pm.urlopen(url=myurl, method="GET").data
             soup = bs4.BeautifulSoup(html, "lxml")
             tag_list = soup.find("div", "basic")
-            image_link = tag_list.find("img")["src"]
+            #if type(tag_list) is None:
+            image_link = "no image"
+            #else:
+            #    image_link = tag_list.find("img")["src"]
             image_column.append(image_link)
         beer_suggestions_df["Image"] = image_column
         
@@ -58,31 +65,12 @@ def index(request):
         context['beers'] = beer_suggestions_df.values.tolist()
         context['num_results'] = len(beer_suggestions_df.values.tolist())
         
-        
-
-
-
-
-
     context['form'] = form
-
-
 
     return render(request, 'index.html', context)
 
 class Input_form(forms.Form):
     username = forms.CharField(label='Utappd Usename', help_text = 'e.g. Hanz84', required=True)
-
-
-
-def get_beer_suggestions(username):
-    # https://untappd.com/b/goose-island-beer-co-goose-ipa/1353
-    beer_name = ["Goose IPA", "IPA"]
-    beer_id = [1353,4509]
-    brewery = ["Goose Island Beer Co.", "Lagunitas Brewing Company"]
-    beer_df = pd.DataFrame({"ID":beer_id, "Name": beer_name, "Brewery": brewery})
-    return beer_df
-
 
 
 #this function needs to be customized

@@ -1,0 +1,1256 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 19:53:56 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 60003
+set-cookie: untappd_com_site_v2=8d96df5f7bb07edec38229b5616de926; expires=Wed, 08-Mar-2017 07:53:56 GMT; Max-Age=43200; path=/, ut_anon=3751236e-02ce-49b1-ac83-a1cd90b7d00f; expires=Mon, 08-Jul-3016 19:53:56 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/jimmydavis5
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Jimmy D. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Jimmy D. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Jimmy D. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/jimmydavis5">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/jimmydavis5">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="1142595" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_300x300.jpg">
+					</div>
+				</div><div class="info">
+					<h1>Jimmy D.</h1>
+					<span class="username">jimmydavis5</span>
+					<span class="location"></span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+												<p>
+								<a class="tw track-click" target="_blank" data-track="profile" data-href=":twitter" href="https://twitter.com/jimmydavis5">Twitter</a>
+							</p>
+											</div>
+				<div class="stats">
+											<a href="/user/jimmydavis5" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">481</span>
+							<span class="title">Total</span>
+						</a><a href="/user/jimmydavis5/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">394</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/jimmydavis5/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">280</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/jimmydavis5/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">15</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/jimmydavis5/checkin/395719773"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2016_12_19/a9b3f8f2056e5aeab59660a352c69bde_320x320.jpg" /></a></p><p><a href="/user/jimmydavis5/checkin/393395888"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2016_12_13/2aaec24b7afaf5182ae311d2bdfdc72b_320x320.jpg" /></a></p><p><a href="/user/jimmydavis5/checkin/392183376"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2016_12_10/5fced916576889e78edb7fe36942bdd2_320x320.jpg" /></a></p><p><a href="/user/jimmydavis5/checkin/390923261"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2016_12_06/c4166066a64847f9ac0d9a07eec4cd78_320x320.jpg" /></a></p><p><a href="/user/jimmydavis5/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2016_11_04/7d35e77780275a0ef5e2513871135a40_320x320.jpg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Jimmy's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_424415724" data-checkin-id="424415724">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-last-of-the-bodhicans/1977225" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Noble Ale Works by Last of the Bodhicans">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking a <a href="/b/noble-ale-works-last-of-the-bodhicans/1977225">Last of the Bodhicans</a> by <a  href="/w/noble-ale-works/6377">Noble Ale Works</a> at <a href="/v/noble-ale-works/6860">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_regular_sm.jpg" alt="The Regular">
+											<span>Earned the The Regular badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424415724" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 23:36:32 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424415724" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424414947" data-checkin-id="424414947">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-not-as-bomb-as-last-time/1980021" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Noble Ale Works by Not As Bomb As Last Time">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking a <a href="/b/noble-ale-works-not-as-bomb-as-last-time/1980021">Not As Bomb As Last Time</a> by <a  href="/w/noble-ale-works/6377">Noble Ale Works</a> at <a href="/v/noble-ale-works/6860">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424414947" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 23:35:48 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424414947" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424404111" data-checkin-id="424404111">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-peanut-butter-face/1977198" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Noble Ale Works by Peanut Butter Face">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking a <a href="/b/noble-ale-works-peanut-butter-face/1977198">Peanut Butter Face</a> by <a  href="/w/noble-ale-works/6377">Noble Ale Works</a> at <a href="/v/noble-ale-works/6860">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_VerifiedVenue_sm.jpg" alt="Verified Adventure (Level 8)">
+											<span>Earned the Verified Adventure (Level 8) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424404111" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 23:24:52 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424404111" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424366113" data-checkin-id="424366113">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-drops-of-jupiter/1977215" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Noble Ale Works by Drops of Jupiter">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking a <a href="/b/noble-ale-works-drops-of-jupiter/1977215">Drops of Jupiter</a> by <a  href="/w/noble-ale-works/6377">Noble Ale Works</a> at <a href="/v/noble-ale-works/6860">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424366113" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 22:47:23 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424366113" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424360125" data-checkin-id="424360125">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-good-googly-moogly/1930329" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Noble Ale Works by Good Googly Moogly">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking a <a href="/b/noble-ale-works-good-googly-moogly/1930329">Good Googly Moogly</a> by <a  href="/w/noble-ale-works/6377">Noble Ale Works</a> at <a href="/v/noble-ale-works/6860">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424360125" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 22:41:27 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424360125" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424316083" data-checkin-id="424316083">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-canniversary-w-hambela-coffee/1977196" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Noble Ale Works by Canniversary W/ Hambela Coffee">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking a <a href="/b/noble-ale-works-canniversary-w-hambela-coffee/1977196">Canniversary W/ Hambela Coffee</a> by <a  href="/w/noble-ale-works/6377">Noble Ale Works</a> at <a href="/v/noble-ale-works/6860">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_hoptopia_sm.jpg" alt="I Believe in IPA!  (Level 11)">
+											<span>Earned the I Believe in IPA!  (Level 11) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424316083" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 21:57:26 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424316083" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424296518" data-checkin-id="424296518">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-i-m-super-duper-cereal-about-cocoa-puffs/1977206" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Noble Ale Works by I'm Super Duper Cereal About Cocoa Puffs">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking an <a href="/b/noble-ale-works-i-m-super-duper-cereal-about-cocoa-puffs/1977206">I'm Super Duper Cereal About Cocoa Puffs</a> by <a  href="/w/noble-ale-works/6377">Noble Ale Works</a> at <a href="/v/noble-ale-works/6860">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424296518" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 21:38:08 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424296518" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424296064" data-checkin-id="424296064">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-i-m-super-duper-cereal-about-cocoa-puffs/1977206" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Noble Ale Works by I'm Super Duper Cereal About Cocoa Puffs">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking an <a  href="/b/noble-ale-works-i-m-super-duper-cereal-about-cocoa-puffs/1977206">I'm Super Duper Cereal About Cocoa Puffs</a> by <a href="/w/noble-ale-works/6377">Noble Ale Works</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424296064" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 21:37:41 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424296064" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424268342" data-checkin-id="424268342">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-double-platinum/1935379" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1935379_f237b_sm.jpeg" alt="Noble Ale Works by Double Platinum">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking a <a href="/b/noble-ale-works-double-platinum/1935379">Double Platinum</a> by <a  href="/w/noble-ale-works/6377">Noble Ale Works</a> at <a href="/v/noble-ale-works/6860">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_VerifiedVenue_sm.jpg" alt="Verified Adventure (Level 7)">
+											<span>Earned the Verified Adventure (Level 7) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424268342" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 21:10:14 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424268342" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424262014" data-checkin-id="424262014">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-canniversary/1977195" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1977195_6ec70_sm.jpeg" alt="Noble Ale Works by CANniversary">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking a <a href="/b/noble-ale-works-canniversary/1977195">CANniversary</a> by <a  href="/w/noble-ale-works/6377">Noble Ale Works</a> at <a href="/v/noble-ale-works/6860">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424262014" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 21:04:00 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424262014" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424242451" data-checkin-id="424242451">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-french-toast-crunch/1977216" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Noble Ale Works by French Toast Crunch">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking a <a href="/b/noble-ale-works-french-toast-crunch/1977216">French Toast Crunch</a> by <a  href="/w/noble-ale-works/6377">Noble Ale Works</a> at <a href="/v/noble-ale-works/6860">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_heavyWeight_sm.jpg" alt="Heavy Weight  (Level 31)">
+											<span>Earned the Heavy Weight  (Level 31) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_UdderlySweet_sm.jpg" alt="So Udderly Sweet">
+											<span>Earned the So Udderly Sweet badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424242451" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 20:44:40 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424242451" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424241749" data-checkin-id="424241749">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-bean-bump/583382" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Noble Ale Works by Bean Bump">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking a <a href="/b/noble-ale-works-bean-bump/583382">Bean Bump</a> by <a  href="/w/noble-ale-works/6377">Noble Ale Works</a> at <a href="/v/noble-ale-works/6860">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_highABV_sm.jpg" alt="Sky's the Limit (Level 34)">
+											<span>Earned the Sky's the Limit (Level 34) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424241749" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 20:43:59 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424241749" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424229104" data-checkin-id="424229104">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-lebowski-s-white-russian/509790" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Noble Ale Works by Lebowski's White Russian">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking a <a  href="/b/noble-ale-works-lebowski-s-white-russian/509790">Lebowski's White Russian</a> by <a href="/w/noble-ale-works/6377">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424229104" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 20:31:49 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424229104" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424228370" data-checkin-id="424228370">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-yoga-pantz/857280" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Noble Ale Works by Yoga Pantz">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking a <a href="/b/noble-ale-works-yoga-pantz/857280">Yoga Pantz</a> by <a  href="/w/noble-ale-works/6377">Noble Ale Works</a> at <a href="/v/noble-ale-works/6860">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424228370" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 20:31:06 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424228370" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424213970" data-checkin-id="424213970">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/jimmydavis5">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/bcd3142b9ded9f10892223625fa1591f_100x100.jpg" alt="Jimmy D.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/noble-ale-works-sailor-mom/1961816" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Noble Ale Works by Sailor Mom">
+							</a>
+														<p class="text">
+								<a href="/user/jimmydavis5" class="user">Jimmy D.</a>  is drinking a <a href="/b/noble-ale-works-sailor-mom/1961816">Sailor Mom</a> by <a  href="/w/noble-ale-works/6377">Noble Ale Works</a> at <a href="/v/noble-ale-works/6860">Noble Ale Works</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_VerifiedVenue_sm.jpg" alt="Verified Adventure (Level 6)">
+											<span>Earned the Verified Adventure (Level 6) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_2xCore_sm.jpg" alt="2X (Level 8)">
+											<span>Earned the 2X (Level 8) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/jimmydavis5/checkin/424213970" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 20:17:03 +0000</a>
+							<a href="/user/jimmydavis5/checkin/424213970" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/jimmydavis5" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/jimmydavis5/badges/175612562" title="The Regular" ><span><img src="https://untappd.akamaized.net/badges/bdg_regular_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/jimmydavis5/badges/175521503" title="So Udderly Sweet" ><span><img src="https://untappd.akamaized.net/badges/bdg_UdderlySweet_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/jimmydavis5/badges/170295121" title="Brew Bowl LI" ><span><img src="https://untappd.akamaized.net/badges/bdg_SuperBowlLI_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/jimmydavis5/badges/164354004" title="Bourbon County Black Friday (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_BCS2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/jimmydavis5/badges/163810776" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/jimmydavis5/badges/161922510" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/jimmydavis5/badges/175606587" title="Verified Adventure (Level 8)" ><span><img src="https://untappd.akamaized.net/badges/bdg_VerifiedVenue_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/jimmydavis5/badges/153966681" title="Beer-giving (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Thanksgiving2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/jimmydavis5/badges/151833283" title="It’s 9am Somewhere" ><span><img src="https://untappd.akamaized.net/badges/bdg_Founders9amStout_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/jimmydavis5/badges/151833287" title="Cheers To You! (Level 2)" ><span><img src="https://untappd.akamaized.net/badges/bdg_HeresToYou_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/jimmydavis5/badges/150036089" title="Veterans Day (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_VeteransDay2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/jimmydavis5/badges/148143665" title="Stout Day (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_StoutDay2016_md.jpg"></span></a>
+                <p class="more"><a href="/user/jimmydavis5/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/goose-island-beer-co-bourbon-county-brand-stout/8343" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-8343_f9b52_sm.jpeg"><p>
+	    				<span class="name">Bourbon County Brand Stout</span>
+                        <span class="brewery">Goose Island Beer Co.</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/founders-brewing-co-kentucky-breakfast-stout-kbs-2016-12-4/1441473" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-FoundersKBS.jpg"><p>
+	    				<span class="name">Kentucky Breakfast Stout (KBS) (2016) 12.4%</span>
+                        <span class="brewery">Founders Brewing Co.</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/firestone-walker-brewing-company-stickee-monkee-2014/673158" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-673158_07337_sm.jpeg"><p>
+	    				<span class="name">Stickee Monkee (2014)</span>
+                        <span class="brewery">Firestone Walker Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/firestone-walker-brewing-company-helldorado/87275" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1145077_4e61b_sm.jpeg"><p>
+	    				<span class="name">Helldorado</span>
+                        <span class="brewery">Firestone Walker Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/the-bruery-floyd-d-rue/655970" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-655970_05f53_sm.jpeg"><p>
+	    				<span class="name">Floyd D'Rue</span>
+                        <span class="brewery">The Bruery</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/jimmydavis5/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/the-bruery/308416" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://untappd.akamaized.net/venuelogos/venue_308416_c6d9a9f7_bg_88.png"><p>
+    	    				<span class="name">The Bruery</span>
+    	    				<span class="location">Placentia, CA                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/yard-house/26267" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/default_bg_88.png"><p>
+    	    				<span class="name">Yard House</span>
+    	    				<span class="location">Brea, CA                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/lillies-q/2364522" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/bbqalt_bg_88.png"><p>
+    	    				<span class="name">Lillie's Q</span>
+    	    				<span class="location">Brea, CA                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/noble-ale-works/6860" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://untappd.akamaized.net/venuelogos/venue_6860_e09e3410_bg_88.png"><p>
+    	    				<span class="name">Noble Ale Works</span>
+    	    				<span class="location">Anaheim, CA                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/bottle-logic-brewing/1222759" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://untappd.akamaized.net/venuelogos/venue_1222759_67a42081_bg_88.png"><p>
+    	    				<span class="name">Bottle Logic Brewing</span>
+    	    				<span class="location">Anaheim, CA                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/jimmydavis5/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/firestonewalker" title="Firestone Walker Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-FirestoneWalkerBrewingCompany_524.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/thebruery" title="The Bruery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-thebruery_1246.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/noblealeworks" title="Noble Ale Works" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-6377_180b1.jpeg"></span></a>
+                                        </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

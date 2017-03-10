@@ -1,0 +1,1295 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 18:53:00 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 62169
+set-cookie: untappd_com_site_v2=1c770ee8ddac75a161e0a76d31cfd717; expires=Wed, 08-Mar-2017 06:53:00 GMT; Max-Age=43200; path=/, ut_anon=0e116224-d292-4450-9199-62059c48c609; expires=Mon, 08-Jul-3016 18:53:00 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/michelraveyts
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>michel r. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="michel r. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="michel r. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/michelraveyts">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/michelraveyts">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="3302464" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=125&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+					</div>
+				</div><div class="info">
+					<h1>michel r.</h1>
+					<span class="username">michelraveyts</span>
+					<span class="location"></span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+									</div>
+				<div class="stats">
+											<a href="/user/michelraveyts" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">119</span>
+							<span class="title">Total</span>
+						</a><a href="/user/michelraveyts/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">97</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/michelraveyts/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">69</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/michelraveyts/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">3</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/michelraveyts/checkin/340086505"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2016_07_24/ebf9a8364a96c7feddb3bc152ca4d365_320x320.jpeg" /></a></p><p><a href="/user/michelraveyts/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2016_07_14/76a5da5b855ad2283973e7e45dd139aa_320x320.jpeg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>michel's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425292970" data-checkin-id="425292970">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brasserie-d-orval-orval/851" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_851_sm_dea4336507303b85f2bd4d5fa3faf9.jpeg" alt="Brasserie d'Orval by Orval">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking an <a  href="/b/brasserie-d-orval-orval/851">Orval</a> by <a href="/w/brasserie-dorval/169">Brasserie d'Orval</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r325"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_trappist_sm.jpg" alt="Trappist Travesty">
+											<span>Earned the Trappist Travesty badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/425292970" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 11:32:17 +0000</a>
+							<a href="/user/michelraveyts/checkin/425292970" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425292909" data-checkin-id="425292909">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-het-nest-schuppenboer-tripel/176591" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-SchuppenboerTripel_176591.jpeg" alt="Brouwerij Het Nest by SchuppenBoer Tripel">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking a <a  href="/b/brouwerij-het-nest-schuppenboer-tripel/176591">SchuppenBoer Tripel</a> by <a href="/w/brouwerij-het-nest/17937">Brouwerij Het Nest</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/425292909" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 11:29:48 +0000</a>
+							<a href="/user/michelraveyts/checkin/425292909" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425292892" data-checkin-id="425292892">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-het-nest-koekedam/585634" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-585634_sm.jpeg" alt="Brouwerij Het Nest by KoekeDam">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking a <a  href="/b/brouwerij-het-nest-koekedam/585634">KoekeDam</a> by <a href="/w/brouwerij-het-nest/17937">Brouwerij Het Nest</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/425292892" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 11:28:56 +0000</a>
+							<a href="/user/michelraveyts/checkin/425292892" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423231952" data-checkin-id="423231952">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/de-struise-brouwers-xxx-rye-quad-reserva-bourbon-barrel-aged/507669" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-507669_17524_sm.jpeg" alt="De Struise Brouwers by XXX Rye Quad Reserva Bourbon Barrel Aged">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking a <a  href="/b/de-struise-brouwers-xxx-rye-quad-reserva-bourbon-barrel-aged/507669">XXX Rye Quad Reserva Bourbon Barrel Aged</a> by <a href="/w/de-struise-brouwers/433">De Struise Brouwers</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r475"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_MardiGras2017_sm.jpg" alt="Mardi Gras (2017)">
+											<span>Earned the Mardi Gras (2017) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/423231952" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 19:02:36 +0000</a>
+							<a href="/user/michelraveyts/checkin/423231952" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_411895591" data-checkin-id="411895591">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-de-hoorn-cornet/828399" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-828399_0a1a7_sm.jpeg" alt="Brouwerij De Hoorn by Cornet">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking a <a  href="/b/brouwerij-de-hoorn-cornet/828399">Cornet</a> by <a href="/w/brouwerij-de-hoorn/150230">Brouwerij De Hoorn</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/411895591" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 30 Jan 2017 17:04:09 +0000</a>
+							<a href="/user/michelraveyts/checkin/411895591" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_411895560" data-checkin-id="411895560">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/bieren-cabardouche-blonde-stoot/438235" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-438235_69508_sm.jpeg" alt="Bieren Cabardouche by Blonde Stoot">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking a <a  href="/b/bieren-cabardouche-blonde-stoot/438235">Blonde Stoot</a> by <a href="/w/bieren-cabardouche/78226">Bieren Cabardouche</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_FieldsOfGold_sm.jpg" alt="Fields of Gold (Level 5)">
+											<span>Earned the Fields of Gold (Level 5) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/411895560" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 30 Jan 2017 17:03:45 +0000</a>
+							<a href="/user/michelraveyts/checkin/411895560" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_410844197" data-checkin-id="410844197">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/abbaye-de-leffe-leffe-royale-mount-hood/1313494" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Abbaye de Leffe by Leffe Royale Mount Hood">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking a <a  href="/b/abbaye-de-leffe-leffe-royale-mount-hood/1313494">Leffe Royale Mount Hood</a> by <a href="/w/abbaye-de-leffe/5">Abbaye de Leffe</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/410844197" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 28 Jan 2017 16:13:35 +0000</a>
+							<a href="/user/michelraveyts/checkin/410844197" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_410349172" data-checkin-id="410349172">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-alken-maes-grimbergen-blonde/2" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-GrimbergenBlonde_2.jpeg" alt="Brouwerij Alken-Maes by Grimbergen Blonde">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking a <a  href="/b/brouwerij-alken-maes-grimbergen-blonde/2">Grimbergen Blonde</a> by <a href="/w/brouwerij-alken-maes/264">Brouwerij Alken-Maes</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/410349172" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 27 Jan 2017 18:34:59 +0000</a>
+							<a href="/user/michelraveyts/checkin/410349172" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_410310870" data-checkin-id="410310870">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/de-struise-brouwers-xxx-rye-quad-reserva-bourbon-barrel-aged/507669" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-507669_17524_sm.jpeg" alt="De Struise Brouwers by XXX Rye Quad Reserva Bourbon Barrel Aged">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking a <a  href="/b/de-struise-brouwers-xxx-rye-quad-reserva-bourbon-barrel-aged/507669">XXX Rye Quad Reserva Bourbon Barrel Aged</a> by <a href="/w/de-struise-brouwers/433">De Struise Brouwers</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r475"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/410310870" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 27 Jan 2017 16:07:10 +0000</a>
+							<a href="/user/michelraveyts/checkin/410310870" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_410310824" data-checkin-id="410310824">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/dorpsbrouwerij-humulus-arendonker-tripel/252319" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Dorpsbrouwerij Humulus by Arendonker Tripel">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking an <a  href="/b/dorpsbrouwerij-humulus-arendonker-tripel/252319">Arendonker Tripel</a> by <a href="/w/dorpsbrouwerij-humulus/43429">Dorpsbrouwerij Humulus</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_belgianHoliday_sm.jpg" alt="Belgian Holiday  (Level 15)">
+											<span>Earned the Belgian Holiday  (Level 15) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_DubTripQuad_sm.jpg" alt="Dubbel, Tripel and Quad Oh My! (Level 4)">
+											<span>Earned the Dubbel, Tripel and Quad Oh My! (Level 4) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/410310824" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 27 Jan 2017 16:06:46 +0000</a>
+							<a href="/user/michelraveyts/checkin/410310824" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_409407309" data-checkin-id="409407309">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brussels-beer-project-babylone/1014118" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1014118_dd4a7_sm.jpeg" alt="Brussels Beer Project by Babylone">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking a <a  href="/b/brussels-beer-project-babylone/1014118">Babylone</a> by <a href="/w/brussels-beer-project/68062">Brussels Beer Project</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r325"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/409407309" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 23 Jan 2017 16:54:08 +0000</a>
+							<a href="/user/michelraveyts/checkin/409407309" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_406937991" data-checkin-id="406937991">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brussels-beer-project-delta-ipa/383088" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-383088_eda08_sm.jpeg" alt="Brussels Beer Project by Delta IPA">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking a <a  href="/b/brussels-beer-project-delta-ipa/383088">Delta IPA</a> by <a href="/w/brussels-beer-project/68062">Brussels Beer Project</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r275"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/406937991" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 16 Jan 2017 16:33:09 +0000</a>
+							<a href="/user/michelraveyts/checkin/406937991" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_402116314" data-checkin-id="402116314">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-boon-oude-geuze-boon/15036" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-15036_71978_sm.jpeg" alt="Brouwerij Boon by Oude Geuze Boon">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking an <a  href="/b/brouwerij-boon-oude-geuze-boon/15036">Oude Geuze Boon</a> by <a href="/w/brouwerij-boon/268">Brouwerij Boon</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/402116314" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 02 Jan 2017 13:58:22 +0000</a>
+							<a href="/user/michelraveyts/checkin/402116314" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_401771551" data-checkin-id="401771551">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/de-proefbrouwerij-gageleer/109194" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-109194_0dc48_sm.jpeg" alt="De Proefbrouwerij by Gageleer">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking a <a href="/b/de-proefbrouwerij-gageleer/109194">Gageleer</a> by <a  href="/w/de-proefbrouwerij/432">De Proefbrouwerij</a> at <a href="/v/isc/5605612">I.S.C.</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_NewYears2017_sm.jpg?v=1" alt="Happy Brew Year (2017)">
+											<span>Earned the Happy Brew Year (2017) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_goingPlaces_sm.jpg" alt="Bar Explorer (Level 3)">
+											<span>Earned the Bar Explorer (Level 3) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/401771551" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 01 Jan 2017 15:34:29 +0000</a>
+							<a href="/user/michelraveyts/checkin/401771551" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_400442155" data-checkin-id="400442155">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/michelraveyts">
+							<img class="lazy" data-original="https://gravatar.com/avatar/bbd0e8fd51c8eb4742f25511d84e4550?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="michel r.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/buxton-brewery-rain-shadow/851559" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-851559_519e9_sm.jpeg" alt="Buxton Brewery by Rain Shadow">
+							</a>
+														<p class="text">
+								<a href="/user/michelraveyts" class="user">michel r.</a>  is drinking a <a href="/b/buxton-brewery-rain-shadow/851559">Rain Shadow</a> by <a  href="/w/buxton-brewery/3461">Buxton Brewery</a> at <a href="/v/beerlovers-bar/4945387">Beerlovers Bar </a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_heavyWeight_sm.jpg" alt="Heavy Weight (Level 2)">
+											<span>Earned the Heavy Weight (Level 2) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_HoppedUp_sm.jpg" alt="Hopped Up">
+											<span>Earned the Hopped Up badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_WheelofStyles_sm.jpg" alt="Wheel of Styles (Level 6)">
+											<span>Earned the Wheel of Styles (Level 6) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/michelraveyts/checkin/400442155" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 30 Dec 2016 20:00:00 +0000</a>
+							<a href="/user/michelraveyts/checkin/400442155" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/michelraveyts" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/michelraveyts/badges/176054403" title="Trappist Travesty" ><span><img src="https://untappd.akamaized.net/badges/bdg_trappist_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/michelraveyts/badges/174913308" title="Mardi Gras (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_MardiGras2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/michelraveyts/badges/163409684" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/michelraveyts/badges/162360111" title="Hopped Up" ><span><img src="https://untappd.akamaized.net/badges/bdg_HoppedUp_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/michelraveyts/badges/162345724" title="Beer Gathering" ><span><img src="https://untappd.akamaized.net/badges/bdg_beerGathering_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/michelraveyts/badges/162001274" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/michelraveyts/badges/153316356" title="Lager Jack" ><span><img src="https://untappd.akamaized.net/badges/bdg_LagerJack_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/michelraveyts/badges/153315703" title="Beer-giving (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Thanksgiving2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/michelraveyts/badges/150128754" title="Veterans Day (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_VeteransDay2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/michelraveyts/badges/147347828" title="Witch's Brew (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Halloween2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/michelraveyts/badges/145442895" title="Untappd 6th Anniversary" ><span><img src="https://untappd.akamaized.net/badges/bdg_UTAnniversary6_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/michelraveyts/badges/162360110" title="Heavy Weight (Level 2)" ><span><img src="https://untappd.akamaized.net/badges/bdg_heavyWeight_md.jpg"></span></a>
+                <p class="more"><a href="/user/michelraveyts/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/evil-twin-brewing-even-more-jesus/145448" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-145448_fe40c_sm.jpeg"><p>
+	    				<span class="name">Even More Jesus</span>
+                        <span class="brewery">Evil Twin Brewing</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/de-struise-brouwers-xxx-rye-quad-reserva-bourbon-barrel-aged/507669" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-507669_17524_sm.jpeg"><p>
+	    				<span class="name">XXX Rye Quad Reserva Bourbon Barrel Aged</span>
+                        <span class="brewery">De Struise Brouwers</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/pohjala-odravein-port-and-cognac-cellar-series/1505701" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1505701_4ad20_sm.jpeg"><p>
+	    				<span class="name">Odravein Port & Cognac (Cellar Series)</span>
+                        <span class="brewery">Põhjala</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/inglorious-brew-stars-inglorious-quad-whisky-barrel-aged-batch-1-the-belgian-owl/1412752" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1412752_8ac2e_sm.jpeg"><p>
+	    				<span class="name">Inglorious Quad Whisky Barrel Aged Batch #1 - The Belgian Owl</span>
+                        <span class="brewery">Inglorious Brew Stars</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/inglorious-brew-stars-inglorious-quad/847254" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-847254_65640_sm.jpeg"><p>
+	    				<span class="name">Inglorious Quad</span>
+                        <span class="brewery">Inglorious Brew Stars</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/michelraveyts/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/beerlovers-bar/4945387" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://untappd.akamaized.net/venuelogos/venue_4945387_b37ce696_bg_88.png"><p>
+    	    				<span class="name">Beerlovers Bar </span>
+    	    				<span class="location">Antwerpen, Antwerpen                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/bar-salon/4941689" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Bar Salon</span>
+    	    				<span class="location">Antwerpen, Antwerpen                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/annecy/150565" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png"><p>
+    	    				<span class="name">Annecy</span>
+    	    				    	    			</p>
+    	    		</a>
+        			        			<a href="/v/burcht-hertog-jan/4787366" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/default_bg_88.png"><p>
+    	    				<span class="name">Burcht hertog jan</span>
+    	    				    	    			</p>
+    	    		</a>
+        			        			<a href="/v/oudturnhout/1186336" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png"><p>
+    	    				<span class="name">Oud-Turnhout</span>
+    	    				<span class="location">Antwerpen, Antwerpen                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/michelraveyts/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    		<div class="box">
+    	<div class="content">
+            <h3>Wish List</h3>    			<a href="/b/goose-island-beer-co-bourbon-county-brand-stout/8343" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-8343_f9b52_sm.jpeg"><p>
+	    				<span class="name">Bourbon County Brand Stout</span>
+                        <span class="brewery">Goose Island Beer Co.</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/north-coast-brewing-company-pranqster/1540" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-Pranqster_1540.jpg"><p>
+	    				<span class="name">Pranqster</span>
+                        <span class="brewery">North Coast Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/de-klem-taxandria-porter-stout/1783957" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1783957_3f494_sm.jpeg"><p>
+	    				<span class="name">Taxandria Porter Stout</span>
+                        <span class="brewery">De Klem</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/namibia-breweries-windhoek-lager/9435" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_9435_340d79540968b2c4d38e87b9cdff.jpeg"><p>
+	    				<span class="name">Windhoek Lager</span>
+                        <span class="brewery">Namibia Breweries</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/captain-lawrence-brewing-company-captain-s-kolsch/16345" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-CaptainsKolsch_16345.jpeg"><p>
+	    				<span class="name">Captain's Kölsch</span>
+                        <span class="brewery">Captain Lawrence Brewing Company</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/wishlist" href="/user/michelraveyts/wishlist">See Full Wish List</a></p>
+                            	</div>
+	</div>
+	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/struise" title="De Struise Brouwers" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-DeStruiseBrouwers_433.jpeg"></span></a>
+                                        </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

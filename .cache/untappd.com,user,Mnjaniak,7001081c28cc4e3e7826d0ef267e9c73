@@ -1,0 +1,1280 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 19:33:44 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 65068
+set-cookie: untappd_com_site_v2=48b8a94ebb43fe987b5de515cdef57c2; expires=Wed, 08-Mar-2017 07:33:44 GMT; Max-Age=43200; path=/, ut_anon=d310ca19-93fd-44aa-96b4-155c722f4a63; expires=Mon, 08-Jul-3016 19:33:44 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/Mnjaniak
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Mark J. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Mark J. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Mark J. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/Mnjaniak">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/Mnjaniak">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="2480385" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=125&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+					</div>
+				</div><div class="info">
+					<h1>Mark J.</h1>
+					<span class="username">Mnjaniak</span>
+					<span class="location"></span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+									</div>
+				<div class="stats">
+											<a href="/user/Mnjaniak" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">610</span>
+							<span class="title">Total</span>
+						</a><a href="/user/Mnjaniak/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">538</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/Mnjaniak/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">316</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/Mnjaniak/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">7</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/Mnjaniak/checkin/423162099"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/7c8231e8682ca0263175724c1e106b71_320x320.jpg" /></a></p><p><a href="/user/Mnjaniak/checkin/423161175"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/eb92fbf9f19419bc84d14e9dfccf45c9_320x320.jpg" /></a></p><p><a href="/user/Mnjaniak/checkin/423160888"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/b615204970d8b7296f19c909c1287c5f_320x320.jpg" /></a></p><p><a href="/user/Mnjaniak/checkin/420045952"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_21/45a60e5b74befdd568a5d4026e083134_320x320.jpg" /></a></p><p><a href="/user/Mnjaniak/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_19/5eebcd2e2dc81976699c5ffc6c39df53_320x320.jpg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Mark's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425260100" data-checkin-id="425260100">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/woodland-empire-ale-craft-pilsner/1841427" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Woodland Empire Ale Craft by Pilsner">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a  href="/b/woodland-empire-ale-craft-pilsner/1841427">Pilsner</a> by <a href="/w/woodland-empire-ale-craft/85614">Woodland Empire Ale Craft</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/425260100" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 03:23:58 +0000</a>
+							<a href="/user/Mnjaniak/checkin/425260100" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423973362" data-checkin-id="423973362">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/fire-on-the-mountain-shocks-of-sheba-ipa/109237" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-109237_346ee_sm.jpeg" alt="Fire on the Mountain by Shocks of Sheba IPA">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a href="/b/fire-on-the-mountain-shocks-of-sheba-ipa/109237">Shocks of Sheba IPA</a> by <a  href="/w/fire-on-the-mountain/20294">Fire on the Mountain</a> at <a href="/v/fire-on-the-mountain/18842">Fire on the Mountain</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/423973362" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Mar 2017 06:05:08 +0000</a>
+							<a href="/user/Mnjaniak/checkin/423973362" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423172235" data-checkin-id="423172235">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/the-commons-brewery-depth-of-field/1903093" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="The Commons Brewery by Depth of Field">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a href="/b/the-commons-brewery-depth-of-field/1903093">Depth of Field</a> by <a  href="/w/the-commons-brewery/16191">The Commons Brewery</a> at <a href="/v/the-commons-brewery/134708">The Commons Brewery</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_hoptopia_sm.jpg" alt="I Believe in IPA!  (Level 22)">
+											<span>Earned the I Believe in IPA!  (Level 22) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/423172235" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 05:06:13 +0000</a>
+							<a href="/user/Mnjaniak/checkin/423172235" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423162099" data-checkin-id="423162099">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/the-commons-brewery-walnut/1286134" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="The Commons Brewery by Walnut">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a href="/b/the-commons-brewery-walnut/1286134">Walnut</a> by <a  href="/w/the-commons-brewery/16191">The Commons Brewery</a> at <a href="/v/the-commons-brewery/134708">The Commons Brewery</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_beertography_sm.jpg" alt="Photogenic Brew  (Level 40)">
+											<span>Earned the Photogenic Brew  (Level 40) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/Mnjaniak/checkin/423162099" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/7c8231e8682ca0263175724c1e106b71_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/423162099" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 04:08:24 +0000</a>
+							<a href="/user/Mnjaniak/checkin/423162099" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423161175" data-checkin-id="423161175">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/the-commons-brewery-bourbon-little-brother/108960" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-108960_e60bb_sm.jpeg" alt="The Commons Brewery by Bourbon Little Brother">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a href="/b/the-commons-brewery-bourbon-little-brother/108960">Bourbon Little Brother</a> by <a  href="/w/the-commons-brewery/16191">The Commons Brewery</a> at <a href="/v/the-commons-brewery/134708">The Commons Brewery</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/Mnjaniak/checkin/423161175" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/eb92fbf9f19419bc84d14e9dfccf45c9_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/423161175" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 04:04:18 +0000</a>
+							<a href="/user/Mnjaniak/checkin/423161175" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423160888" data-checkin-id="423160888">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/the-commons-brewery-cold-icy-mountain/942725" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="The Commons Brewery by Cold Icy Mountain">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a href="/b/the-commons-brewery-cold-icy-mountain/942725">Cold Icy Mountain</a> by <a  href="/w/the-commons-brewery/16191">The Commons Brewery</a> at <a href="/v/the-commons-brewery/134708">The Commons Brewery</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/Mnjaniak/checkin/423160888" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/b615204970d8b7296f19c909c1287c5f_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/423160888" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 04:03:02 +0000</a>
+							<a href="/user/Mnjaniak/checkin/423160888" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423123643" data-checkin-id="423123643">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/oregon-mead-and-cider-co-worker-mosaic-sparkling-mead/1197925" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1197925_34648_sm.jpeg" alt="Oregon Mead & Cider Co. by Worker Mosaic Sparkling Mead">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a  href="/b/oregon-mead-and-cider-co-worker-mosaic-sparkling-mead/1197925">Worker Mosaic Sparkling Mead</a> by <a href="/w/stung-fermented/205055">Oregon Mead & Cider Co.</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_bdayBrew_sm.jpg" alt="Birthday Brew">
+											<span>Earned the Birthday Brew badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/423123643" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 02:11:50 +0000</a>
+							<a href="/user/Mnjaniak/checkin/423123643" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="OregonMeadandCider" href="/brewery/205055" title="Oregon Mead & Cider Co." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/site/brewery_logos/brewery-205055_9065c.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422869759" data-checkin-id="422869759">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/ozeki-sake-nigori-cloudy/1853235" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Ozeki Sake by Nigori Cloudy">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a  href="/b/ozeki-sake-nigori-cloudy/1853235">Nigori Cloudy</a> by <a href="/w/ozeki-sake/312433">Ozeki Sake</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_MardiGras2017_sm.jpg" alt="Mardi Gras (2017)">
+											<span>Earned the Mardi Gras (2017) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/422869759" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 01 Mar 2017 01:49:56 +0000</a>
+							<a href="/user/Mnjaniak/checkin/422869759" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422559940" data-checkin-id="422559940">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mother-earth-brew-co-california-roundabout/69938" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Mother Earth Brew Co. (California) by Roundabout">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a href="/b/mother-earth-brew-co-california-roundabout/69938">Roundabout</a> by <a  href="/w/mother-earth-brew-co-california/5092">Mother Earth Brew Co. (California)</a> at <a href="/v/mother-earth-brew-co/295925">Mother Earth Brew Co.</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/422559940" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 27 Feb 2017 20:46:46 +0000</a>
+							<a href="/user/Mnjaniak/checkin/422559940" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422559856" data-checkin-id="422559856">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mother-earth-brew-co-california-born-blonde/1746815" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Mother Earth Brew Co. (California) by Born Blonde">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a href="/b/mother-earth-brew-co-california-born-blonde/1746815">Born Blonde</a> by <a  href="/w/mother-earth-brew-co-california/5092">Mother Earth Brew Co. (California)</a> at <a href="/v/mother-earth-brew-co/295925">Mother Earth Brew Co.</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/422559856" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 27 Feb 2017 20:46:19 +0000</a>
+							<a href="/user/Mnjaniak/checkin/422559856" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422559685" data-checkin-id="422559685">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mother-earth-brew-co-california-honcho-hefe/697126" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-697126_d12e6_sm.jpeg" alt="Mother Earth Brew Co. (California) by Honcho Hefe">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a href="/b/mother-earth-brew-co-california-honcho-hefe/697126">Honcho Hefe</a> by <a  href="/w/mother-earth-brew-co-california/5092">Mother Earth Brew Co. (California)</a> at <a href="/v/mother-earth-brew-co/295925">Mother Earth Brew Co.</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/422559685" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 27 Feb 2017 20:45:29 +0000</a>
+							<a href="/user/Mnjaniak/checkin/422559685" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422559568" data-checkin-id="422559568">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mother-earth-brew-co-california-steel-cut/1387525" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Mother Earth Brew Co. (California) by Steel Cut">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a href="/b/mother-earth-brew-co-california-steel-cut/1387525">Steel Cut</a> by <a  href="/w/mother-earth-brew-co-california/5092">Mother Earth Brew Co. (California)</a> at <a href="/v/mother-earth-brew-co/295925">Mother Earth Brew Co.</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/422559568" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 27 Feb 2017 20:44:53 +0000</a>
+							<a href="/user/Mnjaniak/checkin/422559568" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422559427" data-checkin-id="422559427">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mother-earth-brew-co-california-por-que-no/38569" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Mother Earth Brew Co. (California) by Por Que No?">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a href="/b/mother-earth-brew-co-california-por-que-no/38569">Por Que No?</a> by <a  href="/w/mother-earth-brew-co-california/5092">Mother Earth Brew Co. (California)</a> at <a href="/v/mother-earth-brew-co/295925">Mother Earth Brew Co.</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/422559427" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 27 Feb 2017 20:43:59 +0000</a>
+							<a href="/user/Mnjaniak/checkin/422559427" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422559216" data-checkin-id="422559216">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mother-earth-brew-co-california-cali-creamin/79053" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-CaliCreaminVanillaCreamAle_79053.jpeg" alt="Mother Earth Brew Co. (California) by Cali' Creamin'">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a href="/b/mother-earth-brew-co-california-cali-creamin/79053">Cali' Creamin'</a> by <a  href="/w/mother-earth-brew-co-california/5092">Mother Earth Brew Co. (California)</a> at <a href="/v/mother-earth-brew-co/295925">Mother Earth Brew Co.</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/422559216" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 27 Feb 2017 20:42:56 +0000</a>
+							<a href="/user/Mnjaniak/checkin/422559216" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422559139" data-checkin-id="422559139">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Mnjaniak">
+							<img class="lazy" data-original="https://gravatar.com/avatar/4132ab2ce07e3b574cf794a4a6d74ed1?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Mark J.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mother-earth-brew-co-california-main-street-cream-ale/1227334" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Mother Earth Brew Co. (California) by Main Street Cream Ale">
+							</a>
+														<p class="text">
+								<a href="/user/Mnjaniak" class="user">Mark J.</a>  is drinking a <a href="/b/mother-earth-brew-co-california-main-street-cream-ale/1227334">Main Street Cream Ale</a> by <a  href="/w/mother-earth-brew-co-california/5092">Mother Earth Brew Co. (California)</a> at <a href="/v/mother-earth-brew-co/295925">Mother Earth Brew Co.</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_findSource_sm.jpg" alt="Find the Source (Level 6)">
+											<span>Earned the Find the Source (Level 6) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_CreamCore_sm.jpg" alt="Cream of the Crop">
+											<span>Earned the Cream of the Crop badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Mnjaniak/checkin/422559139" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 27 Feb 2017 20:42:34 +0000</a>
+							<a href="/user/Mnjaniak/checkin/422559139" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/Mnjaniak" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Mnjaniak/badges/174824341" title="Birthday Brew" ><span><img src="https://untappd.akamaized.net/badges/bdg_bdayBrew_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Mnjaniak/badges/174606598" title="Mardi Gras (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_MardiGras2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Mnjaniak/badges/174371026" title="Cream of the Crop" ><span><img src="https://untappd.akamaized.net/badges/bdg_CreamCore_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Mnjaniak/badges/172368811" title="Iron Man" ><span><img src="https://untappd.akamaized.net/badges/bdg_IronMan_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Mnjaniak/badges/172359049" title="Legendary" ><span><img src="https://untappd.akamaized.net/badges/bdg_legendary_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Mnjaniak/badges/163629380" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Mnjaniak/badges/162533946" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Mnjaniak/badges/156492129" title="Belgian Holiday" ><span><img src="https://untappd.akamaized.net/badges/bdg_belgianHoliday_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Mnjaniak/badges/154568792" title="Rye It Up!" ><span><img src="https://untappd.akamaized.net/badges/bdg_ryeitup_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Mnjaniak/badges/153613260" title="Beer-giving (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Thanksgiving2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Mnjaniak/badges/151161570" title="Cheers To You!" ><span><img src="https://untappd.akamaized.net/badges/bdg_HeresToYou_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Mnjaniak/badges/150662251" title="Veterans Day (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_VeteransDay2016_md.jpg"></span></a>
+                <p class="more"><a href="/user/Mnjaniak/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/stickmen-brewery-skewery-the-bee-s-knees/319534" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_319534_sm_6d9fd9dd05d5f18b309d13a03bc0af.jpeg"><p>
+	    				<span class="name">The Bee's Knees</span>
+                        <span class="brewery">Stickmen Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/sasquatch-brewing-company-vanilla-bourbon-cream-ale/493613" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_253255_12909623e36829b4e46662e0379b.jpeg"><p>
+	    				<span class="name">Vanilla Bourbon Cream Ale</span>
+                        <span class="brewery">Sasquatch Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/belching-beaver-brewery-peanut-butter-milk-stout/638512" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-638512_3c14d_sm.jpeg"><p>
+	    				<span class="name">Peanut Butter Milk Stout</span>
+                        <span class="brewery">Belching Beaver Brewery</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/lagunitas-brewing-company-the-waldos-special-ale-aka-waldo-s-420-2016/1489701" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1489701_de1f4_sm.jpeg"><p>
+	    				<span class="name">The Waldos' Special Ale (AKA Waldo's 420) (2016)</span>
+                        <span class="brewery">Lagunitas Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/mother-earth-brew-co-california-cali-creamin/79053" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-CaliCreaminVanillaCreamAle_79053.jpeg"><p>
+	    				<span class="name">Cali' Creamin'</span>
+                        <span class="brewery">Mother Earth Brew Co. (California)</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/Mnjaniak/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/gigantic-brewing-company/183408" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Gigantic Brewing Company</span>
+    	    				<span class="location">Portland, OR                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/deschutes-brewery-portland-public-house/3630" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Deschutes Brewery Portland Public House</span>
+    	    				<span class="location">Portland, OR                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/portland-cider-house/2752665" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Portland Cider House</span>
+    	    				<span class="location">Portland, OR                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/base-camp-brewing/454540" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Base Camp Brewing</span>
+    	    				<span class="location">Portland, OR                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/stickmen-brewing-company/293000" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Stickmen Brewing Company</span>
+    	    				<span class="location">Lake Oswego, OR                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/Mnjaniak/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BaseCampBrewingCo" title="Base Camp Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-BaseCamp_35523.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/NinkasiBrewingCompany" title="Ninkasi Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-NinkasiBrewingCompany_2840.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Guinness" title="Guinness" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-49_a03fc.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/alamedabrewing" title="Alameda Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-16_6f620.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/GreenFlashBrewingCo" title="Green Flash Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-609_22ae7.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/OccidentalBrewingCo" title="Occidental Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-OccidentalBrewingCo_12795.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/StickmenBeer" title="Stickmen Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-44790_5bf32.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/13VirtuesBrew" title="13 Virtues Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-13VirtuesBrewingCo_61827_44265.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/LagunitasBrewingCo" title="Lagunitas Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-765_b53eb.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/victorybeer" title="Victory Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-1326_6ca88.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/StoneBrewingCo" title="Stone Brewing" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-1204_23541.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/PelicanBrewing" title="Pelican Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-2130_c2d45.jpeg"></span></a>
+                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/viewLikeHistory" href="/user/Mnjaniak/likes">See All Likes</a></p>                </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

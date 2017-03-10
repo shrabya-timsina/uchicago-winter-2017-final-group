@@ -1,0 +1,1582 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 19:18:33 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 95460
+set-cookie: untappd_com_site_v2=aefc41ff59034aa00d9024faf3c987fc; expires=Wed, 08-Mar-2017 07:18:33 GMT; Max-Age=43200; path=/, ut_anon=bd522ceb-7c9c-42f5-8598-701a8653ce57; expires=Mon, 08-Jul-3016 19:18:33 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/6four3
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Steve R. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Steve R. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Steve R. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/6four3">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/6four3">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="2347175" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_300x300.jpeg">
+					</div>
+				</div><div class="info">
+					<h1>Steve R.</h1>
+					<span class="username">6four3</span>
+					<span class="location">West Simsbury </span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+									</div>
+				<div class="stats">
+											<a href="/user/6four3" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">874</span>
+							<span class="title">Total</span>
+						</a><a href="/user/6four3/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">554</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/6four3/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">333</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/6four3/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">32</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/6four3/checkin/424902915"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/c236ed18e29736e0033b6a98212a7722_320x320.jpeg" /></a></p><p><a href="/user/6four3/checkin/423265269"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/4c8e77980eea0372d25c754ea84472cd_320x320.jpeg" /></a></p><p><a href="/user/6four3/checkin/422873767"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_01/d6f54f4659472be30e01772c2c45a954_320x320.jpeg" /></a></p><p><a href="/user/6four3/checkin/422357589"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_26/6cdbc17f261b688df7fd80fcac658df9_320x320.jpeg" /></a></p><p><a href="/user/6four3/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_02_26/4c2e7b7c215c61020baa215b0532d6d3_320x320.jpeg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Steve's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425158419" data-checkin-id="425158419">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/tree-house-brewing-company-curiosity-thirty-two/1979828" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Tree House Brewing Company by Curiosity Thirty-Two">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking a <a href="/b/tree-house-brewing-company-curiosity-thirty-two/1979828">Curiosity Thirty-Two</a> by <a  href="/w/tree-house-brewing-company/20084">Tree House Brewing Company</a> at <a href="/v/pour-mans-patio/5951612">Pour Mans Patio</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									So much citra!  Delicious!									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/425158419" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 21:57:15 +0000</a>
+							<a href="/user/6four3/checkin/425158419" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>8</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="markimbriglio" href="/user/markimbriglio" title="Mark I." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/34d59ac7d00289966db2bbc7581ee3af?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="petercuniowski" href="/user/petercuniowski" title="Pete C." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ece3b1db3606fc1ce05df188088e56f6_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="R_Mac_12" href="/user/R_Mac_12" title="R" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/578566f63d9160228e3772edda1dfa7b_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425157628" data-checkin-id="425157628">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/magnify-brewing-company-copious-amounts-of-juice/1951757" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1951757_57f29_sm.jpeg" alt="Magnify Brewing Company by Copious Amounts of Juice">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking a <a href="/b/magnify-brewing-company-copious-amounts-of-juice/1951757">Copious Amounts of Juice</a> by <a  href="/w/magnify-brewing-company/193269">Magnify Brewing Company</a> at <a href="/v/pour-mans-patio/5951612">Pour Mans Patio</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Thanks <a style='font-weight: 600;' href='/user/Turpak'>Steve T.</a>									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/425157628" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 21:53:27 +0000</a>
+							<a href="/user/6four3/checkin/425157628" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>5</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_425114714" data-checkin-id="425114714">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/tired-hands-brewing-company-such-passion/631891" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Tired Hands Brewing Company by Such Passion">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking a <a href="/b/tired-hands-brewing-company-such-passion/631891">Such Passion</a> by <a  href="/w/tired-hands-brewing-company/6226">Tired Hands Brewing Company</a> at <a href="/v/pour-mans-patio/5951612">Pour Mans Patio</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Tastes like I just ate smarties.  Thanks <a style='font-weight: 600;' href='/user/Turpak'>Steve T.</a>									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/425114714" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 17:55:03 +0000</a>
+							<a href="/user/6four3/checkin/425114714" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>6</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="markimbriglio" href="/user/markimbriglio" title="Mark I." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/34d59ac7d00289966db2bbc7581ee3af?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424997574" data-checkin-id="424997574">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/tired-hands-brewing-company-coconut-double-milkshake/1943740" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Tired Hands Brewing Company by Coconut Double Milkshake">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking a <a href="/b/tired-hands-brewing-company-coconut-double-milkshake/1943740">Coconut Double Milkshake</a> by <a  href="/w/tired-hands-brewing-company/6226">Tired Hands Brewing Company</a> at <a href="/v/the-clubhouse/4445752">The Clubhouse</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Dude!!! Thanks <a style='font-weight: 600;' href='/user/fatherfiery'>Matthew H.</a>									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r475"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_2xCore_sm.jpg" alt="2X (Level 22)">
+											<span>Earned the 2X (Level 22) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/424997574" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Mon, 06 Mar 2017 00:40:39 +0000</a>
+							<a href="/user/6four3/checkin/424997574" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>9</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="markimbriglio" href="/user/markimbriglio" title="Mark I." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/34d59ac7d00289966db2bbc7581ee3af?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="RWindisch" href="/user/RWindisch" title="robert w." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/1525e8565646181f8268d0bc15d6b1d5_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="BBlock1" href="/user/BBlock1" title="Bryan B." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/4fc1abdf53556d41e2dd95af9dcd8d96_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424902915" data-checkin-id="424902915">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/tree-house-brewing-company-eureka-w-citra/545798" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-545798_7cf15_sm.jpeg" alt="Tree House Brewing Company by Eureka (w/ Citra)">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking an <a href="/b/tree-house-brewing-company-eureka-w-citra/545798">Eureka (w/ Citra)</a> by <a  href="/w/tree-house-brewing-company/20084">Tree House Brewing Company</a> at <a href="/v/the-clubhouse/4445752">The Clubhouse</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									It's been 16 months since I've had this last...   30 days or so from can date and this beer is drinking awesome.									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_beertography_sm.jpg" alt="Photogenic Brew  (Level 40)">
+											<span>Earned the Photogenic Brew  (Level 40) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/6four3/checkin/424902915" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/c236ed18e29736e0033b6a98212a7722_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/424902915" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 21:47:31 +0000</a>
+							<a href="/user/6four3/checkin/424902915" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>7</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="markimbriglio" href="/user/markimbriglio" title="Mark I." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/34d59ac7d00289966db2bbc7581ee3af?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="petercuniowski" href="/user/petercuniowski" title="Pete C." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ece3b1db3606fc1ce05df188088e56f6_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424519303" data-checkin-id="424519303">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/lawson-s-finest-liquids-super-session-ipa-2-amarillo/750461" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-750461_8a0f1_sm.jpeg" alt="Lawson's Finest Liquids by Super Session IPA #2 (Amarillo)">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking a <a href="/b/lawson-s-finest-liquids-super-session-ipa-2-amarillo/750461">Super Session IPA #2 (Amarillo)</a> by <a  href="/w/lawson-s-finest-liquids/3758">Lawson's Finest Liquids</a> at <a href="/v/the-edison-grill/2931891">The Edison Grill</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/424519303" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 01:21:52 +0000</a>
+							<a href="/user/6four3/checkin/424519303" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>5</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="petercuniowski" href="/user/petercuniowski" title="Pete C." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ece3b1db3606fc1ce05df188088e56f6_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424493294" data-checkin-id="424493294">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/thomas-hooker-brewing-co-brite-tank-16/1931310" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Thomas Hooker Brewing Co. by Brite Tank 16">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking a <a href="/b/thomas-hooker-brewing-co-brite-tank-16/1931310">Brite Tank 16</a> by <a  href="/w/thomas-hooker-brewing-co/1258">Thomas Hooker Brewing Co.</a> at <a href="/v/the-edison-grill/2931891">The Edison Grill</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_goingPlaces_sm.jpg" alt="Bar Explorer (Level 14)">
+											<span>Earned the Bar Explorer (Level 14) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/424493294" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 00:54:53 +0000</a>
+							<a href="/user/6four3/checkin/424493294" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>6</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="markimbriglio" href="/user/markimbriglio" title="Mark I." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/34d59ac7d00289966db2bbc7581ee3af?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423718353" data-checkin-id="423718353">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/lawson-s-finest-liquids-sip-of-sunshine/636664" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-636664_99f89_sm.jpeg" alt="Lawson's Finest Liquids by Sip of Sunshine">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking a <a href="/b/lawson-s-finest-liquids-sip-of-sunshine/636664">Sip of Sunshine</a> by <a  href="/w/lawson-s-finest-liquids/3758">Lawson's Finest Liquids</a> at <a href="/v/abigails-grille-and-wine-bar/49174">Abigail's Grille and Wine Bar</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Fantastic as always. x 2									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/423718353" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 23:25:46 +0000</a>
+							<a href="/user/6four3/checkin/423718353" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>8</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="markimbriglio" href="/user/markimbriglio" title="Mark I." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/34d59ac7d00289966db2bbc7581ee3af?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="lionsdenlions" href="/user/lionsdenlions" title="Daniel G." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/9472e7b2b860d8d098e2c2aeff1dac9f_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423417493" data-checkin-id="423417493">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/the-alchemist-pappy-s-porter/4686" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="The Alchemist by Pappy's Porter">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking a <a href="/b/the-alchemist-pappy-s-porter/4686">Pappy's Porter</a> by <a  href="/w/the-alchemist/1244">The Alchemist</a> at <a href="/v/pour-mans-patio/5951612">Pour Mans Patio</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/423417493" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 02:34:14 +0000</a>
+							<a href="/user/6four3/checkin/423417493" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>8</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="markimbriglio" href="/user/markimbriglio" title="Mark I." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/34d59ac7d00289966db2bbc7581ee3af?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="RWindisch" href="/user/RWindisch" title="robert w." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/1525e8565646181f8268d0bc15d6b1d5_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423416920" data-checkin-id="423416920">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/tired-hands-brewing-company-extra-vanilla-milkshake/1959799" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Tired Hands Brewing Company by EXTRA Vanilla Milkshake">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking an <a href="/b/tired-hands-brewing-company-extra-vanilla-milkshake/1959799">EXTRA Vanilla Milkshake</a> by <a  href="/w/tired-hands-brewing-company/6226">Tired Hands Brewing Company</a> at <a href="/v/pour-mans-patio/5951612">Pour Mans Patio</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Delicious.  Thanks <a style='font-weight: 600;' href='/user/fatherfiery'>Matthew H.</a>									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r475"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/423416920" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 02:33:06 +0000</a>
+							<a href="/user/6four3/checkin/423416920" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>8</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="markimbriglio" href="/user/markimbriglio" title="Mark I." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/34d59ac7d00289966db2bbc7581ee3af?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="R_Mac_12" href="/user/R_Mac_12" title="R" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/578566f63d9160228e3772edda1dfa7b_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423415723" data-checkin-id="423415723">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/tired-hands-brewing-company-only-void-lapsang-souchong-and-madagascar-vanilla-bean/1950741" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Tired Hands Brewing Company by Only Void (Lapsang Souchong & Madagascar Vanilla Bean)">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking an <a href="/b/tired-hands-brewing-company-only-void-lapsang-souchong-and-madagascar-vanilla-bean/1950741">Only Void (Lapsang Souchong & Madagascar Vanilla Bean)</a> by <a  href="/w/tired-hands-brewing-company/6226">Tired Hands Brewing Company</a> at <a href="/v/pour-mans-patio/5951612">Pour Mans Patio</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Thanks <a style='font-weight: 600;' href='/user/fatherfiery'>Matthew H.</a>									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/423415723" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 02:30:41 +0000</a>
+							<a href="/user/6four3/checkin/423415723" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>7</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="markimbriglio" href="/user/markimbriglio" title="Mark I." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/34d59ac7d00289966db2bbc7581ee3af?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423279644" data-checkin-id="423279644">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/modern-times-beer-goblin-rock/1786600" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Modern Times Beer by Goblin Rock">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking a <a href="/b/modern-times-beer-goblin-rock/1786600">Goblin Rock</a> by <a  href="/w/modern-times-beer/68356">Modern Times Beer</a> at <a href="/v/pour-mans-patio/5951612">Pour Mans Patio</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Thanks <a style='font-weight: 600;' href='/user/Turpak'>Steve T.</a>									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/423279644" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 21:49:03 +0000</a>
+							<a href="/user/6four3/checkin/423279644" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>7</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="6four3" href="/user/6four3" title="Steve R." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423266818" data-checkin-id="423266818">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/tired-hands-brewing-company-milkshake-ipa-pineapple/1179657" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Tired Hands Brewing Company by Milkshake IPA (Pineapple)">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking a <a href="/b/tired-hands-brewing-company-milkshake-ipa-pineapple/1179657">Milkshake IPA (Pineapple)</a> by <a  href="/w/tired-hands-brewing-company/6226">Tired Hands Brewing Company</a> at <a href="/v/pour-mans-patio/5951612">Pour Mans Patio</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Thanks <a style='font-weight: 600;' href='/user/Turpak'>Steve T.</a>									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/423266818" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 21:07:32 +0000</a>
+							<a href="/user/6four3/checkin/423266818" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>6</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="R_Mac_12" href="/user/R_Mac_12" title="R" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/578566f63d9160228e3772edda1dfa7b_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423265269" data-checkin-id="423265269">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/foam-brewers-built-to-spill/1529330" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1529330_c7fed_sm.jpeg" alt="Foam Brewers by Built To Spill">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking a <a href="/b/foam-brewers-built-to-spill/1529330">Built To Spill</a> by <a  href="/w/foam-brewers/266666">Foam Brewers</a> at <a href="/v/pour-mans-patio/5951612">Pour Mans Patio</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Very very solid; the hype is real.   Thanks <a style='font-weight: 600;' href='/user/markimbriglio'>Mark I.</a>									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r450"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_HoppedUp_sm.jpg" alt="Hopped Up (Level 37)">
+											<span>Earned the Hopped Up (Level 37) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/6four3/checkin/423265269" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/4c8e77980eea0372d25c754ea84472cd_320x320.jpeg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/423265269" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 21:02:32 +0000</a>
+							<a href="/user/6four3/checkin/423265269" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>5</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="R_Mac_12" href="/user/R_Mac_12" title="R" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/578566f63d9160228e3772edda1dfa7b_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+																		<div class="comment" id="comment_32513894">
+											<div class="avatar">
+												<div class="avatar-holder">
+																											<a href="/user/Uwu100">
+														<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg" alt="U">
+													</a>
+												</div>
+											</div>
+											<div class="text">
+												<p>
+													<a href="/user/Uwu100">U</a>: 
+													Love these guys												</p>
+												<p class="meta">
+													<span class="time timezoner">Fri, 03 Mar 2017 01:19:01 +0000</span>
+																									</p>
+											</div>
+										</div>
+																	</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422920462" data-checkin-id="422920462">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/6four3">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/ff91ab22e4c0755a8b32de143e98f601_100x100.jpeg" alt="Steve R.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/tree-house-brewing-company-pride-and-purpose/1704051" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1704051_46fcb_sm.jpeg" alt="Tree House Brewing Company by Pride & Purpose">
+							</a>
+														<p class="text">
+								<a href="/user/6four3" class="user">Steve R.</a>  is drinking a <a href="/b/tree-house-brewing-company-pride-and-purpose/1704051">Pride & Purpose</a> by <a  href="/w/tree-house-brewing-company/20084">Tree House Brewing Company</a> at <a href="/v/the-clubhouse/4445752">The Clubhouse</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Delicous!									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r425"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/6four3/checkin/422920462" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 01 Mar 2017 04:17:08 +0000</a>
+							<a href="/user/6four3/checkin/422920462" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>9</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="markimbriglio" href="/user/markimbriglio" title="Mark I." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/34d59ac7d00289966db2bbc7581ee3af?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="Mojaweber" href="/user/Mojaweber" title="Anthony W." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/f8f66a5c02b3ac278127c7b9415903be_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="fatherfiery" href="/user/fatherfiery" title="Matthew H." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/6def78ca4152ae79d3474a45b1d15488_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="WestSideHops" href="/user/WestSideHops" title="D T." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/40179db6086255ec2bb7010097fcca27?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="R_Mac_12" href="/user/R_Mac_12" title="R" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/578566f63d9160228e3772edda1dfa7b_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="Uwu100" href="/user/Uwu100" title="U" data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/c16ee88772461c86a3140a01caa664e1_100x100.jpg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="BBlock1" href="/user/BBlock1" title="Bryan B." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/4fc1abdf53556d41e2dd95af9dcd8d96_100x100.jpeg">
+										</a>
+																				<a class="user-toasts tip track-click" data-user-name="jverge70" href="/user/jverge70" title="Joe V." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://gravatar.com/avatar/93995a47b69ff92a4225b7f9bbfc79e7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/6four3" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/6four3/badges/174610366" title="Mardi Gras (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_MardiGras2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/6four3/badges/174289219" title="Take It Easy" ><span><img src="https://untappd.akamaized.net/badges/bdg_takeItEasy_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/6four3/badges/170189760" title="Pucker Up" ><span><img src="https://untappd.akamaized.net/badges/bdg_SourBrew_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/6four3/badges/170057310" title="Brew Bowl LI" ><span><img src="https://untappd.akamaized.net/badges/bdg_SuperBowlLI_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/6four3/badges/167611690" title="Legendary" ><span><img src="https://untappd.akamaized.net/badges/bdg_legendary_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/6four3/badges/162778474" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/6four3/badges/160710036" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/6four3/badges/159515710" title="Merry Brew-mas (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Christmas2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/6four3/badges/173405164" title="Riding Steady (Level 2)" ><span><img src="https://untappd.akamaized.net/badges/bdg_RidingSteady_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/6four3/badges/153579873" title="Beer-giving (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Thanksgiving2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/6four3/badges/151485036" title="Cheers To You!" ><span><img src="https://untappd.akamaized.net/badges/bdg_HeresToYou_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/6four3/badges/150758745" title="Free Flow IPA" ><span><img src="https://untappd.akamaized.net/badges/bdg_OtterCreekFreeFlowIPA_md.jpg"></span></a>
+                <p class="more"><a href="/user/6four3/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/lawson-s-finest-liquids-sip-of-sunshine/636664" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-636664_99f89_sm.jpeg"><p>
+	    				<span class="name">Sip of Sunshine</span>
+                        <span class="brewery">Lawson's Finest Liquids</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/the-alchemist-heady-topper/4691" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-4691_eb933_sm.jpeg"><p>
+	    				<span class="name">Heady Topper</span>
+                        <span class="brewery">The Alchemist</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/tree-house-brewing-company-julius/237985" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-237985_c70fc_sm.jpeg"><p>
+	    				<span class="name">Julius</span>
+                        <span class="brewery">Tree House Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/tree-house-brewing-company-haze/718853" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-718853_2ceb8_sm.jpeg"><p>
+	    				<span class="name">Haze</span>
+                        <span class="brewery">Tree House Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/tree-house-brewing-company-very-green/689944" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-689944_ec619_sm.jpeg"><p>
+	    				<span class="name">Very Green</span>
+                        <span class="brewery">Tree House Brewing Company</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/6four3/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/the-clubhouse/4445752" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">The Clubhouse</span>
+    	    				<span class="location">Simsbury, CT                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/west-simsbury-ct/253915" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png"><p>
+    	    				<span class="name">West Simsbury, CT</span>
+    	    				    	    			</p>
+    	    		</a>
+        			        			<a href="/v/m-and-r-liquors/223511" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/shops/food_liquor_bg_88.png"><p>
+    	    				<span class="name">M&R Liquors</span>
+    	    				<span class="location">Avon, CT                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/snowberry/1203934" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://foursquare.com/img/categories_v2/none_bg_88.png"><p>
+    	    				<span class="name">Snowberry</span>
+    	    				    	    			</p>
+    	    		</a>
+        			        			<a href="/v/harriman-hills/3786756" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/building/apartment_bg_88.png"><p>
+    	    				<span class="name">Harriman Hills</span>
+    	    				<span class="location">Harriman, NY                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/6four3/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/relicbrewing" title="Relic Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-RelicBrewingCo_22928.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/NewEnglandBrewingCo" title="New England Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-NewEnglandBrewingCo_1467.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Sloopbrewing" title="Sloop Brewing" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-36968_e757e.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/DevilsPurseBrewingCompany" title="Devil's Purse Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-201269_1400f.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/FrostBeerWorks" title="Frost Beer Works" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-192673_f4ee1.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/SteadyHabitBrewing" title="Steady Habit Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-165474_e6433.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BarrierBrewingCo" title="Barrier Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-BarrierBrewing_4171.png"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/CivilSocietyBrewing" title="Civil Society Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-186509_e16d1.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/bellsbrewery" title="Bell's Brewery, Inc." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-2507_ad044.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/TiredHandsBrewingCompany" title="Tired Hands Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-6226_cf488.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/cartonbrewing" title="Carton Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-CartonBrewingCompany_9558.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/OLBC" title="Outer Light Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-194951_744bd.jpeg"></span></a>
+                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/viewLikeHistory" href="/user/6four3/likes">See All Likes</a></p>                </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

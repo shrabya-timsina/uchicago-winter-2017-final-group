@@ -1,0 +1,1314 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 19:41:37 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 65783
+set-cookie: untappd_com_site_v2=8f483c285a0939cbe10e1281811f6848; expires=Wed, 08-Mar-2017 07:41:37 GMT; Max-Age=43200; path=/, ut_anon=740010b6-d0bd-4b82-98d7-fd970b7b095d; expires=Mon, 08-Jul-3016 19:41:37 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/gaterp
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Paul G. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Paul G. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Paul G. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/gaterp">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/gaterp">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="2105291" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=125&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+					</div>
+				</div><div class="info">
+					<h1>Paul G.</h1>
+					<span class="username">gaterp</span>
+					<span class="location"></span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+									</div>
+				<div class="stats">
+											<a href="/user/gaterp" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">108</span>
+							<span class="title">Total</span>
+						</a><a href="/user/gaterp/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">97</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/gaterp/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">72</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/gaterp/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">1</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Paul's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425296374" data-checkin-id="425296374">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/st-austell-brewery-tribute-cornish-pale-ale/5512" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-TributePremiumCornishAle_5512.jpeg" alt="St Austell Brewery by Tribute Cornish Pale Ale">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking a <a  href="/b/st-austell-brewery-tribute-cornish-pale-ale/5512">Tribute Cornish Pale Ale</a> by <a href="/w/st-austell-brewery/1186">St Austell Brewery</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Nice blend of malt and hops.  Even better that it's free in BA lounge at Heathrow									</p>
+									
+								<p class="purchased">Purchased at <a href="/v/terminal-5b/836951">Terminal 5B</a></p>
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_PaleMoon_sm.jpg" alt="Pale as the Moon (Level 4)">
+											<span>Earned the Pale as the Moon (Level 4) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/425296374" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 13:24:38 +0000</a>
+							<a href="/user/gaterp/checkin/425296374" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_422659238" data-checkin-id="422659238">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/half-moon-bay-brewing-company-belgian-white-benoit-casper-collab/1923936" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1923936_43450_sm.jpeg" alt="Half Moon Bay Brewing Company by Belgian White, Benoit Casper Collab.">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking a <a href="/b/half-moon-bay-brewing-company-belgian-white-benoit-casper-collab/1923936">Belgian White, Benoit Casper Collab.</a> by <a  href="/w/half-moon-bay-brewing-company/6052">Half Moon Bay Brewing Company</a> at <a href="/v/half-moon-bay-brewing-company/21038">Half Moon Bay Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_america_sm.jpg" alt="Land of the Free  (Level 19)">
+											<span>Earned the Land of the Free  (Level 19) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/422659238" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 28 Feb 2017 02:30:45 +0000</a>
+							<a href="/user/gaterp/checkin/422659238" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_421768163" data-checkin-id="421768163">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/alpha-acid-brewing-co-the-sheriff/1174484" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Alpha Acid Brewing Co. by The Sheriff">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking  <a href="/b/alpha-acid-brewing-co-the-sheriff/1174484">The Sheriff</a> by <a  href="/w/alpha-acid/148969">Alpha Acid Brewing Co.</a> at <a href="/v/alpha-acid-brewing/4141988">Alpha Acid Brewing</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Pale color.  Has a good hoppy bite to it.  Like the 8oz pour option!									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/421768163" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 25 Feb 2017 22:46:26 +0000</a>
+							<a href="/user/gaterp/checkin/421768163" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419324940" data-checkin-id="419324940">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/fieldwork-brewing-company-shanty-town/1900023" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Fieldwork Brewing Company by Shanty Town">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking a <a href="/b/fieldwork-brewing-company-shanty-town/1900023">Shanty Town</a> by <a  href="/w/fieldwork-brewing-company/184717">Fieldwork Brewing Company</a> at <a href="/v/sacrilege-brewery-kitchen/5721986">Sacrilege Brewery + Kitchen</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Very tasty with good balance of malty goodness									</p>
+									
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/419324940" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 19 Feb 2017 05:34:32 +0000</a>
+							<a href="/user/gaterp/checkin/419324940" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419324200" data-checkin-id="419324200">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/armstrong-brewing-company-south-city-brown/118907" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Armstrong Brewing Company by South City Brown">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking a <a href="/b/armstrong-brewing-company-south-city-brown/118907">South City Brown</a> by <a  href="/w/armstrong-brewing-company/22076">Armstrong Brewing Company</a> at <a href="/v/armstrong-brewing-company/2913729">Armstrong Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Very murky-looking unfiltered beer.  A little bland and lacking in flavor									</p>
+									
+								
+
+								<div class="rating-serving">
+																				<p class="serving">
+									          <img src="https://untappd.akamaized.net/static_app_assets/draft@3x.png">
+									          <span>Draft</span>
+									        </p>
+																					<span class="rating small r300"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_goingPlaces_sm.jpg" alt="Bar Explorer (Level 7)">
+											<span>Earned the Bar Explorer (Level 7) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/419324200" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 19 Feb 2017 05:31:57 +0000</a>
+							<a href="/user/gaterp/checkin/419324200" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_414919319" data-checkin-id="414919319">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/21st-amendment-brewery-down-to-earth/1008678" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1008678_1be46_sm.jpeg" alt="21st Amendment Brewery by Down To Earth">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking a <a href="/b/21st-amendment-brewery-down-to-earth/1008678">Down To Earth</a> by <a  href="/w/21st-amendment-brewery/4339">21st Amendment Brewery</a> at <a href="/v/city-of-half-moon-bay/267497">City of Half Moon Bay</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Can.  Always good level of hops in this session IPA									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 2)">
+											<span>Earned the Riding Steady (Level 2) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/414919319" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 08 Feb 2017 03:48:49 +0000</a>
+							<a href="/user/gaterp/checkin/414919319" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_414726560" data-checkin-id="414726560">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/drake-s-brewing-company-1500-pale-ale/6914" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-6914_83c19_sm.jpeg" alt="Drake's Brewing Company by 1500 Pale Ale">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking a <a href="/b/drake-s-brewing-company-1500-pale-ale/6914">1500 Pale Ale</a> by <a  href="/w/drake-s-brewing-company/464">Drake's Brewing Company</a> at <a href="/v/city-of-half-moon-bay/267497">City of Half Moon Bay</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Bottle.									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/414726560" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Feb 2017 04:35:44 +0000</a>
+							<a href="/user/gaterp/checkin/414726560" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_414726442" data-checkin-id="414726442">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/san-francisco-brewing-co-broadway-ipa/582802" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-582802_e3448_sm.jpeg" alt="San Francisco Brewing Co. by Broadway IPA">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking a <a href="/b/san-francisco-brewing-co-broadway-ipa/582802">Broadway IPA</a> by <a  href="/w/san-francisco-brewing-co/5728">San Francisco Brewing Co.</a> at <a href="/v/jaspers-corner-tap-and-kitchen/78562">Jasper's Corner Tap & Kitchen</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Decent ipa									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_hoptopia_sm.jpg" alt="I Believe in IPA! (Level 5)">
+											<span>Earned the I Believe in IPA! (Level 5) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_america_sm.jpg" alt="Land of the Free  (Level 18)">
+											<span>Earned the Land of the Free  (Level 18) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/414726442" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Feb 2017 04:34:48 +0000</a>
+							<a href="/user/gaterp/checkin/414726442" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="sfbrewingco" href="/brewery/5728" title="San Francisco Brewing Co." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/site/brewery_logos/brewery-5728_201ca.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_412764683" data-checkin-id="412764683">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/half-moon-bay-brewing-company-everyone-s-doin-it/1911131" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1911131_e409e_sm.jpeg" alt="Half Moon Bay Brewing Company by Everyone's Doin' It!">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking an <a href="/b/half-moon-bay-brewing-company-everyone-s-doin-it/1911131">Everyone's Doin' It!</a> by <a  href="/w/half-moon-bay-brewing-company/6052">Half Moon Bay Brewing Company</a> at <a href="/v/half-moon-bay-brewing-company/21038">Half Moon Bay Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Hoppy, hazy and slightly dank (in a good way).									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/412764683" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Feb 2017 06:15:38 +0000</a>
+							<a href="/user/gaterp/checkin/412764683" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_412764509" data-checkin-id="412764509">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/half-moon-bay-brewing-company-amber-ale/265" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-265_2964f_sm.jpeg" alt="Half Moon Bay Brewing Company by Amber Ale">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking an <a href="/b/half-moon-bay-brewing-company-amber-ale/265">Amber Ale</a> by <a  href="/w/half-moon-bay-brewing-company/6052">Half Moon Bay Brewing Company</a> at <a href="/v/half-moon-bay-brewing-company/21038">Half Moon Bay Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Malty and good as always									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r350"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_VerifiedVenue_sm.jpg" alt="Verified Adventure">
+											<span>Earned the Verified Adventure badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/412764509" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Feb 2017 06:14:01 +0000</a>
+							<a href="/user/gaterp/checkin/412764509" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_412249032" data-checkin-id="412249032">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/stone-brewing-stone-ripper/1652170" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1652170_0a575_sm.jpeg" alt="Stone Brewing by Stone Ripper">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking a <a href="/b/stone-brewing-stone-ripper/1652170">Stone Ripper</a> by <a  href="/w/stone-brewing/1204">Stone Brewing</a> at <a href="/v/city-of-half-moon-bay/267497">City of Half Moon Bay</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Can.  Very hoppy for a pale ale.									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/412249032" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 01 Feb 2017 05:05:59 +0000</a>
+							<a href="/user/gaterp/checkin/412249032" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_412248890" data-checkin-id="412248890">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/rubicon-brewing-company-monkey-knife-fight/10851" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-MonkeyKnifeFightPaleAle_10851.jpeg" alt="Rubicon Brewing Company by Monkey Knife Fight">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking a <a href="/b/rubicon-brewing-company-monkey-knife-fight/10851">Monkey Knife Fight</a> by <a  href="/w/rubicon-brewing-company/1082">Rubicon Brewing Company</a> at <a href="/v/city-of-half-moon-bay/267497">City of Half Moon Bay</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Bottle. Malty for a pale ale and tasted more like a lager.   Not enough hops.  A bit dull									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r250"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/412248890" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Wed, 01 Feb 2017 05:04:38 +0000</a>
+							<a href="/user/gaterp/checkin/412248890" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_411445765" data-checkin-id="411445765">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/fieldwork-brewing-company-canopy/1009507" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Fieldwork Brewing Company by Canopy">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking a <a href="/b/fieldwork-brewing-company-canopy/1009507">Canopy</a> by <a  href="/w/fieldwork-brewing-company/184717">Fieldwork Brewing Company</a> at <a href="/v/the-barn/3392820">The Barn</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									Quite hoppy for a pale.  Golden color.  Goes well with the burger!									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r375"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_PaleMoon_sm.jpg" alt="Pale as the Moon (Level 3)">
+											<span>Earned the Pale as the Moon (Level 3) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/411445765" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 29 Jan 2017 04:01:13 +0000</a>
+							<a href="/user/gaterp/checkin/411445765" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_411443419" data-checkin-id="411443419">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/hop-dogma-brewing-co-hop-dogma-honey-i-brewed-an-amber/1928632" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Hop Dogma Brewing Co. by Hop Dogma Honey, I Brewed An Amber">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking a <a href="/b/hop-dogma-brewing-co-hop-dogma-honey-i-brewed-an-amber/1928632">Hop Dogma Honey, I Brewed An Amber</a> by <a  href="/w/hop-dogma-brewing-co/33189">Hop Dogma Brewing Co.</a> at <a href="/v/hop-dogma-brewing-co/854393">Hop Dogma Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									A rare excursion into amber for HD.  Well balanced with only a hint of honey.									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_america_sm.jpg" alt="Land of the Free  (Level 17)">
+											<span>Earned the Land of the Free  (Level 17) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/411443419" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 29 Jan 2017 03:57:10 +0000</a>
+							<a href="/user/gaterp/checkin/411443419" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_410274494" data-checkin-id="410274494">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/gaterp">
+							<img class="lazy" data-original="https://gravatar.com/avatar/2f064b46194e3303f6cd5b85d892ba1e?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Paul G.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/hop-dogma-brewing-co-alpha-dankopotamus/1602150" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Hop Dogma Brewing Co. by Alpha-Dankopotamus">
+							</a>
+														<p class="text">
+								<a href="/user/gaterp" class="user">Paul G.</a>  is drinking an <a href="/b/hop-dogma-brewing-co-alpha-dankopotamus/1602150">Alpha-Dankopotamus</a> by <a  href="/w/hop-dogma-brewing-co/33189">Hop Dogma Brewing Co.</a> at <a href="/v/hop-dogma-brewing-co/854393">Hop Dogma Brewing Co.</a>
+							</p>
+														<div class="checkin-comment">
+																	<p class="comment-text">
+									As good as ever!									</p>
+									
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_brewCrawl_sm.jpg" alt="Brew Crawl">
+											<span>Earned the Brew Crawl badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/gaterp/checkin/410274494" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 27 Jan 2017 05:50:45 +0000</a>
+							<a href="/user/gaterp/checkin/410274494" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/gaterp" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/gaterp/badges/169202056" title="Verified Adventure" ><span><img src="https://untappd.akamaized.net/badges/bdg_VerifiedVenue_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/gaterp/badges/167904440" title="Brew Crawl" ><span><img src="https://untappd.akamaized.net/badges/bdg_brewCrawl_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/gaterp/badges/166212315" title="Heavy Weight" ><span><img src="https://untappd.akamaized.net/badges/bdg_heavyWeight_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/gaterp/badges/170497408" title="Riding Steady (Level 2)" ><span><img src="https://untappd.akamaized.net/badges/bdg_RidingSteady_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/gaterp/badges/165166271" title="Trip to the Farm" ><span><img src="https://untappd.akamaized.net/badges/bdg_saison_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/gaterp/badges/163131111" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/gaterp/badges/160503840" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/gaterp/badges/159946742" title="Drinking Your Paycheck" ><span><img src="https://untappd.akamaized.net/badges/bdg_payCheck_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/gaterp/badges/167904365" title="Wheel of Styles (Level 4)" ><span><img src="https://untappd.akamaized.net/badges/bdg_WheelofStyles_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/gaterp/badges/159623467" title="Merry Brew-mas (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Christmas2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/gaterp/badges/158923929" title="Cheers To You!" ><span><img src="https://untappd.akamaized.net/badges/bdg_HeresToYou_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/gaterp/badges/95653818" title="Happy Brew Year (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2016_md.jpg"></span></a>
+                <p class="more"><a href="/user/gaterp/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/21st-amendment-brewery-back-in-black/6443" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-6443_ae5e9_sm.jpeg"><p>
+	    				<span class="name">Back in Black</span>
+                        <span class="brewery">21st Amendment Brewery</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/hop-dogma-brewing-co-theodora-s-mosaic-pale/401500" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Theodora's Mosaic Pale</span>
+                        <span class="brewery">Hop Dogma Brewing Co.</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/hop-dogma-brewing-co-we-all-grin-for-lupulin-6-0/1864428" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">We All Grin For Lupulin 6.0</span>
+                        <span class="brewery">Hop Dogma Brewing Co.</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/freewheel-brewing-company-freewheel-special-bitter/325746" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_325746_sm_ba0126f9b41dd8e4363464de7573cf.jpeg"><p>
+	    				<span class="name">Freewheel Special Bitter</span>
+                        <span class="brewery">Freewheel Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/anderson-valley-brewing-company-boont-belk-s-esb/12767" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-BoontBelksESB_12767.jpeg"><p>
+	    				<span class="name">Belk's ESB</span>
+                        <span class="brewery">Anderson Valley Brewing Company</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/gaterp/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/hop-dogma-brewing-co/854393" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Hop Dogma Brewing Co.</span>
+    	    				<span class="location">El Granada, CA                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/half-moon-bay-brewing-company/21038" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://untappd.akamaized.net/venuelogos/venue_21038_2b5f527b_bg_88.png"><p>
+    	    				<span class="name">Half Moon Bay Brewing Co.</span>
+    	    				<span class="location">Half Moon Bay, CA                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/city-of-half-moon-bay/267497" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png"><p>
+    	    				<span class="name">City of Half Moon Bay</span>
+    	    				    	    			</p>
+    	    		</a>
+        			        			<a href="/v/anderson-valley-brewing-company/37203" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"><p>
+    	    				<span class="name">Anderson Valley Brewing Company</span>
+    	    				<span class="location">Boonville, CA                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/flavor-california-comfort/202194" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/default_bg_88.png"><p>
+    	    				<span class="name">Flavor California Comfort</span>
+    	    				<span class="location">El Granada, CA                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/gaterp/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/magnolia" title="Magnolia Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-magnoliapubandbrewery_813.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/SierraNevada" title="Sierra Nevada Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-1142_f241d.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/freewheel" title="Freewheel Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-FreewheelBrewingCompany_50508.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/speakeasybeer" title="Speakeasy Ales and Lagers" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-SpeakeasyAlesandLagers_1177.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/21stamendmentbrewery" title="21st Amendment Brewery " ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-4339_203d1.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/drakesbrewing" title="Drake's Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-464_df7ef.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/HalfMoonBayBrewingCompany" title="Half Moon Bay Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-6052_23e9c.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BlueMoonBrewingCompany" title="Blue Moon Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-127804_1a670.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/Highway1BrewingCompany" title="Highway 1 Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-Highway1BrewingCompany_58958.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/andersonvalley" title="Anderson Valley Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-AndersonValleyBrewingCompany_3880.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/HopDogmaBrewingCo" title="Hop Dogma Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-hopdogmabrewingco_33189.jpeg"></span></a>
+                                        </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

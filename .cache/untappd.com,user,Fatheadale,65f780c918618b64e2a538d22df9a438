@@ -1,0 +1,1380 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 19:30:58 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 70885
+set-cookie: untappd_com_site_v2=f463efcd7b753c199164e9144ff294af; expires=Wed, 08-Mar-2017 07:30:58 GMT; Max-Age=43200; path=/, ut_anon=6eecf263-0c2e-42b6-b1e2-5eb202e283ba; expires=Mon, 08-Jul-3016 19:30:58 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/Fatheadale
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>John F. on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="John F. Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="John F. Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/Fatheadale">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/Fatheadale">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="1463386" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_300x300.jpg">
+					</div>
+				</div><div class="info">
+					<h1>John F.</h1>
+					<span class="username">Fatheadale</span>
+					<span class="location">The Frog and The Toad</span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+												<p>
+								<a class="fb track-click" target="_blank" data-track="profile" data-href=":facebook" href="/social/redir/facebook/10101051505052424">Facebook</a>
+							</p>
+											</div>
+				<div class="stats">
+											<a href="/user/Fatheadale" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">883</span>
+							<span class="title">Total</span>
+						</a><a href="/user/Fatheadale/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">680</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/Fatheadale/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">393</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/Fatheadale/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">14</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<div class="photo-boxes">
+				<p><a href="/user/Fatheadale/checkin/425300720"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/e7ee4bd4019058a2db58671873001141_320x320.jpg" /></a></p><p><a href="/user/Fatheadale/checkin/424905767"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/a9e609a3d08c7d9ff35b86484a7d11c8_320x320.jpg" /></a></p><p><a href="/user/Fatheadale/checkin/424905226"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/dc7eeb45b8f8b33222bebbef66975858_320x320.jpg" /></a></p><p><a href="/user/Fatheadale/checkin/424891133"><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/373e52ccfbcc784c183daf0a0f2de74b_320x320.jpg" /></a></p><p><a href="/user/Fatheadale/photos"><span class="all">See All</span><img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/f7b95baaf7c221af6994ac24cc6a2988_320x320.jpg"></a></p>			</div>
+			
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>John's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_425300720" data-checkin-id="425300720">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/goose-island-beer-co-honker-s-ale/6469" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-6469_f21a0_sm.jpeg" alt="Goose Island Beer Co. by Honker's Ale">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking a <a href="/b/goose-island-beer-co-honker-s-ale/6469">Honker's Ale</a> by <a  href="/w/goose-island-beer-co/2898">Goose Island Beer Co.</a> at <a href="/v/willow-park-tx/499089">Willow Park, TX</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_GIB_Rd2Hrv_4_sm.jpg" alt="Road to the Harvest - Saaz (Level 1)">
+											<span>Earned the Road to the Harvest - Saaz (Level 1) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/Fatheadale/checkin/425300720" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_07/e7ee4bd4019058a2db58671873001141_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/425300720" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Tue, 07 Mar 2017 15:06:02 +0000</a>
+							<a href="/user/Fatheadale/checkin/425300720" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424905767" data-checkin-id="424905767">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/peticolas-brewing-company-come-and-take-it/1246136" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1246136_f0b85_sm.jpeg" alt="Peticolas Brewing Company by Come And Take It">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking a <a href="/b/peticolas-brewing-company-come-and-take-it/1246136">Come And Take It</a> by <a  href="/w/peticolas-brewing-company/13688">Peticolas Brewing Company</a> at <a href="/v/peticolas-brewing-company/219154">Peticolas Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r400"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/Fatheadale/checkin/424905767" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/a9e609a3d08c7d9ff35b86484a7d11c8_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/424905767" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 21:52:30 +0000</a>
+							<a href="/user/Fatheadale/checkin/424905767" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424905226" data-checkin-id="424905226">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/peticolas-brewing-company-sit-down-or-i-ll-sit-you-down/446746" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_446746_sm_61459e8fa5962dfbd26cd6edf22394.jpeg" alt="Peticolas Brewing Company by Sit Down Or I'll Sit You Down">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking a <a href="/b/peticolas-brewing-company-sit-down-or-i-ll-sit-you-down/446746">Sit Down Or I'll Sit You Down</a> by <a  href="/w/peticolas-brewing-company/13688">Peticolas Brewing Company</a> at <a href="/v/peticolas-brewing-company-taproom/5913729">Peticolas Brewing Company Taproom</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/Fatheadale/checkin/424905226" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/dc7eeb45b8f8b33222bebbef66975858_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/424905226" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 21:51:34 +0000</a>
+							<a href="/user/Fatheadale/checkin/424905226" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424892397" data-checkin-id="424892397">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/peticolas-brewing-company-it-s-always-something-1/1362574" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1362574_75f2e_sm.jpeg" alt="Peticolas Brewing Company by It's Always Something 1">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking an <a href="/b/peticolas-brewing-company-it-s-always-something-1/1362574">It's Always Something 1</a> by <a  href="/w/peticolas-brewing-company/13688">Peticolas Brewing Company</a> at <a href="/v/peticolas-brewing-company/219154">Peticolas Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/424892397" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 21:28:49 +0000</a>
+							<a href="/user/Fatheadale/checkin/424892397" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424891133" data-checkin-id="424891133">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/peticolas-brewing-company-sledge-hammer/926076" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-926076_6c395_sm.jpeg" alt="Peticolas Brewing Company by Sledge Hammer">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking a <a  href="/b/peticolas-brewing-company-sledge-hammer/926076">Sledge Hammer</a> by <a href="/w/peticolas-brewing-company/13688">Peticolas Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_HoppedUp_sm.jpg" alt="Hopped Up (Level 9)">
+											<span>Earned the Hopped Up (Level 9) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_PaintRed_sm.jpg" alt="Paint the Town Red (Level 4)">
+											<span>Earned the Paint the Town Red (Level 4) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/Fatheadale/checkin/424891133" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/373e52ccfbcc784c183daf0a0f2de74b_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/424891133" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 21:26:38 +0000</a>
+							<a href="/user/Fatheadale/checkin/424891133" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424881226" data-checkin-id="424881226">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/peticolas-brewing-company-rye-t-on/404106" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_404106_sm_19183f095fb10bcecf144ca42448e8.jpeg" alt="Peticolas Brewing Company by Rye't On">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking a <a  href="/b/peticolas-brewing-company-rye-t-on/404106">Rye't On</a> by <a href="/w/peticolas-brewing-company/13688">Peticolas Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/424881226" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 21:09:31 +0000</a>
+							<a href="/user/Fatheadale/checkin/424881226" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="ElOsoFumar" href="/user/ElOsoFumar" title="Bear D." data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/profile/b0696ea878bc3c93a9b523973a59e5e6_100x100.jpg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424880912" data-checkin-id="424880912">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/peticolas-brewing-company-black-curtains-2016/1433874" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Peticolas Brewing Company by Black Curtains (2016)">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking a <a  href="/b/peticolas-brewing-company-black-curtains-2016/1433874">Black Curtains (2016)</a> by <a href="/w/peticolas-brewing-company/13688">Peticolas Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_highABV_sm.jpg" alt="Sky's the Limit (Level 13)">
+											<span>Earned the Sky's the Limit (Level 13) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/Fatheadale/checkin/424880912" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/f7b95baaf7c221af6994ac24cc6a2988_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/424880912" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 21:08:58 +0000</a>
+							<a href="/user/Fatheadale/checkin/424880912" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424866289" data-checkin-id="424866289">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/peticolas-brewing-company-turn-out-the-lights/1877466" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1877466_5693b_sm.jpeg" alt="Peticolas Brewing Company by Turn Out the Lights">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking a <a  href="/b/peticolas-brewing-company-turn-out-the-lights/1877466">Turn Out the Lights</a> by <a href="/w/peticolas-brewing-company/13688">Peticolas Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_heavyWeight_sm.jpg" alt="Heavy Weight  (Level 15)">
+											<span>Earned the Heavy Weight  (Level 15) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/Fatheadale/checkin/424866289" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/5616cf8690bdf479573b041e8828dd63_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/424866289" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 20:43:40 +0000</a>
+							<a href="/user/Fatheadale/checkin/424866289" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424854569" data-checkin-id="424854569">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/peticolas-brewing-company-pick-hammer/1396752" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1396752_d6f36_sm.jpeg" alt="Peticolas Brewing Company by Pick Hammer">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking a <a href="/b/peticolas-brewing-company-pick-hammer/1396752">Pick Hammer</a> by <a  href="/w/peticolas-brewing-company/13688">Peticolas Brewing Company</a> at <a href="/v/peticolas-brewing-company/219154">Peticolas Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/Fatheadale/checkin/424854569" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/0cafda7937d020eca434d3cd60878fa5_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/424854569" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 20:23:33 +0000</a>
+							<a href="/user/Fatheadale/checkin/424854569" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424842946" data-checkin-id="424842946">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/peticolas-brewing-company-ghost-of-alfred-brown/749943" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-749943_a9908_sm.jpeg" alt="Peticolas Brewing Company by Ghost Of Alfred Brown">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking a <a  href="/b/peticolas-brewing-company-ghost-of-alfred-brown/749943">Ghost Of Alfred Brown</a> by <a href="/w/peticolas-brewing-company/13688">Peticolas Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/Fatheadale/checkin/424842946" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/c010737f75a4d079172acd800519ba5f_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/424842946" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 20:02:38 +0000</a>
+							<a href="/user/Fatheadale/checkin/424842946" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424841345" data-checkin-id="424841345">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/peticolas-brewing-company-the-duke-2017/1908835" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Peticolas Brewing Company by The Duke (2017)">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking  <a href="/b/peticolas-brewing-company-the-duke-2017/1908835">The Duke (2017)</a> by <a  href="/w/peticolas-brewing-company/13688">Peticolas Brewing Company</a> at <a href="/v/peticolas-brewing-company/219154">Peticolas Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_barleywine_sm.jpg" alt="The Wine of Beers (Level 2)">
+											<span>Earned the The Wine of Beers (Level 2) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/Fatheadale/checkin/424841345" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/f5e9b4f896b61a4023fe5672df5fccc9_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/424841345" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 19:59:29 +0000</a>
+							<a href="/user/Fatheadale/checkin/424841345" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_424840865" data-checkin-id="424840865">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/peticolas-brewing-company-too-soon-dry-hopped-w-cascade/1668583" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Peticolas Brewing Company by Too Soon (Dry Hopped w/ Cascade)">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking a <a href="/b/peticolas-brewing-company-too-soon-dry-hopped-w-cascade/1668583">Too Soon (Dry Hopped w/ Cascade)</a> by <a  href="/w/peticolas-brewing-company/13688">Peticolas Brewing Company</a> at <a href="/v/peticolas-brewing-company/219154">Peticolas Brewing Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r475"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/Fatheadale/checkin/424840865" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_05/7fa22600ecb6fae6d6eb646526e13239_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/424840865" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Mar 2017 19:58:36 +0000</a>
+							<a href="/user/Fatheadale/checkin/424840865" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423348321" data-checkin-id="423348321">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/goose-island-beer-co-preseason-lager/1871441" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1871441_e6b75_sm.jpeg" alt="Goose Island Beer Co. by Preseason Lager">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking a <a href="/b/goose-island-beer-co-preseason-lager/1871441">Preseason Lager</a> by <a  href="/w/goose-island-beer-co/2898">Goose Island Beer Co.</a> at <a href="/v/willow-park-tx/499089">Willow Park, TX</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+								
+							</div>
+														<p class="photo">
+								<a href="/user/Fatheadale/checkin/423348321" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_03/ccbcacde66317486db7667baacd31196_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/423348321" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 03 Mar 2017 00:27:11 +0000</a>
+							<a href="/user/Fatheadale/checkin/423348321" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423328289" data-checkin-id="423328289">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/goose-island-beer-co-goose-ipa/1353" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1353_b23f2_sm.jpeg" alt="Goose Island Beer Co. by Goose IPA">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking a <a href="/b/goose-island-beer-co-goose-ipa/1353">Goose IPA</a> by <a  href="/w/goose-island-beer-co/2898">Goose Island Beer Co.</a> at <a href="/v/willow-park-tx/499089">Willow Park, TX</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_WheelofStyles_sm.jpg" alt="Wheel of Styles (Level 15)">
+											<span>Earned the Wheel of Styles (Level 15) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/Fatheadale/checkin/423328289" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/2998cbd55ccbebcd181127ebb15eca77_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/423328289" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 23:49:10 +0000</a>
+							<a href="/user/Fatheadale/checkin/423328289" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_423310669" data-checkin-id="423310669">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/Fatheadale">
+							<img class="lazy" data-original="https://untappd.akamaized.net/profile/9fb42173720895a1ff329d3cb0eb61a0_100x100.jpg" alt="John F.">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/goose-island-beer-co-winter-ale/1285313" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1285313_7945b_sm.jpeg" alt="Goose Island Beer Co. by Winter Ale">
+							</a>
+														<p class="text">
+								<a href="/user/Fatheadale" class="user">John F.</a>  is drinking a <a href="/b/goose-island-beer-co-winter-ale/1285313">Winter Ale</a> by <a  href="/w/goose-island-beer-co/2898">Goose Island Beer Co.</a> at <a href="/v/willow-park-tx/499089">Willow Park, TX</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																			<span class="rating small r500"></span>
+																	    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_GIB_Rd2Hrv_1_sm.jpg" alt="Road to the Harvest - Cascade">
+											<span>Earned the Road to the Harvest - Cascade badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_BravoForBrown_sm.jpg" alt="Bravo for Brown (Level 6)">
+											<span>Earned the Bravo for Brown (Level 6) badge!</span>
+										</span>
+										
+							</div>
+														<p class="photo">
+								<a href="/user/Fatheadale/checkin/423310669" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckinphoto">
+									<img class="lazy" data-original="https://untappd.akamaized.net/photo/2017_03_02/af024eb008b4a4695f831d688a9aa50b_320x320.jpg" img="Check-in Photo">
+								</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/Fatheadale/checkin/423310669" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 02 Mar 2017 23:12:04 +0000</a>
+							<a href="/user/Fatheadale/checkin/423310669" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" >								<span class="count">
+									<span>1</span>
+								</span><span class="toast-list">
+																			<a class="user-toasts tip track-click" data-user-name="gooseisland" href="/brewery/2898" title="Goose Island Beer Co. " data-track="activity_feed" data-href=":feed/userprofiletoast">
+											<img class="lazy" data-original="https://untappd.akamaized.net/site/brewery_logos/brewery-2898_7ee53.jpeg">
+										</a>
+																		</span>
+						      			
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/Fatheadale" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Fatheadale/badges/176058913" title="Road to the Harvest - Saaz (Level 1)" ><span><img src="https://untappd.akamaized.net/badges/bdg_GIB_Rd2Hrv_4_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Fatheadale/badges/174980899" title="Road to the Harvest - Cascade" ><span><img src="https://untappd.akamaized.net/badges/bdg_GIB_Rd2Hrv_1_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Fatheadale/badges/174750745" title="Mardi Gras (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_MardiGras2017_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Fatheadale/badges/170127509" title="Brew Bowl LI" ><span><img src="https://untappd.akamaized.net/badges/bdg_SuperBowlLI_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Fatheadale/badges/173698475" title="2X (Level 2)" ><span><img src="https://untappd.akamaized.net/badges/bdg_2xCore_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Fatheadale/badges/163589854" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Fatheadale/badges/160923656" title="Better Together" ><span><img src="https://untappd.akamaized.net/badges/bdg_BetterTogether_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Fatheadale/badges/160923650" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Fatheadale/badges/159813026" title="Merry Brew-mas (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Christmas2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Fatheadale/badges/153038492" title="Iron Man" ><span><img src="https://untappd.akamaized.net/badges/bdg_IronMan_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Fatheadale/badges/153038488" title="Fuller’s British Pub Month (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_FullersPubMonth2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/Fatheadale/badges/151062814" title="Cheers To You! (Level 2)" ><span><img src="https://untappd.akamaized.net/badges/bdg_HeresToYou_md.jpg"></span></a>
+                <p class="more"><a href="/user/Fatheadale/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/rahr-sons-brewing-company-bourbon-barrel-aged-winter-warmer/5034" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_5034_sm.jpeg"><p>
+	    				<span class="name">Bourbon Barrel Aged Winter Warmer</span>
+                        <span class="brewery">Rahr & Sons Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/brouwerij-van-steenberge-gulden-draak/6758" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-6758_0e5f9_sm.jpeg"><p>
+	    				<span class="name">Gulden Draak</span>
+                        <span class="brewery">Brouwerij Van Steenberge</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/hops-and-grain-brewing-a-pale-mosaic/287127" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-287127_bb94f_sm.jpeg"><p>
+	    				<span class="name">A Pale Mosaic</span>
+                        <span class="brewery">Hops & Grain Brewing</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/lakewood-brewing-company-goatman/461908" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-461908_18263_sm.jpeg"><p>
+	    				<span class="name">Goatman</span>
+                        <span class="brewery">Lakewood Brewing Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/dogfish-head-craft-brewery-120-minute-ipa-2015/887483" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-dfh120minuteIPA.jpg"><p>
+	    				<span class="name">120 Minute IPA (2015)</span>
+                        <span class="brewery">Dogfish Head Craft Brewery</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/Fatheadale/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/willow-park-tx/499089" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png"><p>
+    	    				<span class="name">Willow Park, TX</span>
+    	    				    	    			</p>
+    	    		</a>
+        			        			<a href="/v/flying-saucer-draught-emporium/3265" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Flying Saucer Draught Emporium</span>
+    	    				<span class="location">Fort Worth, TX                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/world-of-beer/2636589" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">World of Beer</span>
+    	    				<span class="location">Fort Worth, TX                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/pouring-glory/3999201" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Pouring Glory</span>
+    	    				<span class="location">Fort Worth, TX                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/adairs-saloon/87530" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/divebar_bg_88.png"><p>
+    	    				<span class="name">Adair's Saloon</span>
+    	    				<span class="location">Dallas, TX                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/Fatheadale/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    		<div class="box">
+    	<div class="content">
+            <h3>Wish List</h3>    			<a href="/b/hanson-brothers-beer-company-mmmhops-pale-ale/363472" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-363472_916d9_sm.jpeg"><p>
+	    				<span class="name">Mmmhops Pale Ale</span>
+                        <span class="brewery">Hanson Brothers Beer Company</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/moab-brewery-johnny-s-american-ipa-7/94545" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-johnnysamericanipa_94545.jpeg"><p>
+	    				<span class="name">Johnny's American IPA (7%)</span>
+                        <span class="brewery">Moab Brewery</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/flying-dog-brewery-underdog-atlantic-lager/109771" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-UnderdogPaleAle_109771.jpeg"><p>
+	    				<span class="name">UnderDog Atlantic Lager</span>
+                        <span class="brewery">Flying Dog Brewery</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/franconia-brewing-company-texas-ice-bock/569708" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Texas Ice Bock</span>
+                        <span class="brewery">Franconia Brewing Company </span>	    			</p>
+	    		</a>
+    			    			<a href="/b/franconia-brewing-company-wheat/11001" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-11001_7c51f_sm.jpeg"><p>
+	    				<span class="name">Wheat</span>
+                        <span class="brewery">Franconia Brewing Company </span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/wishlist" href="/user/Fatheadale/wishlist">See Full Wish List</a></p>
+                            	</div>
+	</div>
+	        <div class="box">
+            <div class="content">
+                <h3>Likes</h3>
+                <div class="drinkers">
+                                            <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/WildAcreBrewingCompany" title="Wild Acre Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-254782_940f2.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/StellaArtois" title="Stella Artois" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-265_7be0f.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/MeridianHiveMeadery" title="Meridian Hive Meadery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-82504_db55c.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/anchorbrewing" title="Anchor Brewing Company" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-AnchorBrewingCompany_3891.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/GuadalupeBrewing" title="Guadalupe Brewing" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-GuadalupeBrewing_24397.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/stieglbrauerei" title="Stieglbrauerei" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-stieglbrauereizusalzburg_1202.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/LostFortyBrewing" title="Lost Forty Brewing" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-170096_9b479.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BubbaBrewsBrewingCompany" title="Bubba Brews" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-198070_99358.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/ShockTopBrewingCo" title="Shock Top Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-148017_36e69.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/BlitzWeinhardBrewingCo" title="Blitz-Weinhard Brewing Co." ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-BlitzWeinhardBrewingCompany_2014.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/SmallTownBrewery" title="Small Town Brewery" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-20144_c85a0.jpeg"></span></a>
+                                                <a class="tip track-click" data-track="sidebar" data-href=":user/viewLikeBrewery" href="/JWLeesBrewery" title="JW Lees and Co" ><span><img src="https://untappd.akamaized.net/site/brewery_logos/brewery-JWLeesandCo_727.jpeg"></span></a>
+                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/viewLikeHistory" href="/user/Fatheadale/likes">See All Likes</a></p>                </div>
+            </div>
+        </div>
+        		</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>

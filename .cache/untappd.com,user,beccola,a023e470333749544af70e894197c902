@@ -1,0 +1,1160 @@
+status: 200
+connection: Upgrade
+upgrade: h2,h2c
+date: Tue, 07 Mar 2017 18:58:01 GMT
+vary: Accept-Encoding
+content-type: text/html
+-content-encoding: gzip
+content-length: 55684
+set-cookie: untappd_com_site_v2=e0baaa9ba6fb6165b3160ae05c775f49; expires=Wed, 08-Mar-2017 06:58:01 GMT; Max-Age=43200; path=/, ut_anon=bba69f58-2192-446c-b228-d0bedfb73cc9; expires=Mon, 08-Jul-3016 18:58:01 GMT; Max-Age=31536000000; path=/
+server: Apache
+content-location: https://untappd.com/user/beccola
+-varied-accept-encoding: gzip, deflate
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+			<title>Vesku  on Untappd</title>
+		
+	<meta property="og:site_name" content="Untappd" />
+	
+	<!-- meta block -->
+			<meta name="description" content="Vesku  Check-in Activity on Untappd with beer ratings, venues and more." />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="robots" content="noindex, nofollow">
+	<!-- Branch -->
+				<script type="text/javascript">
+			(function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setIdentity track validateCode".split(" "), 0);
+			branch.init('key_live_dkd8Nr651lqTGtpGipS2Bijfxrc1L2Mk');
+
+			branch.banner({
+			    icon: 'https://untappd.akamaized.net/logos/ut_icon_144.png',
+			    title: 'Untappd - Discover Beer',
+			    description: 'Download the Untappd app today!',
+			    position: 'bottom'
+			}, {});
+			</script>
+			
+
+	<meta name="author" content="The Untappd Team" />
+	<meta name="Copyright" content="Copyright Untappd 2017. All Rights Reserved." />
+	<meta name="DC.title" content="Untappd" />
+			<meta name="DC.subject" content="Vesku  Check-in Activity on Untappd with beer ratings, venues and more." />	
+			<meta name="DC.creator" content="The Untappd Team" />
+	
+	<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+	<meta name="bitly-verification" content="b3080898518a"/>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+	<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+	<link id="canonical" rel="canonical" href="https://untappd.com/user/beccola">	
+
+
+	<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/images/ut-touch-icon.png"/>
+	
+	<link href="https://untappd.akamaized.net/assets/v2/css/fonts.min.css" rel="stylesheet" type="text/css" />
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=2.8.4" />
+			<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=1.8.7"></script>
+	
+
+
+	<!--[if lte IE 7]><script src="https://untappd.akamaized.net/assets/js/ie6.js?v=1.8.7"></script><![endif]-->
+
+			<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/facybox.min.css?v=2.8.4" />
+
+		
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/jquery.notifyBar.min.css?v=2.8.4" />
+		<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/tipsy.min.css?v=2.8.4" type="text/css" media="screen" title="no title" charset="utf-8">
+		
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function(){
+				$(".tip").tipsy({fade: true});
+				$('.badge_hint').tipsy({gravity: 's', fade: true});
+				$('.disabled').tipsy({gravity: 'n', fade: true});
+
+				refreshTime(".timezoner", "D MMM YY", true);
+				
+				$(".tab").click(function(){
+					$(".tab-area li").removeClass('active');
+					$(this).parent().addClass('active');
+					$(".list").hide();
+					$($(this).attr("href")).show();
+					return false;
+				});
+			});
+
+			</script>
+			<!-- For IE -->
+	<script type="text/javascript" language="Javascript">
+	if(!(window.console && console.log)) {
+	  console = {
+	    log: function(){},
+	    debug: function(){},
+	    info: function(){},
+	    warn: function(){},
+	    error: function(){}
+	  };
+	}
+	</script>
+	</head>
+<style type="text/css">
+	.hidden {display: none;}
+</style>
+<body onunload="">
+
+<div id="mobile_nav_user">
+
+   </div>
+
+<div id="mobile_nav_site">
+  <form class="search_box" method="get" action="/search">
+    <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+    <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+    <div class="autocomplete">
+    </div>
+  </form>
+  <ul>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+    <li><a class="track-click" data-track="mobile_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+          <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/login" href="/login">Login</a></li>
+      <li><a class="track-click" data-track="mobile_menu" data-href=":sidebar/create" href="/create?source=mobilemenu">Sign Up</a></li>
+        </ul>
+</div>
+
+<header>
+
+  <div class="inner">
+
+    <p class="logo"><a class="track-click" data-track="desktop_header" data-href=":root" href="/">Untappd</a></p>
+
+    
+      <div class="get_user_desktop">
+        <a class="sign_in track-click" data-track="mobile_header" data-href=":login" href="/login?go_to=https://untappd.com//user/beccola">Sign In</a>
+        <a href="/create" class="join track_click" data-track="mobile_header" data-href=":create">Join Now</a>
+      </div>
+
+    
+    <div onclick="trackMobileEvent('menu');" class="mobile_menu_btn">Menu</div>
+
+    <div id="nav_site">
+      <ul>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":thepub" href="/thepub">The Pub</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":beer/top_rated" href="/beer/top_rated">Top Rated</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":supporter" href="/supporter">Supporter</a></li>
+        <li><a class="track-click" data-track="desktop_menu" data-href=":external/help" target="_blank" href="http://help.untappd.com">Help</a></li>
+      </ul>
+      <form class="search_box" method="get" action="/search">
+        <input type="text" class="track-focus search-input-desktop" autocomplete="off" data-track="desktop_search" placeholder="Find a beer, brewery or bar..." name="q" />
+        <input type="submit" value="Submit the form!" style="position: absolute; top: 0; left: 0; z-index: 0; width: 1px; height: 1px; visibility: hidden;" />
+        <div class="autocomplete">
+        </div>
+      </form>
+    </div>
+    </div>    
+</header>
+
+<!-- Autosearch Template -->
+<script id="autosearch-template" type="text/x-handlebars-template">
+{{#if beers.items}} <div class="ac_section"> <p class="ac_header">Beers ({{beers.found}})</p> {{#each beers.items}} <a href="/b/{{this.beer.beer_slug}}/{{this.beer.bid}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":beerlink"> <p class="label"> <img src="{{this.beer.beer_label}}"> </p> <p class="info"> <span class="title">{{this.beer.beer_name}}</span> <span class="sub_title">{{this.beer.brewery_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if breweries.items}} <div class="ac_section"> <p class="ac_header">Breweries ({{breweries.found}})</p> {{#each breweries.items}} <a href="/w/{{this.brewery.brewery_slug}}/{{this.brewery.brewery_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":brewerylink"> <p class="label"> <img src="{{this.brewery.brewery_label}}"> </p> <p class="info"> <span class="title">{{this.brewery.brewery_name}}</span> <span class="sub_title">{{this.brewery.country_name}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if venues.items}} <div class="ac_section"> <p class="ac_header">Venues ({{venues.found}})</p> {{#each venues.items}} <a href="/v/{{this.venue.venue_slug}}/{{this.venue.venue_id}}" class="ac_item track-click" data-track="search_autocomplete" data-href=":venuelink"> <p class="label"> <img src="{{this.venue.venue_icon.md}}"> </p> <p class="info"> {{#if this.venue.is_verified}}<span class="verified">Verified</span>{{/if}} <span class="title">{{this.venue.venue_name}}</span> <span class="sub_title">{{this.venue.location}}</span> </p> </a> {{/each}} </div> {{/if}} {{#if is_result}} <div class="see-more-results"> <a href="/search?q={{search}}" class="track-click" data-track="search_autocomplete" data-href=":seemore">See More</a> </div> {{/if}}
+</script>
+<style type="text/css">
+    .ac-selected {
+        background-color: #f8f8f8;
+    }
+</style>
+<script type="text/javascript" src="https://untappd.akamaized.net/assets/global/js/autosearch_tracking.min.js?v1.8.7"></script>
+<div class="nav_open_overlay"></div>
+<div id="slide">
+
+  
+<div class="cont user_profile">
+	
+	<div class="profile_header" style="background-image: url('https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg'); background-position: center -0px" data-offset="0" data-image-url="https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg">
+
+		
+		<div class="content">
+			<a class="add-friend button yellow track-click" data-track="profile" data-href=":friend/add" href="#" data-user-id="3753009" data-friend-method="request">Add to Friends</a>			<div class="user-info">
+				<div class="user-avatar">
+										<div class="avatar-holder">
+						<img src="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=125&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1">
+					</div>
+				</div><div class="info">
+					<h1>Vesku </h1>
+					<span class="username">beccola</span>
+					<span class="location"></span>				</div>
+			</div>
+			<div class="stats-bar">
+				<div class="social">
+									</div>
+				<div class="stats">
+											<a href="/user/beccola" class="track-click" data-track="profile" data-href=":stats/general">
+							<span class="stat">83</span>
+							<span class="title">Total</span>
+						</a><a href="/user/beccola/beers" class="track-click" data-track="profile" data-href=":stats/beerhistory">
+							<span class="stat">81</span>
+							<span class="title">Unique</span>
+						</a><a href="/user/beccola/badges" class="track-click" data-track="profile" data-href=":stats/badges">
+							<span class="stat">54</span>
+							<span class="title">Badges</span>
+						</a><a href="/user/beccola/friends" class="track-click" data-track="profile" data-href=":stats/friends">
+							<span class="stat">1</span>
+							<span class="title">Friends</span>
+						</a>
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+		<div class="profile_left">
+
+			<div class="activity box">
+
+				<div class="content">
+												<h3>Vesku's Recent Activity</h3>
+												<div id="main-stream">
+						
+			<div class="item" id="checkin_420582717" data-checkin-id="420582717">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/terrapin-beer-co-watermelon-gose/1559097" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1559097_067ca_sm.jpeg" alt="Terrapin Beer Co.  by Watermelon Gose">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking a <a href="/b/terrapin-beer-co-watermelon-gose/1559097">Watermelon Gose</a> by <a  href="/w/terrapin-beer-co/1243">Terrapin Beer Co. </a> at <a href="/v/pub-heinahattu/81584">Pub Heinähattu</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/420582717" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 23 Feb 2017 18:38:04 +0000</a>
+							<a href="/user/beccola/checkin/420582717" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_420553979" data-checkin-id="420553979">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/panimoravintola-beer-hunter-s-mufloni-appeaua-porter/1258398" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Panimoravintola Beer Hunter's by Mufloni Appeaua Porter">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking a <a  href="/b/panimoravintola-beer-hunter-s-mufloni-appeaua-porter/1258398">Mufloni Appeaua Porter</a> by <a href="/w/panimoravintola-beer-hunter-s/20115">Panimoravintola Beer Hunter's</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_finnished_sm.jpg" alt="Never Finnished! (Level 7)">
+											<span>Earned the Never Finnished! (Level 7) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/420553979" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 23 Feb 2017 15:04:54 +0000</a>
+							<a href="/user/beccola/checkin/420553979" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_420552202" data-checkin-id="420552202">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/mallaskoski-brewery-so-last-saison/1912520" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Mallaskoski Brewery by So Last Saison">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking a <a  href="/b/mallaskoski-brewery-so-last-saison/1912520">So Last Saison</a> by <a href="/w/mallaskoski-brewery/9339">Mallaskoski Brewery</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/420552202" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Thu, 23 Feb 2017 14:30:30 +0000</a>
+							<a href="/user/beccola/checkin/420552202" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419412770" data-checkin-id="419412770">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/maistila-paivansare/1923547" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1923547_1fc86_sm.jpeg" alt="Maistila by Päivänsäre">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking a <a  href="/b/maistila-paivansare/1923547">Päivänsäre</a> by <a href="/w/maistila/139955">Maistila</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/419412770" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 19 Feb 2017 17:27:46 +0000</a>
+							<a href="/user/beccola/checkin/419412770" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419382398" data-checkin-id="419382398">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/fuller-smith-and-turner-esb/5455" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-5455_4524a_sm.jpeg" alt="Fuller, Smith & Turner  by ESB">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking an <a  href="/b/fuller-smith-and-turner-esb/5455">ESB</a> by <a href="/w/fuller-smith-turner/3296">Fuller, Smith & Turner </a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/419382398" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 19 Feb 2017 15:35:41 +0000</a>
+							<a href="/user/beccola/checkin/419382398" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419369317" data-checkin-id="419369317">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/moor-beer-company-hoppiness/77924" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-77924_67e36_sm.jpeg" alt="Moor Beer Company by Hoppiness">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking a <a  href="/b/moor-beer-company-hoppiness/77924">Hoppiness</a> by <a href="/w/moor-beer-company/8386">Moor Beer Company</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_hoptopia_sm.jpg" alt="I Believe in IPA! (Level 4)">
+											<span>Earned the I Believe in IPA! (Level 4) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/419369317" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 19 Feb 2017 14:25:03 +0000</a>
+							<a href="/user/beccola/checkin/419369317" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419358442" data-checkin-id="419358442">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brouwerij-cornelissen-vlaamsche-zotten-witbier/736212" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-736212_99b70_sm.jpeg" alt="Brouwerij Cornelissen by Vlaamsche Zotten Witbier">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking a <a  href="/b/brouwerij-cornelissen-vlaamsche-zotten-witbier/736212">Vlaamsche Zotten Witbier</a> by <a href="/w/brouwerij-cornelissen/254053">Brouwerij Cornelissen</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 4)">
+											<span>Earned the Riding Steady (Level 4) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/419358442" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 19 Feb 2017 13:03:46 +0000</a>
+							<a href="/user/beccola/checkin/419358442" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419358264" data-checkin-id="419358264">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/donut-island-brewing-frisco-disco/1285119" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1285119_d6524_sm.jpeg" alt="Donut Island Brewing by Frisco Disco">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking a <a  href="/b/donut-island-brewing-frisco-disco/1285119">Frisco Disco</a> by <a href="/w/donut-island-brewing/121616">Donut Island Brewing</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/419358264" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 19 Feb 2017 13:02:04 +0000</a>
+							<a href="/user/beccola/checkin/419358264" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_419355478" data-checkin-id="419355478">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/donut-island-brewing-frisco-disco/1285119" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-1285119_d6524_sm.jpeg" alt="Donut Island Brewing by Frisco Disco">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking a <a  href="/b/donut-island-brewing-frisco-disco/1285119">Frisco Disco</a> by <a href="/w/donut-island-brewing/121616">Donut Island Brewing</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/419355478" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 19 Feb 2017 12:33:42 +0000</a>
+							<a href="/user/beccola/checkin/419355478" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_418085717" data-checkin-id="418085717">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/vakka-suomen-panimo-osakeyhtio-raskasta-joulua/876934" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Vakka-Suomen Panimo Osakeyhtiö by Raskasta Joulua">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking a <a  href="/b/vakka-suomen-panimo-osakeyhtio-raskasta-joulua/876934">Raskasta Joulua</a> by <a href="/w/vakka-suomen-panimo-osakeyhti/2677">Vakka-Suomen Panimo Osakeyhtiö</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_LagerJack_sm.jpg" alt="Lager Jack (Level 3)">
+											<span>Earned the Lager Jack (Level 3) badge!</span>
+										</span>
+																				<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_WheelofStyles_sm.jpg" alt="Wheel of Styles (Level 7)">
+											<span>Earned the Wheel of Styles (Level 7) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/418085717" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 17 Feb 2017 17:05:42 +0000</a>
+							<a href="/user/beccola/checkin/418085717" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_415580673" data-checkin-id="415580673">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/ruosniemen-panimo-insinoori/854443" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-854443_2d7d1_sm.jpeg" alt="Ruosniemen Panimo by Insinööri">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking an <a  href="/b/ruosniemen-panimo-insinoori/854443">Insinööri</a> by <a href="/w/ruosniemen-panimo/34204">Ruosniemen Panimo</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_finnished_sm.jpg" alt="Never Finnished! (Level 6)">
+											<span>Earned the Never Finnished! (Level 6) badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/415580673" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 10 Feb 2017 20:34:35 +0000</a>
+							<a href="/user/beccola/checkin/415580673" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_415550690" data-checkin-id="415550690">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/pyynikin-kasityolaispanimo-ruby-jazz-ale/473937" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-_473937_sm_54d021027367ecaa4c3dd3fbb5fb25.jpeg" alt="Pyynikin Käsityöläispanimo by Ruby Jazz Ale">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking a <a  href="/b/pyynikin-kasityolaispanimo-ruby-jazz-ale/473937">Ruby Jazz Ale</a> by <a href="/w/pyynikin-kasityolaispanimo/65929">Pyynikin Käsityöläispanimo</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/415550690" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 10 Feb 2017 19:33:55 +0000</a>
+							<a href="/user/beccola/checkin/415550690" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_415472542" data-checkin-id="415472542">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/fuller-smith-and-turner-old-winter-ale/95373" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-95373_912c9_sm.jpeg" alt="Fuller, Smith & Turner  by Old Winter Ale">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking an <a href="/b/fuller-smith-and-turner-old-winter-ale/95373">Old Winter Ale</a> by <a  href="/w/fuller-smith-turner/3296">Fuller, Smith & Turner </a> at <a href="/v/old-story/674949">Old Story</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_godSaveTheQueen_sm.jpg" alt="God Save the Queen">
+											<span>Earned the God Save the Queen badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/415472542" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Fri, 10 Feb 2017 13:26:44 +0000</a>
+							<a href="/user/beccola/checkin/415472542" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_414084389" data-checkin-id="414084389">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/brooklyn-brewery-brooklyn-lager/3558" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/beer_logos/beer-3558_fe9a9_sm.jpeg" alt="Brooklyn Brewery by Brooklyn Lager">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking a <a  href="/b/brooklyn-brewery-brooklyn-lager/3558">Brooklyn Lager</a> by <a href="/w/brooklyn-brewery/259">Brooklyn Brewery</a>
+							</p>
+														<div class="checkin-comment">
+								
+								
+
+								<div class="rating-serving">
+																    </div>
+								
+																		<span class="badge">
+											<img class="lazy" data-original="https://untappd.akamaized.net/badges/bdg_SuperBowlLI_sm.jpg" alt="Brew Bowl LI">
+											<span>Earned the Brew Bowl LI badge!</span>
+										</span>
+										
+							</div>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/414084389" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sun, 05 Feb 2017 17:45:01 +0000</a>
+							<a href="/user/beccola/checkin/414084389" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="item" id="checkin_413396604" data-checkin-id="413396604">
+				<div class="avatar">
+					<div class="avatar-holder">
+												<a href="/user/beccola">
+							<img class="lazy" data-original="https://gravatar.com/avatar/7d5cb6fb0384deded0f96321e490124f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1" alt="Vesku">
+						</a>
+					</div>
+				</div>
+				<div class="checkin">
+					<div class="top">
+													<a href="/b/pyynikin-kasityolaispanimo-sessio-american-ipa/1093849" class="label">
+								<img class="lazy" data-original="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png" alt="Pyynikin Käsityöläispanimo by Sessio American IPA">
+							</a>
+														<p class="text">
+								<a href="/user/beccola" class="user">Vesku</a>  is drinking a <a  href="/b/pyynikin-kasityolaispanimo-sessio-american-ipa/1093849">Sessio American IPA</a> by <a href="/w/pyynikin-kasityolaispanimo/65929">Pyynikin Käsityöläispanimo</a>
+							</p>
+													
+					
+					</div>
+
+					<div class="feedback">
+
+						<div class="actions_bar">
+													</div>
+
+						<div class="bottom">
+							<a href="/user/beccola/checkin/413396604" class="time timezoner track-click" data-track="activity_feed" data-href=":feed/viewcheckindate">Sat, 04 Feb 2017 18:04:59 +0000</a>
+							<a href="/user/beccola/checkin/413396604" class="track-click" data-track="activity_feed" data-href=":feed/viewcheckintext">View Detailed Check-in</a>
+													</div>
+
+						<div class="cheers" style="display: none;">								<span class="count"><span>0</span></span>
+								<span class="toast-list"></span>
+										
+						</div>
+
+						<div class="comments">
+							<div class="comments-container">
+															</div>
+													
+						</div>
+					</div>
+
+				</div>
+			</div>
+						<script type="text/javascript" src="https://untappd.akamaized.net/assets/v3/js/common/min/feed_scripts_min.js?v=1.8.7"></script>
+			<script id="delete-checkin-container" type="text/x-handlebars-template">
+				<div class="delete-confirm-checkin"></div>
+			</script>
+			<script id="delete-checkin-template" type="text/x-handlebars-template">	
+				<div class="modal delete-confirm"><div class="inner"><div class="top"><a class="close" href="#"></a><h3 style="margin-bottom: 0px; padding-bottom: 0px; border-bottom: none;">Confirm Check-in Deletion</h3></div><div class="error" id="delete-checkin-error" style="display: none;"></div><div class="delete-confirm-message" style="padding: 24px; text-align: center; webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><p><strong>Warning</strong> - Are you sure you want to delete this check-in? This cannot be undone. All badges that are associated with this check-in will be removed.</p><div class="inner-container" style="width: 80%; margin: 15px auto;"><a href="#" class="check-confirm-deletion" data-checkin-id="{{checkin_id}}" style="margin-top: 15px;">Confirm Deletion</a><p id="checkin-delete-loader" class="stream-loading"><span></span></p></div></div></div></div>
+			</script>
+			<script id="comment-template" type="text/x-handlebars-template">
+				{{#each items}}<div class="comment" id="comment_{{this.comment_id}}"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><p><a href="/user/{{this.user.user_name}}">{{this.user.first_name}} {{this.user.last_name}}</a>: <abbr id="checkincomment_{{this.comment_id}}">{{{this.comment}}}</abbr></p><p class="meta"><span class="time timezoner">{{this.created_at}}</span>{{#if this.comment_editor}}<a href="#" class="comment-edit" data-comment-id="{{this.comment_id}}">Edit</a>{{/if}}{{#if this.comment_owner}}<a href="#" class="comment-delete" data-comment-id="{{this.comment_id}}">Delete</a>{{/if}}</p></div></div>{{#if this.comment_editor}}<div class="comment" id="commentedit_{{this.comment_id}}" style="display: none;"><div class="avatar"><div class="avatar-holder">{{#if this.user.supporter}} <span class="supporter"></span>{{/if}}<a href="/user/{{this.user.user_name}}"><img src="{{this.user.user_avatar}}" alt="Your Avatar"></a></div></div><div class="text"><form class="editing"><p class="editerror_{{this.comment_id}} post-error" style="display: none;">There was a problem posting your comment, please try again.</p><textarea name="comment" id="commentBox_{{this.comment_id}}" onkeydown="limitTextReverse($('#commentBox_{{this.comment_id}}'),$('#commentedit_{{this.comment_id}} .myCount'), 140);">{{{this.comment}}}</textarea><span class="comment-loading" style="display: none;"></span><span class="counter"><abbr class="myCount">0</abbr>/140</span><span class="actions"><a href="#" class="submit comment-update-save" data-comment-id="{{this.comment_id}}">Update</a><a href="#" data-comment-id="{{this.comment_id}}" class="cancel comment-update-cancel">Cancel</a></span></form></div></div>{{/if}}{{/each}}
+			</script>
+								
+					</div>
+
+
+				<a href="/login?go_to=https://untappd.com/user/beccola" class="yellow button more_checkins track-click" data-track="profile" data-href=":feed/showmore">Show More</a>					
+						<p class="stream-loading"><span></span></p>
+									</div>
+			</div>
+		</div>
+
+		<div class="sidebar">
+			  <div class="box">
+    <div class="content">
+      <h3>Badges</h3>
+      <div class="drinkers">
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/beccola/badges/170797403" title="God Save the Queen" ><span><img src="https://untappd.akamaized.net/badges/bdg_godSaveTheQueen_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/beccola/badges/169927460" title="Brew Bowl LI" ><span><img src="https://untappd.akamaized.net/badges/bdg_SuperBowlLI_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/beccola/badges/169253570" title="Terviseks!" ><span><img src="https://untappd.akamaized.net/badges/bdg_Estonia_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/beccola/badges/167953589" title="Land of the Free" ><span><img src="https://untappd.akamaized.net/badges/bdg_america_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/beccola/badges/167953590" title="Hopped Up" ><span><img src="https://untappd.akamaized.net/badges/bdg_HoppedUp_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/beccola/badges/167953588" title="Night Out" ><span><img src="https://untappd.akamaized.net/badges/bdg_barCrawl_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/beccola/badges/165596440" title="Paint the Town Red" ><span><img src="https://untappd.akamaized.net/badges/bdg_PaintRed_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/beccola/badges/165596439" title="Bar Explorer" ><span><img src="https://untappd.akamaized.net/badges/bdg_goingPlaces_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/beccola/badges/162673915" title="Happy Brew Year (2017)" ><span><img src="https://untappd.akamaized.net/badges/bdg_NewYears2017_md.jpg?v=1"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/beccola/badges/160261328" title="Hoppy Hanukkah (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Hanukkah2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/beccola/badges/159649562" title="Merry Brew-mas (2016)" ><span><img src="https://untappd.akamaized.net/badges/bdg_Christmas2016_md.jpg"></span></a>
+                  <a class="tip track-click" data-track="sidebar" data-href=":user/viewbadge" href="/user/beccola/badges/158427494" title="Journeyman" ><span><img src="https://untappd.akamaized.net/badges/bdg_check50_md.jpg"></span></a>
+                <p class="more"><a href="/user/beccola/badges" class="track-click" data-track="sidebar" data-href=":user/recentbadges">See All Badges</a></p>
+      </div>
+    </div>
+  </div>
+  	<div class="box">
+    	<div class="content">
+            <h3>Top Beers</h3>    			<a href="/b/donut-island-brewing-frisco-disco/1285119" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-1285119_d6524_sm.jpeg"><p>
+	    				<span class="name">Frisco Disco</span>
+                        <span class="brewery">Donut Island Brewing</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/stadin-panimo-stadin-american-pale-ale/18923" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">American Pale Ale</span>
+                        <span class="brewery">Stadin Panimo</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/laitilan-wirvoitusjuomatehdas-kukko-ale-4-3/76692" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Kukko Ale (4,3%)</span>
+                        <span class="brewery">Laitilan Wirvoitusjuomatehdas</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/pyynikin-kasityolaispanimo-ruby-jazz-ale/473937" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/beer_logos/beer-_473937_sm_54d021027367ecaa4c3dd3fbb5fb25.jpeg"><p>
+	    				<span class="name">Ruby Jazz Ale</span>
+                        <span class="brewery">Pyynikin Käsityöläispanimo</span>	    			</p>
+	    		</a>
+    			    			<a href="/b/saimaan-juomatehdas-brewer-s-special-india-pale-ale/755444" class="item track-click" data-track="sidebar" data-href=":beer/toplist">
+	    			<img src="https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png"><p>
+	    				<span class="name">Brewer's Special India Pale Ale</span>
+                        <span class="brewery">Saimaan Juomatehdas</span>	    			</p>
+	    		</a>
+    			                        <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/beerhistory" href="/user/beccola/beers">See All Beers</a></p>
+                            	</div>
+	</div>
+	    	<div class="box">
+        	<div class="content">
+        		<h3>Top Venues</h3>        			<a href="/v/hilpea-hauki/61907" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Hilpeä Hauki</span>
+    	    				<span class="location">Helsinki, Uusimaa                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/bar-molotow/215220" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Bar Molotow</span>
+    	    				<span class="location">Helsinki, Uusimaa                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/belge/30828" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/default_bg_88.png"><p>
+    	    				<span class="name">Belge</span>
+    	    				<span class="location">Helsinki, Uusimaa                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/fhoone/286263" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/food/cafe_bg_88.png"><p>
+    	    				<span class="name">F-Hoone</span>
+    	    				<span class="location">Tallinn, Harju maakond                                </span>    	    			</p>
+    	    		</a>
+        			        			<a href="/v/kustaa-vaasa/32084" class="item track-click" data-track="sidebar" data-href=":venue/toplist">
+    	    			<img src="https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"><p>
+    	    				<span class="name">Kustaa Vaasa</span>
+    	    				<span class="location">Helsinki, Uusimaa                                </span>    	    			</p>
+    	    		</a>
+        			                    <p class="more"><a class="track-click" data-track="sidebar" data-href=":user/toplocations" href="/user/beccola/venues">See All Venues</a></p>
+                            	</div>
+    	</div> 
+    			</div>
+		
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var hC = $(".sidebar").height();
+		$(".cont").css("min-height", hC);
+	})
+</script>
+	<div id="footer">
+
+		<p class="copyright">&copy; 2017 Untappd, Inc.<br /><br /></p>
+
+		<ul>
+			<li><a class="track-click" data-track="footer" data-href=":footer" href="/about">About Us</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":api" href="/api">API</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":business" href="http://untappd.com/business/breweries">Breweries</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":store" href="http://untpd.it/store" target="_blank">Untappd Store</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":help" href="http://help.untappd.com" target="_blank">Support</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":blog" href="http://blog.untappd.com" target="_blank">Blog</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":twitter" href="http://twitter.com/untappd" target="_blank">Twitter</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":facebook" href="http://facebook.com/untappd" target="_blank">Facebook</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":badgevoting" href="/uservote/badges">Badge Voting</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":terms" href="/terms">Terms</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":privacy" href="/privacy">Privacy</a></li>
+			<li><a class="track-click" data-track="footer" data-href=":contact_email" href="mailto:info@untappd.com">Contact Untappd</a></li>
+		</ul>
+
+	</div>
+
+	</div>
+	
+
+		
+	<script type="text/javascript">
+	   // Clear Text Feild
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+		thefield.value = ""
+	}
+	
+		
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11061050-10']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+
+</html>
