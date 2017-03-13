@@ -9,6 +9,9 @@ some main project files are:
 in django/mysite 
 and in django/mysite/beer-suggester
 
+To improve vector analysis speed (for user profile comparisons), we stored the user vectors (aggregated by style, normalized with ratings) in a csv.
+
+
 To run the django interface, run the following command in the terminal in the django/mysite path 
     python3 manage.py runserver
 
