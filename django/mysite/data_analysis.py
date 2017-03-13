@@ -12,6 +12,7 @@ import pandas as pd
 # SQLite3
 DB_FILENAME = 'teamcs122db.db'
 
+## Used functions
 
 def gather_usernames(connection):
     '''
@@ -55,39 +56,6 @@ def create_agg_vectors(database, agg):
 
     return None
 
-
-def create_beer_vectors(database):
-    '''
-    Creates the vectors for each user in the database based on the unique 
-    beers present in the databased for all users. Each coordinate corresponds
-    to a unique beer and the positional value is weighted based on the 
-    relative frequency of the beer times the rating. 
-    Returns dataframe of user vectors.
-    '''
-    connect = sql.connect(database)
-    user_vectors, usernames = gather_usernames(connect)
-
-    for index, row in usernames.iterrows():
-        username = row['username']
-        beers = pd.read_sql('SELECT beer_id, rating, count from beer_user_info where username like ' + '\'' + str(username) + '\'',
-                            connect)
-        total_count = beers['count'].values.sum()
-        for sub_index, sub_row in beers.iterrows():
-            beer = int(sub_row['beer_id'])
-            rating = float(sub_row['rating']) / 5
-            rel_freq = float(sub_row['count']) / total_count
-            if beer not in list(user_vectors.columns.values):
-                user_vectors[int(beer)] = 0
-                user_vectors.ix[index, beer] = float(rating * rel_freq)
-            else:
-                user_vectors.ix[index, beer] = float(rating * rel_freq)
-
-    connect.close()
-    user_vectors.set_index('username', drop=True, inplace=True)
-
-    user_vectors.to_csv('user_beer_vectors.csv')
-
-    return None
 
 
 def prepare_testvector(username, columns):
@@ -158,39 +126,6 @@ def topk_profiles_agg(username, topk, agg):
 
     return distance_df.head(topk)
 
-    
-
-def topk_profiles_beers(username, topk):
-    '''
-    Creates an input user beer vector. Calculates the cosine similarity
-    scores against all users in the database. Ranks users based on cosine 
-    similarity scores and returns an ordered dataframe of usernames 
-    and associated cosine similarities.
-    '''
-    user_vectors = pd.read_csv('user_beer_vectors.csv', index_col=0)
-    columns = list(user_vectors.columns.values)
-    test_vector, test_dict = prepare_testvector(username, columns)
-    total_count = 0
-    
-    for beer in test_dict['beers'].keys():
-        beer_id = int(test_dict['beers'][beer]['beer id'])
-        count = int(test_dict['beers'][beer]['count'])
-        rating = float(test_dict['beers'][beer]['beer rating'])
-        total_count += count
-        if beer_id not in list(user_vectors.columns.values):
-            user_vectors[beer_id] = 0
-            test_vector[beer_id] = float(count * rating / 5) 
-        else: 
-            test_vector[beer_id] = float(count * rating)
-    
-    test_vector = test_vector.divide(total_count, axis='index')
-    distance_df = calc_cos_simil(test_vector, user_vectors)
-    
-    if str(username) in distance_df.index.values:
-        distance_df.drop(str(username), inplace=True)
-
-    return distance_df.head(topk)
-
 
 #### suggestion/output functions ###
 
@@ -253,6 +188,71 @@ def get_suggestions_from_topk(username, k):
     return get_beer_details_df(top_k_beer_ids)
 
 
+## Unused Functions
+
+def create_beer_vectors(database):
+    '''
+    Creates the vectors for each user in the database based on the unique 
+    beers present in the databased for all users. Each coordinate corresponds
+    to a unique beer and the positional value is weighted based on the 
+    relative frequency of the beer times the rating. 
+    Returns dataframe of user vectors.
+    '''
+    connect = sql.connect(database)
+    user_vectors, usernames = gather_usernames(connect)
+
+    for index, row in usernames.iterrows():
+        username = row['username']
+        beers = pd.read_sql('SELECT beer_id, rating, count from beer_user_info where username like ' + '\'' + str(username) + '\'',
+                            connect)
+        total_count = beers['count'].values.sum()
+        for sub_index, sub_row in beers.iterrows():
+            beer = int(sub_row['beer_id'])
+            rating = float(sub_row['rating']) / 5
+            rel_freq = float(sub_row['count']) / total_count
+            if beer not in list(user_vectors.columns.values):
+                user_vectors[int(beer)] = 0
+                user_vectors.ix[index, beer] = float(rating * rel_freq)
+            else:
+                user_vectors.ix[index, beer] = float(rating * rel_freq)
+
+    connect.close()
+    user_vectors.set_index('username', drop=True, inplace=True)
+
+    user_vectors.to_csv('user_beer_vectors.csv')
+
+    return None
+
+def topk_profiles_beers(username, topk):
+    '''
+    Creates an input user beer vector. Calculates the cosine similarity
+    scores against all users in the database. Ranks users based on cosine 
+    similarity scores and returns an ordered dataframe of usernames 
+    and associated cosine similarities.
+    '''
+    user_vectors = pd.read_csv('user_beer_vectors.csv', index_col=0)
+    columns = list(user_vectors.columns.values)
+    test_vector, test_dict = prepare_testvector(username, columns)
+    total_count = 0
+    
+    for beer in test_dict['beers'].keys():
+        beer_id = int(test_dict['beers'][beer]['beer id'])
+        count = int(test_dict['beers'][beer]['count'])
+        rating = float(test_dict['beers'][beer]['beer rating'])
+        total_count += count
+        if beer_id not in list(user_vectors.columns.values):
+            user_vectors[beer_id] = 0
+            test_vector[beer_id] = float(count * rating / 5) 
+        else: 
+            test_vector[beer_id] = float(count * rating)
+    
+    test_vector = test_vector.divide(total_count, axis='index')
+    distance_df = calc_cos_simil(test_vector, user_vectors)
+    
+    if str(username) in distance_df.index.values:
+        distance_df.drop(str(username), inplace=True)
+
+    return distance_df.head(topk)
     
 
 
