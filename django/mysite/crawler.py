@@ -13,9 +13,7 @@ def get_compassionate_soup_from_url(url):
     conn = httplib2.Http(".cache") 
     page = conn.request(url, "GET")
     soup = bs4.BeautifulSoup(page[1], 'html.parser')
-
     return soup
-    
 
 def user_dict_and_crawl_list(starting_url, soup):
     '''
@@ -46,7 +44,6 @@ def user_dict_and_crawl_list(starting_url, soup):
             continue
         request = get_request(beer_url)
         if request == None:
-            print("request is none")
             continue
         else:
             '''
@@ -55,7 +52,6 @@ def user_dict_and_crawl_list(starting_url, soup):
             '''
             beer_soup = convert_to_soup(request)
             if beer_soup == None:
-                print("no beer soup")
                 continue
             else:
                 beer_words = beer_words_collector(beer_soup)
@@ -85,12 +81,10 @@ def get_user_dicts_list(starting_url, max_links_num, starting_soup):
 
     #starting_soup = get_compassionate_soup_from_url(starting_url)
     if starting_soup == None:
-        print("use a different starting url")
         return None
 
     first_user_dict, users_to_crawl_list = user_dict_and_crawl_list(starting_url, starting_soup)
     if (first_user_dict == {}) or (users_to_crawl_list == []):
-        print("use different starting url")
         return None
     all_user_dicts.append(first_user_dict)
     
@@ -108,7 +102,6 @@ def get_user_dicts_list(starting_url, max_links_num, starting_soup):
         current_user_dict, current_user_link_branches = user_dict_and_crawl_list(current_link, current_soup)
         all_user_dicts.append(current_user_dict)
         i += 1
-        print(i)
         need_process_links = need_process_links + current_user_link_branches 
 
     return all_user_dicts
@@ -209,8 +202,25 @@ def profile_scraper(starting_url):
 
     return user_dict
 
+def convert_to_soup(request):
+    '''
+    Convert a given request object to soup
 
-########from util###########
+    Inputs:
+        request: a request object
+    Outputs:
+        returns soup of request object if request is read,
+        returns None otherwise    
+    '''
+
+    html = read_request(request)
+    if html is not None:
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        return soup
+    else:
+        return None
+
+########the following code was borrowed from util file of pa2###########
 
 def get_request(url):
     '''
@@ -319,20 +329,4 @@ def convert_if_relative_url(current_url, new_url):
  #####################################################################################
 
 
-def convert_to_soup(request):
-    '''
-    Convert a given request object to soup
 
-    Inputs:
-        request: a request object
-    Outputs:
-        returns soup of request object if request is read,
-        returns None otherwise    
-    '''
-
-    html = read_request(request)
-    if html is not None:
-        soup = bs4.BeautifulSoup(html, 'lxml')
-        return soup
-    else:
-        return None

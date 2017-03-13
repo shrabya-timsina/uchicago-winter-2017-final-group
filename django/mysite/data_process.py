@@ -177,12 +177,10 @@ def crawl_and_make_db(starting_url, max_links_num):
 
     starting_soup = get_compassionate_soup_from_url(starting_url)
     if starting_soup is None:
-        print("use a different starting url")
         return None
 
     first_user_dict, users_to_crawl_list = user_dict_and_crawl_list(starting_url, starting_soup)
     if (first_user_dict == {}) or (users_to_crawl_list == []):
-        print("use different starting url")
         return None
 
     dict_list_to_db([first_user_dict])

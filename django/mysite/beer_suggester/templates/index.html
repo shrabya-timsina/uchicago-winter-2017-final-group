@@ -22,35 +22,57 @@
         <div class="frame">
             {% if valid_form == True %}
                 {% if valid_username == True %}
-                    <div class="suggestions">
-                        <table class="suggestions_table">
-                            <tr>
-                                {% for col in column_names %}
-                                <th>{{ col }}</th>
-                                {% endfor %}
-                            </tr>
-                            {% for entry in beers %}
-                            <tr>
-                                {% for col in entry %}
-                                    {% if 'https://' in col %}
-                                    <td><img src="{{ col }}" alt="Beer Badge" height="100" width="100"></td>
-                                    {% elif 'default' in col %}
-                                    <td><img src="{% static "badge-beer-default.png" %}" alt="Beer Badge" height="100" width="100"></td>
-                                    {% else %}                                
-                                    <td>{{ col }}</td>
-                                    {% endif %}
-                                {% endfor %}
-
-                            </tr>
-                            {% endfor %}
-                        </table>
-                    </div>
-                    <p class="num_results">Results: {{ num_results }}</p>
+                    {% if enough_beers == True %}
+                        {% if valid_database == True %}
+                            <p class="num_results"><span style="background-color: Salmon">
+                                Results: {{ num_results }}.
+                            </span></p>
+                            <p class="num_results"><span style="background-color: Salmon">
+                                Click on the beer image to go to its page on untappd.com
+                            </span></p>
+                            <div class="suggestions">
+                                <table class="suggestions_table">
+                                    <tr>
+                                        {% for col in column_names %}
+                                        <th>{{ col }}</th>
+                                        {% endfor %}
+                                    </tr>
+                                    {% for beer_link , entry in beers %}
+                                        <tr>
+                                            {% for col in entry %}
+                                                {% if 'https://' in col %}
+                                                <td><a href ="{{ beer_link }}">
+                                                    <img src="{{ col }}" alt="Beer Badge" height="100" width="100">
+                                                </a></td>
+                                                {% elif 'default' in col %}
+                                                <td><img src="{% static "badge-beer-default.png" %}" alt="Beer Badge" height="100" width="100"></td>
+                                                {% else %}                                
+                                                <td>{{ col }}</td>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </tr>
+                                    {% endfor %}
+                                </table>
+                            </div>
+                        {% else %}
+                            <h5><span style="background-color: Peru">
+                                Invalid dataframe returned, please enter another username.
+                            </span></h5>
+                        {% endif %}
+                    {% else %}
+                        <h5><span style="background-color: Peru">
+                            Given username does not have at least 5 beers needed to generate suggestions. Please enter another
+                        </span></h5>
+                    {% endif %}
                 {% else %}
-                    <h5>Invalid Username</h5>
+                    <h5><span style="background-color: Peru">
+                        Invalid Username
+                    </span></h5>
                 {% endif %}
             {% else %}
-                <h5>A valid username is required.</h5>
+                <h5><span style="background-color: Peru">
+                    Please enter a valid username with at least 5 unique beers in untappd.com/username/beers page
+                </span></h5>
             {% endif %}
 
         </div>

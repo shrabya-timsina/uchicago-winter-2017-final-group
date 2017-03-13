@@ -239,10 +239,8 @@ def get_suggestions_from_topk(username, k):
     user_url = 'https://untappd.com/user/' + str(username)
     input_user_dict = profile_scraper(user_url)
     for beer in input_user_dict["beers"].keys():
-        #print(beer)
         input_user_beer_ids.append(input_user_dict["beers"][beer]["beer id"])
   
-    #print(top_k_beer_ids)
     # remove overlapping beers
     for beer in top_k_beer_ids:
         if beer in input_user_beer_ids:
@@ -251,8 +249,6 @@ def get_suggestions_from_topk(username, k):
     #suggest at most 20 beers
     if len(top_k_beer_ids) > 20:
         top_k_beer_ids =  top_k_beer_ids[:20]
-
-    print(top_k_beer_ids)
 
     return get_beer_details_df(top_k_beer_ids)
 
