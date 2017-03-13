@@ -10,19 +10,19 @@ def get_compassionate_soup_from_url(url):
     '''
     compassionate scraping method to get bs4 object from url
     '''
-    conn = httplib2.Http(".cache")
-    
+    conn = httplib2.Http(".cache") 
     page = conn.request(url, "GET")
-
     soup = bs4.BeautifulSoup(page[1], 'html.parser')
 
     return soup
     
 
-
 def user_dict_and_crawl_list(starting_url, soup):
     '''
-
+    given a user profile url and a bs4 soup object, scrape
+    for user and beer information, create a dictionary for the user 
+    profile and crawl for linked user profiles; return user dictionary 
+    and list of user links
     '''
     user_beers_url = starting_url + "/beers"
 
@@ -59,8 +59,6 @@ def user_dict_and_crawl_list(starting_url, soup):
                 continue
             else:
                 beer_words = beer_words_collector(beer_soup)
-
-    
                 user_dict["beer words"].append(beer_words)
                 # pull user information
                 tag_list = beer_soup.find_all("div","avatar-holder")[:-2] #last two dont contain user links
@@ -119,6 +117,8 @@ def get_user_dicts_list(starting_url, max_links_num, starting_soup):
 
 def beer_words_collector(soup):
     '''
+    get all the words used to describe a beer, including user comments and
+    general descriptions
     '''
     beer_words = []
     if type(soup.find("div", "beer-descrption-read-less")) is None :
@@ -141,7 +141,7 @@ def beer_words_collector(soup):
 
 def profile_scraper(starting_url):
     '''
-    starting_object - either a url or a soup object
+    given a user url, scrape the profile and return a user dictionary
     '''
     user_beers_url = starting_url + "/beers"
     request = get_request(user_beers_url)
@@ -210,7 +210,7 @@ def profile_scraper(starting_url):
     return user_dict
 
 
-########from util#############################################################################
+########from util###########
 
 def get_request(url):
     '''

@@ -3,7 +3,7 @@
 # analyze user data to get suggestions
 
 import sys
-from crawler_copy import profile_scraper
+from crawler import profile_scraper
 from sklearn.metrics.pairwise import cosine_similarity 
 import numpy as np
 import sqlite3 as sql

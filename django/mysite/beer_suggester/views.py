@@ -7,8 +7,8 @@ from django import forms
 import pandas as pd
 import bs4
 import unicodedata
-from data_analysis_copy import get_suggestions_from_topk
-import crawler_copy #for beautiful soup request processing
+from data_analysis import get_suggestions_from_topk
+import crawler #for beautiful soup request processing
 import string
 
 
@@ -50,9 +50,8 @@ def index(request):
             name_url_section = get_url_section(beer['name'])          
             brewery_url_section = get_url_section(beer['brewery']) 
             url = "https://untappd.com/b/" +  brewery_url_section + "-" + name_url_section + "/" + str(beer['beer_id'])
-            #print("$$$$$$$$$ $$$$$$$$$$     ", url)
-            bs4_request = crawler_copy.get_request(url)
-            soup = crawler_copy.convert_to_soup(bs4_request)
+            bs4_request = crawler.get_request(url)
+            soup = crawler.convert_to_soup(bs4_request)
             if not soup:
                image_link = "default"
             else:
